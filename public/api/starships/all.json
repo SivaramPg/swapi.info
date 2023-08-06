@@ -15,13 +15,13 @@
     "starship_class": "corvette",
     "pilots": [],
     "films": [
-      "https://sw-api.sivaramp.com/api/films/1",
-      "https://sw-api.sivaramp.com/api/films/3",
-      "https://sw-api.sivaramp.com/api/films/6"
+      "https://swapi.info/api/films/1",
+      "https://swapi.info/api/films/3",
+      "https://swapi.info/api/films/6"
     ],
     "created": "2014-12-10T14:20:33.369000Z",
     "edited": "2014-12-20T21:23:49.867000Z",
-    "url": "https://sw-api.sivaramp.com/api/starships/2"
+    "url": "https://swapi.info/api/starships/2"
   },
   {
     "name": "Star Destroyer",
@@ -39,13 +39,13 @@
     "starship_class": "Star Destroyer",
     "pilots": [],
     "films": [
-      "https://sw-api.sivaramp.com/api/films/1",
-      "https://sw-api.sivaramp.com/api/films/2",
-      "https://sw-api.sivaramp.com/api/films/3"
+      "https://swapi.info/api/films/1",
+      "https://swapi.info/api/films/2",
+      "https://swapi.info/api/films/3"
     ],
     "created": "2014-12-10T15:08:19.848000Z",
     "edited": "2014-12-20T21:23:49.870000Z",
-    "url": "https://sw-api.sivaramp.com/api/starships/3"
+    "url": "https://swapi.info/api/starships/3"
   },
   {
     "name": "Sentinel-class landing craft",
@@ -62,10 +62,10 @@
     "MGLT": "70",
     "starship_class": "landing craft",
     "pilots": [],
-    "films": ["https://sw-api.sivaramp.com/api/films/1"],
+    "films": ["https://swapi.info/api/films/1"],
     "created": "2014-12-10T15:48:00.586000Z",
     "edited": "2014-12-20T21:23:49.873000Z",
-    "url": "https://sw-api.sivaramp.com/api/starships/5"
+    "url": "https://swapi.info/api/starships/5"
   },
   {
     "name": "Death Star",
@@ -82,10 +82,10 @@
     "MGLT": "10",
     "starship_class": "Deep Space Mobile Battlestation",
     "pilots": [],
-    "films": ["https://sw-api.sivaramp.com/api/films/1"],
+    "films": ["https://swapi.info/api/films/1"],
     "created": "2014-12-10T16:36:50.509000Z",
     "edited": "2014-12-20T21:26:24.783000Z",
-    "url": "https://sw-api.sivaramp.com/api/starships/9"
+    "url": "https://swapi.info/api/starships/9"
   },
   {
     "name": "Millennium Falcon",
@@ -102,19 +102,19 @@
     "MGLT": "75",
     "starship_class": "Light freighter",
     "pilots": [
-      "https://sw-api.sivaramp.com/api/people/13",
-      "https://sw-api.sivaramp.com/api/people/14",
-      "https://sw-api.sivaramp.com/api/people/25",
-      "https://sw-api.sivaramp.com/api/people/31"
+      "https://swapi.info/api/people/13",
+      "https://swapi.info/api/people/14",
+      "https://swapi.info/api/people/25",
+      "https://swapi.info/api/people/31"
     ],
     "films": [
-      "https://sw-api.sivaramp.com/api/films/1",
-      "https://sw-api.sivaramp.com/api/films/2",
-      "https://sw-api.sivaramp.com/api/films/3"
+      "https://swapi.info/api/films/1",
+      "https://swapi.info/api/films/2",
+      "https://swapi.info/api/films/3"
     ],
     "created": "2014-12-10T16:59:45.094000Z",
     "edited": "2014-12-20T21:23:49.880000Z",
-    "url": "https://sw-api.sivaramp.com/api/starships/10"
+    "url": "https://swapi.info/api/starships/10"
   },
   {
     "name": "Y-wing",
@@ -132,13 +132,13 @@
     "starship_class": "assault starfighter",
     "pilots": [],
     "films": [
-      "https://sw-api.sivaramp.com/api/films/1",
-      "https://sw-api.sivaramp.com/api/films/2",
-      "https://sw-api.sivaramp.com/api/films/3"
+      "https://swapi.info/api/films/1",
+      "https://swapi.info/api/films/2",
+      "https://swapi.info/api/films/3"
     ],
     "created": "2014-12-12T11:00:39.817000Z",
     "edited": "2014-12-20T21:23:49.883000Z",
-    "url": "https://sw-api.sivaramp.com/api/starships/11"
+    "url": "https://swapi.info/api/starships/11"
   },
   {
     "name": "X-wing",
@@ -155,19 +155,19 @@
     "MGLT": "100",
     "starship_class": "Starfighter",
     "pilots": [
-      "https://sw-api.sivaramp.com/api/people/1",
-      "https://sw-api.sivaramp.com/api/people/9",
-      "https://sw-api.sivaramp.com/api/people/18",
-      "https://sw-api.sivaramp.com/api/people/19"
+      "https://swapi.info/api/people/1",
+      "https://swapi.info/api/people/9",
+      "https://swapi.info/api/people/18",
+      "https://swapi.info/api/people/19"
     ],
     "films": [
-      "https://sw-api.sivaramp.com/api/films/1",
-      "https://sw-api.sivaramp.com/api/films/2",
-      "https://sw-api.sivaramp.com/api/films/3"
+      "https://swapi.info/api/films/1",
+      "https://swapi.info/api/films/2",
+      "https://swapi.info/api/films/3"
     ],
     "created": "2014-12-12T11:19:05.340000Z",
     "edited": "2014-12-20T21:23:49.886000Z",
-    "url": "https://sw-api.sivaramp.com/api/starships/12"
+    "url": "https://swapi.info/api/starships/12"
   },
   {
     "name": "TIE Advanced x1",
@@ -183,11 +183,11 @@
     "hyperdrive_rating": "1.0",
     "MGLT": "105",
     "starship_class": "Starfighter",
-    "pilots": ["https://sw-api.sivaramp.com/api/people/4"],
-    "films": ["https://sw-api.sivaramp.com/api/films/1"],
+    "pilots": ["https://swapi.info/api/people/4"],
+    "films": ["https://swapi.info/api/films/1"],
     "created": "2014-12-12T11:21:32.991000Z",
     "edited": "2014-12-20T21:23:49.889000Z",
-    "url": "https://sw-api.sivaramp.com/api/starships/13"
+    "url": "https://swapi.info/api/starships/13"
   },
   {
     "name": "Executor",
@@ -205,12 +205,12 @@
     "starship_class": "Star dreadnought",
     "pilots": [],
     "films": [
-      "https://sw-api.sivaramp.com/api/films/2",
-      "https://sw-api.sivaramp.com/api/films/3"
+      "https://swapi.info/api/films/2",
+      "https://swapi.info/api/films/3"
     ],
     "created": "2014-12-15T12:31:42.547000Z",
     "edited": "2014-12-20T21:23:49.893000Z",
-    "url": "https://sw-api.sivaramp.com/api/starships/15"
+    "url": "https://swapi.info/api/starships/15"
   },
   {
     "name": "Rebel transport",
@@ -228,12 +228,12 @@
     "starship_class": "Medium transport",
     "pilots": [],
     "films": [
-      "https://sw-api.sivaramp.com/api/films/2",
-      "https://sw-api.sivaramp.com/api/films/3"
+      "https://swapi.info/api/films/2",
+      "https://swapi.info/api/films/3"
     ],
     "created": "2014-12-15T12:34:52.264000Z",
     "edited": "2014-12-20T21:23:49.895000Z",
-    "url": "https://sw-api.sivaramp.com/api/starships/17"
+    "url": "https://swapi.info/api/starships/17"
   },
   {
     "name": "Slave 1",
@@ -249,14 +249,14 @@
     "hyperdrive_rating": "3.0",
     "MGLT": "70",
     "starship_class": "Patrol craft",
-    "pilots": ["https://sw-api.sivaramp.com/api/people/22"],
+    "pilots": ["https://swapi.info/api/people/22"],
     "films": [
-      "https://sw-api.sivaramp.com/api/films/2",
-      "https://sw-api.sivaramp.com/api/films/5"
+      "https://swapi.info/api/films/2",
+      "https://swapi.info/api/films/5"
     ],
     "created": "2014-12-15T13:00:56.332000Z",
     "edited": "2014-12-20T21:23:49.897000Z",
-    "url": "https://sw-api.sivaramp.com/api/starships/21"
+    "url": "https://swapi.info/api/starships/21"
   },
   {
     "name": "Imperial shuttle",
@@ -273,17 +273,17 @@
     "MGLT": "50",
     "starship_class": "Armed government transport",
     "pilots": [
-      "https://sw-api.sivaramp.com/api/people/1",
-      "https://sw-api.sivaramp.com/api/people/13",
-      "https://sw-api.sivaramp.com/api/people/14"
+      "https://swapi.info/api/people/1",
+      "https://swapi.info/api/people/13",
+      "https://swapi.info/api/people/14"
     ],
     "films": [
-      "https://sw-api.sivaramp.com/api/films/2",
-      "https://sw-api.sivaramp.com/api/films/3"
+      "https://swapi.info/api/films/2",
+      "https://swapi.info/api/films/3"
     ],
     "created": "2014-12-15T13:04:47.235000Z",
     "edited": "2014-12-20T21:23:49.900000Z",
-    "url": "https://sw-api.sivaramp.com/api/starships/22"
+    "url": "https://swapi.info/api/starships/22"
   },
   {
     "name": "EF76 Nebulon-B escort frigate",
@@ -301,12 +301,12 @@
     "starship_class": "Escort ship",
     "pilots": [],
     "films": [
-      "https://sw-api.sivaramp.com/api/films/2",
-      "https://sw-api.sivaramp.com/api/films/3"
+      "https://swapi.info/api/films/2",
+      "https://swapi.info/api/films/3"
     ],
     "created": "2014-12-15T13:06:30.813000Z",
     "edited": "2014-12-20T21:23:49.902000Z",
-    "url": "https://sw-api.sivaramp.com/api/starships/23"
+    "url": "https://swapi.info/api/starships/23"
   },
   {
     "name": "Calamari Cruiser",
@@ -323,10 +323,10 @@
     "MGLT": "60",
     "starship_class": "Star Cruiser",
     "pilots": [],
-    "films": ["https://sw-api.sivaramp.com/api/films/3"],
+    "films": ["https://swapi.info/api/films/3"],
     "created": "2014-12-18T10:54:57.804000Z",
     "edited": "2014-12-20T21:23:49.904000Z",
-    "url": "https://sw-api.sivaramp.com/api/starships/27"
+    "url": "https://swapi.info/api/starships/27"
   },
   {
     "name": "A-wing",
@@ -342,11 +342,11 @@
     "hyperdrive_rating": "1.0",
     "MGLT": "120",
     "starship_class": "Starfighter",
-    "pilots": ["https://sw-api.sivaramp.com/api/people/29"],
-    "films": ["https://sw-api.sivaramp.com/api/films/3"],
+    "pilots": ["https://swapi.info/api/people/29"],
+    "films": ["https://swapi.info/api/films/3"],
     "created": "2014-12-18T11:16:34.542000Z",
     "edited": "2014-12-20T21:23:49.907000Z",
-    "url": "https://sw-api.sivaramp.com/api/starships/28"
+    "url": "https://swapi.info/api/starships/28"
   },
   {
     "name": "B-wing",
@@ -363,10 +363,10 @@
     "MGLT": "91",
     "starship_class": "Assault Starfighter",
     "pilots": [],
-    "films": ["https://sw-api.sivaramp.com/api/films/3"],
+    "films": ["https://swapi.info/api/films/3"],
     "created": "2014-12-18T11:18:04.763000Z",
     "edited": "2014-12-20T21:23:49.909000Z",
-    "url": "https://sw-api.sivaramp.com/api/starships/29"
+    "url": "https://swapi.info/api/starships/29"
   },
   {
     "name": "Republic Cruiser",
@@ -383,10 +383,10 @@
     "MGLT": "unknown",
     "starship_class": "Space cruiser",
     "pilots": [],
-    "films": ["https://sw-api.sivaramp.com/api/films/4"],
+    "films": ["https://swapi.info/api/films/4"],
     "created": "2014-12-19T17:01:31.488000Z",
     "edited": "2014-12-20T21:23:49.912000Z",
-    "url": "https://sw-api.sivaramp.com/api/starships/31"
+    "url": "https://swapi.info/api/starships/31"
   },
   {
     "name": "Droid control ship",
@@ -404,13 +404,13 @@
     "starship_class": "Droid control ship",
     "pilots": [],
     "films": [
-      "https://sw-api.sivaramp.com/api/films/4",
-      "https://sw-api.sivaramp.com/api/films/5",
-      "https://sw-api.sivaramp.com/api/films/6"
+      "https://swapi.info/api/films/4",
+      "https://swapi.info/api/films/5",
+      "https://swapi.info/api/films/6"
     ],
     "created": "2014-12-19T17:04:06.323000Z",
     "edited": "2014-12-20T21:23:49.915000Z",
-    "url": "https://sw-api.sivaramp.com/api/starships/32"
+    "url": "https://swapi.info/api/starships/32"
   },
   {
     "name": "Naboo fighter",
@@ -427,17 +427,17 @@
     "MGLT": "unknown",
     "starship_class": "Starfighter",
     "pilots": [
-      "https://sw-api.sivaramp.com/api/people/11",
-      "https://sw-api.sivaramp.com/api/people/35",
-      "https://sw-api.sivaramp.com/api/people/60"
+      "https://swapi.info/api/people/11",
+      "https://swapi.info/api/people/35",
+      "https://swapi.info/api/people/60"
     ],
     "films": [
-      "https://sw-api.sivaramp.com/api/films/4",
-      "https://sw-api.sivaramp.com/api/films/5"
+      "https://swapi.info/api/films/4",
+      "https://swapi.info/api/films/5"
     ],
     "created": "2014-12-19T17:39:17.582000Z",
     "edited": "2014-12-20T21:23:49.917000Z",
-    "url": "https://sw-api.sivaramp.com/api/starships/39"
+    "url": "https://swapi.info/api/starships/39"
   },
   {
     "name": "Naboo Royal Starship",
@@ -453,11 +453,11 @@
     "hyperdrive_rating": "1.8",
     "MGLT": "unknown",
     "starship_class": "yacht",
-    "pilots": ["https://sw-api.sivaramp.com/api/people/39"],
-    "films": ["https://sw-api.sivaramp.com/api/films/4"],
+    "pilots": ["https://swapi.info/api/people/39"],
+    "films": ["https://swapi.info/api/films/4"],
     "created": "2014-12-19T17:45:03.506000Z",
     "edited": "2014-12-20T21:23:49.919000Z",
-    "url": "https://sw-api.sivaramp.com/api/starships/40"
+    "url": "https://swapi.info/api/starships/40"
   },
   {
     "name": "Scimitar",
@@ -473,11 +473,11 @@
     "hyperdrive_rating": "1.5",
     "MGLT": "unknown",
     "starship_class": "Space Transport",
-    "pilots": ["https://sw-api.sivaramp.com/api/people/44"],
-    "films": ["https://sw-api.sivaramp.com/api/films/4"],
+    "pilots": ["https://swapi.info/api/people/44"],
+    "films": ["https://swapi.info/api/films/4"],
     "created": "2014-12-20T09:39:56.116000Z",
     "edited": "2014-12-20T21:23:49.922000Z",
-    "url": "https://sw-api.sivaramp.com/api/starships/41"
+    "url": "https://swapi.info/api/starships/41"
   },
   {
     "name": "J-type diplomatic barge",
@@ -494,10 +494,10 @@
     "MGLT": "unknown",
     "starship_class": "Diplomatic barge",
     "pilots": [],
-    "films": ["https://sw-api.sivaramp.com/api/films/5"],
+    "films": ["https://swapi.info/api/films/5"],
     "created": "2014-12-20T11:05:51.237000Z",
     "edited": "2014-12-20T21:23:49.925000Z",
-    "url": "https://sw-api.sivaramp.com/api/starships/43"
+    "url": "https://swapi.info/api/starships/43"
   },
   {
     "name": "AA-9 Coruscant freighter",
@@ -514,10 +514,10 @@
     "MGLT": "unknown",
     "starship_class": "freighter",
     "pilots": [],
-    "films": ["https://sw-api.sivaramp.com/api/films/5"],
+    "films": ["https://swapi.info/api/films/5"],
     "created": "2014-12-20T17:24:23.509000Z",
     "edited": "2014-12-20T21:23:49.928000Z",
-    "url": "https://sw-api.sivaramp.com/api/starships/47"
+    "url": "https://swapi.info/api/starships/47"
   },
   {
     "name": "Jedi starfighter",
@@ -534,16 +534,16 @@
     "MGLT": "unknown",
     "starship_class": "Starfighter",
     "pilots": [
-      "https://sw-api.sivaramp.com/api/people/10",
-      "https://sw-api.sivaramp.com/api/people/58"
+      "https://swapi.info/api/people/10",
+      "https://swapi.info/api/people/58"
     ],
     "films": [
-      "https://sw-api.sivaramp.com/api/films/5",
-      "https://sw-api.sivaramp.com/api/films/6"
+      "https://swapi.info/api/films/5",
+      "https://swapi.info/api/films/6"
     ],
     "created": "2014-12-20T17:35:23.906000Z",
     "edited": "2014-12-20T21:23:49.930000Z",
-    "url": "https://sw-api.sivaramp.com/api/starships/48"
+    "url": "https://swapi.info/api/starships/48"
   },
   {
     "name": "H-type Nubian yacht",
@@ -559,11 +559,11 @@
     "hyperdrive_rating": "0.9",
     "MGLT": "unknown",
     "starship_class": "yacht",
-    "pilots": ["https://sw-api.sivaramp.com/api/people/35"],
-    "films": ["https://sw-api.sivaramp.com/api/films/5"],
+    "pilots": ["https://swapi.info/api/people/35"],
+    "films": ["https://swapi.info/api/films/5"],
     "created": "2014-12-20T17:46:46.847000Z",
     "edited": "2014-12-20T21:23:49.932000Z",
-    "url": "https://sw-api.sivaramp.com/api/starships/49"
+    "url": "https://swapi.info/api/starships/49"
   },
   {
     "name": "Republic Assault ship",
@@ -580,10 +580,10 @@
     "MGLT": "unknown",
     "starship_class": "assault ship",
     "pilots": [],
-    "films": ["https://sw-api.sivaramp.com/api/films/5"],
+    "films": ["https://swapi.info/api/films/5"],
     "created": "2014-12-20T18:08:42.926000Z",
     "edited": "2014-12-20T21:23:49.935000Z",
-    "url": "https://sw-api.sivaramp.com/api/starships/52"
+    "url": "https://swapi.info/api/starships/52"
   },
   {
     "name": "Solar Sailer",
@@ -600,10 +600,10 @@
     "MGLT": "unknown",
     "starship_class": "yacht",
     "pilots": [],
-    "films": ["https://sw-api.sivaramp.com/api/films/5"],
+    "films": ["https://swapi.info/api/films/5"],
     "created": "2014-12-20T18:37:56.969000Z",
     "edited": "2014-12-20T21:23:49.937000Z",
-    "url": "https://sw-api.sivaramp.com/api/starships/58"
+    "url": "https://swapi.info/api/starships/58"
   },
   {
     "name": "Trade Federation cruiser",
@@ -620,13 +620,13 @@
     "MGLT": "unknown",
     "starship_class": "capital ship",
     "pilots": [
-      "https://sw-api.sivaramp.com/api/people/10",
-      "https://sw-api.sivaramp.com/api/people/11"
+      "https://swapi.info/api/people/10",
+      "https://swapi.info/api/people/11"
     ],
-    "films": ["https://sw-api.sivaramp.com/api/films/6"],
+    "films": ["https://swapi.info/api/films/6"],
     "created": "2014-12-20T19:40:21.902000Z",
     "edited": "2014-12-20T21:23:49.941000Z",
-    "url": "https://sw-api.sivaramp.com/api/starships/59"
+    "url": "https://swapi.info/api/starships/59"
   },
   {
     "name": "Theta-class T-2c shuttle",
@@ -643,10 +643,10 @@
     "MGLT": "unknown",
     "starship_class": "transport",
     "pilots": [],
-    "films": ["https://sw-api.sivaramp.com/api/films/6"],
+    "films": ["https://swapi.info/api/films/6"],
     "created": "2014-12-20T19:48:40.409000Z",
     "edited": "2014-12-20T21:23:49.944000Z",
-    "url": "https://sw-api.sivaramp.com/api/starships/61"
+    "url": "https://swapi.info/api/starships/61"
   },
   {
     "name": "Republic attack cruiser",
@@ -663,10 +663,10 @@
     "MGLT": "unknown",
     "starship_class": "star destroyer",
     "pilots": [],
-    "films": ["https://sw-api.sivaramp.com/api/films/6"],
+    "films": ["https://swapi.info/api/films/6"],
     "created": "2014-12-20T19:52:56.232000Z",
     "edited": "2014-12-20T21:23:49.946000Z",
-    "url": "https://sw-api.sivaramp.com/api/starships/63"
+    "url": "https://swapi.info/api/starships/63"
   },
   {
     "name": "Naboo star skiff",
@@ -683,13 +683,13 @@
     "MGLT": "unknown",
     "starship_class": "yacht",
     "pilots": [
-      "https://sw-api.sivaramp.com/api/people/10",
-      "https://sw-api.sivaramp.com/api/people/35"
+      "https://swapi.info/api/people/10",
+      "https://swapi.info/api/people/35"
     ],
-    "films": ["https://sw-api.sivaramp.com/api/films/6"],
+    "films": ["https://swapi.info/api/films/6"],
     "created": "2014-12-20T19:55:15.396000Z",
     "edited": "2014-12-20T21:23:49.948000Z",
-    "url": "https://sw-api.sivaramp.com/api/starships/64"
+    "url": "https://swapi.info/api/starships/64"
   },
   {
     "name": "Jedi Interceptor",
@@ -706,13 +706,13 @@
     "MGLT": "unknown",
     "starship_class": "starfighter",
     "pilots": [
-      "https://sw-api.sivaramp.com/api/people/10",
-      "https://sw-api.sivaramp.com/api/people/11"
+      "https://swapi.info/api/people/10",
+      "https://swapi.info/api/people/11"
     ],
-    "films": ["https://sw-api.sivaramp.com/api/films/6"],
+    "films": ["https://swapi.info/api/films/6"],
     "created": "2014-12-20T19:56:57.468000Z",
     "edited": "2014-12-20T21:23:49.951000Z",
-    "url": "https://sw-api.sivaramp.com/api/starships/65"
+    "url": "https://swapi.info/api/starships/65"
   },
   {
     "name": "arc-170",
@@ -729,10 +729,10 @@
     "MGLT": "100",
     "starship_class": "starfighter",
     "pilots": [],
-    "films": ["https://sw-api.sivaramp.com/api/films/6"],
+    "films": ["https://swapi.info/api/films/6"],
     "created": "2014-12-20T20:03:48.603000Z",
     "edited": "2014-12-20T21:23:49.953000Z",
-    "url": "https://sw-api.sivaramp.com/api/starships/66"
+    "url": "https://swapi.info/api/starships/66"
   },
   {
     "name": "Banking clan frigte",
@@ -749,10 +749,10 @@
     "MGLT": "unknown",
     "starship_class": "cruiser",
     "pilots": [],
-    "films": ["https://sw-api.sivaramp.com/api/films/6"],
+    "films": ["https://swapi.info/api/films/6"],
     "created": "2014-12-20T20:07:11.538000Z",
     "edited": "2014-12-20T21:23:49.956000Z",
-    "url": "https://sw-api.sivaramp.com/api/starships/68"
+    "url": "https://swapi.info/api/starships/68"
   },
   {
     "name": "Belbullab-22 starfighter",
@@ -769,13 +769,13 @@
     "MGLT": "unknown",
     "starship_class": "starfighter",
     "pilots": [
-      "https://sw-api.sivaramp.com/api/people/10",
-      "https://sw-api.sivaramp.com/api/people/79"
+      "https://swapi.info/api/people/10",
+      "https://swapi.info/api/people/79"
     ],
-    "films": ["https://sw-api.sivaramp.com/api/films/6"],
+    "films": ["https://swapi.info/api/films/6"],
     "created": "2014-12-20T20:38:05.031000Z",
     "edited": "2014-12-20T21:23:49.959000Z",
-    "url": "https://sw-api.sivaramp.com/api/starships/74"
+    "url": "https://swapi.info/api/starships/74"
   },
   {
     "name": "V-wing",
@@ -792,9 +792,9 @@
     "MGLT": "unknown",
     "starship_class": "starfighter",
     "pilots": [],
-    "films": ["https://sw-api.sivaramp.com/api/films/6"],
+    "films": ["https://swapi.info/api/films/6"],
     "created": "2014-12-20T20:43:04.349000Z",
     "edited": "2014-12-20T21:23:49.961000Z",
-    "url": "https://sw-api.sivaramp.com/api/starships/75"
+    "url": "https://swapi.info/api/starships/75"
   }
 ]

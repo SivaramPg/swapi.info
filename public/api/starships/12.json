@@ -13,17 +13,17 @@
   "MGLT": "100",
   "starship_class": "Starfighter",
   "pilots": [
-    "https://sw-api.sivaramp.com/api/people/1",
-    "https://sw-api.sivaramp.com/api/people/9",
-    "https://sw-api.sivaramp.com/api/people/18",
-    "https://sw-api.sivaramp.com/api/people/19"
+    "https://swapi.info/api/people/1",
+    "https://swapi.info/api/people/9",
+    "https://swapi.info/api/people/18",
+    "https://swapi.info/api/people/19"
   ],
   "films": [
-    "https://sw-api.sivaramp.com/api/films/1",
-    "https://sw-api.sivaramp.com/api/films/2",
-    "https://sw-api.sivaramp.com/api/films/3"
+    "https://swapi.info/api/films/1",
+    "https://swapi.info/api/films/2",
+    "https://swapi.info/api/films/3"
   ],
   "created": "2014-12-12T11:19:05.340000Z",
   "edited": "2014-12-20T21:23:49.886000Z",
-  "url": "https://sw-api.sivaramp.com/api/starships/12"
+  "url": "https://swapi.info/api/starships/12"
 }

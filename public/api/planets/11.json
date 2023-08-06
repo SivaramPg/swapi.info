@@ -8,9 +8,9 @@
   "terrain": "rock, desert, mountain, barren",
   "surface_water": "5",
   "population": "100000000000",
-  "residents": ["https://sw-api.sivaramp.com/api/people/63"],
-  "films": ["https://sw-api.sivaramp.com/api/films/5"],
+  "residents": ["https://swapi.info/api/people/63"],
+  "films": ["https://swapi.info/api/films/5"],
   "created": "2014-12-10T12:47:22.350000Z",
   "edited": "2014-12-20T20:58:18.437000Z",
-  "url": "https://sw-api.sivaramp.com/api/planets/11"
+  "url": "https://swapi.info/api/planets/11"
 }

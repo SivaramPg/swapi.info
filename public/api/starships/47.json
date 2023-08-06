@@ -13,8 +13,8 @@
   "MGLT": "unknown",
   "starship_class": "freighter",
   "pilots": [],
-  "films": ["https://sw-api.sivaramp.com/api/films/5"],
+  "films": ["https://swapi.info/api/films/5"],
   "created": "2014-12-20T17:24:23.509000Z",
   "edited": "2014-12-20T21:23:49.928000Z",
-  "url": "https://sw-api.sivaramp.com/api/starships/47"
+  "url": "https://swapi.info/api/starships/47"
 }

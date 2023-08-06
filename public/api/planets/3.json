@@ -9,8 +9,8 @@
   "surface_water": "8",
   "population": "1000",
   "residents": [],
-  "films": ["https://sw-api.sivaramp.com/api/films/1"],
+  "films": ["https://swapi.info/api/films/1"],
   "created": "2014-12-10T11:37:19.144000Z",
   "edited": "2014-12-20T20:58:18.421000Z",
-  "url": "https://sw-api.sivaramp.com/api/planets/3"
+  "url": "https://swapi.info/api/planets/3"
 }

@@ -14,11 +14,11 @@
   "starship_class": "Droid control ship",
   "pilots": [],
   "films": [
-    "https://sw-api.sivaramp.com/api/films/4",
-    "https://sw-api.sivaramp.com/api/films/5",
-    "https://sw-api.sivaramp.com/api/films/6"
+    "https://swapi.info/api/films/4",
+    "https://swapi.info/api/films/5",
+    "https://swapi.info/api/films/6"
   ],
   "created": "2014-12-19T17:04:06.323000Z",
   "edited": "2014-12-20T21:23:49.915000Z",
-  "url": "https://sw-api.sivaramp.com/api/starships/32"
+  "url": "https://swapi.info/api/starships/32"
 }

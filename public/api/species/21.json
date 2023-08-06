@@ -7,11 +7,11 @@
   "hair_colors": "none",
   "eye_colors": "black",
   "average_lifespan": "70",
-  "homeworld": "https://sw-api.sivaramp.com/api/planets/44",
+  "homeworld": "https://swapi.info/api/planets/44",
   "language": "Nautila",
-  "people": ["https://sw-api.sivaramp.com/api/people/53"],
-  "films": ["https://sw-api.sivaramp.com/api/films/4"],
+  "people": ["https://swapi.info/api/people/53"],
+  "films": ["https://swapi.info/api/films/4"],
   "created": "2014-12-20T10:18:58.610000Z",
   "edited": "2014-12-20T21:36:42.181000Z",
-  "url": "https://sw-api.sivaramp.com/api/species/21"
+  "url": "https://swapi.info/api/species/21"
 }

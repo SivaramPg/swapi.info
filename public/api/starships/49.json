@@ -12,9 +12,9 @@
   "hyperdrive_rating": "0.9",
   "MGLT": "unknown",
   "starship_class": "yacht",
-  "pilots": ["https://sw-api.sivaramp.com/api/people/35"],
-  "films": ["https://sw-api.sivaramp.com/api/films/5"],
+  "pilots": ["https://swapi.info/api/people/35"],
+  "films": ["https://swapi.info/api/films/5"],
   "created": "2014-12-20T17:46:46.847000Z",
   "edited": "2014-12-20T21:23:49.932000Z",
-  "url": "https://sw-api.sivaramp.com/api/starships/49"
+  "url": "https://swapi.info/api/starships/49"
 }

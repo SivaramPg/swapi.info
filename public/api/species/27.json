@@ -7,14 +7,11 @@
   "hair_colors": "none",
   "eye_colors": "blue",
   "average_lifespan": "unknown",
-  "homeworld": "https://sw-api.sivaramp.com/api/planets/50",
+  "homeworld": "https://swapi.info/api/planets/50",
   "language": "Chagria",
-  "people": ["https://sw-api.sivaramp.com/api/people/59"],
-  "films": [
-    "https://sw-api.sivaramp.com/api/films/4",
-    "https://sw-api.sivaramp.com/api/films/6"
-  ],
+  "people": ["https://swapi.info/api/people/59"],
+  "films": ["https://swapi.info/api/films/4", "https://swapi.info/api/films/6"],
   "created": "2014-12-20T10:53:28.795000Z",
   "edited": "2014-12-20T21:36:42.193000Z",
-  "url": "https://sw-api.sivaramp.com/api/species/27"
+  "url": "https://swapi.info/api/species/27"
 }

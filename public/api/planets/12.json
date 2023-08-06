@@ -8,9 +8,9 @@
   "terrain": "scrublands, savanna, canyons, sinkholes",
   "surface_water": "0.9",
   "population": "95000000",
-  "residents": ["https://sw-api.sivaramp.com/api/people/83"],
-  "films": ["https://sw-api.sivaramp.com/api/films/6"],
+  "residents": ["https://swapi.info/api/people/83"],
+  "films": ["https://swapi.info/api/films/6"],
   "created": "2014-12-10T12:49:01.491000Z",
   "edited": "2014-12-20T20:58:18.439000Z",
-  "url": "https://sw-api.sivaramp.com/api/planets/12"
+  "url": "https://swapi.info/api/planets/12"
 }

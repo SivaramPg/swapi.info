@@ -8,9 +8,9 @@
   "terrain": "mountains, seas, grasslands, deserts",
   "surface_water": "unknown",
   "population": "42000000",
-  "residents": ["https://sw-api.sivaramp.com/api/people/24"],
+  "residents": ["https://swapi.info/api/people/24"],
   "films": [],
   "created": "2014-12-15T12:53:47.695000Z",
   "edited": "2014-12-20T20:58:18.468000Z",
-  "url": "https://sw-api.sivaramp.com/api/planets/29"
+  "url": "https://swapi.info/api/planets/29"
 }

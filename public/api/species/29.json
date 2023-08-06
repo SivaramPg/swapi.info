@@ -7,17 +7,14 @@
   "hair_colors": "black, brown",
   "eye_colors": "blue, green, red, yellow, brown, orange",
   "average_lifespan": "unknown",
-  "homeworld": "https://sw-api.sivaramp.com/api/planets/51",
+  "homeworld": "https://swapi.info/api/planets/51",
   "language": "Mirialan",
   "people": [
-    "https://sw-api.sivaramp.com/api/people/64",
-    "https://sw-api.sivaramp.com/api/people/65"
+    "https://swapi.info/api/people/64",
+    "https://swapi.info/api/people/65"
   ],
-  "films": [
-    "https://sw-api.sivaramp.com/api/films/5",
-    "https://sw-api.sivaramp.com/api/films/6"
-  ],
+  "films": ["https://swapi.info/api/films/5", "https://swapi.info/api/films/6"],
   "created": "2014-12-20T16:46:48.290000Z",
   "edited": "2014-12-20T21:36:42.197000Z",
-  "url": "https://sw-api.sivaramp.com/api/species/29"
+  "url": "https://swapi.info/api/species/29"
 }

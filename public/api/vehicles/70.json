@@ -11,8 +11,8 @@
   "consumables": "none",
   "vehicle_class": "air speeder",
   "pilots": [],
-  "films": ["https://sw-api.sivaramp.com/api/films/6"],
+  "films": ["https://swapi.info/api/films/6"],
   "created": "2014-12-20T20:21:55.648000Z",
   "edited": "2014-12-20T21:30:21.759000Z",
-  "url": "https://sw-api.sivaramp.com/api/vehicles/70"
+  "url": "https://swapi.info/api/vehicles/70"
 }

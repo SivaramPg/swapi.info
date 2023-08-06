@@ -11,8 +11,8 @@
   "consumables": "3 days",
   "vehicle_class": "airspeeder",
   "pilots": [],
-  "films": ["https://sw-api.sivaramp.com/api/films/6"],
+  "films": ["https://swapi.info/api/films/6"],
   "created": "2014-12-20T20:20:53.931000Z",
   "edited": "2014-12-20T21:30:21.756000Z",
-  "url": "https://sw-api.sivaramp.com/api/vehicles/69"
+  "url": "https://swapi.info/api/vehicles/69"
 }

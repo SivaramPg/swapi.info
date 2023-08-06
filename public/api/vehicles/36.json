@@ -11,8 +11,8 @@
   "consumables": "none",
   "vehicle_class": "repulsorcraft",
   "pilots": [],
-  "films": ["https://sw-api.sivaramp.com/api/films/4"],
+  "films": ["https://swapi.info/api/films/4"],
   "created": "2014-12-19T17:15:09.511000Z",
   "edited": "2014-12-20T21:30:21.705000Z",
-  "url": "https://sw-api.sivaramp.com/api/vehicles/36"
+  "url": "https://swapi.info/api/vehicles/36"
 }

@@ -8,9 +8,9 @@
   "terrain": "oceans, rainforests, plateaus",
   "surface_water": "unknown",
   "population": "3500000000",
-  "residents": ["https://sw-api.sivaramp.com/api/people/59"],
+  "residents": ["https://swapi.info/api/people/59"],
   "films": [],
   "created": "2014-12-20T10:52:51.524000Z",
   "edited": "2014-12-20T20:58:18.506000Z",
-  "url": "https://sw-api.sivaramp.com/api/planets/50"
+  "url": "https://swapi.info/api/planets/50"
 }

@@ -8,9 +8,9 @@
   "terrain": "cityscape",
   "surface_water": "unknown",
   "population": "22000000000",
-  "residents": ["https://sw-api.sivaramp.com/api/people/12"],
+  "residents": ["https://swapi.info/api/people/12"],
   "films": [],
   "created": "2014-12-10T16:26:54.384000Z",
   "edited": "2014-12-20T20:58:18.454000Z",
-  "url": "https://sw-api.sivaramp.com/api/planets/21"
+  "url": "https://swapi.info/api/planets/21"
 }

@@ -10,9 +10,9 @@
   "cargo_capacity": "unknown",
   "consumables": "unknown",
   "vehicle_class": "airspeeder",
-  "pilots": ["https://sw-api.sivaramp.com/api/people/11"],
-  "films": ["https://sw-api.sivaramp.com/api/films/5"],
+  "pilots": ["https://swapi.info/api/people/11"],
+  "films": ["https://swapi.info/api/films/5"],
   "created": "2014-12-20T17:19:19.991000Z",
   "edited": "2014-12-20T21:30:21.719000Z",
-  "url": "https://sw-api.sivaramp.com/api/vehicles/46"
+  "url": "https://swapi.info/api/vehicles/46"
 }

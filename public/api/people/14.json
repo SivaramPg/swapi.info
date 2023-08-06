@@ -7,19 +7,19 @@
   "eye_color": "brown",
   "birth_year": "29BBY",
   "gender": "male",
-  "homeworld": "https://sw-api.sivaramp.com/api/planets/22",
+  "homeworld": "https://swapi.info/api/planets/22",
   "films": [
-    "https://sw-api.sivaramp.com/api/films/1",
-    "https://sw-api.sivaramp.com/api/films/2",
-    "https://sw-api.sivaramp.com/api/films/3"
+    "https://swapi.info/api/films/1",
+    "https://swapi.info/api/films/2",
+    "https://swapi.info/api/films/3"
   ],
   "species": [],
   "vehicles": [],
   "starships": [
-    "https://sw-api.sivaramp.com/api/starships/10",
-    "https://sw-api.sivaramp.com/api/starships/22"
+    "https://swapi.info/api/starships/10",
+    "https://swapi.info/api/starships/22"
   ],
   "created": "2014-12-10T16:49:14.582000Z",
   "edited": "2014-12-20T21:17:50.334000Z",
-  "url": "https://sw-api.sivaramp.com/api/people/14"
+  "url": "https://swapi.info/api/people/14"
 }

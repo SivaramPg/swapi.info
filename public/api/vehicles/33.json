@@ -11,11 +11,8 @@
   "consumables": "none",
   "vehicle_class": "starfighter",
   "pilots": [],
-  "films": [
-    "https://sw-api.sivaramp.com/api/films/4",
-    "https://sw-api.sivaramp.com/api/films/6"
-  ],
+  "films": ["https://swapi.info/api/films/4", "https://swapi.info/api/films/6"],
   "created": "2014-12-19T17:09:53.584000Z",
   "edited": "2014-12-20T21:30:21.697000Z",
-  "url": "https://sw-api.sivaramp.com/api/vehicles/33"
+  "url": "https://swapi.info/api/vehicles/33"
 }

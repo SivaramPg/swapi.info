@@ -11,11 +11,8 @@
   "consumables": "2 days",
   "vehicle_class": "space/planetary bomber",
   "pilots": [],
-  "films": [
-    "https://sw-api.sivaramp.com/api/films/2",
-    "https://sw-api.sivaramp.com/api/films/3"
-  ],
+  "films": ["https://swapi.info/api/films/2", "https://swapi.info/api/films/3"],
   "created": "2014-12-15T12:33:15.838000Z",
   "edited": "2014-12-20T21:30:21.675000Z",
-  "url": "https://sw-api.sivaramp.com/api/vehicles/16"
+  "url": "https://swapi.info/api/vehicles/16"
 }

@@ -9,14 +9,14 @@
   "surface_water": "unknown",
   "population": "unknown",
   "residents": [
-    "https://sw-api.sivaramp.com/api/people/20",
-    "https://sw-api.sivaramp.com/api/people/23",
-    "https://sw-api.sivaramp.com/api/people/29",
-    "https://sw-api.sivaramp.com/api/people/32",
-    "https://sw-api.sivaramp.com/api/people/75"
+    "https://swapi.info/api/people/20",
+    "https://swapi.info/api/people/23",
+    "https://swapi.info/api/people/29",
+    "https://swapi.info/api/people/32",
+    "https://swapi.info/api/people/75"
   ],
   "films": [],
   "created": "2014-12-15T12:25:59.569000Z",
   "edited": "2014-12-20T20:58:18.466000Z",
-  "url": "https://sw-api.sivaramp.com/api/planets/28"
+  "url": "https://swapi.info/api/planets/28"
 }

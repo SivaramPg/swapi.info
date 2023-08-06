@@ -8,9 +8,9 @@
   "terrain": "swamps, lakes",
   "surface_water": "unknown",
   "population": "11000000",
-  "residents": ["https://sw-api.sivaramp.com/api/people/40"],
+  "residents": ["https://swapi.info/api/people/40"],
   "films": [],
   "created": "2014-12-19T17:47:54.403000Z",
   "edited": "2014-12-20T20:58:18.476000Z",
-  "url": "https://sw-api.sivaramp.com/api/planets/34"
+  "url": "https://swapi.info/api/planets/34"
 }

@@ -11,8 +11,8 @@
   "consumables": "1 day",
   "vehicle_class": "walker",
   "pilots": [],
-  "films": ["https://sw-api.sivaramp.com/api/films/6"],
+  "films": ["https://swapi.info/api/films/6"],
   "created": "2014-12-20T20:47:49.189000Z",
   "edited": "2014-12-20T21:30:21.772000Z",
-  "url": "https://sw-api.sivaramp.com/api/vehicles/76"
+  "url": "https://swapi.info/api/vehicles/76"
 }

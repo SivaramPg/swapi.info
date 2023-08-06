@@ -11,8 +11,8 @@
   "consumables": "unknown",
   "vehicle_class": "gunship",
   "pilots": [],
-  "films": ["https://sw-api.sivaramp.com/api/films/5"],
+  "films": ["https://swapi.info/api/films/5"],
   "created": "2014-12-20T18:02:46.802000Z",
   "edited": "2014-12-20T21:30:21.725000Z",
-  "url": "https://sw-api.sivaramp.com/api/vehicles/51"
+  "url": "https://swapi.info/api/vehicles/51"
 }

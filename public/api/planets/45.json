@@ -8,9 +8,9 @@
   "terrain": "rocky canyons, acid pools",
   "surface_water": "unknown",
   "population": "unknown",
-  "residents": ["https://sw-api.sivaramp.com/api/people/54"],
+  "residents": ["https://swapi.info/api/people/54"],
   "films": [],
   "created": "2014-12-20T10:26:05.788000Z",
   "edited": "2014-12-20T20:58:18.497000Z",
-  "url": "https://sw-api.sivaramp.com/api/planets/45"
+  "url": "https://swapi.info/api/planets/45"
 }

@@ -13,8 +13,8 @@
   "MGLT": "unknown",
   "starship_class": "star destroyer",
   "pilots": [],
-  "films": ["https://sw-api.sivaramp.com/api/films/6"],
+  "films": ["https://swapi.info/api/films/6"],
   "created": "2014-12-20T19:52:56.232000Z",
   "edited": "2014-12-20T21:23:49.946000Z",
-  "url": "https://sw-api.sivaramp.com/api/starships/63"
+  "url": "https://swapi.info/api/starships/63"
 }

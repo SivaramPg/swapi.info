@@ -13,12 +13,12 @@
     "vehicle_class": "wheeled",
     "pilots": [],
     "films": [
-      "https://sw-api.sivaramp.com/api/films/1",
-      "https://sw-api.sivaramp.com/api/films/5"
+      "https://swapi.info/api/films/1",
+      "https://swapi.info/api/films/5"
     ],
     "created": "2014-12-10T15:36:25.724000Z",
     "edited": "2014-12-20T21:30:21.661000Z",
-    "url": "https://sw-api.sivaramp.com/api/vehicles/4"
+    "url": "https://swapi.info/api/vehicles/4"
   },
   {
     "name": "T-16 skyhopper",
@@ -33,10 +33,10 @@
     "consumables": "0",
     "vehicle_class": "repulsorcraft",
     "pilots": [],
-    "films": ["https://sw-api.sivaramp.com/api/films/1"],
+    "films": ["https://swapi.info/api/films/1"],
     "created": "2014-12-10T16:01:52.434000Z",
     "edited": "2014-12-20T21:30:21.665000Z",
-    "url": "https://sw-api.sivaramp.com/api/vehicles/6"
+    "url": "https://swapi.info/api/vehicles/6"
   },
   {
     "name": "X-34 landspeeder",
@@ -51,10 +51,10 @@
     "consumables": "unknown",
     "vehicle_class": "repulsorcraft",
     "pilots": [],
-    "films": ["https://sw-api.sivaramp.com/api/films/1"],
+    "films": ["https://swapi.info/api/films/1"],
     "created": "2014-12-10T16:13:52.586000Z",
     "edited": "2014-12-20T21:30:21.668000Z",
-    "url": "https://sw-api.sivaramp.com/api/vehicles/7"
+    "url": "https://swapi.info/api/vehicles/7"
   },
   {
     "name": "TIE/LN starfighter",
@@ -70,13 +70,13 @@
     "vehicle_class": "starfighter",
     "pilots": [],
     "films": [
-      "https://sw-api.sivaramp.com/api/films/1",
-      "https://sw-api.sivaramp.com/api/films/2",
-      "https://sw-api.sivaramp.com/api/films/3"
+      "https://swapi.info/api/films/1",
+      "https://swapi.info/api/films/2",
+      "https://swapi.info/api/films/3"
     ],
     "created": "2014-12-10T16:33:52.860000Z",
     "edited": "2014-12-20T21:30:21.670000Z",
-    "url": "https://sw-api.sivaramp.com/api/vehicles/8"
+    "url": "https://swapi.info/api/vehicles/8"
   },
   {
     "name": "Snowspeeder",
@@ -91,13 +91,13 @@
     "consumables": "none",
     "vehicle_class": "airspeeder",
     "pilots": [
-      "https://sw-api.sivaramp.com/api/people/1",
-      "https://sw-api.sivaramp.com/api/people/18"
+      "https://swapi.info/api/people/1",
+      "https://swapi.info/api/people/18"
     ],
-    "films": ["https://sw-api.sivaramp.com/api/films/2"],
+    "films": ["https://swapi.info/api/films/2"],
     "created": "2014-12-15T12:22:12Z",
     "edited": "2014-12-20T21:30:21.672000Z",
-    "url": "https://sw-api.sivaramp.com/api/vehicles/14"
+    "url": "https://swapi.info/api/vehicles/14"
   },
   {
     "name": "TIE bomber",
@@ -113,12 +113,12 @@
     "vehicle_class": "space/planetary bomber",
     "pilots": [],
     "films": [
-      "https://sw-api.sivaramp.com/api/films/2",
-      "https://sw-api.sivaramp.com/api/films/3"
+      "https://swapi.info/api/films/2",
+      "https://swapi.info/api/films/3"
     ],
     "created": "2014-12-15T12:33:15.838000Z",
     "edited": "2014-12-20T21:30:21.675000Z",
-    "url": "https://sw-api.sivaramp.com/api/vehicles/16"
+    "url": "https://swapi.info/api/vehicles/16"
   },
   {
     "name": "AT-AT",
@@ -134,12 +134,12 @@
     "vehicle_class": "assault walker",
     "pilots": [],
     "films": [
-      "https://sw-api.sivaramp.com/api/films/2",
-      "https://sw-api.sivaramp.com/api/films/3"
+      "https://swapi.info/api/films/2",
+      "https://swapi.info/api/films/3"
     ],
     "created": "2014-12-15T12:38:25.937000Z",
     "edited": "2014-12-20T21:30:21.677000Z",
-    "url": "https://sw-api.sivaramp.com/api/vehicles/18"
+    "url": "https://swapi.info/api/vehicles/18"
   },
   {
     "name": "AT-ST",
@@ -153,14 +153,14 @@
     "cargo_capacity": "200",
     "consumables": "none",
     "vehicle_class": "walker",
-    "pilots": ["https://sw-api.sivaramp.com/api/people/13"],
+    "pilots": ["https://swapi.info/api/people/13"],
     "films": [
-      "https://sw-api.sivaramp.com/api/films/2",
-      "https://sw-api.sivaramp.com/api/films/3"
+      "https://swapi.info/api/films/2",
+      "https://swapi.info/api/films/3"
     ],
     "created": "2014-12-15T12:46:42.384000Z",
     "edited": "2014-12-20T21:30:21.679000Z",
-    "url": "https://sw-api.sivaramp.com/api/vehicles/19"
+    "url": "https://swapi.info/api/vehicles/19"
   },
   {
     "name": "Storm IV Twin-Pod cloud car",
@@ -175,10 +175,10 @@
     "consumables": "1 day",
     "vehicle_class": "repulsorcraft",
     "pilots": [],
-    "films": ["https://sw-api.sivaramp.com/api/films/2"],
+    "films": ["https://swapi.info/api/films/2"],
     "created": "2014-12-15T12:58:50.530000Z",
     "edited": "2014-12-20T21:30:21.681000Z",
-    "url": "https://sw-api.sivaramp.com/api/vehicles/20"
+    "url": "https://swapi.info/api/vehicles/20"
   },
   {
     "name": "Sail barge",
@@ -193,10 +193,10 @@
     "consumables": "Live food tanks",
     "vehicle_class": "sail barge",
     "pilots": [],
-    "films": ["https://sw-api.sivaramp.com/api/films/3"],
+    "films": ["https://swapi.info/api/films/3"],
     "created": "2014-12-18T10:44:14.217000Z",
     "edited": "2014-12-20T21:30:21.684000Z",
-    "url": "https://sw-api.sivaramp.com/api/vehicles/24"
+    "url": "https://swapi.info/api/vehicles/24"
   },
   {
     "name": "Bantha-II cargo skiff",
@@ -211,10 +211,10 @@
     "consumables": "1 day",
     "vehicle_class": "repulsorcraft cargo skiff",
     "pilots": [],
-    "films": ["https://sw-api.sivaramp.com/api/films/3"],
+    "films": ["https://swapi.info/api/films/3"],
     "created": "2014-12-18T10:48:03.208000Z",
     "edited": "2014-12-20T21:30:21.688000Z",
-    "url": "https://sw-api.sivaramp.com/api/vehicles/25"
+    "url": "https://swapi.info/api/vehicles/25"
   },
   {
     "name": "TIE/IN interceptor",
@@ -229,10 +229,10 @@
     "consumables": "2 days",
     "vehicle_class": "starfighter",
     "pilots": [],
-    "films": ["https://sw-api.sivaramp.com/api/films/3"],
+    "films": ["https://swapi.info/api/films/3"],
     "created": "2014-12-18T10:50:28.225000Z",
     "edited": "2014-12-20T21:30:21.691000Z",
-    "url": "https://sw-api.sivaramp.com/api/vehicles/26"
+    "url": "https://swapi.info/api/vehicles/26"
   },
   {
     "name": "Imperial Speeder Bike",
@@ -247,13 +247,13 @@
     "consumables": "1 day",
     "vehicle_class": "speeder",
     "pilots": [
-      "https://sw-api.sivaramp.com/api/people/1",
-      "https://sw-api.sivaramp.com/api/people/5"
+      "https://swapi.info/api/people/1",
+      "https://swapi.info/api/people/5"
     ],
-    "films": ["https://sw-api.sivaramp.com/api/films/3"],
+    "films": ["https://swapi.info/api/films/3"],
     "created": "2014-12-18T11:20:04.625000Z",
     "edited": "2014-12-20T21:30:21.693000Z",
-    "url": "https://sw-api.sivaramp.com/api/vehicles/30"
+    "url": "https://swapi.info/api/vehicles/30"
   },
   {
     "name": "Vulture Droid",
@@ -269,12 +269,12 @@
     "vehicle_class": "starfighter",
     "pilots": [],
     "films": [
-      "https://sw-api.sivaramp.com/api/films/4",
-      "https://sw-api.sivaramp.com/api/films/6"
+      "https://swapi.info/api/films/4",
+      "https://swapi.info/api/films/6"
     ],
     "created": "2014-12-19T17:09:53.584000Z",
     "edited": "2014-12-20T21:30:21.697000Z",
-    "url": "https://sw-api.sivaramp.com/api/vehicles/33"
+    "url": "https://swapi.info/api/vehicles/33"
   },
   {
     "name": "Multi-Troop Transport",
@@ -289,10 +289,10 @@
     "consumables": "unknown",
     "vehicle_class": "repulsorcraft",
     "pilots": [],
-    "films": ["https://sw-api.sivaramp.com/api/films/4"],
+    "films": ["https://swapi.info/api/films/4"],
     "created": "2014-12-19T17:12:04.400000Z",
     "edited": "2014-12-20T21:30:21.700000Z",
-    "url": "https://sw-api.sivaramp.com/api/vehicles/34"
+    "url": "https://swapi.info/api/vehicles/34"
   },
   {
     "name": "Armored Assault Tank",
@@ -307,10 +307,10 @@
     "consumables": "unknown",
     "vehicle_class": "repulsorcraft",
     "pilots": [],
-    "films": ["https://sw-api.sivaramp.com/api/films/4"],
+    "films": ["https://swapi.info/api/films/4"],
     "created": "2014-12-19T17:13:29.799000Z",
     "edited": "2014-12-20T21:30:21.703000Z",
-    "url": "https://sw-api.sivaramp.com/api/vehicles/35"
+    "url": "https://swapi.info/api/vehicles/35"
   },
   {
     "name": "Single Trooper Aerial Platform",
@@ -325,10 +325,10 @@
     "consumables": "none",
     "vehicle_class": "repulsorcraft",
     "pilots": [],
-    "films": ["https://sw-api.sivaramp.com/api/films/4"],
+    "films": ["https://swapi.info/api/films/4"],
     "created": "2014-12-19T17:15:09.511000Z",
     "edited": "2014-12-20T21:30:21.705000Z",
-    "url": "https://sw-api.sivaramp.com/api/vehicles/36"
+    "url": "https://swapi.info/api/vehicles/36"
   },
   {
     "name": "C-9979 landing craft",
@@ -343,10 +343,10 @@
     "consumables": "1 day",
     "vehicle_class": "landing craft",
     "pilots": [],
-    "films": ["https://sw-api.sivaramp.com/api/films/4"],
+    "films": ["https://swapi.info/api/films/4"],
     "created": "2014-12-19T17:20:36.373000Z",
     "edited": "2014-12-20T21:30:21.707000Z",
-    "url": "https://sw-api.sivaramp.com/api/vehicles/37"
+    "url": "https://swapi.info/api/vehicles/37"
   },
   {
     "name": "Tribubble bongo",
@@ -361,13 +361,13 @@
     "consumables": "unknown",
     "vehicle_class": "submarine",
     "pilots": [
-      "https://sw-api.sivaramp.com/api/people/10",
-      "https://sw-api.sivaramp.com/api/people/32"
+      "https://swapi.info/api/people/10",
+      "https://swapi.info/api/people/32"
     ],
-    "films": ["https://sw-api.sivaramp.com/api/films/4"],
+    "films": ["https://swapi.info/api/films/4"],
     "created": "2014-12-19T17:37:37.924000Z",
     "edited": "2014-12-20T21:30:21.710000Z",
-    "url": "https://sw-api.sivaramp.com/api/vehicles/38"
+    "url": "https://swapi.info/api/vehicles/38"
   },
   {
     "name": "Sith speeder",
@@ -381,11 +381,11 @@
     "cargo_capacity": "2",
     "consumables": "unknown",
     "vehicle_class": "speeder",
-    "pilots": ["https://sw-api.sivaramp.com/api/people/44"],
-    "films": ["https://sw-api.sivaramp.com/api/films/4"],
+    "pilots": ["https://swapi.info/api/people/44"],
+    "films": ["https://swapi.info/api/films/4"],
     "created": "2014-12-20T10:09:56.095000Z",
     "edited": "2014-12-20T21:30:21.712000Z",
-    "url": "https://sw-api.sivaramp.com/api/vehicles/42"
+    "url": "https://swapi.info/api/vehicles/42"
   },
   {
     "name": "Zephyr-G swoop bike",
@@ -399,11 +399,11 @@
     "cargo_capacity": "200",
     "consumables": "none",
     "vehicle_class": "repulsorcraft",
-    "pilots": ["https://sw-api.sivaramp.com/api/people/11"],
-    "films": ["https://sw-api.sivaramp.com/api/films/5"],
+    "pilots": ["https://swapi.info/api/people/11"],
+    "films": ["https://swapi.info/api/films/5"],
     "created": "2014-12-20T16:24:16.026000Z",
     "edited": "2014-12-20T21:30:21.714000Z",
-    "url": "https://sw-api.sivaramp.com/api/vehicles/44"
+    "url": "https://swapi.info/api/vehicles/44"
   },
   {
     "name": "Koro-2 Exodrive airspeeder",
@@ -417,11 +417,11 @@
     "cargo_capacity": "80",
     "consumables": "unknown",
     "vehicle_class": "airspeeder",
-    "pilots": ["https://sw-api.sivaramp.com/api/people/70"],
-    "films": ["https://sw-api.sivaramp.com/api/films/5"],
+    "pilots": ["https://swapi.info/api/people/70"],
+    "films": ["https://swapi.info/api/films/5"],
     "created": "2014-12-20T17:17:33.526000Z",
     "edited": "2014-12-20T21:30:21.716000Z",
-    "url": "https://sw-api.sivaramp.com/api/vehicles/45"
+    "url": "https://swapi.info/api/vehicles/45"
   },
   {
     "name": "XJ-6 airspeeder",
@@ -435,11 +435,11 @@
     "cargo_capacity": "unknown",
     "consumables": "unknown",
     "vehicle_class": "airspeeder",
-    "pilots": ["https://sw-api.sivaramp.com/api/people/11"],
-    "films": ["https://sw-api.sivaramp.com/api/films/5"],
+    "pilots": ["https://swapi.info/api/people/11"],
+    "films": ["https://swapi.info/api/films/5"],
     "created": "2014-12-20T17:19:19.991000Z",
     "edited": "2014-12-20T21:30:21.719000Z",
-    "url": "https://sw-api.sivaramp.com/api/vehicles/46"
+    "url": "https://swapi.info/api/vehicles/46"
   },
   {
     "name": "LAAT/i",
@@ -455,12 +455,12 @@
     "vehicle_class": "gunship",
     "pilots": [],
     "films": [
-      "https://sw-api.sivaramp.com/api/films/5",
-      "https://sw-api.sivaramp.com/api/films/6"
+      "https://swapi.info/api/films/5",
+      "https://swapi.info/api/films/6"
     ],
     "created": "2014-12-20T18:01:21.014000Z",
     "edited": "2014-12-20T21:30:21.723000Z",
-    "url": "https://sw-api.sivaramp.com/api/vehicles/50"
+    "url": "https://swapi.info/api/vehicles/50"
   },
   {
     "name": "LAAT/c",
@@ -475,10 +475,10 @@
     "consumables": "unknown",
     "vehicle_class": "gunship",
     "pilots": [],
-    "films": ["https://sw-api.sivaramp.com/api/films/5"],
+    "films": ["https://swapi.info/api/films/5"],
     "created": "2014-12-20T18:02:46.802000Z",
     "edited": "2014-12-20T21:30:21.725000Z",
-    "url": "https://sw-api.sivaramp.com/api/vehicles/51"
+    "url": "https://swapi.info/api/vehicles/51"
   },
   {
     "name": "AT-TE",
@@ -494,12 +494,12 @@
     "vehicle_class": "walker",
     "pilots": [],
     "films": [
-      "https://sw-api.sivaramp.com/api/films/5",
-      "https://sw-api.sivaramp.com/api/films/6"
+      "https://swapi.info/api/films/5",
+      "https://swapi.info/api/films/6"
     ],
     "created": "2014-12-20T18:10:07.560000Z",
     "edited": "2014-12-20T21:30:21.728000Z",
-    "url": "https://sw-api.sivaramp.com/api/vehicles/53"
+    "url": "https://swapi.info/api/vehicles/53"
   },
   {
     "name": "SPHA",
@@ -514,10 +514,10 @@
     "consumables": "7 days",
     "vehicle_class": "walker",
     "pilots": [],
-    "films": ["https://sw-api.sivaramp.com/api/films/5"],
+    "films": ["https://swapi.info/api/films/5"],
     "created": "2014-12-20T18:12:32.315000Z",
     "edited": "2014-12-20T21:30:21.731000Z",
-    "url": "https://sw-api.sivaramp.com/api/vehicles/54"
+    "url": "https://swapi.info/api/vehicles/54"
   },
   {
     "name": "Flitknot speeder",
@@ -531,11 +531,11 @@
     "cargo_capacity": "unknown",
     "consumables": "unknown",
     "vehicle_class": "speeder",
-    "pilots": ["https://sw-api.sivaramp.com/api/people/67"],
-    "films": ["https://sw-api.sivaramp.com/api/films/5"],
+    "pilots": ["https://swapi.info/api/people/67"],
+    "films": ["https://swapi.info/api/films/5"],
     "created": "2014-12-20T18:15:20.312000Z",
     "edited": "2014-12-20T21:30:21.735000Z",
-    "url": "https://sw-api.sivaramp.com/api/vehicles/55"
+    "url": "https://swapi.info/api/vehicles/55"
   },
   {
     "name": "Neimoidian shuttle",
@@ -551,12 +551,12 @@
     "vehicle_class": "transport",
     "pilots": [],
     "films": [
-      "https://sw-api.sivaramp.com/api/films/5",
-      "https://sw-api.sivaramp.com/api/films/6"
+      "https://swapi.info/api/films/5",
+      "https://swapi.info/api/films/6"
     ],
     "created": "2014-12-20T18:25:44.912000Z",
     "edited": "2014-12-20T21:30:21.739000Z",
-    "url": "https://sw-api.sivaramp.com/api/vehicles/56"
+    "url": "https://swapi.info/api/vehicles/56"
   },
   {
     "name": "Geonosian starfighter",
@@ -571,10 +571,10 @@
     "consumables": "unknown",
     "vehicle_class": "starfighter",
     "pilots": [],
-    "films": ["https://sw-api.sivaramp.com/api/films/5"],
+    "films": ["https://swapi.info/api/films/5"],
     "created": "2014-12-20T18:34:12.541000Z",
     "edited": "2014-12-20T21:30:21.742000Z",
-    "url": "https://sw-api.sivaramp.com/api/vehicles/57"
+    "url": "https://swapi.info/api/vehicles/57"
   },
   {
     "name": "Tsmeu-6 personal wheel bike",
@@ -588,11 +588,11 @@
     "cargo_capacity": "10",
     "consumables": "none",
     "vehicle_class": "wheeled walker",
-    "pilots": ["https://sw-api.sivaramp.com/api/people/79"],
-    "films": ["https://sw-api.sivaramp.com/api/films/6"],
+    "pilots": ["https://swapi.info/api/people/79"],
+    "films": ["https://swapi.info/api/films/6"],
     "created": "2014-12-20T19:43:54.870000Z",
     "edited": "2014-12-20T21:30:21.745000Z",
-    "url": "https://sw-api.sivaramp.com/api/vehicles/60"
+    "url": "https://swapi.info/api/vehicles/60"
   },
   {
     "name": "Emergency Firespeeder",
@@ -607,10 +607,10 @@
     "consumables": "unknown",
     "vehicle_class": "fire suppression ship",
     "pilots": [],
-    "films": ["https://sw-api.sivaramp.com/api/films/6"],
+    "films": ["https://swapi.info/api/films/6"],
     "created": "2014-12-20T19:50:58.559000Z",
     "edited": "2014-12-20T21:30:21.749000Z",
-    "url": "https://sw-api.sivaramp.com/api/vehicles/62"
+    "url": "https://swapi.info/api/vehicles/62"
   },
   {
     "name": "Droid tri-fighter",
@@ -625,10 +625,10 @@
     "consumables": "none",
     "vehicle_class": "droid starfighter",
     "pilots": [],
-    "films": ["https://sw-api.sivaramp.com/api/films/6"],
+    "films": ["https://swapi.info/api/films/6"],
     "created": "2014-12-20T20:05:19.992000Z",
     "edited": "2014-12-20T21:30:21.752000Z",
-    "url": "https://sw-api.sivaramp.com/api/vehicles/67"
+    "url": "https://swapi.info/api/vehicles/67"
   },
   {
     "name": "Oevvaor jet catamaran",
@@ -643,10 +643,10 @@
     "consumables": "3 days",
     "vehicle_class": "airspeeder",
     "pilots": [],
-    "films": ["https://sw-api.sivaramp.com/api/films/6"],
+    "films": ["https://swapi.info/api/films/6"],
     "created": "2014-12-20T20:20:53.931000Z",
     "edited": "2014-12-20T21:30:21.756000Z",
-    "url": "https://sw-api.sivaramp.com/api/vehicles/69"
+    "url": "https://swapi.info/api/vehicles/69"
   },
   {
     "name": "Raddaugh Gnasp fluttercraft",
@@ -661,10 +661,10 @@
     "consumables": "none",
     "vehicle_class": "air speeder",
     "pilots": [],
-    "films": ["https://sw-api.sivaramp.com/api/films/6"],
+    "films": ["https://swapi.info/api/films/6"],
     "created": "2014-12-20T20:21:55.648000Z",
     "edited": "2014-12-20T21:30:21.759000Z",
-    "url": "https://sw-api.sivaramp.com/api/vehicles/70"
+    "url": "https://swapi.info/api/vehicles/70"
   },
   {
     "name": "Clone turbo tank",
@@ -679,10 +679,10 @@
     "consumables": "20 days",
     "vehicle_class": "wheeled walker",
     "pilots": [],
-    "films": ["https://sw-api.sivaramp.com/api/films/6"],
+    "films": ["https://swapi.info/api/films/6"],
     "created": "2014-12-20T20:24:45.587000Z",
     "edited": "2014-12-20T21:30:21.762000Z",
-    "url": "https://sw-api.sivaramp.com/api/vehicles/71"
+    "url": "https://swapi.info/api/vehicles/71"
   },
   {
     "name": "Corporate Alliance tank droid",
@@ -697,10 +697,10 @@
     "consumables": "none",
     "vehicle_class": "droid tank",
     "pilots": [],
-    "films": ["https://sw-api.sivaramp.com/api/films/6"],
+    "films": ["https://swapi.info/api/films/6"],
     "created": "2014-12-20T20:26:55.522000Z",
     "edited": "2014-12-20T21:30:21.765000Z",
-    "url": "https://sw-api.sivaramp.com/api/vehicles/72"
+    "url": "https://swapi.info/api/vehicles/72"
   },
   {
     "name": "Droid gunship",
@@ -715,10 +715,10 @@
     "consumables": "none",
     "vehicle_class": "airspeeder",
     "pilots": [],
-    "films": ["https://sw-api.sivaramp.com/api/films/6"],
+    "films": ["https://swapi.info/api/films/6"],
     "created": "2014-12-20T20:32:05.687000Z",
     "edited": "2014-12-20T21:30:21.768000Z",
-    "url": "https://sw-api.sivaramp.com/api/vehicles/73"
+    "url": "https://swapi.info/api/vehicles/73"
   },
   {
     "name": "AT-RT",
@@ -733,9 +733,9 @@
     "consumables": "1 day",
     "vehicle_class": "walker",
     "pilots": [],
-    "films": ["https://sw-api.sivaramp.com/api/films/6"],
+    "films": ["https://swapi.info/api/films/6"],
     "created": "2014-12-20T20:47:49.189000Z",
     "edited": "2014-12-20T21:30:21.772000Z",
-    "url": "https://sw-api.sivaramp.com/api/vehicles/76"
+    "url": "https://swapi.info/api/vehicles/76"
   }
 ]

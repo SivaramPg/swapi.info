@@ -11,8 +11,8 @@
   "consumables": "none",
   "vehicle_class": "droid tank",
   "pilots": [],
-  "films": ["https://sw-api.sivaramp.com/api/films/6"],
+  "films": ["https://swapi.info/api/films/6"],
   "created": "2014-12-20T20:26:55.522000Z",
   "edited": "2014-12-20T21:30:21.765000Z",
-  "url": "https://sw-api.sivaramp.com/api/vehicles/72"
+  "url": "https://swapi.info/api/vehicles/72"
 }

@@ -8,9 +8,9 @@
   "terrain": "oceans, glaciers",
   "surface_water": "100",
   "population": "500000000",
-  "residents": ["https://sw-api.sivaramp.com/api/people/71"],
+  "residents": ["https://swapi.info/api/people/71"],
   "films": [],
   "created": "2014-12-20T17:27:41.286000Z",
   "edited": "2014-12-20T20:58:18.516000Z",
-  "url": "https://sw-api.sivaramp.com/api/planets/55"
+  "url": "https://swapi.info/api/planets/55"
 }

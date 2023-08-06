@@ -8,9 +8,9 @@
   "terrain": "forests, mountains, lakes",
   "surface_water": "8",
   "population": "30000000",
-  "residents": ["https://sw-api.sivaramp.com/api/people/30"],
-  "films": ["https://sw-api.sivaramp.com/api/films/3"],
+  "residents": ["https://swapi.info/api/people/30"],
+  "films": ["https://swapi.info/api/films/3"],
   "created": "2014-12-10T11:50:29.349000Z",
   "edited": "2014-12-20T20:58:18.429000Z",
-  "url": "https://sw-api.sivaramp.com/api/planets/7"
+  "url": "https://swapi.info/api/planets/7"
 }

@@ -9,8 +9,8 @@
   "surface_water": "unknown",
   "population": "1400000000",
   "residents": [],
-  "films": ["https://sw-api.sivaramp.com/api/films/6"],
+  "films": ["https://swapi.info/api/films/6"],
   "created": "2014-12-10T13:47:46.874000Z",
   "edited": "2014-12-20T20:58:18.450000Z",
-  "url": "https://sw-api.sivaramp.com/api/planets/19"
+  "url": "https://swapi.info/api/planets/19"
 }

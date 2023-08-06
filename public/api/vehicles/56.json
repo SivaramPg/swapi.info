@@ -11,11 +11,8 @@
   "consumables": "7 days",
   "vehicle_class": "transport",
   "pilots": [],
-  "films": [
-    "https://sw-api.sivaramp.com/api/films/5",
-    "https://sw-api.sivaramp.com/api/films/6"
-  ],
+  "films": ["https://swapi.info/api/films/5", "https://swapi.info/api/films/6"],
   "created": "2014-12-20T18:25:44.912000Z",
   "edited": "2014-12-20T21:30:21.739000Z",
-  "url": "https://sw-api.sivaramp.com/api/vehicles/56"
+  "url": "https://swapi.info/api/vehicles/56"
 }

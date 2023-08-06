@@ -7,12 +7,12 @@
   "eye_color": "brown",
   "birth_year": "unknown",
   "gender": "female",
-  "homeworld": "https://sw-api.sivaramp.com/api/planets/8",
-  "films": ["https://sw-api.sivaramp.com/api/films/5"],
+  "homeworld": "https://swapi.info/api/planets/8",
+  "films": ["https://swapi.info/api/films/5"],
   "species": [],
   "vehicles": [],
   "starships": [],
   "created": "2014-12-20T11:11:39.630000Z",
   "edited": "2014-12-20T21:17:50.449000Z",
-  "url": "https://sw-api.sivaramp.com/api/people/61"
+  "url": "https://swapi.info/api/people/61"
 }

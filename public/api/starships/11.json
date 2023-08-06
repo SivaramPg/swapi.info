@@ -14,11 +14,11 @@
   "starship_class": "assault starfighter",
   "pilots": [],
   "films": [
-    "https://sw-api.sivaramp.com/api/films/1",
-    "https://sw-api.sivaramp.com/api/films/2",
-    "https://sw-api.sivaramp.com/api/films/3"
+    "https://swapi.info/api/films/1",
+    "https://swapi.info/api/films/2",
+    "https://swapi.info/api/films/3"
   ],
   "created": "2014-12-12T11:00:39.817000Z",
   "edited": "2014-12-20T21:23:49.883000Z",
-  "url": "https://sw-api.sivaramp.com/api/starships/11"
+  "url": "https://swapi.info/api/starships/11"
 }

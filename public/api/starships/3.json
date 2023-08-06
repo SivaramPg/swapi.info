@@ -14,11 +14,11 @@
   "starship_class": "Star Destroyer",
   "pilots": [],
   "films": [
-    "https://sw-api.sivaramp.com/api/films/1",
-    "https://sw-api.sivaramp.com/api/films/2",
-    "https://sw-api.sivaramp.com/api/films/3"
+    "https://swapi.info/api/films/1",
+    "https://swapi.info/api/films/2",
+    "https://swapi.info/api/films/3"
   ],
   "created": "2014-12-10T15:08:19.848000Z",
   "edited": "2014-12-20T21:23:49.870000Z",
-  "url": "https://sw-api.sivaramp.com/api/starships/3"
+  "url": "https://swapi.info/api/starships/3"
 }

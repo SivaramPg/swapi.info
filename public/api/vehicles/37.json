@@ -11,8 +11,8 @@
   "consumables": "1 day",
   "vehicle_class": "landing craft",
   "pilots": [],
-  "films": ["https://sw-api.sivaramp.com/api/films/4"],
+  "films": ["https://swapi.info/api/films/4"],
   "created": "2014-12-19T17:20:36.373000Z",
   "edited": "2014-12-20T21:30:21.707000Z",
-  "url": "https://sw-api.sivaramp.com/api/vehicles/37"
+  "url": "https://swapi.info/api/vehicles/37"
 }

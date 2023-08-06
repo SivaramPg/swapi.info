@@ -7,11 +7,11 @@
   "hair_colors": "none",
   "eye_colors": "red, pink",
   "average_lifespan": "unknown",
-  "homeworld": "https://sw-api.sivaramp.com/api/planets/18",
+  "homeworld": "https://swapi.info/api/planets/18",
   "language": "Neimoidia",
-  "people": ["https://sw-api.sivaramp.com/api/people/33"],
-  "films": ["https://sw-api.sivaramp.com/api/films/4"],
+  "people": ["https://swapi.info/api/people/33"],
+  "films": ["https://swapi.info/api/films/4"],
   "created": "2014-12-19T17:07:31.319000Z",
   "edited": "2014-12-20T21:36:42.160000Z",
-  "url": "https://sw-api.sivaramp.com/api/species/11"
+  "url": "https://swapi.info/api/species/11"
 }

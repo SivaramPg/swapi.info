@@ -8,9 +8,9 @@
   "terrain": "jungles, oceans, urban, swamps",
   "surface_water": "60",
   "population": "1300000000",
-  "residents": ["https://sw-api.sivaramp.com/api/people/15"],
+  "residents": ["https://swapi.info/api/people/15"],
   "films": [],
   "created": "2014-12-10T17:03:28.110000Z",
   "edited": "2014-12-20T20:58:18.458000Z",
-  "url": "https://sw-api.sivaramp.com/api/planets/23"
+  "url": "https://swapi.info/api/planets/23"
 }

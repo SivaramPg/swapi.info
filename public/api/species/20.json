@@ -7,14 +7,11 @@
   "hair_colors": "red, blond, black, white",
   "eye_colors": "hazel",
   "average_lifespan": "unknown",
-  "homeworld": "https://sw-api.sivaramp.com/api/planets/43",
+  "homeworld": "https://swapi.info/api/planets/43",
   "language": "Cerean",
-  "people": ["https://sw-api.sivaramp.com/api/people/52"],
-  "films": [
-    "https://sw-api.sivaramp.com/api/films/4",
-    "https://sw-api.sivaramp.com/api/films/6"
-  ],
+  "people": ["https://swapi.info/api/people/52"],
+  "films": ["https://swapi.info/api/films/4", "https://swapi.info/api/films/6"],
   "created": "2014-12-20T10:15:33.765000Z",
   "edited": "2014-12-20T21:36:42.179000Z",
-  "url": "https://sw-api.sivaramp.com/api/species/20"
+  "url": "https://swapi.info/api/species/20"
 }

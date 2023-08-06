@@ -7,12 +7,12 @@
   "eye_color": "brown",
   "birth_year": "66BBY",
   "gender": "male",
-  "homeworld": "https://sw-api.sivaramp.com/api/planets/53",
-  "films": ["https://sw-api.sivaramp.com/api/films/5"],
+  "homeworld": "https://swapi.info/api/planets/53",
+  "films": ["https://swapi.info/api/films/5"],
   "species": [],
   "vehicles": [],
   "starships": [],
   "created": "2014-12-20T16:54:41.620000Z",
   "edited": "2014-12-20T21:17:50.465000Z",
-  "url": "https://sw-api.sivaramp.com/api/people/69"
+  "url": "https://swapi.info/api/people/69"
 }

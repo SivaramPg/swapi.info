@@ -8,9 +8,9 @@
   "terrain": "unknown",
   "surface_water": "unknown",
   "population": "unknown",
-  "residents": ["https://sw-api.sivaramp.com/api/people/57"],
+  "residents": ["https://swapi.info/api/people/57"],
   "films": [],
   "created": "2014-12-20T10:34:08.249000Z",
   "edited": "2014-12-20T20:58:18.502000Z",
-  "url": "https://sw-api.sivaramp.com/api/planets/48"
+  "url": "https://swapi.info/api/planets/48"
 }

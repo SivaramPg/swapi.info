@@ -13,8 +13,8 @@
   "MGLT": "unknown",
   "starship_class": "starfighter",
   "pilots": [],
-  "films": ["https://sw-api.sivaramp.com/api/films/6"],
+  "films": ["https://swapi.info/api/films/6"],
   "created": "2014-12-20T20:43:04.349000Z",
   "edited": "2014-12-20T21:23:49.961000Z",
-  "url": "https://sw-api.sivaramp.com/api/starships/75"
+  "url": "https://swapi.info/api/starships/75"
 }

@@ -13,11 +13,8 @@
   "MGLT": "40",
   "starship_class": "Star dreadnought",
   "pilots": [],
-  "films": [
-    "https://sw-api.sivaramp.com/api/films/2",
-    "https://sw-api.sivaramp.com/api/films/3"
-  ],
+  "films": ["https://swapi.info/api/films/2", "https://swapi.info/api/films/3"],
   "created": "2014-12-15T12:31:42.547000Z",
   "edited": "2014-12-20T21:23:49.893000Z",
-  "url": "https://sw-api.sivaramp.com/api/starships/15"
+  "url": "https://swapi.info/api/starships/15"
 }

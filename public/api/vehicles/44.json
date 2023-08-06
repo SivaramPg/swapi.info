@@ -10,9 +10,9 @@
   "cargo_capacity": "200",
   "consumables": "none",
   "vehicle_class": "repulsorcraft",
-  "pilots": ["https://sw-api.sivaramp.com/api/people/11"],
-  "films": ["https://sw-api.sivaramp.com/api/films/5"],
+  "pilots": ["https://swapi.info/api/people/11"],
+  "films": ["https://swapi.info/api/films/5"],
   "created": "2014-12-20T16:24:16.026000Z",
   "edited": "2014-12-20T21:30:21.714000Z",
-  "url": "https://sw-api.sivaramp.com/api/vehicles/44"
+  "url": "https://swapi.info/api/vehicles/44"
 }

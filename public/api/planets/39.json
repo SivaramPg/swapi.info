@@ -8,9 +8,9 @@
   "terrain": "urban, barren",
   "surface_water": "unknown",
   "population": "421000000",
-  "residents": ["https://sw-api.sivaramp.com/api/people/48"],
+  "residents": ["https://swapi.info/api/people/48"],
   "films": [],
   "created": "2014-12-20T09:56:58.874000Z",
   "edited": "2014-12-20T20:58:18.485000Z",
-  "url": "https://sw-api.sivaramp.com/api/planets/39"
+  "url": "https://swapi.info/api/planets/39"
 }

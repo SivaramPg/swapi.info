@@ -1,8 +1,8 @@
 {
-  "films": "https://sw-api.sivaramp.com/api/films",
-  "people": "https://sw-api.sivaramp.com/api/people",
-  "planets": "https://sw-api.sivaramp.com/api/planets",
-  "species": "https://sw-api.sivaramp.com/api/species",
-  "vehicles": "https://sw-api.sivaramp.com/api/vehicles",
-  "starships": "https://sw-api.sivaramp.com/api/starships"
+  "films": "https://swapi.info/api/films",
+  "people": "https://swapi.info/api/people",
+  "planets": "https://swapi.info/api/planets",
+  "species": "https://swapi.info/api/species",
+  "vehicles": "https://swapi.info/api/vehicles",
+  "starships": "https://swapi.info/api/starships"
 }

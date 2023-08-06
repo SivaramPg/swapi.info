@@ -10,11 +10,11 @@
   "population": "unknown",
   "residents": [],
   "films": [
-    "https://sw-api.sivaramp.com/api/films/2",
-    "https://sw-api.sivaramp.com/api/films/3",
-    "https://sw-api.sivaramp.com/api/films/6"
+    "https://swapi.info/api/films/2",
+    "https://swapi.info/api/films/3",
+    "https://swapi.info/api/films/6"
   ],
   "created": "2014-12-10T11:42:22.590000Z",
   "edited": "2014-12-20T20:58:18.425000Z",
-  "url": "https://sw-api.sivaramp.com/api/planets/5"
+  "url": "https://swapi.info/api/planets/5"
 }

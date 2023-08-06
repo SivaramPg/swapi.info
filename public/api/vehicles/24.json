@@ -11,8 +11,8 @@
   "consumables": "Live food tanks",
   "vehicle_class": "sail barge",
   "pilots": [],
-  "films": ["https://sw-api.sivaramp.com/api/films/3"],
+  "films": ["https://swapi.info/api/films/3"],
   "created": "2014-12-18T10:44:14.217000Z",
   "edited": "2014-12-20T21:30:21.684000Z",
-  "url": "https://sw-api.sivaramp.com/api/vehicles/24"
+  "url": "https://swapi.info/api/vehicles/24"
 }
