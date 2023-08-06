@@ -1,6 +1,8 @@
 import fsPromises from 'fs/promises'
 import path from 'path'
 
+import ResponseDisplayElement from '@/components/ResponseDisplayElement'
+
 export async function generateStaticParams() {
   const slugs = (
     await fsPromises.readdir(
@@ -49,7 +51,9 @@ export default async function Page({
       <h1 className="text-7xl font-black">
         {category}/{slug}
       </h1>
-      <pre className="whitespace-pre-wrap">{JSON.stringify(data, null, 2)}</pre>
+      <ResponseDisplayElement>
+        {JSON.stringify(data, null, 4)}
+      </ResponseDisplayElement>
     </main>
   )
 }

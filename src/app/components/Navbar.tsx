@@ -23,7 +23,7 @@ export default function Navbar() {
             href="/people"
             className="px-3 py-1 opacity-80 hover:opacity-100 hover:drop-shadow-md"
           >
-            <div className="flex items-center justify-center">
+            <div className="flex items-center justify-center gap-1">
               <Image src="/icons/people.svg" alt="" width={20} height={20} />
               <p className="font-bold">People</p>
             </div>
@@ -33,7 +33,7 @@ export default function Navbar() {
             href="/planets"
             className="px-3 py-1 opacity-80 hover:opacity-100 hover:drop-shadow-md"
           >
-            <div className="flex items-center justify-center">
+            <div className="flex items-center justify-center gap-1">
               <Image src="/icons/planet.svg" alt="" width={20} height={20} />
               <p className="font-bold">Planets</p>
             </div>
@@ -43,7 +43,7 @@ export default function Navbar() {
             href="/species"
             className="px-3 py-1 opacity-80 hover:opacity-100 hover:drop-shadow-md"
           >
-            <div className="flex items-center justify-center">
+            <div className="flex items-center justify-center gap-1">
               <Image src="/icons/species.svg" alt="" width={20} height={20} />
               <p className="font-bold">Species</p>
             </div>

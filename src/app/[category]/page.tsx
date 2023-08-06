@@ -1,6 +1,8 @@
 import fsPromises from 'fs/promises'
 import path from 'path'
 
+import ResponseDisplayElement from '@/components/ResponseDisplayElement'
+
 export async function generateStaticParams() {
   const categories = (
     await fsPromises.readdir(
@@ -36,7 +38,9 @@ export default async function Page({
   return (
     <main className="container mx-auto min-h-[calc(100vh-64px)] py-10 flex flex-col gap-4 items-center justify-center">
       <h1 className="text-7xl font-black">{category}</h1>
-      <pre className="whitespace-pre-wrap">{JSON.stringify(data, null, 2)}</pre>
+      <ResponseDisplayElement>
+        {JSON.stringify(data, null, 4)}
+      </ResponseDisplayElement>
     </main>
   )
 }
