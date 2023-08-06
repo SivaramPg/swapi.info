@@ -1,0 +1,29 @@
+{
+  "name": "Droid",
+  "classification": "artificial",
+  "designation": "sentient",
+  "average_height": "n/a",
+  "skin_colors": "n/a",
+  "hair_colors": "n/a",
+  "eye_colors": "n/a",
+  "average_lifespan": "indefinite",
+  "homeworld": null,
+  "language": "n/a",
+  "people": [
+    "https://sw-api.sivaramp.com/people/2",
+    "https://sw-api.sivaramp.com/people/3",
+    "https://sw-api.sivaramp.com/people/8",
+    "https://sw-api.sivaramp.com/people/23"
+  ],
+  "films": [
+    "https://sw-api.sivaramp.com/films/1",
+    "https://sw-api.sivaramp.com/films/2",
+    "https://sw-api.sivaramp.com/films/3",
+    "https://sw-api.sivaramp.com/films/4",
+    "https://sw-api.sivaramp.com/films/5",
+    "https://sw-api.sivaramp.com/films/6"
+  ],
+  "created": "2014-12-10T15:16:16.259000Z",
+  "edited": "2014-12-20T21:36:42.139000Z",
+  "url": "https://sw-api.sivaramp.com/species/2"
+}

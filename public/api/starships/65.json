@@ -1,0 +1,23 @@
+{
+  "name": "Jedi Interceptor",
+  "model": "Eta-2 Actis-class light interceptor",
+  "manufacturer": "Kuat Systems Engineering",
+  "cost_in_credits": "320000",
+  "length": "5.47",
+  "max_atmosphering_speed": "1500",
+  "crew": "1",
+  "passengers": "0",
+  "cargo_capacity": "60",
+  "consumables": "2 days",
+  "hyperdrive_rating": "1.0",
+  "MGLT": "unknown",
+  "starship_class": "starfighter",
+  "pilots": [
+    "https://sw-api.sivaramp.com/people/10",
+    "https://sw-api.sivaramp.com/people/11"
+  ],
+  "films": ["https://sw-api.sivaramp.com/films/6"],
+  "created": "2014-12-20T19:56:57.468000Z",
+  "edited": "2014-12-20T21:23:49.951000Z",
+  "url": "https://sw-api.sivaramp.com/starships/65"
+}

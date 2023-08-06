@@ -1,0 +1,17 @@
+{
+  "name": "Trandoshan",
+  "classification": "reptile",
+  "designation": "sentient",
+  "average_height": "200",
+  "skin_colors": "brown, green",
+  "hair_colors": "none",
+  "eye_colors": "yellow, orange",
+  "average_lifespan": "unknown",
+  "homeworld": "https://sw-api.sivaramp.com/planets/29",
+  "language": "Dosh",
+  "people": ["https://sw-api.sivaramp.com/people/24"],
+  "films": ["https://sw-api.sivaramp.com/films/2"],
+  "created": "2014-12-15T13:07:47.704000Z",
+  "edited": "2014-12-20T21:36:42.151000Z",
+  "url": "https://sw-api.sivaramp.com/species/7"
+}

@@ -1,0 +1,22 @@
+{
+  "name": "TIE/LN starfighter",
+  "model": "Twin Ion Engine/Ln Starfighter",
+  "manufacturer": "Sienar Fleet Systems",
+  "cost_in_credits": "unknown",
+  "length": "6.4",
+  "max_atmosphering_speed": "1200",
+  "crew": "1",
+  "passengers": "0",
+  "cargo_capacity": "65",
+  "consumables": "2 days",
+  "vehicle_class": "starfighter",
+  "pilots": [],
+  "films": [
+    "https://sw-api.sivaramp.com/films/1",
+    "https://sw-api.sivaramp.com/films/2",
+    "https://sw-api.sivaramp.com/films/3"
+  ],
+  "created": "2014-12-10T16:33:52.860000Z",
+  "edited": "2014-12-20T21:30:21.670000Z",
+  "url": "https://sw-api.sivaramp.com/vehicles/8"
+}

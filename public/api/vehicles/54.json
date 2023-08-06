@@ -1,0 +1,18 @@
+{
+  "name": "SPHA",
+  "model": "Self-Propelled Heavy Artillery",
+  "manufacturer": "Rothana Heavy Engineering",
+  "cost_in_credits": "unknown",
+  "length": "140",
+  "max_atmosphering_speed": "35",
+  "crew": "25",
+  "passengers": "30",
+  "cargo_capacity": "500",
+  "consumables": "7 days",
+  "vehicle_class": "walker",
+  "pilots": [],
+  "films": ["https://sw-api.sivaramp.com/films/5"],
+  "created": "2014-12-20T18:12:32.315000Z",
+  "edited": "2014-12-20T21:30:21.731000Z",
+  "url": "https://sw-api.sivaramp.com/vehicles/54"
+}

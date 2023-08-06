@@ -1,0 +1,23 @@
+{
+  "name": "Darth Vader",
+  "height": "202",
+  "mass": "136",
+  "hair_color": "none",
+  "skin_color": "white",
+  "eye_color": "yellow",
+  "birth_year": "41.9BBY",
+  "gender": "male",
+  "homeworld": "https://sw-api.sivaramp.com/planets/1",
+  "films": [
+    "https://sw-api.sivaramp.com/films/1",
+    "https://sw-api.sivaramp.com/films/2",
+    "https://sw-api.sivaramp.com/films/3",
+    "https://sw-api.sivaramp.com/films/6"
+  ],
+  "species": [],
+  "vehicles": [],
+  "starships": ["https://sw-api.sivaramp.com/starships/13"],
+  "created": "2014-12-10T15:18:20.704000Z",
+  "edited": "2014-12-20T21:17:50.313000Z",
+  "url": "https://sw-api.sivaramp.com/people/4"
+}

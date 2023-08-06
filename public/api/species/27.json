@@ -1,0 +1,20 @@
+{
+  "name": "Chagrian",
+  "classification": "amphibian",
+  "designation": "sentient",
+  "average_height": "190",
+  "skin_colors": "blue",
+  "hair_colors": "none",
+  "eye_colors": "blue",
+  "average_lifespan": "unknown",
+  "homeworld": "https://sw-api.sivaramp.com/planets/50",
+  "language": "Chagria",
+  "people": ["https://sw-api.sivaramp.com/people/59"],
+  "films": [
+    "https://sw-api.sivaramp.com/films/4",
+    "https://sw-api.sivaramp.com/films/6"
+  ],
+  "created": "2014-12-20T10:53:28.795000Z",
+  "edited": "2014-12-20T21:36:42.193000Z",
+  "url": "https://sw-api.sivaramp.com/species/27"
+}

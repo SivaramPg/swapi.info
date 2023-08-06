@@ -1,0 +1,18 @@
+{
+  "name": "Rugor Nass",
+  "height": "206",
+  "mass": "unknown",
+  "hair_color": "none",
+  "skin_color": "green",
+  "eye_color": "orange",
+  "birth_year": "unknown",
+  "gender": "male",
+  "homeworld": "https://sw-api.sivaramp.com/planets/8",
+  "films": ["https://sw-api.sivaramp.com/films/4"],
+  "species": ["https://sw-api.sivaramp.com/species/12"],
+  "vehicles": [],
+  "starships": [],
+  "created": "2014-12-19T17:33:38.909000Z",
+  "edited": "2014-12-20T21:17:50.388000Z",
+  "url": "https://sw-api.sivaramp.com/people/38"
+}

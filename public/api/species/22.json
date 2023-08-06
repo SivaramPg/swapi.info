@@ -1,0 +1,20 @@
+{
+  "name": "Zabrak",
+  "classification": "mammal",
+  "designation": "sentient",
+  "average_height": "180",
+  "skin_colors": "pale, brown, red, orange, yellow",
+  "hair_colors": "black",
+  "eye_colors": "brown, orange",
+  "average_lifespan": "unknown",
+  "homeworld": "https://sw-api.sivaramp.com/planets/45",
+  "language": "Zabraki",
+  "people": [
+    "https://sw-api.sivaramp.com/people/44",
+    "https://sw-api.sivaramp.com/people/54"
+  ],
+  "films": ["https://sw-api.sivaramp.com/films/4"],
+  "created": "2014-12-20T10:26:59.894000Z",
+  "edited": "2014-12-20T21:36:42.183000Z",
+  "url": "https://sw-api.sivaramp.com/species/22"
+}

@@ -1,0 +1,18 @@
+{
+  "name": "Biggs Darklighter",
+  "height": "183",
+  "mass": "84",
+  "hair_color": "black",
+  "skin_color": "light",
+  "eye_color": "brown",
+  "birth_year": "24BBY",
+  "gender": "male",
+  "homeworld": "https://sw-api.sivaramp.com/planets/1",
+  "films": ["https://sw-api.sivaramp.com/films/1"],
+  "species": [],
+  "vehicles": [],
+  "starships": ["https://sw-api.sivaramp.com/starships/12"],
+  "created": "2014-12-10T15:59:50.509000Z",
+  "edited": "2014-12-20T21:17:50.323000Z",
+  "url": "https://sw-api.sivaramp.com/people/9"
+}

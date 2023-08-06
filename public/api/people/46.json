@@ -1,0 +1,22 @@
+{
+  "name": "Ayla Secura",
+  "height": "178",
+  "mass": "55",
+  "hair_color": "none",
+  "skin_color": "blue",
+  "eye_color": "hazel",
+  "birth_year": "48BBY",
+  "gender": "female",
+  "homeworld": "https://sw-api.sivaramp.com/planets/37",
+  "films": [
+    "https://sw-api.sivaramp.com/films/4",
+    "https://sw-api.sivaramp.com/films/5",
+    "https://sw-api.sivaramp.com/films/6"
+  ],
+  "species": ["https://sw-api.sivaramp.com/species/15"],
+  "vehicles": [],
+  "starships": [],
+  "created": "2014-12-20T09:48:01.172000Z",
+  "edited": "2014-12-20T21:17:50.409000Z",
+  "url": "https://sw-api.sivaramp.com/people/46"
+}

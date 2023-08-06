@@ -1,0 +1,20 @@
+{
+  "name": "H-type Nubian yacht",
+  "model": "H-type Nubian yacht",
+  "manufacturer": "Theed Palace Space Vessel Engineering Corps",
+  "cost_in_credits": "unknown",
+  "length": "47.9",
+  "max_atmosphering_speed": "8000",
+  "crew": "4",
+  "passengers": "unknown",
+  "cargo_capacity": "unknown",
+  "consumables": "unknown",
+  "hyperdrive_rating": "0.9",
+  "MGLT": "unknown",
+  "starship_class": "yacht",
+  "pilots": ["https://sw-api.sivaramp.com/people/35"],
+  "films": ["https://sw-api.sivaramp.com/films/5"],
+  "created": "2014-12-20T17:46:46.847000Z",
+  "edited": "2014-12-20T21:23:49.932000Z",
+  "url": "https://sw-api.sivaramp.com/starships/49"
+}

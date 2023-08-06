@@ -1,0 +1,18 @@
+{
+  "name": "AT-RT",
+  "model": "All Terrain Recon Transport",
+  "manufacturer": "Kuat Drive Yards",
+  "cost_in_credits": "40000",
+  "length": "3.2",
+  "max_atmosphering_speed": "90",
+  "crew": "1",
+  "passengers": "0",
+  "cargo_capacity": "20",
+  "consumables": "1 day",
+  "vehicle_class": "walker",
+  "pilots": [],
+  "films": ["https://sw-api.sivaramp.com/films/6"],
+  "created": "2014-12-20T20:47:49.189000Z",
+  "edited": "2014-12-20T21:30:21.772000Z",
+  "url": "https://sw-api.sivaramp.com/vehicles/76"
+}

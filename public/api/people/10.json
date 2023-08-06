@@ -1,0 +1,31 @@
+{
+  "name": "Obi-Wan Kenobi",
+  "height": "182",
+  "mass": "77",
+  "hair_color": "auburn, white",
+  "skin_color": "fair",
+  "eye_color": "blue-gray",
+  "birth_year": "57BBY",
+  "gender": "male",
+  "homeworld": "https://sw-api.sivaramp.com/planets/20",
+  "films": [
+    "https://sw-api.sivaramp.com/films/1",
+    "https://sw-api.sivaramp.com/films/2",
+    "https://sw-api.sivaramp.com/films/3",
+    "https://sw-api.sivaramp.com/films/4",
+    "https://sw-api.sivaramp.com/films/5",
+    "https://sw-api.sivaramp.com/films/6"
+  ],
+  "species": [],
+  "vehicles": ["https://sw-api.sivaramp.com/vehicles/38"],
+  "starships": [
+    "https://sw-api.sivaramp.com/starships/48",
+    "https://sw-api.sivaramp.com/starships/59",
+    "https://sw-api.sivaramp.com/starships/64",
+    "https://sw-api.sivaramp.com/starships/65",
+    "https://sw-api.sivaramp.com/starships/74"
+  ],
+  "created": "2014-12-10T16:16:29.192000Z",
+  "edited": "2014-12-20T21:17:50.325000Z",
+  "url": "https://sw-api.sivaramp.com/people/10"
+}

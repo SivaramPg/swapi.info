@@ -1,0 +1,21 @@
+{
+  "name": "Saesee Tiin",
+  "height": "188",
+  "mass": "unknown",
+  "hair_color": "none",
+  "skin_color": "pale",
+  "eye_color": "orange",
+  "birth_year": "unknown",
+  "gender": "male",
+  "homeworld": "https://sw-api.sivaramp.com/planets/47",
+  "films": [
+    "https://sw-api.sivaramp.com/films/4",
+    "https://sw-api.sivaramp.com/films/6"
+  ],
+  "species": ["https://sw-api.sivaramp.com/species/24"],
+  "vehicles": [],
+  "starships": [],
+  "created": "2014-12-20T10:32:11.669000Z",
+  "edited": "2014-12-20T21:17:50.434000Z",
+  "url": "https://sw-api.sivaramp.com/people/56"
+}

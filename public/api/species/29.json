@@ -1,0 +1,23 @@
+{
+  "name": "Mirialan",
+  "classification": "mammal",
+  "designation": "sentient",
+  "average_height": "180",
+  "skin_colors": "yellow, green",
+  "hair_colors": "black, brown",
+  "eye_colors": "blue, green, red, yellow, brown, orange",
+  "average_lifespan": "unknown",
+  "homeworld": "https://sw-api.sivaramp.com/planets/51",
+  "language": "Mirialan",
+  "people": [
+    "https://sw-api.sivaramp.com/people/64",
+    "https://sw-api.sivaramp.com/people/65"
+  ],
+  "films": [
+    "https://sw-api.sivaramp.com/films/5",
+    "https://sw-api.sivaramp.com/films/6"
+  ],
+  "created": "2014-12-20T16:46:48.290000Z",
+  "edited": "2014-12-20T21:36:42.197000Z",
+  "url": "https://sw-api.sivaramp.com/species/29"
+}

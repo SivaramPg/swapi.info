@@ -1,0 +1,16 @@
+{
+  "name": "Chandrila",
+  "rotation_period": "20",
+  "orbital_period": "368",
+  "diameter": "13500",
+  "climate": "temperate",
+  "gravity": "1",
+  "terrain": "plains, forests",
+  "surface_water": "40",
+  "population": "1200000000",
+  "residents": ["https://sw-api.sivaramp.com/people/28"],
+  "films": [],
+  "created": "2014-12-18T11:11:51.872000Z",
+  "edited": "2014-12-20T20:58:18.472000Z",
+  "url": "https://sw-api.sivaramp.com/planets/32"
+}

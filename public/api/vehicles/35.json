@@ -1,0 +1,18 @@
+{
+  "name": "Armored Assault Tank",
+  "model": "Armoured Assault Tank",
+  "manufacturer": "Baktoid Armor Workshop",
+  "cost_in_credits": "unknown",
+  "length": "9.75",
+  "max_atmosphering_speed": "55",
+  "crew": "4",
+  "passengers": "6",
+  "cargo_capacity": "unknown",
+  "consumables": "unknown",
+  "vehicle_class": "repulsorcraft",
+  "pilots": [],
+  "films": ["https://sw-api.sivaramp.com/films/4"],
+  "created": "2014-12-19T17:13:29.799000Z",
+  "edited": "2014-12-20T21:30:21.703000Z",
+  "url": "https://sw-api.sivaramp.com/vehicles/35"
+}

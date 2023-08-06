@@ -1,0 +1,25 @@
+{
+  "name": "R2-D2",
+  "height": "96",
+  "mass": "32",
+  "hair_color": "n/a",
+  "skin_color": "white, blue",
+  "eye_color": "red",
+  "birth_year": "33BBY",
+  "gender": "n/a",
+  "homeworld": "https://sw-api.sivaramp.com/planets/8",
+  "films": [
+    "https://sw-api.sivaramp.com/films/1",
+    "https://sw-api.sivaramp.com/films/2",
+    "https://sw-api.sivaramp.com/films/3",
+    "https://sw-api.sivaramp.com/films/4",
+    "https://sw-api.sivaramp.com/films/5",
+    "https://sw-api.sivaramp.com/films/6"
+  ],
+  "species": ["https://sw-api.sivaramp.com/species/2"],
+  "vehicles": [],
+  "starships": [],
+  "created": "2014-12-10T15:11:50.376000Z",
+  "edited": "2014-12-20T21:17:50.311000Z",
+  "url": "https://sw-api.sivaramp.com/people/3"
+}

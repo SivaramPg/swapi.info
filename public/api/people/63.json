@@ -1,0 +1,21 @@
+{
+  "name": "Poggle the Lesser",
+  "height": "183",
+  "mass": "80",
+  "hair_color": "none",
+  "skin_color": "green",
+  "eye_color": "yellow",
+  "birth_year": "unknown",
+  "gender": "male",
+  "homeworld": "https://sw-api.sivaramp.com/planets/11",
+  "films": [
+    "https://sw-api.sivaramp.com/films/5",
+    "https://sw-api.sivaramp.com/films/6"
+  ],
+  "species": ["https://sw-api.sivaramp.com/species/28"],
+  "vehicles": [],
+  "starships": [],
+  "created": "2014-12-20T16:40:43.977000Z",
+  "edited": "2014-12-20T21:17:50.453000Z",
+  "url": "https://sw-api.sivaramp.com/people/63"
+}

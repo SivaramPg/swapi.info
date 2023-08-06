@@ -1,0 +1,16 @@
+{
+  "name": "Iridonia",
+  "rotation_period": "29",
+  "orbital_period": "413",
+  "diameter": "unknown",
+  "climate": "unknown",
+  "gravity": "unknown",
+  "terrain": "rocky canyons, acid pools",
+  "surface_water": "unknown",
+  "population": "unknown",
+  "residents": ["https://sw-api.sivaramp.com/people/54"],
+  "films": [],
+  "created": "2014-12-20T10:26:05.788000Z",
+  "edited": "2014-12-20T20:58:18.497000Z",
+  "url": "https://sw-api.sivaramp.com/planets/45"
+}

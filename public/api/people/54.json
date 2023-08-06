@@ -1,0 +1,21 @@
+{
+  "name": "Eeth Koth",
+  "height": "171",
+  "mass": "unknown",
+  "hair_color": "black",
+  "skin_color": "brown",
+  "eye_color": "brown",
+  "birth_year": "unknown",
+  "gender": "male",
+  "homeworld": "https://sw-api.sivaramp.com/planets/45",
+  "films": [
+    "https://sw-api.sivaramp.com/films/4",
+    "https://sw-api.sivaramp.com/films/6"
+  ],
+  "species": ["https://sw-api.sivaramp.com/species/22"],
+  "vehicles": [],
+  "starships": [],
+  "created": "2014-12-20T10:26:47.902000Z",
+  "edited": "2014-12-20T21:17:50.427000Z",
+  "url": "https://sw-api.sivaramp.com/people/54"
+}

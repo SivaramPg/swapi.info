@@ -1,0 +1,22 @@
+{
+  "name": "Jabba Desilijic Tiure",
+  "height": "175",
+  "mass": "1,358",
+  "hair_color": "n/a",
+  "skin_color": "green-tan, brown",
+  "eye_color": "orange",
+  "birth_year": "600BBY",
+  "gender": "hermaphrodite",
+  "homeworld": "https://sw-api.sivaramp.com/planets/24",
+  "films": [
+    "https://sw-api.sivaramp.com/films/1",
+    "https://sw-api.sivaramp.com/films/3",
+    "https://sw-api.sivaramp.com/films/4"
+  ],
+  "species": ["https://sw-api.sivaramp.com/species/5"],
+  "vehicles": [],
+  "starships": [],
+  "created": "2014-12-10T17:11:31.638000Z",
+  "edited": "2014-12-20T21:17:50.338000Z",
+  "url": "https://sw-api.sivaramp.com/people/16"
+}

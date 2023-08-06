@@ -1,0 +1,18 @@
+{
+  "name": "Nien Nunb",
+  "height": "160",
+  "mass": "68",
+  "hair_color": "none",
+  "skin_color": "grey",
+  "eye_color": "black",
+  "birth_year": "unknown",
+  "gender": "male",
+  "homeworld": "https://sw-api.sivaramp.com/planets/33",
+  "films": ["https://sw-api.sivaramp.com/films/3"],
+  "species": ["https://sw-api.sivaramp.com/species/10"],
+  "vehicles": [],
+  "starships": ["https://sw-api.sivaramp.com/starships/10"],
+  "created": "2014-12-18T11:26:18.541000Z",
+  "edited": "2014-12-20T21:17:50.371000Z",
+  "url": "https://sw-api.sivaramp.com/people/31"
+}

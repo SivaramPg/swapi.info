@@ -1,0 +1,25 @@
+{
+  "name": "Han Solo",
+  "height": "180",
+  "mass": "80",
+  "hair_color": "brown",
+  "skin_color": "fair",
+  "eye_color": "brown",
+  "birth_year": "29BBY",
+  "gender": "male",
+  "homeworld": "https://sw-api.sivaramp.com/planets/22",
+  "films": [
+    "https://sw-api.sivaramp.com/films/1",
+    "https://sw-api.sivaramp.com/films/2",
+    "https://sw-api.sivaramp.com/films/3"
+  ],
+  "species": [],
+  "vehicles": [],
+  "starships": [
+    "https://sw-api.sivaramp.com/starships/10",
+    "https://sw-api.sivaramp.com/starships/22"
+  ],
+  "created": "2014-12-10T16:49:14.582000Z",
+  "edited": "2014-12-20T21:17:50.334000Z",
+  "url": "https://sw-api.sivaramp.com/people/14"
+}

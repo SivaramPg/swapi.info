@@ -1,0 +1,21 @@
+{
+  "name": "LAAT/i",
+  "model": "Low Altitude Assault Transport/infrantry",
+  "manufacturer": "Rothana Heavy Engineering",
+  "cost_in_credits": "unknown",
+  "length": "17.4",
+  "max_atmosphering_speed": "620",
+  "crew": "6",
+  "passengers": "30",
+  "cargo_capacity": "170",
+  "consumables": "unknown",
+  "vehicle_class": "gunship",
+  "pilots": [],
+  "films": [
+    "https://sw-api.sivaramp.com/films/5",
+    "https://sw-api.sivaramp.com/films/6"
+  ],
+  "created": "2014-12-20T18:01:21.014000Z",
+  "edited": "2014-12-20T21:30:21.723000Z",
+  "url": "https://sw-api.sivaramp.com/vehicles/50"
+}

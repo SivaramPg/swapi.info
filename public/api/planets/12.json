@@ -1,0 +1,16 @@
+{
+  "name": "Utapau",
+  "rotation_period": "27",
+  "orbital_period": "351",
+  "diameter": "12900",
+  "climate": "temperate, arid, windy",
+  "gravity": "1 standard",
+  "terrain": "scrublands, savanna, canyons, sinkholes",
+  "surface_water": "0.9",
+  "population": "95000000",
+  "residents": ["https://sw-api.sivaramp.com/people/83"],
+  "films": ["https://sw-api.sivaramp.com/films/6"],
+  "created": "2014-12-10T12:49:01.491000Z",
+  "edited": "2014-12-20T20:58:18.439000Z",
+  "url": "https://sw-api.sivaramp.com/planets/12"
+}

@@ -1,0 +1,24 @@
+{
+  "name": "Gungan",
+  "classification": "amphibian",
+  "designation": "sentient",
+  "average_height": "190",
+  "skin_colors": "brown, green",
+  "hair_colors": "none",
+  "eye_colors": "orange",
+  "average_lifespan": "unknown",
+  "homeworld": "https://sw-api.sivaramp.com/planets/8",
+  "language": "Gungan basic",
+  "people": [
+    "https://sw-api.sivaramp.com/people/36",
+    "https://sw-api.sivaramp.com/people/37",
+    "https://sw-api.sivaramp.com/people/38"
+  ],
+  "films": [
+    "https://sw-api.sivaramp.com/films/4",
+    "https://sw-api.sivaramp.com/films/5"
+  ],
+  "created": "2014-12-19T17:30:37.341000Z",
+  "edited": "2014-12-20T21:36:42.163000Z",
+  "url": "https://sw-api.sivaramp.com/species/12"
+}

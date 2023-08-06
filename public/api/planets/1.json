@@ -1,0 +1,33 @@
+{
+  "name": "Tatooine",
+  "rotation_period": "23",
+  "orbital_period": "304",
+  "diameter": "10465",
+  "climate": "arid",
+  "gravity": "1 standard",
+  "terrain": "desert",
+  "surface_water": "1",
+  "population": "200000",
+  "residents": [
+    "https://sw-api.sivaramp.com/people/1",
+    "https://sw-api.sivaramp.com/people/2",
+    "https://sw-api.sivaramp.com/people/4",
+    "https://sw-api.sivaramp.com/people/6",
+    "https://sw-api.sivaramp.com/people/7",
+    "https://sw-api.sivaramp.com/people/8",
+    "https://sw-api.sivaramp.com/people/9",
+    "https://sw-api.sivaramp.com/people/11",
+    "https://sw-api.sivaramp.com/people/43",
+    "https://sw-api.sivaramp.com/people/62"
+  ],
+  "films": [
+    "https://sw-api.sivaramp.com/films/1",
+    "https://sw-api.sivaramp.com/films/3",
+    "https://sw-api.sivaramp.com/films/4",
+    "https://sw-api.sivaramp.com/films/5",
+    "https://sw-api.sivaramp.com/films/6"
+  ],
+  "created": "2014-12-09T13:50:49.641000Z",
+  "edited": "2014-12-20T20:58:18.411000Z",
+  "url": "https://sw-api.sivaramp.com/planets/1"
+}

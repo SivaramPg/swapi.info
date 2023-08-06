@@ -1,0 +1,16 @@
+{
+  "name": "Nal Hutta",
+  "rotation_period": "87",
+  "orbital_period": "413",
+  "diameter": "12150",
+  "climate": "temperate",
+  "gravity": "1 standard",
+  "terrain": "urban, oceans, swamps, bogs",
+  "surface_water": "unknown",
+  "population": "7000000000",
+  "residents": ["https://sw-api.sivaramp.com/people/16"],
+  "films": [],
+  "created": "2014-12-10T17:11:29.452000Z",
+  "edited": "2014-12-20T20:58:18.460000Z",
+  "url": "https://sw-api.sivaramp.com/planets/24"
+}

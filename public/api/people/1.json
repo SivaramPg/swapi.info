@@ -1,0 +1,29 @@
+{
+  "name": "Luke Skywalker",
+  "height": "172",
+  "mass": "77",
+  "hair_color": "blond",
+  "skin_color": "fair",
+  "eye_color": "blue",
+  "birth_year": "19BBY",
+  "gender": "male",
+  "homeworld": "https://sw-api.sivaramp.com/planets/1",
+  "films": [
+    "https://sw-api.sivaramp.com/films/1",
+    "https://sw-api.sivaramp.com/films/2",
+    "https://sw-api.sivaramp.com/films/3",
+    "https://sw-api.sivaramp.com/films/6"
+  ],
+  "species": [],
+  "vehicles": [
+    "https://sw-api.sivaramp.com/vehicles/14",
+    "https://sw-api.sivaramp.com/vehicles/30"
+  ],
+  "starships": [
+    "https://sw-api.sivaramp.com/starships/12",
+    "https://sw-api.sivaramp.com/starships/22"
+  ],
+  "created": "2014-12-09T13:50:51.644000Z",
+  "edited": "2014-12-20T21:17:56.891000Z",
+  "url": "https://sw-api.sivaramp.com/people/1"
+}

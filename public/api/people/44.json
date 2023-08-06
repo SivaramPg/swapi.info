@@ -1,0 +1,18 @@
+{
+  "name": "Darth Maul",
+  "height": "175",
+  "mass": "80",
+  "hair_color": "none",
+  "skin_color": "red",
+  "eye_color": "yellow",
+  "birth_year": "54BBY",
+  "gender": "male",
+  "homeworld": "https://sw-api.sivaramp.com/planets/36",
+  "films": ["https://sw-api.sivaramp.com/films/4"],
+  "species": ["https://sw-api.sivaramp.com/species/22"],
+  "vehicles": ["https://sw-api.sivaramp.com/vehicles/42"],
+  "starships": ["https://sw-api.sivaramp.com/starships/41"],
+  "created": "2014-12-19T18:00:41.929000Z",
+  "edited": "2014-12-20T21:17:50.403000Z",
+  "url": "https://sw-api.sivaramp.com/people/44"
+}

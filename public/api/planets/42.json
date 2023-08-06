@@ -1,0 +1,16 @@
+{
+  "name": "Haruun Kal",
+  "rotation_period": "25",
+  "orbital_period": "383",
+  "diameter": "10120",
+  "climate": "temperate",
+  "gravity": "0.98",
+  "terrain": "toxic cloudsea, plateaus, volcanoes",
+  "surface_water": "unknown",
+  "population": "705300",
+  "residents": ["https://sw-api.sivaramp.com/people/51"],
+  "films": [],
+  "created": "2014-12-20T10:12:28.980000Z",
+  "edited": "2014-12-20T20:58:18.491000Z",
+  "url": "https://sw-api.sivaramp.com/planets/42"
+}

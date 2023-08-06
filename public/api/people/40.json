@@ -1,0 +1,21 @@
+{
+  "name": "Watto",
+  "height": "137",
+  "mass": "unknown",
+  "hair_color": "black",
+  "skin_color": "blue, grey",
+  "eye_color": "yellow",
+  "birth_year": "unknown",
+  "gender": "male",
+  "homeworld": "https://sw-api.sivaramp.com/planets/34",
+  "films": [
+    "https://sw-api.sivaramp.com/films/4",
+    "https://sw-api.sivaramp.com/films/5"
+  ],
+  "species": ["https://sw-api.sivaramp.com/species/13"],
+  "vehicles": [],
+  "starships": [],
+  "created": "2014-12-19T17:48:54.647000Z",
+  "edited": "2014-12-20T21:17:50.395000Z",
+  "url": "https://sw-api.sivaramp.com/people/40"
+}

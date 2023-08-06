@@ -1,0 +1,18 @@
+{
+  "name": "TIE/IN interceptor",
+  "model": "Twin Ion Engine Interceptor",
+  "manufacturer": "Sienar Fleet Systems",
+  "cost_in_credits": "unknown",
+  "length": "9.6",
+  "max_atmosphering_speed": "1250",
+  "crew": "1",
+  "passengers": "0",
+  "cargo_capacity": "75",
+  "consumables": "2 days",
+  "vehicle_class": "starfighter",
+  "pilots": [],
+  "films": ["https://sw-api.sivaramp.com/films/3"],
+  "created": "2014-12-18T10:50:28.225000Z",
+  "edited": "2014-12-20T21:30:21.691000Z",
+  "url": "https://sw-api.sivaramp.com/vehicles/26"
+}

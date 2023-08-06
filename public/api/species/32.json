@@ -1,0 +1,20 @@
+{
+  "name": "Kaminoan",
+  "classification": "amphibian",
+  "designation": "sentient",
+  "average_height": "220",
+  "skin_colors": "grey, blue",
+  "hair_colors": "none",
+  "eye_colors": "black",
+  "average_lifespan": "80",
+  "homeworld": "https://sw-api.sivaramp.com/planets/10",
+  "language": "Kaminoan",
+  "people": [
+    "https://sw-api.sivaramp.com/people/72",
+    "https://sw-api.sivaramp.com/people/73"
+  ],
+  "films": ["https://sw-api.sivaramp.com/films/5"],
+  "created": "2014-12-20T17:31:24.838000Z",
+  "edited": "2014-12-20T21:36:42.202000Z",
+  "url": "https://sw-api.sivaramp.com/species/32"
+}

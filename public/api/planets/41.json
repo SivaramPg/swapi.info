@@ -1,0 +1,16 @@
+{
+  "name": "Tund",
+  "rotation_period": "48",
+  "orbital_period": "1770",
+  "diameter": "12190",
+  "climate": "unknown",
+  "gravity": "unknown",
+  "terrain": "barren, ash",
+  "surface_water": "unknown",
+  "population": "0",
+  "residents": ["https://sw-api.sivaramp.com/people/50"],
+  "films": [],
+  "created": "2014-12-20T10:07:29.578000Z",
+  "edited": "2014-12-20T20:58:18.489000Z",
+  "url": "https://sw-api.sivaramp.com/planets/41"
+}

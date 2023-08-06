@@ -1,0 +1,16 @@
+{
+  "name": "Ojom",
+  "rotation_period": "unknown",
+  "orbital_period": "unknown",
+  "diameter": "unknown",
+  "climate": "frigid",
+  "gravity": "unknown",
+  "terrain": "oceans, glaciers",
+  "surface_water": "100",
+  "population": "500000000",
+  "residents": ["https://sw-api.sivaramp.com/people/71"],
+  "films": [],
+  "created": "2014-12-20T17:27:41.286000Z",
+  "edited": "2014-12-20T20:58:18.516000Z",
+  "url": "https://sw-api.sivaramp.com/planets/55"
+}

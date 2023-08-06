@@ -1,0 +1,17 @@
+{
+  "name": "Kaleesh",
+  "classification": "reptile",
+  "designation": "sentient",
+  "average_height": "170",
+  "skin_colors": "brown, orange, tan",
+  "hair_colors": "none",
+  "eye_colors": "yellow",
+  "average_lifespan": "80",
+  "homeworld": "https://sw-api.sivaramp.com/planets/59",
+  "language": "Kaleesh",
+  "people": ["https://sw-api.sivaramp.com/people/79"],
+  "films": ["https://sw-api.sivaramp.com/films/6"],
+  "created": "2014-12-20T19:45:42.537000Z",
+  "edited": "2014-12-20T21:36:42.210000Z",
+  "url": "https://sw-api.sivaramp.com/species/36"
+}

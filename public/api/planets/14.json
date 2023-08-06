@@ -1,0 +1,19 @@
+{
+  "name": "Kashyyyk",
+  "rotation_period": "26",
+  "orbital_period": "381",
+  "diameter": "12765",
+  "climate": "tropical",
+  "gravity": "1 standard",
+  "terrain": "jungle, forests, lakes, rivers",
+  "surface_water": "60",
+  "population": "45000000",
+  "residents": [
+    "https://sw-api.sivaramp.com/people/13",
+    "https://sw-api.sivaramp.com/people/80"
+  ],
+  "films": ["https://sw-api.sivaramp.com/films/6"],
+  "created": "2014-12-10T13:32:00.124000Z",
+  "edited": "2014-12-20T20:58:18.442000Z",
+  "url": "https://sw-api.sivaramp.com/planets/14"
+}

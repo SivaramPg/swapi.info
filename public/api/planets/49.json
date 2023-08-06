@@ -1,0 +1,16 @@
+{
+  "name": "Dorin",
+  "rotation_period": "22",
+  "orbital_period": "409",
+  "diameter": "13400",
+  "climate": "temperate",
+  "gravity": "1",
+  "terrain": "unknown",
+  "surface_water": "unknown",
+  "population": "unknown",
+  "residents": ["https://sw-api.sivaramp.com/people/58"],
+  "films": [],
+  "created": "2014-12-20T10:48:36.141000Z",
+  "edited": "2014-12-20T20:58:18.504000Z",
+  "url": "https://sw-api.sivaramp.com/planets/49"
+}

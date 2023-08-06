@@ -1,0 +1,18 @@
+{
+  "name": "R5-D4",
+  "height": "97",
+  "mass": "32",
+  "hair_color": "n/a",
+  "skin_color": "white, red",
+  "eye_color": "red",
+  "birth_year": "unknown",
+  "gender": "n/a",
+  "homeworld": "https://sw-api.sivaramp.com/planets/1",
+  "films": ["https://sw-api.sivaramp.com/films/1"],
+  "species": ["https://sw-api.sivaramp.com/species/2"],
+  "vehicles": [],
+  "starships": [],
+  "created": "2014-12-10T15:57:50.959000Z",
+  "edited": "2014-12-20T21:17:50.321000Z",
+  "url": "https://sw-api.sivaramp.com/people/8"
+}

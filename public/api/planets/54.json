@@ -1,0 +1,16 @@
+{
+  "name": "Zolan",
+  "rotation_period": "unknown",
+  "orbital_period": "unknown",
+  "diameter": "unknown",
+  "climate": "unknown",
+  "gravity": "unknown",
+  "terrain": "unknown",
+  "surface_water": "unknown",
+  "population": "unknown",
+  "residents": ["https://sw-api.sivaramp.com/people/70"],
+  "films": [],
+  "created": "2014-12-20T16:56:37.250000Z",
+  "edited": "2014-12-20T20:58:18.514000Z",
+  "url": "https://sw-api.sivaramp.com/planets/54"
+}

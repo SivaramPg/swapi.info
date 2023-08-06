@@ -1,0 +1,16 @@
+{
+  "name": "Eriadu",
+  "rotation_period": "24",
+  "orbital_period": "360",
+  "diameter": "13490",
+  "climate": "polluted",
+  "gravity": "1 standard",
+  "terrain": "cityscape",
+  "surface_water": "unknown",
+  "population": "22000000000",
+  "residents": ["https://sw-api.sivaramp.com/people/12"],
+  "films": [],
+  "created": "2014-12-10T16:26:54.384000Z",
+  "edited": "2014-12-20T20:58:18.454000Z",
+  "url": "https://sw-api.sivaramp.com/planets/21"
+}

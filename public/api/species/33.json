@@ -1,0 +1,20 @@
+{
+  "name": "Skakoan",
+  "classification": "mammal",
+  "designation": "sentient",
+  "average_height": "unknown",
+  "skin_colors": "grey, green",
+  "hair_colors": "none",
+  "eye_colors": "unknown",
+  "average_lifespan": "unknown",
+  "homeworld": "https://sw-api.sivaramp.com/planets/56",
+  "language": "Skakoan",
+  "people": ["https://sw-api.sivaramp.com/people/76"],
+  "films": [
+    "https://sw-api.sivaramp.com/films/5",
+    "https://sw-api.sivaramp.com/films/6"
+  ],
+  "created": "2014-12-20T17:53:54.515000Z",
+  "edited": "2014-12-20T21:36:42.204000Z",
+  "url": "https://sw-api.sivaramp.com/species/33"
+}

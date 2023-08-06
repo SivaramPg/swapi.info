@@ -1,0 +1,21 @@
+{
+  "name": "Luminara Unduli",
+  "height": "170",
+  "mass": "56.2",
+  "hair_color": "black",
+  "skin_color": "yellow",
+  "eye_color": "blue",
+  "birth_year": "58BBY",
+  "gender": "female",
+  "homeworld": "https://sw-api.sivaramp.com/planets/51",
+  "films": [
+    "https://sw-api.sivaramp.com/films/5",
+    "https://sw-api.sivaramp.com/films/6"
+  ],
+  "species": ["https://sw-api.sivaramp.com/species/29"],
+  "vehicles": [],
+  "starships": [],
+  "created": "2014-12-20T16:45:53.668000Z",
+  "edited": "2014-12-20T21:17:50.455000Z",
+  "url": "https://sw-api.sivaramp.com/people/64"
+}

@@ -1,0 +1,26 @@
+{
+  "name": "Padmé Amidala",
+  "height": "185",
+  "mass": "45",
+  "hair_color": "brown",
+  "skin_color": "light",
+  "eye_color": "brown",
+  "birth_year": "46BBY",
+  "gender": "female",
+  "homeworld": "https://sw-api.sivaramp.com/planets/8",
+  "films": [
+    "https://sw-api.sivaramp.com/films/4",
+    "https://sw-api.sivaramp.com/films/5",
+    "https://sw-api.sivaramp.com/films/6"
+  ],
+  "species": [],
+  "vehicles": [],
+  "starships": [
+    "https://sw-api.sivaramp.com/starships/39",
+    "https://sw-api.sivaramp.com/starships/49",
+    "https://sw-api.sivaramp.com/starships/64"
+  ],
+  "created": "2014-12-19T17:28:26.926000Z",
+  "edited": "2014-12-20T21:17:50.381000Z",
+  "url": "https://sw-api.sivaramp.com/people/35"
+}

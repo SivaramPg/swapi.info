@@ -1,0 +1,18 @@
+{
+  "name": "Flitknot speeder",
+  "model": "Flitknot speeder",
+  "manufacturer": "Huppla Pasa Tisc Shipwrights Collective",
+  "cost_in_credits": "8000",
+  "length": "2",
+  "max_atmosphering_speed": "634",
+  "crew": "1",
+  "passengers": "0",
+  "cargo_capacity": "unknown",
+  "consumables": "unknown",
+  "vehicle_class": "speeder",
+  "pilots": ["https://sw-api.sivaramp.com/people/67"],
+  "films": ["https://sw-api.sivaramp.com/films/5"],
+  "created": "2014-12-20T18:15:20.312000Z",
+  "edited": "2014-12-20T21:30:21.735000Z",
+  "url": "https://sw-api.sivaramp.com/vehicles/55"
+}

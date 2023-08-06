@@ -1,0 +1,21 @@
+{
+  "name": "AT-TE",
+  "model": "All Terrain Tactical Enforcer",
+  "manufacturer": "Rothana Heavy Engineering, Kuat Drive Yards",
+  "cost_in_credits": "unknown",
+  "length": "13.2",
+  "max_atmosphering_speed": "60",
+  "crew": "6",
+  "passengers": "36",
+  "cargo_capacity": "10000",
+  "consumables": "21 days",
+  "vehicle_class": "walker",
+  "pilots": [],
+  "films": [
+    "https://sw-api.sivaramp.com/films/5",
+    "https://sw-api.sivaramp.com/films/6"
+  ],
+  "created": "2014-12-20T18:10:07.560000Z",
+  "edited": "2014-12-20T21:30:21.728000Z",
+  "url": "https://sw-api.sivaramp.com/vehicles/53"
+}

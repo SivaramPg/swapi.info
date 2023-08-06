@@ -1,0 +1,16 @@
+{
+  "name": "Bestine IV",
+  "rotation_period": "26",
+  "orbital_period": "680",
+  "diameter": "6400",
+  "climate": "temperate",
+  "gravity": "unknown",
+  "terrain": "rocky islands, oceans",
+  "surface_water": "98",
+  "population": "62000000",
+  "residents": ["https://sw-api.sivaramp.com/people/19"],
+  "films": [],
+  "created": "2014-12-12T11:16:55.078000Z",
+  "edited": "2014-12-20T20:58:18.463000Z",
+  "url": "https://sw-api.sivaramp.com/planets/26"
+}

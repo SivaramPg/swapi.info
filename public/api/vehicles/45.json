@@ -1,0 +1,18 @@
+{
+  "name": "Koro-2 Exodrive airspeeder",
+  "model": "Koro-2 Exodrive airspeeder",
+  "manufacturer": "Desler Gizh Outworld Mobility Corporation",
+  "cost_in_credits": "unknown",
+  "length": "6.6",
+  "max_atmosphering_speed": "800",
+  "crew": "1",
+  "passengers": "1",
+  "cargo_capacity": "80",
+  "consumables": "unknown",
+  "vehicle_class": "airspeeder",
+  "pilots": ["https://sw-api.sivaramp.com/people/70"],
+  "films": ["https://sw-api.sivaramp.com/films/5"],
+  "created": "2014-12-20T17:17:33.526000Z",
+  "edited": "2014-12-20T21:30:21.716000Z",
+  "url": "https://sw-api.sivaramp.com/vehicles/45"
+}

@@ -1,0 +1,23 @@
+{
+  "name": "EF76 Nebulon-B escort frigate",
+  "model": "EF76 Nebulon-B escort frigate",
+  "manufacturer": "Kuat Drive Yards",
+  "cost_in_credits": "8500000",
+  "length": "300",
+  "max_atmosphering_speed": "800",
+  "crew": "854",
+  "passengers": "75",
+  "cargo_capacity": "6000000",
+  "consumables": "2 years",
+  "hyperdrive_rating": "2.0",
+  "MGLT": "40",
+  "starship_class": "Escort ship",
+  "pilots": [],
+  "films": [
+    "https://sw-api.sivaramp.com/films/2",
+    "https://sw-api.sivaramp.com/films/3"
+  ],
+  "created": "2014-12-15T13:06:30.813000Z",
+  "edited": "2014-12-20T21:23:49.902000Z",
+  "url": "https://sw-api.sivaramp.com/starships/23"
+}

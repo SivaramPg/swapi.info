@@ -1,0 +1,18 @@
+{
+  "name": "Zephyr-G swoop bike",
+  "model": "Zephyr-G swoop bike",
+  "manufacturer": "Mobquet Swoops and Speeders",
+  "cost_in_credits": "5750",
+  "length": "3.68",
+  "max_atmosphering_speed": "350",
+  "crew": "1",
+  "passengers": "1",
+  "cargo_capacity": "200",
+  "consumables": "none",
+  "vehicle_class": "repulsorcraft",
+  "pilots": ["https://sw-api.sivaramp.com/people/11"],
+  "films": ["https://sw-api.sivaramp.com/films/5"],
+  "created": "2014-12-20T16:24:16.026000Z",
+  "edited": "2014-12-20T21:30:21.714000Z",
+  "url": "https://sw-api.sivaramp.com/vehicles/44"
+}

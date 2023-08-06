@@ -1,0 +1,17 @@
+{
+  "name": "Xexto",
+  "classification": "unknown",
+  "designation": "sentient",
+  "average_height": "125",
+  "skin_colors": "grey, yellow, purple",
+  "hair_colors": "none",
+  "eye_colors": "black",
+  "average_lifespan": "unknown",
+  "homeworld": "https://sw-api.sivaramp.com/planets/40",
+  "language": "Xextese",
+  "people": ["https://sw-api.sivaramp.com/people/49"],
+  "films": ["https://sw-api.sivaramp.com/films/4"],
+  "created": "2014-12-20T10:02:13.915000Z",
+  "edited": "2014-12-20T21:36:42.175000Z",
+  "url": "https://sw-api.sivaramp.com/species/18"
+}

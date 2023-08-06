@@ -1,0 +1,18 @@
+{
+  "name": "Quarsh Panaka",
+  "height": "183",
+  "mass": "unknown",
+  "hair_color": "black",
+  "skin_color": "dark",
+  "eye_color": "brown",
+  "birth_year": "62BBY",
+  "gender": "male",
+  "homeworld": "https://sw-api.sivaramp.com/planets/8",
+  "films": ["https://sw-api.sivaramp.com/films/4"],
+  "species": [],
+  "vehicles": [],
+  "starships": [],
+  "created": "2014-12-19T17:55:43.348000Z",
+  "edited": "2014-12-20T21:17:50.399000Z",
+  "url": "https://sw-api.sivaramp.com/people/42"
+}

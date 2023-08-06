@@ -1,0 +1,17 @@
+{
+  "name": "Nautolan",
+  "classification": "amphibian",
+  "designation": "sentient",
+  "average_height": "180",
+  "skin_colors": "green, blue, brown, red",
+  "hair_colors": "none",
+  "eye_colors": "black",
+  "average_lifespan": "70",
+  "homeworld": "https://sw-api.sivaramp.com/planets/44",
+  "language": "Nautila",
+  "people": ["https://sw-api.sivaramp.com/people/53"],
+  "films": ["https://sw-api.sivaramp.com/films/4"],
+  "created": "2014-12-20T10:18:58.610000Z",
+  "edited": "2014-12-20T21:36:42.181000Z",
+  "url": "https://sw-api.sivaramp.com/species/21"
+}

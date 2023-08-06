@@ -1,0 +1,18 @@
+{
+  "name": "Ackbar",
+  "height": "180",
+  "mass": "83",
+  "hair_color": "none",
+  "skin_color": "brown mottle",
+  "eye_color": "orange",
+  "birth_year": "41BBY",
+  "gender": "male",
+  "homeworld": "https://sw-api.sivaramp.com/planets/31",
+  "films": ["https://sw-api.sivaramp.com/films/3"],
+  "species": ["https://sw-api.sivaramp.com/species/8"],
+  "vehicles": [],
+  "starships": [],
+  "created": "2014-12-18T11:07:50.584000Z",
+  "edited": "2014-12-20T21:17:50.362000Z",
+  "url": "https://sw-api.sivaramp.com/people/27"
+}

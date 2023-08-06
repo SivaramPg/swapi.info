@@ -1,0 +1,21 @@
+{
+  "name": "AT-AT",
+  "model": "All Terrain Armored Transport",
+  "manufacturer": "Kuat Drive Yards, Imperial Department of Military Research",
+  "cost_in_credits": "unknown",
+  "length": "20",
+  "max_atmosphering_speed": "60",
+  "crew": "5",
+  "passengers": "40",
+  "cargo_capacity": "1000",
+  "consumables": "unknown",
+  "vehicle_class": "assault walker",
+  "pilots": [],
+  "films": [
+    "https://sw-api.sivaramp.com/films/2",
+    "https://sw-api.sivaramp.com/films/3"
+  ],
+  "created": "2014-12-15T12:38:25.937000Z",
+  "edited": "2014-12-20T21:30:21.677000Z",
+  "url": "https://sw-api.sivaramp.com/vehicles/18"
+}

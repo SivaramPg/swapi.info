@@ -1,0 +1,16 @@
+{
+  "name": "Aleen Minor",
+  "rotation_period": "unknown",
+  "orbital_period": "unknown",
+  "diameter": "unknown",
+  "climate": "unknown",
+  "gravity": "unknown",
+  "terrain": "unknown",
+  "surface_water": "unknown",
+  "population": "unknown",
+  "residents": ["https://sw-api.sivaramp.com/people/47"],
+  "films": [],
+  "created": "2014-12-20T09:52:23.452000Z",
+  "edited": "2014-12-20T20:58:18.483000Z",
+  "url": "https://sw-api.sivaramp.com/planets/38"
+}

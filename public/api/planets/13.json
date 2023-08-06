@@ -1,0 +1,16 @@
+{
+  "name": "Mustafar",
+  "rotation_period": "36",
+  "orbital_period": "412",
+  "diameter": "4200",
+  "climate": "hot",
+  "gravity": "1 standard",
+  "terrain": "volcanoes, lava rivers, mountains, caves",
+  "surface_water": "0",
+  "population": "20000",
+  "residents": [],
+  "films": ["https://sw-api.sivaramp.com/films/6"],
+  "created": "2014-12-10T12:50:16.526000Z",
+  "edited": "2014-12-20T20:58:18.440000Z",
+  "url": "https://sw-api.sivaramp.com/planets/13"
+}

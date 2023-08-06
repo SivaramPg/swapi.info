@@ -1,0 +1,18 @@
+{
+  "name": "Ben Quadinaros",
+  "height": "163",
+  "mass": "65",
+  "hair_color": "none",
+  "skin_color": "grey, green, yellow",
+  "eye_color": "orange",
+  "birth_year": "unknown",
+  "gender": "male",
+  "homeworld": "https://sw-api.sivaramp.com/planets/41",
+  "films": ["https://sw-api.sivaramp.com/films/4"],
+  "species": ["https://sw-api.sivaramp.com/species/19"],
+  "vehicles": [],
+  "starships": [],
+  "created": "2014-12-20T10:08:33.777000Z",
+  "edited": "2014-12-20T21:17:50.417000Z",
+  "url": "https://sw-api.sivaramp.com/people/50"
+}

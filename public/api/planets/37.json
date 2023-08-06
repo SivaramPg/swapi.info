@@ -1,0 +1,19 @@
+{
+  "name": "Ryloth",
+  "rotation_period": "30",
+  "orbital_period": "305",
+  "diameter": "10600",
+  "climate": "temperate, arid, subartic",
+  "gravity": "1",
+  "terrain": "mountains, valleys, deserts, tundra",
+  "surface_water": "5",
+  "population": "1500000000",
+  "residents": [
+    "https://sw-api.sivaramp.com/people/45",
+    "https://sw-api.sivaramp.com/people/46"
+  ],
+  "films": [],
+  "created": "2014-12-20T09:46:25.740000Z",
+  "edited": "2014-12-20T20:58:18.481000Z",
+  "url": "https://sw-api.sivaramp.com/planets/37"
+}

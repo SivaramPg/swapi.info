@@ -1,0 +1,20 @@
+{
+  "name": "Clawdite",
+  "classification": "reptilian",
+  "designation": "sentient",
+  "average_height": "180",
+  "skin_colors": "green, yellow",
+  "hair_colors": "none",
+  "eye_colors": "yellow",
+  "average_lifespan": "70",
+  "homeworld": "https://sw-api.sivaramp.com/planets/54",
+  "language": "Clawdite",
+  "people": ["https://sw-api.sivaramp.com/people/70"],
+  "films": [
+    "https://sw-api.sivaramp.com/films/5",
+    "https://sw-api.sivaramp.com/films/6"
+  ],
+  "created": "2014-12-20T16:57:46.171000Z",
+  "edited": "2014-12-20T21:36:42.199000Z",
+  "url": "https://sw-api.sivaramp.com/species/30"
+}

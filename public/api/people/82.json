@@ -1,0 +1,21 @@
+{
+  "name": "Sly Moore",
+  "height": "178",
+  "mass": "48",
+  "hair_color": "none",
+  "skin_color": "pale",
+  "eye_color": "white",
+  "birth_year": "unknown",
+  "gender": "female",
+  "homeworld": "https://sw-api.sivaramp.com/planets/60",
+  "films": [
+    "https://sw-api.sivaramp.com/films/5",
+    "https://sw-api.sivaramp.com/films/6"
+  ],
+  "species": [],
+  "vehicles": [],
+  "starships": [],
+  "created": "2014-12-20T20:18:37.619000Z",
+  "edited": "2014-12-20T21:17:50.496000Z",
+  "url": "https://sw-api.sivaramp.com/people/82"
+}

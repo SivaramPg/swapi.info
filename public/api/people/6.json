@@ -1,0 +1,22 @@
+{
+  "name": "Owen Lars",
+  "height": "178",
+  "mass": "120",
+  "hair_color": "brown, grey",
+  "skin_color": "light",
+  "eye_color": "blue",
+  "birth_year": "52BBY",
+  "gender": "male",
+  "homeworld": "https://sw-api.sivaramp.com/planets/1",
+  "films": [
+    "https://sw-api.sivaramp.com/films/1",
+    "https://sw-api.sivaramp.com/films/5",
+    "https://sw-api.sivaramp.com/films/6"
+  ],
+  "species": [],
+  "vehicles": [],
+  "starships": [],
+  "created": "2014-12-10T15:52:14.024000Z",
+  "edited": "2014-12-20T21:17:50.317000Z",
+  "url": "https://sw-api.sivaramp.com/people/6"
+}

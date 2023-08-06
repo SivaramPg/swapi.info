@@ -1,0 +1,26 @@
+{
+  "name": "Chewbacca",
+  "height": "228",
+  "mass": "112",
+  "hair_color": "brown",
+  "skin_color": "unknown",
+  "eye_color": "blue",
+  "birth_year": "200BBY",
+  "gender": "male",
+  "homeworld": "https://sw-api.sivaramp.com/planets/14",
+  "films": [
+    "https://sw-api.sivaramp.com/films/1",
+    "https://sw-api.sivaramp.com/films/2",
+    "https://sw-api.sivaramp.com/films/3",
+    "https://sw-api.sivaramp.com/films/6"
+  ],
+  "species": ["https://sw-api.sivaramp.com/species/3"],
+  "vehicles": ["https://sw-api.sivaramp.com/vehicles/19"],
+  "starships": [
+    "https://sw-api.sivaramp.com/starships/10",
+    "https://sw-api.sivaramp.com/starships/22"
+  ],
+  "created": "2014-12-10T16:42:45.066000Z",
+  "edited": "2014-12-20T21:17:50.332000Z",
+  "url": "https://sw-api.sivaramp.com/people/13"
+}

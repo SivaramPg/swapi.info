@@ -1,0 +1,23 @@
+{
+  "name": "Yoda's species",
+  "classification": "mammal",
+  "designation": "sentient",
+  "average_height": "66",
+  "skin_colors": "green, yellow",
+  "hair_colors": "brown, white",
+  "eye_colors": "brown, green, yellow",
+  "average_lifespan": "900",
+  "homeworld": "https://sw-api.sivaramp.com/planets/28",
+  "language": "Galactic basic",
+  "people": ["https://sw-api.sivaramp.com/people/20"],
+  "films": [
+    "https://sw-api.sivaramp.com/films/2",
+    "https://sw-api.sivaramp.com/films/3",
+    "https://sw-api.sivaramp.com/films/4",
+    "https://sw-api.sivaramp.com/films/5",
+    "https://sw-api.sivaramp.com/films/6"
+  ],
+  "created": "2014-12-15T12:27:22.877000Z",
+  "edited": "2014-12-20T21:36:42.148000Z",
+  "url": "https://sw-api.sivaramp.com/species/6"
+}

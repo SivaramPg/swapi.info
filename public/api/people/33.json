@@ -1,0 +1,22 @@
+{
+  "name": "Nute Gunray",
+  "height": "191",
+  "mass": "90",
+  "hair_color": "none",
+  "skin_color": "mottled green",
+  "eye_color": "red",
+  "birth_year": "unknown",
+  "gender": "male",
+  "homeworld": "https://sw-api.sivaramp.com/planets/18",
+  "films": [
+    "https://sw-api.sivaramp.com/films/4",
+    "https://sw-api.sivaramp.com/films/5",
+    "https://sw-api.sivaramp.com/films/6"
+  ],
+  "species": ["https://sw-api.sivaramp.com/species/11"],
+  "vehicles": [],
+  "starships": [],
+  "created": "2014-12-19T17:05:57.357000Z",
+  "edited": "2014-12-20T21:17:50.377000Z",
+  "url": "https://sw-api.sivaramp.com/people/33"
+}

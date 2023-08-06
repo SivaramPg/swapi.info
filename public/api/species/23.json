@@ -1,0 +1,20 @@
+{
+  "name": "Tholothian",
+  "classification": "mammal",
+  "designation": "sentient",
+  "average_height": "unknown",
+  "skin_colors": "dark",
+  "hair_colors": "unknown",
+  "eye_colors": "blue, indigo",
+  "average_lifespan": "unknown",
+  "homeworld": "https://sw-api.sivaramp.com/planets/46",
+  "language": "unknown",
+  "people": ["https://sw-api.sivaramp.com/people/55"],
+  "films": [
+    "https://sw-api.sivaramp.com/films/4",
+    "https://sw-api.sivaramp.com/films/6"
+  ],
+  "created": "2014-12-20T10:29:13.798000Z",
+  "edited": "2014-12-20T21:36:42.186000Z",
+  "url": "https://sw-api.sivaramp.com/species/23"
+}

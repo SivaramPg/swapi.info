@@ -1,0 +1,22 @@
+{
+  "name": "Beru Whitesun lars",
+  "height": "165",
+  "mass": "75",
+  "hair_color": "brown",
+  "skin_color": "light",
+  "eye_color": "blue",
+  "birth_year": "47BBY",
+  "gender": "female",
+  "homeworld": "https://sw-api.sivaramp.com/planets/1",
+  "films": [
+    "https://sw-api.sivaramp.com/films/1",
+    "https://sw-api.sivaramp.com/films/5",
+    "https://sw-api.sivaramp.com/films/6"
+  ],
+  "species": [],
+  "vehicles": [],
+  "starships": [],
+  "created": "2014-12-10T15:53:41.121000Z",
+  "edited": "2014-12-20T21:17:50.319000Z",
+  "url": "https://sw-api.sivaramp.com/people/7"
+}

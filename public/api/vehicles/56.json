@@ -1,0 +1,21 @@
+{
+  "name": "Neimoidian shuttle",
+  "model": "Sheathipede-class transport shuttle",
+  "manufacturer": "Haor Chall Engineering",
+  "cost_in_credits": "unknown",
+  "length": "20",
+  "max_atmosphering_speed": "880",
+  "crew": "2",
+  "passengers": "6",
+  "cargo_capacity": "1000",
+  "consumables": "7 days",
+  "vehicle_class": "transport",
+  "pilots": [],
+  "films": [
+    "https://sw-api.sivaramp.com/films/5",
+    "https://sw-api.sivaramp.com/films/6"
+  ],
+  "created": "2014-12-20T18:25:44.912000Z",
+  "edited": "2014-12-20T21:30:21.739000Z",
+  "url": "https://sw-api.sivaramp.com/vehicles/56"
+}

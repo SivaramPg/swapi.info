@@ -1,0 +1,17 @@
+{
+  "name": "Mon Calamari",
+  "classification": "amphibian",
+  "designation": "sentient",
+  "average_height": "160",
+  "skin_colors": "red, blue, brown, magenta",
+  "hair_colors": "none",
+  "eye_colors": "yellow",
+  "average_lifespan": "unknown",
+  "homeworld": "https://sw-api.sivaramp.com/planets/31",
+  "language": "Mon Calamarian",
+  "people": ["https://sw-api.sivaramp.com/people/27"],
+  "films": ["https://sw-api.sivaramp.com/films/3"],
+  "created": "2014-12-18T11:09:52.263000Z",
+  "edited": "2014-12-20T21:36:42.153000Z",
+  "url": "https://sw-api.sivaramp.com/species/8"
+}

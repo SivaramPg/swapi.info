@@ -1,0 +1,20 @@
+{
+  "name": "Togruta",
+  "classification": "mammal",
+  "designation": "sentient",
+  "average_height": "180",
+  "skin_colors": "red, white, orange, yellow, green, blue",
+  "hair_colors": "none",
+  "eye_colors": "red, orange, yellow, green, blue, black",
+  "average_lifespan": "94",
+  "homeworld": "https://sw-api.sivaramp.com/planets/58",
+  "language": "Togruti",
+  "people": ["https://sw-api.sivaramp.com/people/78"],
+  "films": [
+    "https://sw-api.sivaramp.com/films/5",
+    "https://sw-api.sivaramp.com/films/6"
+  ],
+  "created": "2014-12-20T18:44:03.246000Z",
+  "edited": "2014-12-20T21:36:42.209000Z",
+  "url": "https://sw-api.sivaramp.com/species/35"
+}

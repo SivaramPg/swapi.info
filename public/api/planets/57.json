@@ -1,0 +1,16 @@
+{
+  "name": "Muunilinst",
+  "rotation_period": "28",
+  "orbital_period": "412",
+  "diameter": "13800",
+  "climate": "temperate",
+  "gravity": "1",
+  "terrain": "plains, forests, hills, mountains",
+  "surface_water": "25",
+  "population": "5000000000",
+  "residents": ["https://sw-api.sivaramp.com/people/77"],
+  "films": [],
+  "created": "2014-12-20T17:57:47.420000Z",
+  "edited": "2014-12-20T20:58:18.519000Z",
+  "url": "https://sw-api.sivaramp.com/planets/57"
+}

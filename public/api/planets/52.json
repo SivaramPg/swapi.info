@@ -1,0 +1,16 @@
+{
+  "name": "Serenno",
+  "rotation_period": "unknown",
+  "orbital_period": "unknown",
+  "diameter": "unknown",
+  "climate": "unknown",
+  "gravity": "unknown",
+  "terrain": "rainforests, rivers, mountains",
+  "surface_water": "unknown",
+  "population": "unknown",
+  "residents": ["https://sw-api.sivaramp.com/people/67"],
+  "films": [],
+  "created": "2014-12-20T16:52:13.357000Z",
+  "edited": "2014-12-20T20:58:18.510000Z",
+  "url": "https://sw-api.sivaramp.com/planets/52"
+}

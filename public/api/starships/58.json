@@ -1,0 +1,20 @@
+{
+  "name": "Solar Sailer",
+  "model": "Punworcca 116-class interstellar sloop",
+  "manufacturer": "Huppla Pasa Tisc Shipwrights Collective",
+  "cost_in_credits": "35700",
+  "length": "15.2",
+  "max_atmosphering_speed": "1600",
+  "crew": "3",
+  "passengers": "11",
+  "cargo_capacity": "240",
+  "consumables": "7 days",
+  "hyperdrive_rating": "1.5",
+  "MGLT": "unknown",
+  "starship_class": "yacht",
+  "pilots": [],
+  "films": ["https://sw-api.sivaramp.com/films/5"],
+  "created": "2014-12-20T18:37:56.969000Z",
+  "edited": "2014-12-20T21:23:49.937000Z",
+  "url": "https://sw-api.sivaramp.com/starships/58"
+}

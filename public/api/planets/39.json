@@ -1,0 +1,16 @@
+{
+  "name": "Vulpter",
+  "rotation_period": "22",
+  "orbital_period": "391",
+  "diameter": "14900",
+  "climate": "temperate, artic",
+  "gravity": "1",
+  "terrain": "urban, barren",
+  "surface_water": "unknown",
+  "population": "421000000",
+  "residents": ["https://sw-api.sivaramp.com/people/48"],
+  "films": [],
+  "created": "2014-12-20T09:56:58.874000Z",
+  "edited": "2014-12-20T20:58:18.485000Z",
+  "url": "https://sw-api.sivaramp.com/planets/39"
+}

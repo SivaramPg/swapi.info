@@ -1,0 +1,23 @@
+{
+  "name": "Belbullab-22 starfighter",
+  "model": "Belbullab-22 starfighter",
+  "manufacturer": "Feethan Ottraw Scalable Assemblies",
+  "cost_in_credits": "168000",
+  "length": "6.71",
+  "max_atmosphering_speed": "1100",
+  "crew": "1",
+  "passengers": "0",
+  "cargo_capacity": "140",
+  "consumables": "7 days",
+  "hyperdrive_rating": "6",
+  "MGLT": "unknown",
+  "starship_class": "starfighter",
+  "pilots": [
+    "https://sw-api.sivaramp.com/people/10",
+    "https://sw-api.sivaramp.com/people/79"
+  ],
+  "films": ["https://sw-api.sivaramp.com/films/6"],
+  "created": "2014-12-20T20:38:05.031000Z",
+  "edited": "2014-12-20T21:23:49.959000Z",
+  "url": "https://sw-api.sivaramp.com/starships/74"
+}

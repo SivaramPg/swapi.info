@@ -1,0 +1,8 @@
+{
+  "films": "https://sw-api.sivaramp.com/films",
+  "people": "https://sw-api.sivaramp.com/people",
+  "planets": "https://sw-api.sivaramp.com/planets",
+  "species": "https://sw-api.sivaramp.com/species",
+  "vehicles": "https://sw-api.sivaramp.com/vehicles",
+  "starships": "https://sw-api.sivaramp.com/starships"
+}

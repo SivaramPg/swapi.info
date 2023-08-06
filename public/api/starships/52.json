@@ -1,0 +1,20 @@
+{
+  "name": "Republic Assault ship",
+  "model": "Acclamator I-class assault ship",
+  "manufacturer": "Rothana Heavy Engineering",
+  "cost_in_credits": "unknown",
+  "length": "752",
+  "max_atmosphering_speed": "unknown",
+  "crew": "700",
+  "passengers": "16000",
+  "cargo_capacity": "11250000",
+  "consumables": "2 years",
+  "hyperdrive_rating": "0.6",
+  "MGLT": "unknown",
+  "starship_class": "assault ship",
+  "pilots": [],
+  "films": ["https://sw-api.sivaramp.com/films/5"],
+  "created": "2014-12-20T18:08:42.926000Z",
+  "edited": "2014-12-20T21:23:49.935000Z",
+  "url": "https://sw-api.sivaramp.com/starships/52"
+}

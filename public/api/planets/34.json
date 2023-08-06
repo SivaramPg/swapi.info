@@ -1,0 +1,16 @@
+{
+  "name": "Toydaria",
+  "rotation_period": "21",
+  "orbital_period": "184",
+  "diameter": "7900",
+  "climate": "temperate",
+  "gravity": "1",
+  "terrain": "swamps, lakes",
+  "surface_water": "unknown",
+  "population": "11000000",
+  "residents": ["https://sw-api.sivaramp.com/people/40"],
+  "films": [],
+  "created": "2014-12-19T17:47:54.403000Z",
+  "edited": "2014-12-20T20:58:18.476000Z",
+  "url": "https://sw-api.sivaramp.com/planets/34"
+}

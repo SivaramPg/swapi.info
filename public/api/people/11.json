@@ -1,0 +1,29 @@
+{
+  "name": "Anakin Skywalker",
+  "height": "188",
+  "mass": "84",
+  "hair_color": "blond",
+  "skin_color": "fair",
+  "eye_color": "blue",
+  "birth_year": "41.9BBY",
+  "gender": "male",
+  "homeworld": "https://sw-api.sivaramp.com/planets/1",
+  "films": [
+    "https://sw-api.sivaramp.com/films/4",
+    "https://sw-api.sivaramp.com/films/5",
+    "https://sw-api.sivaramp.com/films/6"
+  ],
+  "species": [],
+  "vehicles": [
+    "https://sw-api.sivaramp.com/vehicles/44",
+    "https://sw-api.sivaramp.com/vehicles/46"
+  ],
+  "starships": [
+    "https://sw-api.sivaramp.com/starships/39",
+    "https://sw-api.sivaramp.com/starships/59",
+    "https://sw-api.sivaramp.com/starships/65"
+  ],
+  "created": "2014-12-10T16:20:44.310000Z",
+  "edited": "2014-12-20T21:17:50.327000Z",
+  "url": "https://sw-api.sivaramp.com/people/11"
+}

@@ -1,0 +1,21 @@
+{
+  "name": "Adi Gallia",
+  "height": "184",
+  "mass": "50",
+  "hair_color": "none",
+  "skin_color": "dark",
+  "eye_color": "blue",
+  "birth_year": "unknown",
+  "gender": "female",
+  "homeworld": "https://sw-api.sivaramp.com/planets/9",
+  "films": [
+    "https://sw-api.sivaramp.com/films/4",
+    "https://sw-api.sivaramp.com/films/6"
+  ],
+  "species": ["https://sw-api.sivaramp.com/species/23"],
+  "vehicles": [],
+  "starships": [],
+  "created": "2014-12-20T10:29:11.661000Z",
+  "edited": "2014-12-20T21:17:50.432000Z",
+  "url": "https://sw-api.sivaramp.com/people/55"
+}

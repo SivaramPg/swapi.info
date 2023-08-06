@@ -1,0 +1,18 @@
+{
+  "name": "Lobot",
+  "height": "175",
+  "mass": "79",
+  "hair_color": "none",
+  "skin_color": "light",
+  "eye_color": "blue",
+  "birth_year": "37BBY",
+  "gender": "male",
+  "homeworld": "https://sw-api.sivaramp.com/planets/6",
+  "films": ["https://sw-api.sivaramp.com/films/2"],
+  "species": [],
+  "vehicles": [],
+  "starships": [],
+  "created": "2014-12-15T13:01:57.178000Z",
+  "edited": "2014-12-20T21:17:50.359000Z",
+  "url": "https://sw-api.sivaramp.com/people/26"
+}

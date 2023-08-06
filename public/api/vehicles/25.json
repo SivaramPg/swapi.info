@@ -1,0 +1,18 @@
+{
+  "name": "Bantha-II cargo skiff",
+  "model": "Bantha-II",
+  "manufacturer": "Ubrikkian Industries",
+  "cost_in_credits": "8000",
+  "length": "9.5",
+  "max_atmosphering_speed": "250",
+  "crew": "5",
+  "passengers": "16",
+  "cargo_capacity": "135000",
+  "consumables": "1 day",
+  "vehicle_class": "repulsorcraft cargo skiff",
+  "pilots": [],
+  "films": ["https://sw-api.sivaramp.com/films/3"],
+  "created": "2014-12-18T10:48:03.208000Z",
+  "edited": "2014-12-20T21:30:21.688000Z",
+  "url": "https://sw-api.sivaramp.com/vehicles/25"
+}

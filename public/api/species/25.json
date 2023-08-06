@@ -1,0 +1,20 @@
+{
+  "name": "Quermian",
+  "classification": "mammal",
+  "designation": "sentient",
+  "average_height": "240",
+  "skin_colors": "white",
+  "hair_colors": "none",
+  "eye_colors": "yellow",
+  "average_lifespan": "86",
+  "homeworld": "https://sw-api.sivaramp.com/planets/48",
+  "language": "Quermian",
+  "people": ["https://sw-api.sivaramp.com/people/57"],
+  "films": [
+    "https://sw-api.sivaramp.com/films/4",
+    "https://sw-api.sivaramp.com/films/6"
+  ],
+  "created": "2014-12-20T10:34:50.827000Z",
+  "edited": "2014-12-20T21:36:42.189000Z",
+  "url": "https://sw-api.sivaramp.com/species/25"
+}

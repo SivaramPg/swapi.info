@@ -1,0 +1,18 @@
+{
+  "name": "Gasgano",
+  "height": "122",
+  "mass": "unknown",
+  "hair_color": "none",
+  "skin_color": "white, blue",
+  "eye_color": "black",
+  "birth_year": "unknown",
+  "gender": "male",
+  "homeworld": "https://sw-api.sivaramp.com/planets/40",
+  "films": ["https://sw-api.sivaramp.com/films/4"],
+  "species": ["https://sw-api.sivaramp.com/species/18"],
+  "vehicles": [],
+  "starships": [],
+  "created": "2014-12-20T10:02:12.223000Z",
+  "edited": "2014-12-20T21:17:50.416000Z",
+  "url": "https://sw-api.sivaramp.com/people/49"
+}

@@ -1,0 +1,21 @@
+{
+  "name": "Mas Amedda",
+  "height": "196",
+  "mass": "unknown",
+  "hair_color": "none",
+  "skin_color": "blue",
+  "eye_color": "blue",
+  "birth_year": "unknown",
+  "gender": "male",
+  "homeworld": "https://sw-api.sivaramp.com/planets/50",
+  "films": [
+    "https://sw-api.sivaramp.com/films/4",
+    "https://sw-api.sivaramp.com/films/5"
+  ],
+  "species": ["https://sw-api.sivaramp.com/species/27"],
+  "vehicles": [],
+  "starships": [],
+  "created": "2014-12-20T10:53:26.457000Z",
+  "edited": "2014-12-20T21:17:50.442000Z",
+  "url": "https://sw-api.sivaramp.com/people/59"
+}

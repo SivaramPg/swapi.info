@@ -1,0 +1,16 @@
+{
+  "name": "Champala",
+  "rotation_period": "27",
+  "orbital_period": "318",
+  "diameter": "unknown",
+  "climate": "temperate",
+  "gravity": "1",
+  "terrain": "oceans, rainforests, plateaus",
+  "surface_water": "unknown",
+  "population": "3500000000",
+  "residents": ["https://sw-api.sivaramp.com/people/59"],
+  "films": [],
+  "created": "2014-12-20T10:52:51.524000Z",
+  "edited": "2014-12-20T20:58:18.506000Z",
+  "url": "https://sw-api.sivaramp.com/planets/50"
+}

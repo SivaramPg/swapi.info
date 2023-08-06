@@ -1,0 +1,16 @@
+{
+  "name": "Mygeeto",
+  "rotation_period": "12",
+  "orbital_period": "167",
+  "diameter": "10088",
+  "climate": "frigid",
+  "gravity": "1 standard",
+  "terrain": "glaciers, mountains, ice canyons",
+  "surface_water": "unknown",
+  "population": "19000000",
+  "residents": [],
+  "films": ["https://sw-api.sivaramp.com/films/6"],
+  "created": "2014-12-10T13:43:39.139000Z",
+  "edited": "2014-12-20T20:58:18.446000Z",
+  "url": "https://sw-api.sivaramp.com/planets/16"
+}

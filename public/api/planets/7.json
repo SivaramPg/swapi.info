@@ -1,0 +1,16 @@
+{
+  "name": "Endor",
+  "rotation_period": "18",
+  "orbital_period": "402",
+  "diameter": "4900",
+  "climate": "temperate",
+  "gravity": "0.85 standard",
+  "terrain": "forests, mountains, lakes",
+  "surface_water": "8",
+  "population": "30000000",
+  "residents": ["https://sw-api.sivaramp.com/people/30"],
+  "films": ["https://sw-api.sivaramp.com/films/3"],
+  "created": "2014-12-10T11:50:29.349000Z",
+  "edited": "2014-12-20T20:58:18.429000Z",
+  "url": "https://sw-api.sivaramp.com/planets/7"
+}
