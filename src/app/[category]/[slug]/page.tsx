@@ -3,6 +3,7 @@ import path from 'path'
 
 import ResponseDisplayElement from '@/components/ResponseDisplayElement'
 import ApiEndpointElement from '@/components/ApiEndpointElement'
+import Breadcrumbs from '@/components/Breadcrumbs'
 
 export async function generateStaticParams() {
   const slugs = (
@@ -52,6 +53,7 @@ export default async function Page({
       <h1 className="text-7xl font-black mb-10">
         /{category}/{slug}
       </h1>
+      <Breadcrumbs pathElements={[category, slug]} />
       <ApiEndpointElement text={data.url} />
       <ResponseDisplayElement>
         {JSON.stringify(data, null, 4)}
