@@ -32,8 +32,10 @@ export default async function Page({
   const { category, slug } = params
 
   return (
-    <pre>
-      {category} {slug}
-    </pre>
+    <main className="container mx-auto min-h-[calc(100vh-112px)] flex items-center justify-center">
+      <h1 className="text-7xl font-black">
+        {category}/{slug}
+      </h1>
+    </main>
   )
 }

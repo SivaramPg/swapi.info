@@ -25,5 +25,9 @@ export default async function Page({
 
   // const data = await
 
-  return <pre>{category}</pre>
+  return (
+    <main className="container mx-auto min-h-[calc(100vh-112px)] flex items-center justify-center">
+      <h1 className="text-7xl font-black">{category}</h1>
+    </main>
+  )
 }
