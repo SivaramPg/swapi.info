@@ -13,17 +13,17 @@
   "MGLT": "75",
   "starship_class": "Light freighter",
   "pilots": [
-    "https://sw-api.sivaramp.com/people/13",
-    "https://sw-api.sivaramp.com/people/14",
-    "https://sw-api.sivaramp.com/people/25",
-    "https://sw-api.sivaramp.com/people/31"
+    "https://sw-api.sivaramp.com/api/people/13",
+    "https://sw-api.sivaramp.com/api/people/14",
+    "https://sw-api.sivaramp.com/api/people/25",
+    "https://sw-api.sivaramp.com/api/people/31"
   ],
   "films": [
-    "https://sw-api.sivaramp.com/films/1",
-    "https://sw-api.sivaramp.com/films/2",
-    "https://sw-api.sivaramp.com/films/3"
+    "https://sw-api.sivaramp.com/api/films/1",
+    "https://sw-api.sivaramp.com/api/films/2",
+    "https://sw-api.sivaramp.com/api/films/3"
   ],
   "created": "2014-12-10T16:59:45.094000Z",
   "edited": "2014-12-20T21:23:49.880000Z",
-  "url": "https://sw-api.sivaramp.com/starships/10"
+  "url": "https://sw-api.sivaramp.com/api/starships/10"
 }

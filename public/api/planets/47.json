@@ -8,9 +8,9 @@
   "terrain": "rocky",
   "surface_water": "unknown",
   "population": "unknown",
-  "residents": ["https://sw-api.sivaramp.com/people/56"],
+  "residents": ["https://sw-api.sivaramp.com/api/people/56"],
   "films": [],
   "created": "2014-12-20T10:31:32.413000Z",
   "edited": "2014-12-20T20:58:18.500000Z",
-  "url": "https://sw-api.sivaramp.com/planets/47"
+  "url": "https://sw-api.sivaramp.com/api/planets/47"
 }

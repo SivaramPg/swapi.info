@@ -13,8 +13,8 @@
   "MGLT": "60",
   "starship_class": "Star Cruiser",
   "pilots": [],
-  "films": ["https://sw-api.sivaramp.com/films/3"],
+  "films": ["https://sw-api.sivaramp.com/api/films/3"],
   "created": "2014-12-18T10:54:57.804000Z",
   "edited": "2014-12-20T21:23:49.904000Z",
-  "url": "https://sw-api.sivaramp.com/starships/27"
+  "url": "https://sw-api.sivaramp.com/api/starships/27"
 }

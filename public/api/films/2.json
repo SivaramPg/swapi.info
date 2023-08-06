@@ -6,56 +6,56 @@
   "producer": "Gary Kurtz, Rick McCallum",
   "release_date": "1980-05-17",
   "characters": [
-    "https://sw-api.sivaramp.com/people/1",
-    "https://sw-api.sivaramp.com/people/2",
-    "https://sw-api.sivaramp.com/people/3",
-    "https://sw-api.sivaramp.com/people/4",
-    "https://sw-api.sivaramp.com/people/5",
-    "https://sw-api.sivaramp.com/people/10",
-    "https://sw-api.sivaramp.com/people/13",
-    "https://sw-api.sivaramp.com/people/14",
-    "https://sw-api.sivaramp.com/people/18",
-    "https://sw-api.sivaramp.com/people/20",
-    "https://sw-api.sivaramp.com/people/21",
-    "https://sw-api.sivaramp.com/people/22",
-    "https://sw-api.sivaramp.com/people/23",
-    "https://sw-api.sivaramp.com/people/24",
-    "https://sw-api.sivaramp.com/people/25",
-    "https://sw-api.sivaramp.com/people/26"
+    "https://sw-api.sivaramp.com/api/people/1",
+    "https://sw-api.sivaramp.com/api/people/2",
+    "https://sw-api.sivaramp.com/api/people/3",
+    "https://sw-api.sivaramp.com/api/people/4",
+    "https://sw-api.sivaramp.com/api/people/5",
+    "https://sw-api.sivaramp.com/api/people/10",
+    "https://sw-api.sivaramp.com/api/people/13",
+    "https://sw-api.sivaramp.com/api/people/14",
+    "https://sw-api.sivaramp.com/api/people/18",
+    "https://sw-api.sivaramp.com/api/people/20",
+    "https://sw-api.sivaramp.com/api/people/21",
+    "https://sw-api.sivaramp.com/api/people/22",
+    "https://sw-api.sivaramp.com/api/people/23",
+    "https://sw-api.sivaramp.com/api/people/24",
+    "https://sw-api.sivaramp.com/api/people/25",
+    "https://sw-api.sivaramp.com/api/people/26"
   ],
   "planets": [
-    "https://sw-api.sivaramp.com/planets/4",
-    "https://sw-api.sivaramp.com/planets/5",
-    "https://sw-api.sivaramp.com/planets/6",
-    "https://sw-api.sivaramp.com/planets/27"
+    "https://sw-api.sivaramp.com/api/planets/4",
+    "https://sw-api.sivaramp.com/api/planets/5",
+    "https://sw-api.sivaramp.com/api/planets/6",
+    "https://sw-api.sivaramp.com/api/planets/27"
   ],
   "starships": [
-    "https://sw-api.sivaramp.com/starships/3",
-    "https://sw-api.sivaramp.com/starships/10",
-    "https://sw-api.sivaramp.com/starships/11",
-    "https://sw-api.sivaramp.com/starships/12",
-    "https://sw-api.sivaramp.com/starships/15",
-    "https://sw-api.sivaramp.com/starships/17",
-    "https://sw-api.sivaramp.com/starships/21",
-    "https://sw-api.sivaramp.com/starships/22",
-    "https://sw-api.sivaramp.com/starships/23"
+    "https://sw-api.sivaramp.com/api/starships/3",
+    "https://sw-api.sivaramp.com/api/starships/10",
+    "https://sw-api.sivaramp.com/api/starships/11",
+    "https://sw-api.sivaramp.com/api/starships/12",
+    "https://sw-api.sivaramp.com/api/starships/15",
+    "https://sw-api.sivaramp.com/api/starships/17",
+    "https://sw-api.sivaramp.com/api/starships/21",
+    "https://sw-api.sivaramp.com/api/starships/22",
+    "https://sw-api.sivaramp.com/api/starships/23"
   ],
   "vehicles": [
-    "https://sw-api.sivaramp.com/vehicles/8",
-    "https://sw-api.sivaramp.com/vehicles/14",
-    "https://sw-api.sivaramp.com/vehicles/16",
-    "https://sw-api.sivaramp.com/vehicles/18",
-    "https://sw-api.sivaramp.com/vehicles/19",
-    "https://sw-api.sivaramp.com/vehicles/20"
+    "https://sw-api.sivaramp.com/api/vehicles/8",
+    "https://sw-api.sivaramp.com/api/vehicles/14",
+    "https://sw-api.sivaramp.com/api/vehicles/16",
+    "https://sw-api.sivaramp.com/api/vehicles/18",
+    "https://sw-api.sivaramp.com/api/vehicles/19",
+    "https://sw-api.sivaramp.com/api/vehicles/20"
   ],
   "species": [
-    "https://sw-api.sivaramp.com/species/1",
-    "https://sw-api.sivaramp.com/species/2",
-    "https://sw-api.sivaramp.com/species/3",
-    "https://sw-api.sivaramp.com/species/6",
-    "https://sw-api.sivaramp.com/species/7"
+    "https://sw-api.sivaramp.com/api/species/1",
+    "https://sw-api.sivaramp.com/api/species/2",
+    "https://sw-api.sivaramp.com/api/species/3",
+    "https://sw-api.sivaramp.com/api/species/6",
+    "https://sw-api.sivaramp.com/api/species/7"
   ],
   "created": "2014-12-12T11:26:24.656000Z",
   "edited": "2014-12-15T13:07:53.386000Z",
-  "url": "https://sw-api.sivaramp.com/films/2"
+  "url": "https://sw-api.sivaramp.com/api/films/2"
 }

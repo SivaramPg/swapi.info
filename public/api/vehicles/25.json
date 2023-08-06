@@ -11,8 +11,8 @@
   "consumables": "1 day",
   "vehicle_class": "repulsorcraft cargo skiff",
   "pilots": [],
-  "films": ["https://sw-api.sivaramp.com/films/3"],
+  "films": ["https://sw-api.sivaramp.com/api/films/3"],
   "created": "2014-12-18T10:48:03.208000Z",
   "edited": "2014-12-20T21:30:21.688000Z",
-  "url": "https://sw-api.sivaramp.com/vehicles/25"
+  "url": "https://sw-api.sivaramp.com/api/vehicles/25"
 }

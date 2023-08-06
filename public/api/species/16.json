@@ -7,11 +7,11 @@
   "hair_colors": "none",
   "eye_colors": "unknown",
   "average_lifespan": "79",
-  "homeworld": "https://sw-api.sivaramp.com/planets/38",
+  "homeworld": "https://sw-api.sivaramp.com/api/planets/38",
   "language": "Aleena",
-  "people": ["https://sw-api.sivaramp.com/people/47"],
-  "films": ["https://sw-api.sivaramp.com/films/4"],
+  "people": ["https://sw-api.sivaramp.com/api/people/47"],
+  "films": ["https://sw-api.sivaramp.com/api/films/4"],
   "created": "2014-12-20T09:53:16.481000Z",
   "edited": "2014-12-20T21:36:42.171000Z",
-  "url": "https://sw-api.sivaramp.com/species/16"
+  "url": "https://sw-api.sivaramp.com/api/species/16"
 }

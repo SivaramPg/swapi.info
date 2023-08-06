@@ -7,11 +7,11 @@
   "hair_colors": "none",
   "eye_colors": "black",
   "average_lifespan": "unknown",
-  "homeworld": "https://sw-api.sivaramp.com/planets/33",
+  "homeworld": "https://sw-api.sivaramp.com/api/planets/33",
   "language": "Sullutese",
-  "people": ["https://sw-api.sivaramp.com/people/31"],
-  "films": ["https://sw-api.sivaramp.com/films/3"],
+  "people": ["https://sw-api.sivaramp.com/api/people/31"],
+  "films": ["https://sw-api.sivaramp.com/api/films/3"],
   "created": "2014-12-18T11:26:20.103000Z",
   "edited": "2014-12-20T21:36:42.157000Z",
-  "url": "https://sw-api.sivaramp.com/species/10"
+  "url": "https://sw-api.sivaramp.com/api/species/10"
 }

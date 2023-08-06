@@ -10,9 +10,9 @@
   "cargo_capacity": "10",
   "consumables": "none",
   "vehicle_class": "wheeled walker",
-  "pilots": ["https://sw-api.sivaramp.com/people/79"],
-  "films": ["https://sw-api.sivaramp.com/films/6"],
+  "pilots": ["https://sw-api.sivaramp.com/api/people/79"],
+  "films": ["https://sw-api.sivaramp.com/api/films/6"],
   "created": "2014-12-20T19:43:54.870000Z",
   "edited": "2014-12-20T21:30:21.745000Z",
-  "url": "https://sw-api.sivaramp.com/vehicles/60"
+  "url": "https://sw-api.sivaramp.com/api/vehicles/60"
 }

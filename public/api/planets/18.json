@@ -8,9 +8,9 @@
   "terrain": "mountains, fields, forests, rock arches",
   "surface_water": "unknown",
   "population": "10000000",
-  "residents": ["https://sw-api.sivaramp.com/people/33"],
-  "films": ["https://sw-api.sivaramp.com/films/6"],
+  "residents": ["https://sw-api.sivaramp.com/api/people/33"],
+  "films": ["https://sw-api.sivaramp.com/api/films/6"],
   "created": "2014-12-10T13:46:28.704000Z",
   "edited": "2014-12-20T20:58:18.449000Z",
-  "url": "https://sw-api.sivaramp.com/planets/18"
+  "url": "https://sw-api.sivaramp.com/api/planets/18"
 }

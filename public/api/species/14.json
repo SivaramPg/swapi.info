@@ -7,11 +7,11 @@
   "hair_colors": "none",
   "eye_colors": "yellow, blue",
   "average_lifespan": "unknown",
-  "homeworld": "https://sw-api.sivaramp.com/planets/35",
+  "homeworld": "https://sw-api.sivaramp.com/api/planets/35",
   "language": "Dugese",
-  "people": ["https://sw-api.sivaramp.com/people/41"],
-  "films": ["https://sw-api.sivaramp.com/films/4"],
+  "people": ["https://sw-api.sivaramp.com/api/people/41"],
+  "films": ["https://sw-api.sivaramp.com/api/films/4"],
   "created": "2014-12-19T17:53:11.214000Z",
   "edited": "2014-12-20T21:36:42.167000Z",
-  "url": "https://sw-api.sivaramp.com/species/14"
+  "url": "https://sw-api.sivaramp.com/api/species/14"
 }

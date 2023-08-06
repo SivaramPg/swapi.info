@@ -21,8 +21,6 @@ export async function generateStaticParams() {
       slug: category.name.split('.')[0],
     }))
 
-  console.log(slugs)
-
   return slugs
 }
 

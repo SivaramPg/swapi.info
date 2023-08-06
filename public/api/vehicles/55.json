@@ -10,9 +10,9 @@
   "cargo_capacity": "unknown",
   "consumables": "unknown",
   "vehicle_class": "speeder",
-  "pilots": ["https://sw-api.sivaramp.com/people/67"],
-  "films": ["https://sw-api.sivaramp.com/films/5"],
+  "pilots": ["https://sw-api.sivaramp.com/api/people/67"],
+  "films": ["https://sw-api.sivaramp.com/api/films/5"],
   "created": "2014-12-20T18:15:20.312000Z",
   "edited": "2014-12-20T21:30:21.735000Z",
-  "url": "https://sw-api.sivaramp.com/vehicles/55"
+  "url": "https://sw-api.sivaramp.com/api/vehicles/55"
 }

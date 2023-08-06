@@ -7,11 +7,11 @@
   "hair_colors": "n/a",
   "eye_colors": "black",
   "average_lifespan": "unknown",
-  "homeworld": "https://sw-api.sivaramp.com/planets/23",
+  "homeworld": "https://sw-api.sivaramp.com/api/planets/23",
   "language": "Galatic Basic",
-  "people": ["https://sw-api.sivaramp.com/people/15"],
-  "films": ["https://sw-api.sivaramp.com/films/1"],
+  "people": ["https://sw-api.sivaramp.com/api/people/15"],
+  "films": ["https://sw-api.sivaramp.com/api/films/1"],
   "created": "2014-12-10T17:05:26.471000Z",
   "edited": "2014-12-20T21:36:42.144000Z",
-  "url": "https://sw-api.sivaramp.com/species/4"
+  "url": "https://sw-api.sivaramp.com/api/species/4"
 }

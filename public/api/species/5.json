@@ -7,14 +7,14 @@
   "hair_colors": "n/a",
   "eye_colors": "yellow, red",
   "average_lifespan": "1000",
-  "homeworld": "https://sw-api.sivaramp.com/planets/24",
+  "homeworld": "https://sw-api.sivaramp.com/api/planets/24",
   "language": "Huttese",
-  "people": ["https://sw-api.sivaramp.com/people/16"],
+  "people": ["https://sw-api.sivaramp.com/api/people/16"],
   "films": [
-    "https://sw-api.sivaramp.com/films/1",
-    "https://sw-api.sivaramp.com/films/3"
+    "https://sw-api.sivaramp.com/api/films/1",
+    "https://sw-api.sivaramp.com/api/films/3"
   ],
   "created": "2014-12-10T17:12:50.410000Z",
   "edited": "2014-12-20T21:36:42.146000Z",
-  "url": "https://sw-api.sivaramp.com/species/5"
+  "url": "https://sw-api.sivaramp.com/api/species/5"
 }

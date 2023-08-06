@@ -8,9 +8,9 @@
   "terrain": "barren, ash",
   "surface_water": "unknown",
   "population": "0",
-  "residents": ["https://sw-api.sivaramp.com/people/50"],
+  "residents": ["https://sw-api.sivaramp.com/api/people/50"],
   "films": [],
   "created": "2014-12-20T10:07:29.578000Z",
   "edited": "2014-12-20T20:58:18.489000Z",
-  "url": "https://sw-api.sivaramp.com/planets/41"
+  "url": "https://sw-api.sivaramp.com/api/planets/41"
 }

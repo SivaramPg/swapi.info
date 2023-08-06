@@ -11,8 +11,8 @@
   "consumables": "none",
   "vehicle_class": "droid starfighter",
   "pilots": [],
-  "films": ["https://sw-api.sivaramp.com/films/6"],
+  "films": ["https://sw-api.sivaramp.com/api/films/6"],
   "created": "2014-12-20T20:05:19.992000Z",
   "edited": "2014-12-20T21:30:21.752000Z",
-  "url": "https://sw-api.sivaramp.com/vehicles/67"
+  "url": "https://sw-api.sivaramp.com/api/vehicles/67"
 }

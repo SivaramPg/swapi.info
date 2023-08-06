@@ -7,11 +7,11 @@
   "hair_colors": "white, brown, black",
   "eye_colors": "orange, brown",
   "average_lifespan": "unknown",
-  "homeworld": "https://sw-api.sivaramp.com/planets/7",
+  "homeworld": "https://sw-api.sivaramp.com/api/planets/7",
   "language": "Ewokese",
-  "people": ["https://sw-api.sivaramp.com/people/30"],
-  "films": ["https://sw-api.sivaramp.com/films/3"],
+  "people": ["https://sw-api.sivaramp.com/api/people/30"],
+  "films": ["https://sw-api.sivaramp.com/api/films/3"],
   "created": "2014-12-18T11:22:00.285000Z",
   "edited": "2014-12-20T21:36:42.155000Z",
-  "url": "https://sw-api.sivaramp.com/species/9"
+  "url": "https://sw-api.sivaramp.com/api/species/9"
 }

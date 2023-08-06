@@ -9,11 +9,11 @@
   "surface_water": "unknown",
   "population": "unknown",
   "residents": [
-    "https://sw-api.sivaramp.com/people/64",
-    "https://sw-api.sivaramp.com/people/65"
+    "https://sw-api.sivaramp.com/api/people/64",
+    "https://sw-api.sivaramp.com/api/people/65"
   ],
   "films": [],
   "created": "2014-12-20T16:44:46.318000Z",
   "edited": "2014-12-20T20:58:18.508000Z",
-  "url": "https://sw-api.sivaramp.com/planets/51"
+  "url": "https://sw-api.sivaramp.com/api/planets/51"
 }

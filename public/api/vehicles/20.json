@@ -11,8 +11,8 @@
   "consumables": "1 day",
   "vehicle_class": "repulsorcraft",
   "pilots": [],
-  "films": ["https://sw-api.sivaramp.com/films/2"],
+  "films": ["https://sw-api.sivaramp.com/api/films/2"],
   "created": "2014-12-15T12:58:50.530000Z",
   "edited": "2014-12-20T21:30:21.681000Z",
-  "url": "https://sw-api.sivaramp.com/vehicles/20"
+  "url": "https://sw-api.sivaramp.com/api/vehicles/20"
 }

@@ -8,9 +8,9 @@
   "terrain": "rainforests, cliffs, canyons, seas",
   "surface_water": "unknown",
   "population": "4000000000",
-  "residents": ["https://sw-api.sivaramp.com/people/79"],
+  "residents": ["https://sw-api.sivaramp.com/api/people/79"],
   "films": [],
   "created": "2014-12-20T19:43:51.278000Z",
   "edited": "2014-12-20T20:58:18.523000Z",
-  "url": "https://sw-api.sivaramp.com/planets/59"
+  "url": "https://sw-api.sivaramp.com/api/planets/59"
 }

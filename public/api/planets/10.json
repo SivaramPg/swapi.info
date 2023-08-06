@@ -9,12 +9,12 @@
   "surface_water": "100",
   "population": "1000000000",
   "residents": [
-    "https://sw-api.sivaramp.com/people/22",
-    "https://sw-api.sivaramp.com/people/72",
-    "https://sw-api.sivaramp.com/people/73"
+    "https://sw-api.sivaramp.com/api/people/22",
+    "https://sw-api.sivaramp.com/api/people/72",
+    "https://sw-api.sivaramp.com/api/people/73"
   ],
-  "films": ["https://sw-api.sivaramp.com/films/5"],
+  "films": ["https://sw-api.sivaramp.com/api/films/5"],
   "created": "2014-12-10T12:45:06.577000Z",
   "edited": "2014-12-20T20:58:18.434000Z",
-  "url": "https://sw-api.sivaramp.com/planets/10"
+  "url": "https://sw-api.sivaramp.com/api/planets/10"
 }

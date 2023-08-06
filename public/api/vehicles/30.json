@@ -11,11 +11,11 @@
   "consumables": "1 day",
   "vehicle_class": "speeder",
   "pilots": [
-    "https://sw-api.sivaramp.com/people/1",
-    "https://sw-api.sivaramp.com/people/5"
+    "https://sw-api.sivaramp.com/api/people/1",
+    "https://sw-api.sivaramp.com/api/people/5"
   ],
-  "films": ["https://sw-api.sivaramp.com/films/3"],
+  "films": ["https://sw-api.sivaramp.com/api/films/3"],
   "created": "2014-12-18T11:20:04.625000Z",
   "edited": "2014-12-20T21:30:21.693000Z",
-  "url": "https://sw-api.sivaramp.com/vehicles/30"
+  "url": "https://sw-api.sivaramp.com/api/vehicles/30"
 }

@@ -9,25 +9,25 @@
   "surface_water": "12",
   "population": "4500000000",
   "residents": [
-    "https://sw-api.sivaramp.com/people/3",
-    "https://sw-api.sivaramp.com/people/21",
-    "https://sw-api.sivaramp.com/people/35",
-    "https://sw-api.sivaramp.com/people/36",
-    "https://sw-api.sivaramp.com/people/37",
-    "https://sw-api.sivaramp.com/people/38",
-    "https://sw-api.sivaramp.com/people/39",
-    "https://sw-api.sivaramp.com/people/42",
-    "https://sw-api.sivaramp.com/people/60",
-    "https://sw-api.sivaramp.com/people/61",
-    "https://sw-api.sivaramp.com/people/66"
+    "https://sw-api.sivaramp.com/api/people/3",
+    "https://sw-api.sivaramp.com/api/people/21",
+    "https://sw-api.sivaramp.com/api/people/35",
+    "https://sw-api.sivaramp.com/api/people/36",
+    "https://sw-api.sivaramp.com/api/people/37",
+    "https://sw-api.sivaramp.com/api/people/38",
+    "https://sw-api.sivaramp.com/api/people/39",
+    "https://sw-api.sivaramp.com/api/people/42",
+    "https://sw-api.sivaramp.com/api/people/60",
+    "https://sw-api.sivaramp.com/api/people/61",
+    "https://sw-api.sivaramp.com/api/people/66"
   ],
   "films": [
-    "https://sw-api.sivaramp.com/films/3",
-    "https://sw-api.sivaramp.com/films/4",
-    "https://sw-api.sivaramp.com/films/5",
-    "https://sw-api.sivaramp.com/films/6"
+    "https://sw-api.sivaramp.com/api/films/3",
+    "https://sw-api.sivaramp.com/api/films/4",
+    "https://sw-api.sivaramp.com/api/films/5",
+    "https://sw-api.sivaramp.com/api/films/6"
   ],
   "created": "2014-12-10T11:52:31.066000Z",
   "edited": "2014-12-20T20:58:18.430000Z",
-  "url": "https://sw-api.sivaramp.com/planets/8"
+  "url": "https://sw-api.sivaramp.com/api/planets/8"
 }

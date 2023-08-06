@@ -7,12 +7,12 @@
   "eye_color": "blue",
   "birth_year": "48BBY",
   "gender": "female",
-  "homeworld": "https://sw-api.sivaramp.com/planets/32",
-  "films": ["https://sw-api.sivaramp.com/films/3"],
+  "homeworld": "https://sw-api.sivaramp.com/api/planets/32",
+  "films": ["https://sw-api.sivaramp.com/api/films/3"],
   "species": [],
   "vehicles": [],
   "starships": [],
   "created": "2014-12-18T11:12:38.895000Z",
   "edited": "2014-12-20T21:17:50.364000Z",
-  "url": "https://sw-api.sivaramp.com/people/28"
+  "url": "https://sw-api.sivaramp.com/api/people/28"
 }

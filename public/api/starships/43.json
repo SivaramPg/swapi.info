@@ -13,8 +13,8 @@
   "MGLT": "unknown",
   "starship_class": "Diplomatic barge",
   "pilots": [],
-  "films": ["https://sw-api.sivaramp.com/films/5"],
+  "films": ["https://sw-api.sivaramp.com/api/films/5"],
   "created": "2014-12-20T11:05:51.237000Z",
   "edited": "2014-12-20T21:23:49.925000Z",
-  "url": "https://sw-api.sivaramp.com/starships/43"
+  "url": "https://sw-api.sivaramp.com/api/starships/43"
 }

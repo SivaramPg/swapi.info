@@ -7,14 +7,14 @@
   "hair_colors": "unknown",
   "eye_colors": "blue, indigo",
   "average_lifespan": "unknown",
-  "homeworld": "https://sw-api.sivaramp.com/planets/46",
+  "homeworld": "https://sw-api.sivaramp.com/api/planets/46",
   "language": "unknown",
-  "people": ["https://sw-api.sivaramp.com/people/55"],
+  "people": ["https://sw-api.sivaramp.com/api/people/55"],
   "films": [
-    "https://sw-api.sivaramp.com/films/4",
-    "https://sw-api.sivaramp.com/films/6"
+    "https://sw-api.sivaramp.com/api/films/4",
+    "https://sw-api.sivaramp.com/api/films/6"
   ],
   "created": "2014-12-20T10:29:13.798000Z",
   "edited": "2014-12-20T21:36:42.186000Z",
-  "url": "https://sw-api.sivaramp.com/species/23"
+  "url": "https://sw-api.sivaramp.com/api/species/23"
 }

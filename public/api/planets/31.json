@@ -8,9 +8,9 @@
   "terrain": "oceans, reefs, islands",
   "surface_water": "100",
   "population": "27000000000",
-  "residents": ["https://sw-api.sivaramp.com/people/27"],
+  "residents": ["https://sw-api.sivaramp.com/api/people/27"],
   "films": [],
   "created": "2014-12-18T11:07:01.792000Z",
   "edited": "2014-12-20T20:58:18.471000Z",
-  "url": "https://sw-api.sivaramp.com/planets/31"
+  "url": "https://sw-api.sivaramp.com/api/planets/31"
 }

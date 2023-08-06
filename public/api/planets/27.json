@@ -9,8 +9,8 @@
   "surface_water": "10",
   "population": "4000000000",
   "residents": [],
-  "films": ["https://sw-api.sivaramp.com/films/2"],
+  "films": ["https://sw-api.sivaramp.com/api/films/2"],
   "created": "2014-12-15T12:23:41.661000Z",
   "edited": "2014-12-20T20:58:18.464000Z",
-  "url": "https://sw-api.sivaramp.com/planets/27"
+  "url": "https://sw-api.sivaramp.com/api/planets/27"
 }

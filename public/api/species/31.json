@@ -7,11 +7,11 @@
   "hair_colors": "none",
   "eye_colors": "yellow",
   "average_lifespan": "75",
-  "homeworld": "https://sw-api.sivaramp.com/planets/55",
+  "homeworld": "https://sw-api.sivaramp.com/api/planets/55",
   "language": "besalisk",
-  "people": ["https://sw-api.sivaramp.com/people/71"],
-  "films": ["https://sw-api.sivaramp.com/films/5"],
+  "people": ["https://sw-api.sivaramp.com/api/people/71"],
+  "films": ["https://sw-api.sivaramp.com/api/films/5"],
   "created": "2014-12-20T17:28:28.821000Z",
   "edited": "2014-12-20T21:36:42.200000Z",
-  "url": "https://sw-api.sivaramp.com/species/31"
+  "url": "https://sw-api.sivaramp.com/api/species/31"
 }

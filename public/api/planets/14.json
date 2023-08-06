@@ -9,11 +9,11 @@
   "surface_water": "60",
   "population": "45000000",
   "residents": [
-    "https://sw-api.sivaramp.com/people/13",
-    "https://sw-api.sivaramp.com/people/80"
+    "https://sw-api.sivaramp.com/api/people/13",
+    "https://sw-api.sivaramp.com/api/people/80"
   ],
-  "films": ["https://sw-api.sivaramp.com/films/6"],
+  "films": ["https://sw-api.sivaramp.com/api/films/6"],
   "created": "2014-12-10T13:32:00.124000Z",
   "edited": "2014-12-20T20:58:18.442000Z",
-  "url": "https://sw-api.sivaramp.com/planets/14"
+  "url": "https://sw-api.sivaramp.com/api/planets/14"
 }

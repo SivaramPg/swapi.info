@@ -12,11 +12,11 @@
   "vehicle_class": "starfighter",
   "pilots": [],
   "films": [
-    "https://sw-api.sivaramp.com/films/1",
-    "https://sw-api.sivaramp.com/films/2",
-    "https://sw-api.sivaramp.com/films/3"
+    "https://sw-api.sivaramp.com/api/films/1",
+    "https://sw-api.sivaramp.com/api/films/2",
+    "https://sw-api.sivaramp.com/api/films/3"
   ],
   "created": "2014-12-10T16:33:52.860000Z",
   "edited": "2014-12-20T21:30:21.670000Z",
-  "url": "https://sw-api.sivaramp.com/vehicles/8"
+  "url": "https://sw-api.sivaramp.com/api/vehicles/8"
 }

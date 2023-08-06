@@ -7,14 +7,14 @@
   "hair_colors": "none",
   "eye_colors": "yellow",
   "average_lifespan": "91",
-  "homeworld": "https://sw-api.sivaramp.com/planets/34",
+  "homeworld": "https://sw-api.sivaramp.com/api/planets/34",
   "language": "Toydarian",
-  "people": ["https://sw-api.sivaramp.com/people/40"],
+  "people": ["https://sw-api.sivaramp.com/api/people/40"],
   "films": [
-    "https://sw-api.sivaramp.com/films/4",
-    "https://sw-api.sivaramp.com/films/5"
+    "https://sw-api.sivaramp.com/api/films/4",
+    "https://sw-api.sivaramp.com/api/films/5"
   ],
   "created": "2014-12-19T17:48:56.893000Z",
   "edited": "2014-12-20T21:36:42.165000Z",
-  "url": "https://sw-api.sivaramp.com/species/13"
+  "url": "https://sw-api.sivaramp.com/api/species/13"
 }

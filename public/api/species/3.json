@@ -7,19 +7,19 @@
   "hair_colors": "black, brown",
   "eye_colors": "blue, green, yellow, brown, golden, red",
   "average_lifespan": "400",
-  "homeworld": "https://sw-api.sivaramp.com/planets/14",
+  "homeworld": "https://sw-api.sivaramp.com/api/planets/14",
   "language": "Shyriiwook",
   "people": [
-    "https://sw-api.sivaramp.com/people/13",
-    "https://sw-api.sivaramp.com/people/80"
+    "https://sw-api.sivaramp.com/api/people/13",
+    "https://sw-api.sivaramp.com/api/people/80"
   ],
   "films": [
-    "https://sw-api.sivaramp.com/films/1",
-    "https://sw-api.sivaramp.com/films/2",
-    "https://sw-api.sivaramp.com/films/3",
-    "https://sw-api.sivaramp.com/films/6"
+    "https://sw-api.sivaramp.com/api/films/1",
+    "https://sw-api.sivaramp.com/api/films/2",
+    "https://sw-api.sivaramp.com/api/films/3",
+    "https://sw-api.sivaramp.com/api/films/6"
   ],
   "created": "2014-12-10T16:44:31.486000Z",
   "edited": "2014-12-20T21:36:42.142000Z",
-  "url": "https://sw-api.sivaramp.com/species/3"
+  "url": "https://sw-api.sivaramp.com/api/species/3"
 }

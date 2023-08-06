@@ -13,11 +13,11 @@
   "MGLT": "unknown",
   "starship_class": "capital ship",
   "pilots": [
-    "https://sw-api.sivaramp.com/people/10",
-    "https://sw-api.sivaramp.com/people/11"
+    "https://sw-api.sivaramp.com/api/people/10",
+    "https://sw-api.sivaramp.com/api/people/11"
   ],
-  "films": ["https://sw-api.sivaramp.com/films/6"],
+  "films": ["https://sw-api.sivaramp.com/api/films/6"],
   "created": "2014-12-20T19:40:21.902000Z",
   "edited": "2014-12-20T21:23:49.941000Z",
-  "url": "https://sw-api.sivaramp.com/starships/59"
+  "url": "https://sw-api.sivaramp.com/api/starships/59"
 }

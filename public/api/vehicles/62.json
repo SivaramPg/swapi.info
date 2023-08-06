@@ -11,8 +11,8 @@
   "consumables": "unknown",
   "vehicle_class": "fire suppression ship",
   "pilots": [],
-  "films": ["https://sw-api.sivaramp.com/films/6"],
+  "films": ["https://sw-api.sivaramp.com/api/films/6"],
   "created": "2014-12-20T19:50:58.559000Z",
   "edited": "2014-12-20T21:30:21.749000Z",
-  "url": "https://sw-api.sivaramp.com/vehicles/62"
+  "url": "https://sw-api.sivaramp.com/api/vehicles/62"
 }

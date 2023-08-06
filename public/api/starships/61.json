@@ -13,8 +13,8 @@
   "MGLT": "unknown",
   "starship_class": "transport",
   "pilots": [],
-  "films": ["https://sw-api.sivaramp.com/films/6"],
+  "films": ["https://sw-api.sivaramp.com/api/films/6"],
   "created": "2014-12-20T19:48:40.409000Z",
   "edited": "2014-12-20T21:23:49.944000Z",
-  "url": "https://sw-api.sivaramp.com/starships/61"
+  "url": "https://sw-api.sivaramp.com/api/starships/61"
 }

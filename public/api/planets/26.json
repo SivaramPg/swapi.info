@@ -8,9 +8,9 @@
   "terrain": "rocky islands, oceans",
   "surface_water": "98",
   "population": "62000000",
-  "residents": ["https://sw-api.sivaramp.com/people/19"],
+  "residents": ["https://sw-api.sivaramp.com/api/people/19"],
   "films": [],
   "created": "2014-12-12T11:16:55.078000Z",
   "edited": "2014-12-20T20:58:18.463000Z",
-  "url": "https://sw-api.sivaramp.com/planets/26"
+  "url": "https://sw-api.sivaramp.com/api/planets/26"
 }

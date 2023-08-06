@@ -11,8 +11,8 @@
   "consumables": "20 days",
   "vehicle_class": "wheeled walker",
   "pilots": [],
-  "films": ["https://sw-api.sivaramp.com/films/6"],
+  "films": ["https://sw-api.sivaramp.com/api/films/6"],
   "created": "2014-12-20T20:24:45.587000Z",
   "edited": "2014-12-20T21:30:21.762000Z",
-  "url": "https://sw-api.sivaramp.com/vehicles/71"
+  "url": "https://sw-api.sivaramp.com/api/vehicles/71"
 }

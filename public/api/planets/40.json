@@ -8,9 +8,9 @@
   "terrain": "desert, tundra, rainforests, mountains",
   "surface_water": "unknown",
   "population": "unknown",
-  "residents": ["https://sw-api.sivaramp.com/people/49"],
+  "residents": ["https://sw-api.sivaramp.com/api/people/49"],
   "films": [],
   "created": "2014-12-20T10:01:37.395000Z",
   "edited": "2014-12-20T20:58:18.487000Z",
-  "url": "https://sw-api.sivaramp.com/planets/40"
+  "url": "https://sw-api.sivaramp.com/api/planets/40"
 }

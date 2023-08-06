@@ -11,11 +11,11 @@
   "consumables": "unknown",
   "vehicle_class": "submarine",
   "pilots": [
-    "https://sw-api.sivaramp.com/people/10",
-    "https://sw-api.sivaramp.com/people/32"
+    "https://sw-api.sivaramp.com/api/people/10",
+    "https://sw-api.sivaramp.com/api/people/32"
   ],
-  "films": ["https://sw-api.sivaramp.com/films/4"],
+  "films": ["https://sw-api.sivaramp.com/api/films/4"],
   "created": "2014-12-19T17:37:37.924000Z",
   "edited": "2014-12-20T21:30:21.710000Z",
-  "url": "https://sw-api.sivaramp.com/vehicles/38"
+  "url": "https://sw-api.sivaramp.com/api/vehicles/38"
 }

@@ -7,14 +7,14 @@
   "hair_colors": "none",
   "eye_colors": "black, silver",
   "average_lifespan": "70",
-  "homeworld": "https://sw-api.sivaramp.com/planets/49",
+  "homeworld": "https://sw-api.sivaramp.com/api/planets/49",
   "language": "Kel Dor",
-  "people": ["https://sw-api.sivaramp.com/people/58"],
+  "people": ["https://sw-api.sivaramp.com/api/people/58"],
   "films": [
-    "https://sw-api.sivaramp.com/films/4",
-    "https://sw-api.sivaramp.com/films/6"
+    "https://sw-api.sivaramp.com/api/films/4",
+    "https://sw-api.sivaramp.com/api/films/6"
   ],
   "created": "2014-12-20T10:49:21.692000Z",
   "edited": "2014-12-20T21:36:42.191000Z",
-  "url": "https://sw-api.sivaramp.com/species/26"
+  "url": "https://sw-api.sivaramp.com/api/species/26"
 }

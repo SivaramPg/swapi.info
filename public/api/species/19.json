@@ -7,14 +7,14 @@
   "hair_colors": "none",
   "eye_colors": "orange",
   "average_lifespan": "unknown",
-  "homeworld": "https://sw-api.sivaramp.com/planets/41",
+  "homeworld": "https://sw-api.sivaramp.com/api/planets/41",
   "language": "Tundan",
-  "people": ["https://sw-api.sivaramp.com/people/50"],
+  "people": ["https://sw-api.sivaramp.com/api/people/50"],
   "films": [
-    "https://sw-api.sivaramp.com/films/4",
-    "https://sw-api.sivaramp.com/films/6"
+    "https://sw-api.sivaramp.com/api/films/4",
+    "https://sw-api.sivaramp.com/api/films/6"
   ],
   "created": "2014-12-20T10:08:36.795000Z",
   "edited": "2014-12-20T21:36:42.177000Z",
-  "url": "https://sw-api.sivaramp.com/species/19"
+  "url": "https://sw-api.sivaramp.com/api/species/19"
 }

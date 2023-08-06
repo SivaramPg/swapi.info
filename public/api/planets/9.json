@@ -9,17 +9,17 @@
   "surface_water": "unknown",
   "population": "1000000000000",
   "residents": [
-    "https://sw-api.sivaramp.com/people/34",
-    "https://sw-api.sivaramp.com/people/55",
-    "https://sw-api.sivaramp.com/people/74"
+    "https://sw-api.sivaramp.com/api/people/34",
+    "https://sw-api.sivaramp.com/api/people/55",
+    "https://sw-api.sivaramp.com/api/people/74"
   ],
   "films": [
-    "https://sw-api.sivaramp.com/films/3",
-    "https://sw-api.sivaramp.com/films/4",
-    "https://sw-api.sivaramp.com/films/5",
-    "https://sw-api.sivaramp.com/films/6"
+    "https://sw-api.sivaramp.com/api/films/3",
+    "https://sw-api.sivaramp.com/api/films/4",
+    "https://sw-api.sivaramp.com/api/films/5",
+    "https://sw-api.sivaramp.com/api/films/6"
   ],
   "created": "2014-12-10T11:54:13.921000Z",
   "edited": "2014-12-20T20:58:18.432000Z",
-  "url": "https://sw-api.sivaramp.com/planets/9"
+  "url": "https://sw-api.sivaramp.com/api/planets/9"
 }

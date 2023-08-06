@@ -12,9 +12,9 @@
   "hyperdrive_rating": "1.0",
   "MGLT": "120",
   "starship_class": "Starfighter",
-  "pilots": ["https://sw-api.sivaramp.com/people/29"],
-  "films": ["https://sw-api.sivaramp.com/films/3"],
+  "pilots": ["https://sw-api.sivaramp.com/api/people/29"],
+  "films": ["https://sw-api.sivaramp.com/api/films/3"],
   "created": "2014-12-18T11:16:34.542000Z",
   "edited": "2014-12-20T21:23:49.907000Z",
-  "url": "https://sw-api.sivaramp.com/starships/28"
+  "url": "https://sw-api.sivaramp.com/api/starships/28"
 }

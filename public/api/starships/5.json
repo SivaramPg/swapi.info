@@ -13,8 +13,8 @@
   "MGLT": "70",
   "starship_class": "landing craft",
   "pilots": [],
-  "films": ["https://sw-api.sivaramp.com/films/1"],
+  "films": ["https://sw-api.sivaramp.com/api/films/1"],
   "created": "2014-12-10T15:48:00.586000Z",
   "edited": "2014-12-20T21:23:49.873000Z",
-  "url": "https://sw-api.sivaramp.com/starships/5"
+  "url": "https://sw-api.sivaramp.com/api/starships/5"
 }

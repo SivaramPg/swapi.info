@@ -7,12 +7,12 @@
   "eye_color": "brown",
   "birth_year": "unknown",
   "gender": "female",
-  "homeworld": "https://sw-api.sivaramp.com/planets/8",
-  "films": ["https://sw-api.sivaramp.com/films/5"],
-  "species": ["https://sw-api.sivaramp.com/species/1"],
+  "homeworld": "https://sw-api.sivaramp.com/api/planets/8",
+  "films": ["https://sw-api.sivaramp.com/api/films/5"],
+  "species": ["https://sw-api.sivaramp.com/api/species/1"],
   "vehicles": [],
   "starships": [],
   "created": "2014-12-20T16:49:14.640000Z",
   "edited": "2014-12-20T21:17:50.460000Z",
-  "url": "https://sw-api.sivaramp.com/people/66"
+  "url": "https://sw-api.sivaramp.com/api/people/66"
 }

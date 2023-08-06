@@ -8,9 +8,9 @@
   "terrain": "verdant",
   "surface_water": "20",
   "population": "450000000",
-  "residents": ["https://sw-api.sivaramp.com/people/52"],
+  "residents": ["https://sw-api.sivaramp.com/api/people/52"],
   "films": [],
   "created": "2014-12-20T10:14:48.178000Z",
   "edited": "2014-12-20T20:58:18.493000Z",
-  "url": "https://sw-api.sivaramp.com/planets/43"
+  "url": "https://sw-api.sivaramp.com/api/planets/43"
 }

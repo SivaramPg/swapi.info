@@ -12,12 +12,12 @@
   "hyperdrive_rating": "3.0",
   "MGLT": "70",
   "starship_class": "Patrol craft",
-  "pilots": ["https://sw-api.sivaramp.com/people/22"],
+  "pilots": ["https://sw-api.sivaramp.com/api/people/22"],
   "films": [
-    "https://sw-api.sivaramp.com/films/2",
-    "https://sw-api.sivaramp.com/films/5"
+    "https://sw-api.sivaramp.com/api/films/2",
+    "https://sw-api.sivaramp.com/api/films/5"
   ],
   "created": "2014-12-15T13:00:56.332000Z",
   "edited": "2014-12-20T21:23:49.897000Z",
-  "url": "https://sw-api.sivaramp.com/starships/21"
+  "url": "https://sw-api.sivaramp.com/api/starships/21"
 }

@@ -8,25 +8,25 @@
     "hair_colors": "blonde, brown, black, red",
     "eye_colors": "brown, blue, green, hazel, grey, amber",
     "average_lifespan": "120",
-    "homeworld": "https://sw-api.sivaramp.com/planets/9",
+    "homeworld": "https://sw-api.sivaramp.com/api/planets/9",
     "language": "Galactic Basic",
     "people": [
-      "https://sw-api.sivaramp.com/people/66",
-      "https://sw-api.sivaramp.com/people/67",
-      "https://sw-api.sivaramp.com/people/68",
-      "https://sw-api.sivaramp.com/people/74"
+      "https://sw-api.sivaramp.com/api/people/66",
+      "https://sw-api.sivaramp.com/api/people/67",
+      "https://sw-api.sivaramp.com/api/people/68",
+      "https://sw-api.sivaramp.com/api/people/74"
     ],
     "films": [
-      "https://sw-api.sivaramp.com/films/1",
-      "https://sw-api.sivaramp.com/films/2",
-      "https://sw-api.sivaramp.com/films/3",
-      "https://sw-api.sivaramp.com/films/4",
-      "https://sw-api.sivaramp.com/films/5",
-      "https://sw-api.sivaramp.com/films/6"
+      "https://sw-api.sivaramp.com/api/films/1",
+      "https://sw-api.sivaramp.com/api/films/2",
+      "https://sw-api.sivaramp.com/api/films/3",
+      "https://sw-api.sivaramp.com/api/films/4",
+      "https://sw-api.sivaramp.com/api/films/5",
+      "https://sw-api.sivaramp.com/api/films/6"
     ],
     "created": "2014-12-10T13:52:11.567000Z",
     "edited": "2014-12-20T21:36:42.136000Z",
-    "url": "https://sw-api.sivaramp.com/species/1"
+    "url": "https://sw-api.sivaramp.com/api/species/1"
   },
   {
     "name": "Droid",
@@ -40,22 +40,22 @@
     "homeworld": null,
     "language": "n/a",
     "people": [
-      "https://sw-api.sivaramp.com/people/2",
-      "https://sw-api.sivaramp.com/people/3",
-      "https://sw-api.sivaramp.com/people/8",
-      "https://sw-api.sivaramp.com/people/23"
+      "https://sw-api.sivaramp.com/api/people/2",
+      "https://sw-api.sivaramp.com/api/people/3",
+      "https://sw-api.sivaramp.com/api/people/8",
+      "https://sw-api.sivaramp.com/api/people/23"
     ],
     "films": [
-      "https://sw-api.sivaramp.com/films/1",
-      "https://sw-api.sivaramp.com/films/2",
-      "https://sw-api.sivaramp.com/films/3",
-      "https://sw-api.sivaramp.com/films/4",
-      "https://sw-api.sivaramp.com/films/5",
-      "https://sw-api.sivaramp.com/films/6"
+      "https://sw-api.sivaramp.com/api/films/1",
+      "https://sw-api.sivaramp.com/api/films/2",
+      "https://sw-api.sivaramp.com/api/films/3",
+      "https://sw-api.sivaramp.com/api/films/4",
+      "https://sw-api.sivaramp.com/api/films/5",
+      "https://sw-api.sivaramp.com/api/films/6"
     ],
     "created": "2014-12-10T15:16:16.259000Z",
     "edited": "2014-12-20T21:36:42.139000Z",
-    "url": "https://sw-api.sivaramp.com/species/2"
+    "url": "https://sw-api.sivaramp.com/api/species/2"
   },
   {
     "name": "Wookie",
@@ -66,21 +66,21 @@
     "hair_colors": "black, brown",
     "eye_colors": "blue, green, yellow, brown, golden, red",
     "average_lifespan": "400",
-    "homeworld": "https://sw-api.sivaramp.com/planets/14",
+    "homeworld": "https://sw-api.sivaramp.com/api/planets/14",
     "language": "Shyriiwook",
     "people": [
-      "https://sw-api.sivaramp.com/people/13",
-      "https://sw-api.sivaramp.com/people/80"
+      "https://sw-api.sivaramp.com/api/people/13",
+      "https://sw-api.sivaramp.com/api/people/80"
     ],
     "films": [
-      "https://sw-api.sivaramp.com/films/1",
-      "https://sw-api.sivaramp.com/films/2",
-      "https://sw-api.sivaramp.com/films/3",
-      "https://sw-api.sivaramp.com/films/6"
+      "https://sw-api.sivaramp.com/api/films/1",
+      "https://sw-api.sivaramp.com/api/films/2",
+      "https://sw-api.sivaramp.com/api/films/3",
+      "https://sw-api.sivaramp.com/api/films/6"
     ],
     "created": "2014-12-10T16:44:31.486000Z",
     "edited": "2014-12-20T21:36:42.142000Z",
-    "url": "https://sw-api.sivaramp.com/species/3"
+    "url": "https://sw-api.sivaramp.com/api/species/3"
   },
   {
     "name": "Rodian",
@@ -91,13 +91,13 @@
     "hair_colors": "n/a",
     "eye_colors": "black",
     "average_lifespan": "unknown",
-    "homeworld": "https://sw-api.sivaramp.com/planets/23",
+    "homeworld": "https://sw-api.sivaramp.com/api/planets/23",
     "language": "Galatic Basic",
-    "people": ["https://sw-api.sivaramp.com/people/15"],
-    "films": ["https://sw-api.sivaramp.com/films/1"],
+    "people": ["https://sw-api.sivaramp.com/api/people/15"],
+    "films": ["https://sw-api.sivaramp.com/api/films/1"],
     "created": "2014-12-10T17:05:26.471000Z",
     "edited": "2014-12-20T21:36:42.144000Z",
-    "url": "https://sw-api.sivaramp.com/species/4"
+    "url": "https://sw-api.sivaramp.com/api/species/4"
   },
   {
     "name": "Hutt",
@@ -108,16 +108,16 @@
     "hair_colors": "n/a",
     "eye_colors": "yellow, red",
     "average_lifespan": "1000",
-    "homeworld": "https://sw-api.sivaramp.com/planets/24",
+    "homeworld": "https://sw-api.sivaramp.com/api/planets/24",
     "language": "Huttese",
-    "people": ["https://sw-api.sivaramp.com/people/16"],
+    "people": ["https://sw-api.sivaramp.com/api/people/16"],
     "films": [
-      "https://sw-api.sivaramp.com/films/1",
-      "https://sw-api.sivaramp.com/films/3"
+      "https://sw-api.sivaramp.com/api/films/1",
+      "https://sw-api.sivaramp.com/api/films/3"
     ],
     "created": "2014-12-10T17:12:50.410000Z",
     "edited": "2014-12-20T21:36:42.146000Z",
-    "url": "https://sw-api.sivaramp.com/species/5"
+    "url": "https://sw-api.sivaramp.com/api/species/5"
   },
   {
     "name": "Yoda's species",
@@ -128,19 +128,19 @@
     "hair_colors": "brown, white",
     "eye_colors": "brown, green, yellow",
     "average_lifespan": "900",
-    "homeworld": "https://sw-api.sivaramp.com/planets/28",
+    "homeworld": "https://sw-api.sivaramp.com/api/planets/28",
     "language": "Galactic basic",
-    "people": ["https://sw-api.sivaramp.com/people/20"],
+    "people": ["https://sw-api.sivaramp.com/api/people/20"],
     "films": [
-      "https://sw-api.sivaramp.com/films/2",
-      "https://sw-api.sivaramp.com/films/3",
-      "https://sw-api.sivaramp.com/films/4",
-      "https://sw-api.sivaramp.com/films/5",
-      "https://sw-api.sivaramp.com/films/6"
+      "https://sw-api.sivaramp.com/api/films/2",
+      "https://sw-api.sivaramp.com/api/films/3",
+      "https://sw-api.sivaramp.com/api/films/4",
+      "https://sw-api.sivaramp.com/api/films/5",
+      "https://sw-api.sivaramp.com/api/films/6"
     ],
     "created": "2014-12-15T12:27:22.877000Z",
     "edited": "2014-12-20T21:36:42.148000Z",
-    "url": "https://sw-api.sivaramp.com/species/6"
+    "url": "https://sw-api.sivaramp.com/api/species/6"
   },
   {
     "name": "Trandoshan",
@@ -151,13 +151,13 @@
     "hair_colors": "none",
     "eye_colors": "yellow, orange",
     "average_lifespan": "unknown",
-    "homeworld": "https://sw-api.sivaramp.com/planets/29",
+    "homeworld": "https://sw-api.sivaramp.com/api/planets/29",
     "language": "Dosh",
-    "people": ["https://sw-api.sivaramp.com/people/24"],
-    "films": ["https://sw-api.sivaramp.com/films/2"],
+    "people": ["https://sw-api.sivaramp.com/api/people/24"],
+    "films": ["https://sw-api.sivaramp.com/api/films/2"],
     "created": "2014-12-15T13:07:47.704000Z",
     "edited": "2014-12-20T21:36:42.151000Z",
-    "url": "https://sw-api.sivaramp.com/species/7"
+    "url": "https://sw-api.sivaramp.com/api/species/7"
   },
   {
     "name": "Mon Calamari",
@@ -168,13 +168,13 @@
     "hair_colors": "none",
     "eye_colors": "yellow",
     "average_lifespan": "unknown",
-    "homeworld": "https://sw-api.sivaramp.com/planets/31",
+    "homeworld": "https://sw-api.sivaramp.com/api/planets/31",
     "language": "Mon Calamarian",
-    "people": ["https://sw-api.sivaramp.com/people/27"],
-    "films": ["https://sw-api.sivaramp.com/films/3"],
+    "people": ["https://sw-api.sivaramp.com/api/people/27"],
+    "films": ["https://sw-api.sivaramp.com/api/films/3"],
     "created": "2014-12-18T11:09:52.263000Z",
     "edited": "2014-12-20T21:36:42.153000Z",
-    "url": "https://sw-api.sivaramp.com/species/8"
+    "url": "https://sw-api.sivaramp.com/api/species/8"
   },
   {
     "name": "Ewok",
@@ -185,13 +185,13 @@
     "hair_colors": "white, brown, black",
     "eye_colors": "orange, brown",
     "average_lifespan": "unknown",
-    "homeworld": "https://sw-api.sivaramp.com/planets/7",
+    "homeworld": "https://sw-api.sivaramp.com/api/planets/7",
     "language": "Ewokese",
-    "people": ["https://sw-api.sivaramp.com/people/30"],
-    "films": ["https://sw-api.sivaramp.com/films/3"],
+    "people": ["https://sw-api.sivaramp.com/api/people/30"],
+    "films": ["https://sw-api.sivaramp.com/api/films/3"],
     "created": "2014-12-18T11:22:00.285000Z",
     "edited": "2014-12-20T21:36:42.155000Z",
-    "url": "https://sw-api.sivaramp.com/species/9"
+    "url": "https://sw-api.sivaramp.com/api/species/9"
   },
   {
     "name": "Sullustan",
@@ -202,13 +202,13 @@
     "hair_colors": "none",
     "eye_colors": "black",
     "average_lifespan": "unknown",
-    "homeworld": "https://sw-api.sivaramp.com/planets/33",
+    "homeworld": "https://sw-api.sivaramp.com/api/planets/33",
     "language": "Sullutese",
-    "people": ["https://sw-api.sivaramp.com/people/31"],
-    "films": ["https://sw-api.sivaramp.com/films/3"],
+    "people": ["https://sw-api.sivaramp.com/api/people/31"],
+    "films": ["https://sw-api.sivaramp.com/api/films/3"],
     "created": "2014-12-18T11:26:20.103000Z",
     "edited": "2014-12-20T21:36:42.157000Z",
-    "url": "https://sw-api.sivaramp.com/species/10"
+    "url": "https://sw-api.sivaramp.com/api/species/10"
   },
   {
     "name": "Neimodian",
@@ -219,13 +219,13 @@
     "hair_colors": "none",
     "eye_colors": "red, pink",
     "average_lifespan": "unknown",
-    "homeworld": "https://sw-api.sivaramp.com/planets/18",
+    "homeworld": "https://sw-api.sivaramp.com/api/planets/18",
     "language": "Neimoidia",
-    "people": ["https://sw-api.sivaramp.com/people/33"],
-    "films": ["https://sw-api.sivaramp.com/films/4"],
+    "people": ["https://sw-api.sivaramp.com/api/people/33"],
+    "films": ["https://sw-api.sivaramp.com/api/films/4"],
     "created": "2014-12-19T17:07:31.319000Z",
     "edited": "2014-12-20T21:36:42.160000Z",
-    "url": "https://sw-api.sivaramp.com/species/11"
+    "url": "https://sw-api.sivaramp.com/api/species/11"
   },
   {
     "name": "Gungan",
@@ -236,20 +236,20 @@
     "hair_colors": "none",
     "eye_colors": "orange",
     "average_lifespan": "unknown",
-    "homeworld": "https://sw-api.sivaramp.com/planets/8",
+    "homeworld": "https://sw-api.sivaramp.com/api/planets/8",
     "language": "Gungan basic",
     "people": [
-      "https://sw-api.sivaramp.com/people/36",
-      "https://sw-api.sivaramp.com/people/37",
-      "https://sw-api.sivaramp.com/people/38"
+      "https://sw-api.sivaramp.com/api/people/36",
+      "https://sw-api.sivaramp.com/api/people/37",
+      "https://sw-api.sivaramp.com/api/people/38"
     ],
     "films": [
-      "https://sw-api.sivaramp.com/films/4",
-      "https://sw-api.sivaramp.com/films/5"
+      "https://sw-api.sivaramp.com/api/films/4",
+      "https://sw-api.sivaramp.com/api/films/5"
     ],
     "created": "2014-12-19T17:30:37.341000Z",
     "edited": "2014-12-20T21:36:42.163000Z",
-    "url": "https://sw-api.sivaramp.com/species/12"
+    "url": "https://sw-api.sivaramp.com/api/species/12"
   },
   {
     "name": "Toydarian",
@@ -260,16 +260,16 @@
     "hair_colors": "none",
     "eye_colors": "yellow",
     "average_lifespan": "91",
-    "homeworld": "https://sw-api.sivaramp.com/planets/34",
+    "homeworld": "https://sw-api.sivaramp.com/api/planets/34",
     "language": "Toydarian",
-    "people": ["https://sw-api.sivaramp.com/people/40"],
+    "people": ["https://sw-api.sivaramp.com/api/people/40"],
     "films": [
-      "https://sw-api.sivaramp.com/films/4",
-      "https://sw-api.sivaramp.com/films/5"
+      "https://sw-api.sivaramp.com/api/films/4",
+      "https://sw-api.sivaramp.com/api/films/5"
     ],
     "created": "2014-12-19T17:48:56.893000Z",
     "edited": "2014-12-20T21:36:42.165000Z",
-    "url": "https://sw-api.sivaramp.com/species/13"
+    "url": "https://sw-api.sivaramp.com/api/species/13"
   },
   {
     "name": "Dug",
@@ -280,13 +280,13 @@
     "hair_colors": "none",
     "eye_colors": "yellow, blue",
     "average_lifespan": "unknown",
-    "homeworld": "https://sw-api.sivaramp.com/planets/35",
+    "homeworld": "https://sw-api.sivaramp.com/api/planets/35",
     "language": "Dugese",
-    "people": ["https://sw-api.sivaramp.com/people/41"],
-    "films": ["https://sw-api.sivaramp.com/films/4"],
+    "people": ["https://sw-api.sivaramp.com/api/people/41"],
+    "films": ["https://sw-api.sivaramp.com/api/films/4"],
     "created": "2014-12-19T17:53:11.214000Z",
     "edited": "2014-12-20T21:36:42.167000Z",
-    "url": "https://sw-api.sivaramp.com/species/14"
+    "url": "https://sw-api.sivaramp.com/api/species/14"
   },
   {
     "name": "Twi'lek",
@@ -297,21 +297,21 @@
     "hair_colors": "none",
     "eye_colors": "blue, brown, orange, pink",
     "average_lifespan": "unknown",
-    "homeworld": "https://sw-api.sivaramp.com/planets/37",
+    "homeworld": "https://sw-api.sivaramp.com/api/planets/37",
     "language": "Twi'leki",
     "people": [
-      "https://sw-api.sivaramp.com/people/45",
-      "https://sw-api.sivaramp.com/people/46"
+      "https://sw-api.sivaramp.com/api/people/45",
+      "https://sw-api.sivaramp.com/api/people/46"
     ],
     "films": [
-      "https://sw-api.sivaramp.com/films/3",
-      "https://sw-api.sivaramp.com/films/4",
-      "https://sw-api.sivaramp.com/films/5",
-      "https://sw-api.sivaramp.com/films/6"
+      "https://sw-api.sivaramp.com/api/films/3",
+      "https://sw-api.sivaramp.com/api/films/4",
+      "https://sw-api.sivaramp.com/api/films/5",
+      "https://sw-api.sivaramp.com/api/films/6"
     ],
     "created": "2014-12-20T09:48:02.406000Z",
     "edited": "2014-12-20T21:36:42.169000Z",
-    "url": "https://sw-api.sivaramp.com/species/15"
+    "url": "https://sw-api.sivaramp.com/api/species/15"
   },
   {
     "name": "Aleena",
@@ -322,13 +322,13 @@
     "hair_colors": "none",
     "eye_colors": "unknown",
     "average_lifespan": "79",
-    "homeworld": "https://sw-api.sivaramp.com/planets/38",
+    "homeworld": "https://sw-api.sivaramp.com/api/planets/38",
     "language": "Aleena",
-    "people": ["https://sw-api.sivaramp.com/people/47"],
-    "films": ["https://sw-api.sivaramp.com/films/4"],
+    "people": ["https://sw-api.sivaramp.com/api/people/47"],
+    "films": ["https://sw-api.sivaramp.com/api/films/4"],
     "created": "2014-12-20T09:53:16.481000Z",
     "edited": "2014-12-20T21:36:42.171000Z",
-    "url": "https://sw-api.sivaramp.com/species/16"
+    "url": "https://sw-api.sivaramp.com/api/species/16"
   },
   {
     "name": "Vulptereen",
@@ -339,13 +339,13 @@
     "hair_colors": "none",
     "eye_colors": "yellow",
     "average_lifespan": "unknown",
-    "homeworld": "https://sw-api.sivaramp.com/planets/39",
+    "homeworld": "https://sw-api.sivaramp.com/api/planets/39",
     "language": "vulpterish",
-    "people": ["https://sw-api.sivaramp.com/people/48"],
-    "films": ["https://sw-api.sivaramp.com/films/4"],
+    "people": ["https://sw-api.sivaramp.com/api/people/48"],
+    "films": ["https://sw-api.sivaramp.com/api/films/4"],
     "created": "2014-12-20T09:57:33.128000Z",
     "edited": "2014-12-20T21:36:42.173000Z",
-    "url": "https://sw-api.sivaramp.com/species/17"
+    "url": "https://sw-api.sivaramp.com/api/species/17"
   },
   {
     "name": "Xexto",
@@ -356,13 +356,13 @@
     "hair_colors": "none",
     "eye_colors": "black",
     "average_lifespan": "unknown",
-    "homeworld": "https://sw-api.sivaramp.com/planets/40",
+    "homeworld": "https://sw-api.sivaramp.com/api/planets/40",
     "language": "Xextese",
-    "people": ["https://sw-api.sivaramp.com/people/49"],
-    "films": ["https://sw-api.sivaramp.com/films/4"],
+    "people": ["https://sw-api.sivaramp.com/api/people/49"],
+    "films": ["https://sw-api.sivaramp.com/api/films/4"],
     "created": "2014-12-20T10:02:13.915000Z",
     "edited": "2014-12-20T21:36:42.175000Z",
-    "url": "https://sw-api.sivaramp.com/species/18"
+    "url": "https://sw-api.sivaramp.com/api/species/18"
   },
   {
     "name": "Toong",
@@ -373,16 +373,16 @@
     "hair_colors": "none",
     "eye_colors": "orange",
     "average_lifespan": "unknown",
-    "homeworld": "https://sw-api.sivaramp.com/planets/41",
+    "homeworld": "https://sw-api.sivaramp.com/api/planets/41",
     "language": "Tundan",
-    "people": ["https://sw-api.sivaramp.com/people/50"],
+    "people": ["https://sw-api.sivaramp.com/api/people/50"],
     "films": [
-      "https://sw-api.sivaramp.com/films/4",
-      "https://sw-api.sivaramp.com/films/6"
+      "https://sw-api.sivaramp.com/api/films/4",
+      "https://sw-api.sivaramp.com/api/films/6"
     ],
     "created": "2014-12-20T10:08:36.795000Z",
     "edited": "2014-12-20T21:36:42.177000Z",
-    "url": "https://sw-api.sivaramp.com/species/19"
+    "url": "https://sw-api.sivaramp.com/api/species/19"
   },
   {
     "name": "Cerean",
@@ -393,16 +393,16 @@
     "hair_colors": "red, blond, black, white",
     "eye_colors": "hazel",
     "average_lifespan": "unknown",
-    "homeworld": "https://sw-api.sivaramp.com/planets/43",
+    "homeworld": "https://sw-api.sivaramp.com/api/planets/43",
     "language": "Cerean",
-    "people": ["https://sw-api.sivaramp.com/people/52"],
+    "people": ["https://sw-api.sivaramp.com/api/people/52"],
     "films": [
-      "https://sw-api.sivaramp.com/films/4",
-      "https://sw-api.sivaramp.com/films/6"
+      "https://sw-api.sivaramp.com/api/films/4",
+      "https://sw-api.sivaramp.com/api/films/6"
     ],
     "created": "2014-12-20T10:15:33.765000Z",
     "edited": "2014-12-20T21:36:42.179000Z",
-    "url": "https://sw-api.sivaramp.com/species/20"
+    "url": "https://sw-api.sivaramp.com/api/species/20"
   },
   {
     "name": "Nautolan",
@@ -413,13 +413,13 @@
     "hair_colors": "none",
     "eye_colors": "black",
     "average_lifespan": "70",
-    "homeworld": "https://sw-api.sivaramp.com/planets/44",
+    "homeworld": "https://sw-api.sivaramp.com/api/planets/44",
     "language": "Nautila",
-    "people": ["https://sw-api.sivaramp.com/people/53"],
-    "films": ["https://sw-api.sivaramp.com/films/4"],
+    "people": ["https://sw-api.sivaramp.com/api/people/53"],
+    "films": ["https://sw-api.sivaramp.com/api/films/4"],
     "created": "2014-12-20T10:18:58.610000Z",
     "edited": "2014-12-20T21:36:42.181000Z",
-    "url": "https://sw-api.sivaramp.com/species/21"
+    "url": "https://sw-api.sivaramp.com/api/species/21"
   },
   {
     "name": "Zabrak",
@@ -430,16 +430,16 @@
     "hair_colors": "black",
     "eye_colors": "brown, orange",
     "average_lifespan": "unknown",
-    "homeworld": "https://sw-api.sivaramp.com/planets/45",
+    "homeworld": "https://sw-api.sivaramp.com/api/planets/45",
     "language": "Zabraki",
     "people": [
-      "https://sw-api.sivaramp.com/people/44",
-      "https://sw-api.sivaramp.com/people/54"
+      "https://sw-api.sivaramp.com/api/people/44",
+      "https://sw-api.sivaramp.com/api/people/54"
     ],
-    "films": ["https://sw-api.sivaramp.com/films/4"],
+    "films": ["https://sw-api.sivaramp.com/api/films/4"],
     "created": "2014-12-20T10:26:59.894000Z",
     "edited": "2014-12-20T21:36:42.183000Z",
-    "url": "https://sw-api.sivaramp.com/species/22"
+    "url": "https://sw-api.sivaramp.com/api/species/22"
   },
   {
     "name": "Tholothian",
@@ -450,16 +450,16 @@
     "hair_colors": "unknown",
     "eye_colors": "blue, indigo",
     "average_lifespan": "unknown",
-    "homeworld": "https://sw-api.sivaramp.com/planets/46",
+    "homeworld": "https://sw-api.sivaramp.com/api/planets/46",
     "language": "unknown",
-    "people": ["https://sw-api.sivaramp.com/people/55"],
+    "people": ["https://sw-api.sivaramp.com/api/people/55"],
     "films": [
-      "https://sw-api.sivaramp.com/films/4",
-      "https://sw-api.sivaramp.com/films/6"
+      "https://sw-api.sivaramp.com/api/films/4",
+      "https://sw-api.sivaramp.com/api/films/6"
     ],
     "created": "2014-12-20T10:29:13.798000Z",
     "edited": "2014-12-20T21:36:42.186000Z",
-    "url": "https://sw-api.sivaramp.com/species/23"
+    "url": "https://sw-api.sivaramp.com/api/species/23"
   },
   {
     "name": "Iktotchi",
@@ -470,16 +470,16 @@
     "hair_colors": "none",
     "eye_colors": "orange",
     "average_lifespan": "unknown",
-    "homeworld": "https://sw-api.sivaramp.com/planets/47",
+    "homeworld": "https://sw-api.sivaramp.com/api/planets/47",
     "language": "Iktotchese",
-    "people": ["https://sw-api.sivaramp.com/people/56"],
+    "people": ["https://sw-api.sivaramp.com/api/people/56"],
     "films": [
-      "https://sw-api.sivaramp.com/films/4",
-      "https://sw-api.sivaramp.com/films/6"
+      "https://sw-api.sivaramp.com/api/films/4",
+      "https://sw-api.sivaramp.com/api/films/6"
     ],
     "created": "2014-12-20T10:32:13.046000Z",
     "edited": "2014-12-20T21:36:42.188000Z",
-    "url": "https://sw-api.sivaramp.com/species/24"
+    "url": "https://sw-api.sivaramp.com/api/species/24"
   },
   {
     "name": "Quermian",
@@ -490,16 +490,16 @@
     "hair_colors": "none",
     "eye_colors": "yellow",
     "average_lifespan": "86",
-    "homeworld": "https://sw-api.sivaramp.com/planets/48",
+    "homeworld": "https://sw-api.sivaramp.com/api/planets/48",
     "language": "Quermian",
-    "people": ["https://sw-api.sivaramp.com/people/57"],
+    "people": ["https://sw-api.sivaramp.com/api/people/57"],
     "films": [
-      "https://sw-api.sivaramp.com/films/4",
-      "https://sw-api.sivaramp.com/films/6"
+      "https://sw-api.sivaramp.com/api/films/4",
+      "https://sw-api.sivaramp.com/api/films/6"
     ],
     "created": "2014-12-20T10:34:50.827000Z",
     "edited": "2014-12-20T21:36:42.189000Z",
-    "url": "https://sw-api.sivaramp.com/species/25"
+    "url": "https://sw-api.sivaramp.com/api/species/25"
   },
   {
     "name": "Kel Dor",
@@ -510,16 +510,16 @@
     "hair_colors": "none",
     "eye_colors": "black, silver",
     "average_lifespan": "70",
-    "homeworld": "https://sw-api.sivaramp.com/planets/49",
+    "homeworld": "https://sw-api.sivaramp.com/api/planets/49",
     "language": "Kel Dor",
-    "people": ["https://sw-api.sivaramp.com/people/58"],
+    "people": ["https://sw-api.sivaramp.com/api/people/58"],
     "films": [
-      "https://sw-api.sivaramp.com/films/4",
-      "https://sw-api.sivaramp.com/films/6"
+      "https://sw-api.sivaramp.com/api/films/4",
+      "https://sw-api.sivaramp.com/api/films/6"
     ],
     "created": "2014-12-20T10:49:21.692000Z",
     "edited": "2014-12-20T21:36:42.191000Z",
-    "url": "https://sw-api.sivaramp.com/species/26"
+    "url": "https://sw-api.sivaramp.com/api/species/26"
   },
   {
     "name": "Chagrian",
@@ -530,16 +530,16 @@
     "hair_colors": "none",
     "eye_colors": "blue",
     "average_lifespan": "unknown",
-    "homeworld": "https://sw-api.sivaramp.com/planets/50",
+    "homeworld": "https://sw-api.sivaramp.com/api/planets/50",
     "language": "Chagria",
-    "people": ["https://sw-api.sivaramp.com/people/59"],
+    "people": ["https://sw-api.sivaramp.com/api/people/59"],
     "films": [
-      "https://sw-api.sivaramp.com/films/4",
-      "https://sw-api.sivaramp.com/films/6"
+      "https://sw-api.sivaramp.com/api/films/4",
+      "https://sw-api.sivaramp.com/api/films/6"
     ],
     "created": "2014-12-20T10:53:28.795000Z",
     "edited": "2014-12-20T21:36:42.193000Z",
-    "url": "https://sw-api.sivaramp.com/species/27"
+    "url": "https://sw-api.sivaramp.com/api/species/27"
   },
   {
     "name": "Geonosian",
@@ -550,16 +550,16 @@
     "hair_colors": "none",
     "eye_colors": "green, hazel",
     "average_lifespan": "unknown",
-    "homeworld": "https://sw-api.sivaramp.com/planets/11",
+    "homeworld": "https://sw-api.sivaramp.com/api/planets/11",
     "language": "Geonosian",
-    "people": ["https://sw-api.sivaramp.com/people/63"],
+    "people": ["https://sw-api.sivaramp.com/api/people/63"],
     "films": [
-      "https://sw-api.sivaramp.com/films/5",
-      "https://sw-api.sivaramp.com/films/6"
+      "https://sw-api.sivaramp.com/api/films/5",
+      "https://sw-api.sivaramp.com/api/films/6"
     ],
     "created": "2014-12-20T16:40:45.618000Z",
     "edited": "2014-12-20T21:36:42.195000Z",
-    "url": "https://sw-api.sivaramp.com/species/28"
+    "url": "https://sw-api.sivaramp.com/api/species/28"
   },
   {
     "name": "Mirialan",
@@ -570,19 +570,19 @@
     "hair_colors": "black, brown",
     "eye_colors": "blue, green, red, yellow, brown, orange",
     "average_lifespan": "unknown",
-    "homeworld": "https://sw-api.sivaramp.com/planets/51",
+    "homeworld": "https://sw-api.sivaramp.com/api/planets/51",
     "language": "Mirialan",
     "people": [
-      "https://sw-api.sivaramp.com/people/64",
-      "https://sw-api.sivaramp.com/people/65"
+      "https://sw-api.sivaramp.com/api/people/64",
+      "https://sw-api.sivaramp.com/api/people/65"
     ],
     "films": [
-      "https://sw-api.sivaramp.com/films/5",
-      "https://sw-api.sivaramp.com/films/6"
+      "https://sw-api.sivaramp.com/api/films/5",
+      "https://sw-api.sivaramp.com/api/films/6"
     ],
     "created": "2014-12-20T16:46:48.290000Z",
     "edited": "2014-12-20T21:36:42.197000Z",
-    "url": "https://sw-api.sivaramp.com/species/29"
+    "url": "https://sw-api.sivaramp.com/api/species/29"
   },
   {
     "name": "Clawdite",
@@ -593,16 +593,16 @@
     "hair_colors": "none",
     "eye_colors": "yellow",
     "average_lifespan": "70",
-    "homeworld": "https://sw-api.sivaramp.com/planets/54",
+    "homeworld": "https://sw-api.sivaramp.com/api/planets/54",
     "language": "Clawdite",
-    "people": ["https://sw-api.sivaramp.com/people/70"],
+    "people": ["https://sw-api.sivaramp.com/api/people/70"],
     "films": [
-      "https://sw-api.sivaramp.com/films/5",
-      "https://sw-api.sivaramp.com/films/6"
+      "https://sw-api.sivaramp.com/api/films/5",
+      "https://sw-api.sivaramp.com/api/films/6"
     ],
     "created": "2014-12-20T16:57:46.171000Z",
     "edited": "2014-12-20T21:36:42.199000Z",
-    "url": "https://sw-api.sivaramp.com/species/30"
+    "url": "https://sw-api.sivaramp.com/api/species/30"
   },
   {
     "name": "Besalisk",
@@ -613,13 +613,13 @@
     "hair_colors": "none",
     "eye_colors": "yellow",
     "average_lifespan": "75",
-    "homeworld": "https://sw-api.sivaramp.com/planets/55",
+    "homeworld": "https://sw-api.sivaramp.com/api/planets/55",
     "language": "besalisk",
-    "people": ["https://sw-api.sivaramp.com/people/71"],
-    "films": ["https://sw-api.sivaramp.com/films/5"],
+    "people": ["https://sw-api.sivaramp.com/api/people/71"],
+    "films": ["https://sw-api.sivaramp.com/api/films/5"],
     "created": "2014-12-20T17:28:28.821000Z",
     "edited": "2014-12-20T21:36:42.200000Z",
-    "url": "https://sw-api.sivaramp.com/species/31"
+    "url": "https://sw-api.sivaramp.com/api/species/31"
   },
   {
     "name": "Kaminoan",
@@ -630,16 +630,16 @@
     "hair_colors": "none",
     "eye_colors": "black",
     "average_lifespan": "80",
-    "homeworld": "https://sw-api.sivaramp.com/planets/10",
+    "homeworld": "https://sw-api.sivaramp.com/api/planets/10",
     "language": "Kaminoan",
     "people": [
-      "https://sw-api.sivaramp.com/people/72",
-      "https://sw-api.sivaramp.com/people/73"
+      "https://sw-api.sivaramp.com/api/people/72",
+      "https://sw-api.sivaramp.com/api/people/73"
     ],
-    "films": ["https://sw-api.sivaramp.com/films/5"],
+    "films": ["https://sw-api.sivaramp.com/api/films/5"],
     "created": "2014-12-20T17:31:24.838000Z",
     "edited": "2014-12-20T21:36:42.202000Z",
-    "url": "https://sw-api.sivaramp.com/species/32"
+    "url": "https://sw-api.sivaramp.com/api/species/32"
   },
   {
     "name": "Skakoan",
@@ -650,16 +650,16 @@
     "hair_colors": "none",
     "eye_colors": "unknown",
     "average_lifespan": "unknown",
-    "homeworld": "https://sw-api.sivaramp.com/planets/56",
+    "homeworld": "https://sw-api.sivaramp.com/api/planets/56",
     "language": "Skakoan",
-    "people": ["https://sw-api.sivaramp.com/people/76"],
+    "people": ["https://sw-api.sivaramp.com/api/people/76"],
     "films": [
-      "https://sw-api.sivaramp.com/films/5",
-      "https://sw-api.sivaramp.com/films/6"
+      "https://sw-api.sivaramp.com/api/films/5",
+      "https://sw-api.sivaramp.com/api/films/6"
     ],
     "created": "2014-12-20T17:53:54.515000Z",
     "edited": "2014-12-20T21:36:42.204000Z",
-    "url": "https://sw-api.sivaramp.com/species/33"
+    "url": "https://sw-api.sivaramp.com/api/species/33"
   },
   {
     "name": "Muun",
@@ -670,16 +670,16 @@
     "hair_colors": "none",
     "eye_colors": "black",
     "average_lifespan": "100",
-    "homeworld": "https://sw-api.sivaramp.com/planets/57",
+    "homeworld": "https://sw-api.sivaramp.com/api/planets/57",
     "language": "Muun",
-    "people": ["https://sw-api.sivaramp.com/people/77"],
+    "people": ["https://sw-api.sivaramp.com/api/people/77"],
     "films": [
-      "https://sw-api.sivaramp.com/films/5",
-      "https://sw-api.sivaramp.com/films/6"
+      "https://sw-api.sivaramp.com/api/films/5",
+      "https://sw-api.sivaramp.com/api/films/6"
     ],
     "created": "2014-12-20T17:58:19.088000Z",
     "edited": "2014-12-20T21:36:42.207000Z",
-    "url": "https://sw-api.sivaramp.com/species/34"
+    "url": "https://sw-api.sivaramp.com/api/species/34"
   },
   {
     "name": "Togruta",
@@ -690,16 +690,16 @@
     "hair_colors": "none",
     "eye_colors": "red, orange, yellow, green, blue, black",
     "average_lifespan": "94",
-    "homeworld": "https://sw-api.sivaramp.com/planets/58",
+    "homeworld": "https://sw-api.sivaramp.com/api/planets/58",
     "language": "Togruti",
-    "people": ["https://sw-api.sivaramp.com/people/78"],
+    "people": ["https://sw-api.sivaramp.com/api/people/78"],
     "films": [
-      "https://sw-api.sivaramp.com/films/5",
-      "https://sw-api.sivaramp.com/films/6"
+      "https://sw-api.sivaramp.com/api/films/5",
+      "https://sw-api.sivaramp.com/api/films/6"
     ],
     "created": "2014-12-20T18:44:03.246000Z",
     "edited": "2014-12-20T21:36:42.209000Z",
-    "url": "https://sw-api.sivaramp.com/species/35"
+    "url": "https://sw-api.sivaramp.com/api/species/35"
   },
   {
     "name": "Kaleesh",
@@ -710,13 +710,13 @@
     "hair_colors": "none",
     "eye_colors": "yellow",
     "average_lifespan": "80",
-    "homeworld": "https://sw-api.sivaramp.com/planets/59",
+    "homeworld": "https://sw-api.sivaramp.com/api/planets/59",
     "language": "Kaleesh",
-    "people": ["https://sw-api.sivaramp.com/people/79"],
-    "films": ["https://sw-api.sivaramp.com/films/6"],
+    "people": ["https://sw-api.sivaramp.com/api/people/79"],
+    "films": ["https://sw-api.sivaramp.com/api/films/6"],
     "created": "2014-12-20T19:45:42.537000Z",
     "edited": "2014-12-20T21:36:42.210000Z",
-    "url": "https://sw-api.sivaramp.com/species/36"
+    "url": "https://sw-api.sivaramp.com/api/species/36"
   },
   {
     "name": "Pau'an",
@@ -727,12 +727,12 @@
     "hair_colors": "none",
     "eye_colors": "black",
     "average_lifespan": "700",
-    "homeworld": "https://sw-api.sivaramp.com/planets/12",
+    "homeworld": "https://sw-api.sivaramp.com/api/planets/12",
     "language": "Utapese",
-    "people": ["https://sw-api.sivaramp.com/people/83"],
-    "films": ["https://sw-api.sivaramp.com/films/6"],
+    "people": ["https://sw-api.sivaramp.com/api/people/83"],
+    "films": ["https://sw-api.sivaramp.com/api/films/6"],
     "created": "2014-12-20T20:35:06.777000Z",
     "edited": "2014-12-20T21:36:42.212000Z",
-    "url": "https://sw-api.sivaramp.com/species/37"
+    "url": "https://sw-api.sivaramp.com/api/species/37"
   }
 ]

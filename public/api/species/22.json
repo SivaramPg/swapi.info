@@ -7,14 +7,14 @@
   "hair_colors": "black",
   "eye_colors": "brown, orange",
   "average_lifespan": "unknown",
-  "homeworld": "https://sw-api.sivaramp.com/planets/45",
+  "homeworld": "https://sw-api.sivaramp.com/api/planets/45",
   "language": "Zabraki",
   "people": [
-    "https://sw-api.sivaramp.com/people/44",
-    "https://sw-api.sivaramp.com/people/54"
+    "https://sw-api.sivaramp.com/api/people/44",
+    "https://sw-api.sivaramp.com/api/people/54"
   ],
-  "films": ["https://sw-api.sivaramp.com/films/4"],
+  "films": ["https://sw-api.sivaramp.com/api/films/4"],
   "created": "2014-12-20T10:26:59.894000Z",
   "edited": "2014-12-20T21:36:42.183000Z",
-  "url": "https://sw-api.sivaramp.com/species/22"
+  "url": "https://sw-api.sivaramp.com/api/species/22"
 }

@@ -8,9 +8,9 @@
   "terrain": "cities, savannahs, seas, plains",
   "surface_water": "unknown",
   "population": "unknown",
-  "residents": ["https://sw-api.sivaramp.com/people/78"],
+  "residents": ["https://sw-api.sivaramp.com/api/people/78"],
   "films": [],
   "created": "2014-12-20T18:43:14.049000Z",
   "edited": "2014-12-20T20:58:18.521000Z",
-  "url": "https://sw-api.sivaramp.com/planets/58"
+  "url": "https://sw-api.sivaramp.com/api/planets/58"
 }

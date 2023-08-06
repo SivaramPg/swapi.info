@@ -13,8 +13,8 @@
   "MGLT": "91",
   "starship_class": "Assault Starfighter",
   "pilots": [],
-  "films": ["https://sw-api.sivaramp.com/films/3"],
+  "films": ["https://sw-api.sivaramp.com/api/films/3"],
   "created": "2014-12-18T11:18:04.763000Z",
   "edited": "2014-12-20T21:23:49.909000Z",
-  "url": "https://sw-api.sivaramp.com/starships/29"
+  "url": "https://sw-api.sivaramp.com/api/starships/29"
 }

@@ -8,9 +8,9 @@
   "terrain": "forests, deserts, savannas",
   "surface_water": "unknown",
   "population": "5200",
-  "residents": ["https://sw-api.sivaramp.com/people/44"],
+  "residents": ["https://sw-api.sivaramp.com/api/people/44"],
   "films": [],
   "created": "2014-12-19T18:00:40.142000Z",
   "edited": "2014-12-20T20:58:18.480000Z",
-  "url": "https://sw-api.sivaramp.com/planets/36"
+  "url": "https://sw-api.sivaramp.com/api/planets/36"
 }

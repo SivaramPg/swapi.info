@@ -13,15 +13,15 @@
   "MGLT": "50",
   "starship_class": "Armed government transport",
   "pilots": [
-    "https://sw-api.sivaramp.com/people/1",
-    "https://sw-api.sivaramp.com/people/13",
-    "https://sw-api.sivaramp.com/people/14"
+    "https://sw-api.sivaramp.com/api/people/1",
+    "https://sw-api.sivaramp.com/api/people/13",
+    "https://sw-api.sivaramp.com/api/people/14"
   ],
   "films": [
-    "https://sw-api.sivaramp.com/films/2",
-    "https://sw-api.sivaramp.com/films/3"
+    "https://sw-api.sivaramp.com/api/films/2",
+    "https://sw-api.sivaramp.com/api/films/3"
   ],
   "created": "2014-12-15T13:04:47.235000Z",
   "edited": "2014-12-20T21:23:49.900000Z",
-  "url": "https://sw-api.sivaramp.com/starships/22"
+  "url": "https://sw-api.sivaramp.com/api/starships/22"
 }

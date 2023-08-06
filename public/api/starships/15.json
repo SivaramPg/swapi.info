@@ -14,10 +14,10 @@
   "starship_class": "Star dreadnought",
   "pilots": [],
   "films": [
-    "https://sw-api.sivaramp.com/films/2",
-    "https://sw-api.sivaramp.com/films/3"
+    "https://sw-api.sivaramp.com/api/films/2",
+    "https://sw-api.sivaramp.com/api/films/3"
   ],
   "created": "2014-12-15T12:31:42.547000Z",
   "edited": "2014-12-20T21:23:49.893000Z",
-  "url": "https://sw-api.sivaramp.com/starships/15"
+  "url": "https://sw-api.sivaramp.com/api/starships/15"
 }

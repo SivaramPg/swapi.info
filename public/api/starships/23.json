@@ -14,10 +14,10 @@
   "starship_class": "Escort ship",
   "pilots": [],
   "films": [
-    "https://sw-api.sivaramp.com/films/2",
-    "https://sw-api.sivaramp.com/films/3"
+    "https://sw-api.sivaramp.com/api/films/2",
+    "https://sw-api.sivaramp.com/api/films/3"
   ],
   "created": "2014-12-15T13:06:30.813000Z",
   "edited": "2014-12-20T21:23:49.902000Z",
-  "url": "https://sw-api.sivaramp.com/starships/23"
+  "url": "https://sw-api.sivaramp.com/api/starships/23"
 }
