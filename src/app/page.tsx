@@ -6,6 +6,7 @@ import Link from 'next/link'
 import ResponseDisplayElement from '@/components/ResponseDisplayElement'
 import ApiEndpointElement from '@/components/ApiEndpointElement'
 import clsx from 'clsx'
+import HeroSection from './components/HeroSection'
 
 async function getRootJson() {
   const jsonFile = await fsPromises.readFile(
@@ -19,8 +20,8 @@ export default async function Home() {
   const data = await getRootJson()
 
   return (
-    <main className="container mx-auto min-h-[calc(100vh-64px)] py-20 flex flex-col gap-8 items-center justify-center">
-      <h1 className="text-7xl font-black mb-10">SW-API</h1>
+    <main className="w-full min-h-[calc(100vh-64px)] pb-20 flex flex-col gap-8 items-center justify-center">
+      <HeroSection />
       <ApiEndpointElement text={`https://sw-api.sivaramp.com/api/`} />
       <ResponseDisplayElement>
         {JSON.stringify(data, null, 4)}
