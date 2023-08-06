@@ -1,16 +1,16 @@
 import './globals.css'
 import type { Metadata } from 'next'
-import { Mulish, Space_Mono } from 'next/font/google'
+import { Mulish, JetBrains_Mono } from 'next/font/google'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
 
-const spaceMono = Space_Mono({
+const jetBrainsMono = JetBrains_Mono({
   subsets: ['latin'],
   display: 'swap',
   preload: true,
   style: 'normal',
   weight: ['400', '700'],
-  variable: '--font-space-mono',
+  variable: '--font-jet-brains-mono',
 })
 
 const mulish = Mulish({
@@ -34,7 +34,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${spaceMono.variable} ${mulish.variable} font-sans`}>
+      <body
+        className={`${jetBrainsMono.variable} ${mulish.variable} font-sans`}
+      >
         <main className="w-full min-h-screen">
           <Navbar />
           <main className="w-full min-h-[calc(100vh-64px)]">{children}</main>

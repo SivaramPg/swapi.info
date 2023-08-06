@@ -11,7 +11,7 @@ module.exports = {
     extend: {
       fontFamily: {
         sans: ['var(--font-mulish)', ...fontFamily.sans],
-        mono: ['var(--font-space-mono)', ...fontFamily.mono],
+        mono: ['var(--font-jet-brains-mono)', ...fontFamily.mono],
       },
     },
   },
