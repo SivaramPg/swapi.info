@@ -37,7 +37,7 @@ export default function RootLayout({
       <body className={`${spaceMono.variable} ${mulish.variable} font-sans`}>
         <main className="w-full min-h-screen">
           <Navbar />
-          <main className="w-full min-h-[calc(100vh-112px)]">{children}</main>
+          <main className="w-full min-h-[calc(100vh-64px)]">{children}</main>
           <Footer />
         </main>
       </body>

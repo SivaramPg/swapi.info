@@ -3,16 +3,14 @@ import Link from 'next/link'
 
 export default function Footer() {
   return (
-    <footer className="w-full h-12 border">
-      <div className="h-full container mx-auto flex items-center justify-between gap-4">
+    <footer className="w-full h-48 border py-4 flex flex-col items-center justify-around bg-slate-200">
+      <div className="h-auto container mx-auto flex items-center justify-between gap-4">
         <div className="">
           <p className="inline-flex items-center gap-1">
             Made with{' '}
             <Image src="/icons/heart.svg" alt="" width={20} height={20} /> by
-            <span className="font-bold underline underline-offset-4">
-              Sivaram Pandariganthan
-            </span>{' '}
-            <span className="font-mono ml-4 font-bold">2023</span>
+            <span className="font-bold">Sivaram Pandariganthan</span>{' '}
+            <span className="font-mono ml-2 font-bold">2023</span>
           </p>
         </div>
         <div className="flex gap-8 items-center justify-center">
@@ -49,6 +47,30 @@ export default function Footer() {
             </div>
           </Link>
         </div>
+      </div>
+      <div className="container mx-auto flex items-center justify-end">
+        <p className="flex items-center gap-6 font-bold text-normal font-mono">
+          Powered by{' '}
+          <Link href="https://nextjs.org/" target="_blank">
+            <Image
+              src="/icons/nextjs.svg"
+              alt=""
+              width={96}
+              height={96}
+              className="hover:drop-shadow-md"
+            />
+          </Link>
+          on{' '}
+          <Link href="https://cloudflare.com" target="_blank">
+            <Image
+              src="/icons/cloudflare.svg"
+              alt=""
+              width={150}
+              height={150}
+              className="hover:drop-shadow-md"
+            />
+          </Link>
+        </p>
       </div>
     </footer>
   )
