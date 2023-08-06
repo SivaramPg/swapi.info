@@ -21,8 +21,12 @@ export default async function Home() {
   return (
     <main className="container mx-auto min-h-[calc(100vh-64px)] py-20 flex flex-col gap-8 items-center justify-center">
       <h1 className="text-7xl font-black mb-10">SW-API</h1>
+      <ApiEndpointElement text={`https://sw-api.sivaramp.com/api/`} />
+      <ResponseDisplayElement>
+        {JSON.stringify(data, null, 4)}
+      </ResponseDisplayElement>
       <div className={clsx('w-full max-w-screen-lg flex flex-col gap-2')}>
-        <h4 className="font-bold text-xl opacity-70">All Categories:</h4>
+        <h4 className="font-bold text-2xl opacity-70">View a category:</h4>
         <div className="flex flex-wrap gap-4">
           {Object.entries(data).map(([key, value], i: number) => (
             <Link
@@ -43,10 +47,26 @@ export default async function Home() {
           ))}
         </div>
       </div>
-      <ApiEndpointElement text={`https://sw-api.sivaramp.com/api/`} />
-      <ResponseDisplayElement>
-        {JSON.stringify(data, null, 4)}
-      </ResponseDisplayElement>
+      <div className={clsx('w-full max-w-screen-lg flex flex-col gap-2 mb-10')}>
+        <h4 className="font-bold text-2xl opacity-70">
+          Visit the API endpoint:
+        </h4>
+        <div className="flex flex-col gap-2 pl-6">
+          {Object.values(data).map((value, i: number) => (
+            <ul key={i}>
+              <li className="list-disc text-gray-800">
+                <Link
+                  target="_blank"
+                  href={value as string}
+                  className="w-full bg-blue-50 underline underline-offset-4 hover:text-blue-500"
+                >
+                  <h2 className="font-bold text-lg">{value as string}</h2>
+                </Link>
+              </li>
+            </ul>
+          ))}
+        </div>
+      </div>
     </main>
   )
 }
