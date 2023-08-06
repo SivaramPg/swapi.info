@@ -12,7 +12,10 @@ const HeroSection = ({ className }: HeroSectionProps): JSX.Element => {
       className={clsx('w-full h-[calc(100vh-64px)] bg-slate-200', className)}
     >
       <div className="h-full w-full max-w-screen-md mx-auto flex flex-col items-center justify-center gap-4">
-        <h1 className="text-8xl font-black">SW-API</h1>
+        <h1 className="text-8xl font-black inline-flex items-center gap-2">
+          <Image src="/icons/star-wars.svg" alt="" width={96} height={96} />{' '}
+          SW-API
+        </h1>
         <h2 className="text-2xl opacity-75 text-center my-6">
           Strictly JSON-only, File & Redirects powered, Wicked-fast,
           Unrestricted Star Wars data GET API endpoints. Open Source Data fully

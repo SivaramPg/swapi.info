@@ -5,7 +5,8 @@ export default function Navbar() {
   return (
     <header className="w-full h-16 shadow-md font-sans">
       <nav className="h-full container mx-auto flex items-center justify-between gap-4">
-        <Link href="/">
+        <Link href="/" className="inline-flex items-center gap-2">
+          <Image src="/icons/star-wars.svg" alt="" width={32} height={32} />
           <h1 className="font-black text-3xl hover:drop-shadow-md">SW-API</h1>
         </Link>
         <div className="flex items-center justify-center gap-4">
