@@ -2,6 +2,7 @@ import fsPromises from 'fs/promises'
 import path from 'path'
 
 import ResponseDisplayElement from '@/components/ResponseDisplayElement'
+import ApiEndpointElement from '@/components/ApiEndpointElement'
 
 export async function generateStaticParams() {
   const slugs = (
@@ -47,10 +48,11 @@ export default async function Page({
   const data = await getCategorySlugJson(category, slug)
 
   return (
-    <main className="container mx-auto min-h-[calc(100vh-64px)] py-10 flex flex-col gap-4 items-center justify-center">
-      <h1 className="text-7xl font-black">
-        {category}/{slug}
+    <main className="container mx-auto min-h-[calc(100vh-64px)] py-20 flex flex-col gap-8 items-center justify-center">
+      <h1 className="text-7xl font-black mb-10">
+        /{category}/{slug}
       </h1>
+      <ApiEndpointElement text={data.url} />
       <ResponseDisplayElement>
         {JSON.stringify(data, null, 4)}
       </ResponseDisplayElement>

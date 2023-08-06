@@ -10,15 +10,18 @@ const ResponseDisplayElement = ({
   children,
 }: ResponseDisplayElementProps): JSX.Element => {
   return (
-    <pre
-      className={clsx(
-        'w-full max-w-screen-lg bg-slate-50 p-4 rounded-md border',
-        'whitespace-pre-wrap break-words',
-        className
-      )}
-    >
-      {children}
-    </pre>
+    <div className="w-full max-w-screen-lg flex flex-col gap-2">
+      <h4 className="font-bold text-xl">Response Body:</h4>
+      <pre
+        className={clsx(
+          'w-full bg-slate-50 p-4 rounded-md border',
+          'whitespace-pre-wrap break-words',
+          className
+        )}
+      >
+        {children}
+      </pre>
+    </div>
   )
 }
 
