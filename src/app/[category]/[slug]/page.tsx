@@ -4,6 +4,7 @@ import path from 'path'
 import ResponseDisplayElement from '@/components/ResponseDisplayElement'
 import ApiEndpointElement from '@/components/ApiEndpointElement'
 import Breadcrumbs from '@/components/Breadcrumbs'
+import { capitalize } from '@/utils/capitalize'
 
 export async function generateStaticParams() {
   const slugs = (
@@ -37,6 +38,14 @@ async function getCategorySlugJson(category: string, slug: string) {
   )
 
   return JSON.parse(jsonFile.toString())
+}
+
+export async function generateMetadata({
+  params,
+}: {
+  params: { category: string; slug: string }
+}) {
+  return { title: capitalize(`${params.category}/${params.slug}`) }
 }
 
 export default async function Page({

@@ -23,8 +23,9 @@ const mulish = Mulish({
 })
 
 export const metadata: Metadata = {
-  title: 'SWAPI.INFO',
-  description: "All the Star Wars data you've ever wanted:",
+  title: { default: 'Swapi.info', template: '%s | Swapi.info' },
+  description:
+    "All the Star Wars data you've ever wanted. Access it via a CDN-powered, Wicked-fast, Unrestricted Star Wars data API provider. All Data sourced from our beloved swapi.dev",
 }
 
 export default function RootLayout({

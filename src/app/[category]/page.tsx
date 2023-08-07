@@ -1,5 +1,6 @@
 import fsPromises from 'fs/promises'
 import path from 'path'
+import { Metadata } from 'next'
 import clsx from 'clsx'
 import Link from 'next/link'
 import Image from 'next/image'
@@ -7,6 +8,7 @@ import Image from 'next/image'
 import ResponseDisplayElement from '@/components/ResponseDisplayElement'
 import ApiEndpointElement from '@/components/ApiEndpointElement'
 import Breadcrumbs from '@/components/Breadcrumbs'
+import { capitalize } from '@/utils/capitalize'
 
 export async function generateStaticParams() {
   const categories = (
@@ -29,6 +31,14 @@ async function getCategoryAllJson(category: string) {
   )
 
   return JSON.parse(jsonFile.toString())
+}
+
+export async function generateMetadata({
+  params,
+}: {
+  params: { category: string }
+}) {
+  return { title: capitalize(params.category) }
 }
 
 export default async function Page({

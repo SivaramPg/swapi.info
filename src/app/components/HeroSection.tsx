@@ -15,17 +15,15 @@ const HeroSection = ({ className }: HeroSectionProps): JSX.Element => {
       )}
     >
       <div className="min-h-[calc(100vh-64px)] w-full max-w-screen-md mx-auto flex flex-col items-center justify-center gap-4 py-20">
-        <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-black inline-flex items-center gap-2">
-          {/* <Image src="/icons/star-wars.svg" alt="" width={96} height={96} />{' '} */}
+        <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-black inline-flex items-center gap-2 bg-gradient-to-r from-indigo-500 to-blue-500 bg-clip-text text-transparent">
           SWAPI.INFO
         </h1>
         <h2 className="text-2xl lg:text-3xl opacity-80 font-bold text-center mt-2 md:mt-4 mb-2">
           Star Wars APIs & Explorer
         </h2>
         <h3 className="max-w-screen-sm mx-5 text-md sm:text-xl md:text-xl opacity-75 text-center mt-2 mb-6">
-          Strictly JSON-only, File & Redirects powered, Wicked-fast,
-          Unrestricted Star Wars data GET API endpoints. Open Source Data fully
-          sourced from our beloved{' '}
+          JSON-only, CDN-powered, Wicked-fast, Unrestricted Star Wars data API
+          endpoints. All data sourced from our beloved{' '}
           <Link
             href="https://swapi.dev"
             target="_blank"
