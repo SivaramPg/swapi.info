@@ -16,7 +16,9 @@ const ApiEndpointElement = ({
 
   return (
     <div className="w-full max-w-screen-lg flex flex-col gap-2">
-      <h4 className="font-bold text-2xl opacity-70">API Endpoint:</h4>
+      <h4 className="font-bold text-lg md:text-xl lg:text-2xl opacity-70">
+        API Endpoint:
+      </h4>
       <div
         className={clsx(
           'w-full h-14 flex rounded-md overflow-hidden',

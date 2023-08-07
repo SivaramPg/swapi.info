@@ -28,7 +28,9 @@ export default async function Home() {
           {JSON.stringify(data, null, 4)}
         </ResponseDisplayElement>
         <div className={clsx('w-full max-w-screen-lg flex flex-col gap-2')}>
-          <h4 className="font-bold text-2xl opacity-70">View a category:</h4>
+          <h4 className="font-bold text-lg md:text-xl lg:text-2xl opacity-70">
+            View a category:
+          </h4>
           <div className="flex flex-wrap gap-2 sm:gap-4">
             {Object.entries(data).map(([key, value], i: number) => (
               <Link
@@ -55,7 +57,7 @@ export default async function Home() {
         <div
           className={clsx('w-full max-w-screen-lg flex flex-col gap-2 mb-10')}
         >
-          <h4 className="font-bold text-2xl opacity-70">
+          <h4 className="font-bold text-lg md:text-xl lg:text-2xl opacity-70">
             Visit the API endpoint:
           </h4>
           <div className="flex flex-col gap-2 pl-6">
@@ -65,9 +67,15 @@ export default async function Home() {
                   <Link
                     target="_blank"
                     href={value as string}
-                    className="w-full bg-blue-50 underline underline-offset-4 hover:text-blue-500"
+                    className="w-full underline underline-offset-4 hover:text-blue-500 inline-flex items-center gap-2"
                   >
                     <h2 className="font-bold text-lg">{value as string}</h2>
+                    <Image
+                      src="/icons/tab-external.svg"
+                      alt=""
+                      width={20}
+                      height={20}
+                    />
                   </Link>
                 </li>
               </ul>
