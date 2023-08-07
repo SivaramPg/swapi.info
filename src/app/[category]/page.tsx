@@ -55,8 +55,10 @@ export default async function Page({
   const data = await getCategoryAllJson(category)
 
   return (
-    <main className="container mx-auto min-h-screen px-4 py-20 flex flex-col gap-8 items-center justify-center">
-      <h1 className="text-7xl font-black mb-10">/{category}</h1>
+    <main className="container mx-auto min-h-screen px-4 py-10 md:py-16 lg:py-20 flex flex-col gap-8 items-center justify-center">
+      <h1 className="text-5xl lg:text-7xl font-black mb-6 md:mb-10">
+        /{category}
+      </h1>
       <Breadcrumbs pathElements={[category]} />
       <ApiEndpointElement text={`https://swapi.info/api/${category}`} />
       <ResponseDisplayElement>
