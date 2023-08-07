@@ -26,6 +26,22 @@ export const metadata: Metadata = {
   title: { default: 'Swapi.info', template: '%s | Swapi.info' },
   description:
     "All the Star Wars data you've ever wanted. Access it via a CDN-powered, Wicked-fast, Unrestricted Star Wars data API provider. All Data sourced from our beloved swapi.dev",
+  openGraph: {
+    title: { default: 'Swapi.info', template: '%s | Swapi.info' },
+    description:
+      "All the Star Wars data you've ever wanted. Access it via a CDN-powered, Wicked-fast, Unrestricted Star Wars data API provider. All Data sourced from our beloved swapi.dev",
+    type: 'website',
+    siteName: 'Swapi.info',
+    url: 'https://swapi.info',
+    locale: 'en_US',
+  },
+  twitter: {
+    title: { default: 'Swapi.info', template: '%s | Swapi.info' },
+    description:
+      "All the Star Wars data you've ever wanted. Access it via a CDN-powered, Wicked-fast, Unrestricted Star Wars data API provider. All Data sourced from our beloved swapi.dev",
+    card: 'summary',
+    creator: '@sivarampg95',
+  },
 }
 
 export default function RootLayout({

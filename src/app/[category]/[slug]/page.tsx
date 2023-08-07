@@ -45,7 +45,11 @@ export async function generateMetadata({
 }: {
   params: { category: string; slug: string }
 }) {
-  return { title: capitalize(`${params.category}/${params.slug}`) }
+  return {
+    title: capitalize(`${params.category}/${params.slug}`),
+    openGraph: { title: capitalize(`${params.category}/${params.slug}`) },
+    twitter: { title: capitalize(`${params.category}/${params.slug}`) },
+  }
 }
 
 export default async function Page({
