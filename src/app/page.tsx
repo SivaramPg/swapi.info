@@ -20,52 +20,59 @@ export default async function Home() {
   const data = await getRootJson()
 
   return (
-    <main className="w-full min-h-[calc(100vh-64px)] pb-20 flex flex-col gap-8 items-center justify-center">
+    <main className="w-full min-h-screen pb-20 flex flex-col gap-8 items-center justify-center">
       <HeroSection />
-      <ApiEndpointElement text={`https://sw-api.sivaramp.com/api/`} />
-      <ResponseDisplayElement>
-        {JSON.stringify(data, null, 4)}
-      </ResponseDisplayElement>
-      <div className={clsx('w-full max-w-screen-lg flex flex-col gap-2')}>
-        <h4 className="font-bold text-2xl opacity-70">View a category:</h4>
-        <div className="flex flex-wrap gap-4">
-          {Object.entries(data).map(([key, value], i: number) => (
-            <Link
-              key={i}
-              href={(value as string).replace('/api', '')}
-              className="w-1/4 grow border-2 rounded-lg shadow-sm bg-blue-50"
-            >
-              <div className="w-full h-fit p-4 flex items-center justify-between gap-2">
-                <h2 className="font-bold text-lg capitalize">{key}</h2>
-                <Image
-                  src="/icons/caret-right.svg"
-                  alt="..."
-                  width={24}
-                  height={24}
-                />
-              </div>
-            </Link>
-          ))}
+      <div className="container mx-auto px-4 flex flex-col gap-8 items-center justify-center">
+        <ApiEndpointElement text={`https://swapi.info/api/`} />
+        <ResponseDisplayElement>
+          {JSON.stringify(data, null, 4)}
+        </ResponseDisplayElement>
+        <div className={clsx('w-full max-w-screen-lg flex flex-col gap-2')}>
+          <h4 className="font-bold text-2xl opacity-70">View a category:</h4>
+          <div className="flex flex-wrap gap-2 sm:gap-4">
+            {Object.entries(data).map(([key, value], i: number) => (
+              <Link
+                key={i}
+                href={(value as string).replace('/api', '')}
+                className="w-1/4 grow border-2 rounded-lg shadow-sm bg-blue-50"
+              >
+                <div className="w-full h-fit p-2 sm:p-4 flex items-center justify-between gap-1 md:gap-2">
+                  <h2 className="font-bold text-md md:text-lg capitalize">
+                    {key}
+                  </h2>
+                  <Image
+                    src="/icons/caret-right.svg"
+                    alt="..."
+                    width={24}
+                    height={24}
+                    className="hidden sm:block"
+                  />
+                </div>
+              </Link>
+            ))}
+          </div>
         </div>
-      </div>
-      <div className={clsx('w-full max-w-screen-lg flex flex-col gap-2 mb-10')}>
-        <h4 className="font-bold text-2xl opacity-70">
-          Visit the API endpoint:
-        </h4>
-        <div className="flex flex-col gap-2 pl-6">
-          {Object.values(data).map((value, i: number) => (
-            <ul key={i}>
-              <li className="list-disc text-gray-800">
-                <Link
-                  target="_blank"
-                  href={value as string}
-                  className="w-full bg-blue-50 underline underline-offset-4 hover:text-blue-500"
-                >
-                  <h2 className="font-bold text-lg">{value as string}</h2>
-                </Link>
-              </li>
-            </ul>
-          ))}
+        <div
+          className={clsx('w-full max-w-screen-lg flex flex-col gap-2 mb-10')}
+        >
+          <h4 className="font-bold text-2xl opacity-70">
+            Visit the API endpoint:
+          </h4>
+          <div className="flex flex-col gap-2 pl-6">
+            {Object.values(data).map((value, i: number) => (
+              <ul key={i}>
+                <li className="list-disc text-gray-800">
+                  <Link
+                    target="_blank"
+                    href={value as string}
+                    className="w-full bg-blue-50 underline underline-offset-4 hover:text-blue-500"
+                  >
+                    <h2 className="font-bold text-lg">{value as string}</h2>
+                  </Link>
+                </li>
+              </ul>
+            ))}
+          </div>
         </div>
       </div>
     </main>

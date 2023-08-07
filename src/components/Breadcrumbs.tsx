@@ -1,6 +1,7 @@
 import clsx from 'clsx'
 import Image from 'next/image'
 import Link from 'next/link'
+import React from 'react'
 
 interface BreadcrumbsProps {
   className?: string
@@ -24,14 +25,19 @@ const Breadcrumbs = ({
         </Link>
         <Image src="/icons/caret-right.svg" alt="..." width={24} height={24} />
         {pathElements.map((e, i) => (
-          <>
-            <Link
-              href={`/${pathElements.slice(0, i + 1).join('/')}`}
-              key={i}
-              className="text-xl font-bold capitalize hover:text-blue-500 hover:underline hover:underline-offset-4"
-            >
-              {e}
-            </Link>
+          <React.Fragment key={i}>
+            {i < pathElements.length - 1 ? (
+              <Link
+                href={`/${pathElements.slice(0, i + 1).join('/')}`}
+                className="text-xl font-bold capitalize hover:text-blue-500 hover:underline hover:underline-offset-4"
+              >
+                {e}
+              </Link>
+            ) : (
+              <p className="text-xl font-bold capitalize text-blue-500 underline underline-offset-4">
+                {e}
+              </p>
+            )}
             {i < pathElements.length - 1 && (
               <Image
                 src="/icons/caret-right.svg"
@@ -40,7 +46,7 @@ const Breadcrumbs = ({
                 height={24}
               />
             )}
-          </>
+          </React.Fragment>
         ))}
       </div>
     </div>

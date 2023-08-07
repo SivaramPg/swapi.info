@@ -49,7 +49,7 @@ export default async function Page({
   const data = await getCategorySlugJson(category, slug)
 
   return (
-    <main className="container mx-auto min-h-[calc(100vh-64px)] py-20 flex flex-col gap-8 items-center justify-center">
+    <main className="container mx-auto min-h-screen px-4 py-20 flex flex-col gap-8 items-center justify-center">
       <h1 className="text-7xl font-black mb-10">
         /{category}/{slug}
       </h1>

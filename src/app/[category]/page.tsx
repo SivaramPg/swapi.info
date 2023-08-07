@@ -41,12 +41,10 @@ export default async function Page({
   const data = await getCategoryAllJson(category)
 
   return (
-    <main className="container mx-auto min-h-[calc(100vh-64px)] py-20 flex flex-col gap-8 items-center justify-center">
+    <main className="container mx-auto min-h-screen px-4 py-20 flex flex-col gap-8 items-center justify-center">
       <h1 className="text-7xl font-black mb-10">/{category}</h1>
       <Breadcrumbs pathElements={[category]} />
-      <ApiEndpointElement
-        text={`https://sw-api.sivaramp.com/api/${category}`}
-      />
+      <ApiEndpointElement text={`https://swapi.info/api/${category}`} />
       <ResponseDisplayElement>
         {JSON.stringify(data, null, 4)}
       </ResponseDisplayElement>
@@ -57,7 +55,7 @@ export default async function Page({
             <Link
               key={i}
               href={obj.url.replace('/api', '')}
-              className="w-1/4 grow border-2 rounded-lg shadow-sm bg-blue-50"
+              className="w-1/2 sm:w-1/3 md:w-1/4 grow border-2 rounded-lg shadow-sm bg-blue-50"
             >
               <div className="w-full h-fit p-4 flex items-center justify-between gap-2">
                 <h2 className="font-bold text-lg capitalize">

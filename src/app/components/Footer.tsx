@@ -4,13 +4,15 @@ import Link from 'next/link'
 export default function Footer() {
   return (
     <footer className="w-full h-48 border py-4 flex flex-col items-center justify-around bg-slate-200">
-      <div className="h-auto container mx-auto flex items-center justify-between gap-4">
+      <div className="h-auto container px-4 mx-auto flex flex-wrap items-center justify-between gap-8">
         <div className="">
-          <p className="inline-flex items-center gap-1">
+          <p className="inline-flex items-center gap-1 whitespace-nowrap">
             Made with{' '}
             <Image src="/icons/heart.svg" alt="" width={20} height={20} /> by
-            <span className="font-bold">Sivaram Pandariganthan</span>{' '}
-            <span className="font-mono ml-2 font-bold">2023</span>
+            <span className="font-bold">Sivaram P</span>{' '}
+            <span className="font-mono ml-2 font-bold hidden md:block">
+              2023
+            </span>
           </p>
         </div>
         <div className="flex gap-8 items-center justify-center">
@@ -48,8 +50,8 @@ export default function Footer() {
           </Link>
         </div>
       </div>
-      <div className="container mx-auto flex items-center justify-end">
-        <p className="flex items-center gap-6 font-bold text-normal font-mono">
+      <div className="container mx-auto px-4 flex items-center justify-end">
+        <p className="flex items-center gap-2 sm:gap-4 md:gap-6 font-bold text-normal font-mono whitespace-nowrap">
           Powered by{' '}
           <Link href="https://nextjs.org/" target="_blank">
             <Image

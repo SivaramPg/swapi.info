@@ -23,7 +23,7 @@ const mulish = Mulish({
 })
 
 export const metadata: Metadata = {
-  title: 'SW-API',
+  title: 'SWAPI.INFO',
   description: "All the Star Wars data you've ever wanted:",
 }
 
