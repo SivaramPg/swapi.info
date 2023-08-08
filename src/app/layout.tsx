@@ -24,24 +24,45 @@ const mulish = Mulish({
 })
 
 export const metadata: Metadata = {
-  title: { default: 'Swapi.info', template: '%s | Swapi.info' },
+  title: {
+    default: 'SWAPI.INFO - Star Wars APIs & Explorer',
+    template: '%s | SWAPI.INFO - Star Wars APIs & Explorer',
+  },
   description:
-    "All the Star Wars data you've ever wanted. Access it via a CDN-powered, Wicked-fast, Unrestricted Star Wars data API provider. All Data sourced from our beloved swapi.dev",
+    "All the Star Wars data you've ever wanted. Access it via a CDN-powered, Wicked-fast, Unrestricted Star Wars data API provider.",
   metadataBase: new URL('https://swapi.info'),
   alternates: { canonical: '/' },
+  keywords: [
+    'wtar wars',
+    'star wars api',
+    'star sars api sxplorer',
+    'swapi',
+    'sw-api',
+    'nextjs 13',
+    'cloudflare',
+    'swapi.dev alternative',
+    'swapi.co alternative',
+    'alternative',
+  ],
   openGraph: {
-    title: { default: 'Swapi.info', template: '%s | Swapi.info' },
+    title: {
+      default: 'SWAPI.INFO - Star Wars APIs & Explorer',
+      template: '%s | SWAPI.INFO - Star Wars APIs & Explorer',
+    },
     description:
-      "All the Star Wars data you've ever wanted. Access it via a CDN-powered, Wicked-fast, Unrestricted Star Wars data API provider. All Data sourced from our beloved swapi.dev",
+      "All the Star Wars data you've ever wanted. Access it via a CDN-powered, Wicked-fast, Unrestricted Star Wars data API provider.",
     type: 'website',
-    siteName: 'Swapi.info',
+    siteName: 'SWAPI.INFO',
     url: 'https://swapi.info',
     locale: 'en_US',
   },
   twitter: {
-    title: { default: 'Swapi.info', template: '%s | Swapi.info' },
+    title: {
+      default: 'SWAPI.INFO - Star Wars APIs & Explorer',
+      template: '%s | SWAPI.INFO - Star Wars APIs & Explorer',
+    },
     description:
-      "All the Star Wars data you've ever wanted. Access it via a CDN-powered, Wicked-fast, Unrestricted Star Wars data API provider. All Data sourced from our beloved swapi.dev",
+      "All the Star Wars data you've ever wanted. Access it via a CDN-powered, Wicked-fast, Unrestricted Star Wars data API provider.",
     card: 'summary_large_image',
     creator: '@sivarampg95',
   },
