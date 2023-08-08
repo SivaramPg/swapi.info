@@ -1,6 +1,8 @@
 'use client'
 
 import clsx from 'clsx'
+import Image from 'next/image'
+import Link from 'next/link'
 import { useClipboard } from 'use-clipboard-copy'
 
 interface ApiEndpointElementProps {
@@ -27,10 +29,20 @@ const ApiEndpointElement = ({
       >
         <input
           type="text"
-          className="w-full bg-slate-50 rounded-l-md border px-4 font-bold text-lg"
+          className="w-full bg-slate-50 rounded-l-md border border-r-0 px-4 font-bold text-lg"
           value={text}
           readOnly
         />
+        <Link
+          href={text}
+          target="_blank"
+          className={clsx(
+            'w-20 flex items-center justify-center border border-l-0',
+            'bg-slate-50'
+          )}
+        >
+          <Image src="/icons/tab-external.svg" alt="" width={32} height={32} />
+        </Link>
         <button
           type="button"
           className={clsx(

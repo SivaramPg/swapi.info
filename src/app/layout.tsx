@@ -3,6 +3,7 @@ import type { Metadata } from 'next'
 import { Mulish, JetBrains_Mono } from 'next/font/google'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
+import QuickLinks from '@/components/QuickLinks'
 
 const jetBrainsMono = JetBrains_Mono({
   subsets: ['latin'],
@@ -58,7 +59,10 @@ export default function RootLayout({
       >
         <main className="w-full min-h-screen">
           <Navbar />
-          <main className="w-full min-h-[calc(100vh-64px)]">{children}</main>
+          <main className="w-full min-h-[calc(100vh-64px)] relative">
+            {children}
+            <QuickLinks />
+          </main>
           <Footer />
         </main>
       </body>
