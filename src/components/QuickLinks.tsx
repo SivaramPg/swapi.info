@@ -29,7 +29,7 @@ const QuickLinks = ({ className }: QuickLinksProps): JSX.Element => {
           >
             <Image
               src={'/icons/film.svg'}
-              alt=""
+              alt="film"
               width={28}
               height={28}
               className="invert drop-shadow-md"
@@ -41,7 +41,7 @@ const QuickLinks = ({ className }: QuickLinksProps): JSX.Element => {
           >
             <Image
               src={'/icons/people.svg'}
-              alt=""
+              alt="people"
               width={28}
               height={28}
               className="invert drop-shadow-md"
@@ -53,7 +53,7 @@ const QuickLinks = ({ className }: QuickLinksProps): JSX.Element => {
           >
             <Image
               src={'/icons/planet.svg'}
-              alt=""
+              alt="planet"
               width={28}
               height={28}
               className="invert drop-shadow-md"
@@ -65,7 +65,7 @@ const QuickLinks = ({ className }: QuickLinksProps): JSX.Element => {
           >
             <Image
               src={'/icons/species.svg'}
-              alt=""
+              alt="species"
               width={28}
               height={28}
               className="invert drop-shadow-md"
@@ -77,7 +77,7 @@ const QuickLinks = ({ className }: QuickLinksProps): JSX.Element => {
           >
             <Image
               src={'/icons/starship.svg'}
-              alt=""
+              alt="starship"
               width={28}
               height={28}
               className="invert drop-shadow-md"
@@ -89,7 +89,7 @@ const QuickLinks = ({ className }: QuickLinksProps): JSX.Element => {
           >
             <Image
               src={'/icons/vehicle.svg'}
-              alt=""
+              alt="vehicle"
               width={28}
               height={28}
               className="block invert drop-shadow-md"
@@ -100,7 +100,7 @@ const QuickLinks = ({ className }: QuickLinksProps): JSX.Element => {
       {show ? (
         <Image
           src={'/icons/eye-close.svg'}
-          alt=""
+          alt="eye-close"
           width={28}
           height={28}
           className="invert drop-shadow-md"
@@ -109,7 +109,7 @@ const QuickLinks = ({ className }: QuickLinksProps): JSX.Element => {
       ) : (
         <Image
           src={'/icons/eye-open.svg'}
-          alt=""
+          alt="eye-open"
           width={28}
           height={28}
           className="invert drop-shadow-md"

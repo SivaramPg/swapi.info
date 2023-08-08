@@ -7,9 +7,10 @@ export default function Footer() {
       <div className="h-auto container px-4 mx-auto flex flex-wrap items-center justify-between gap-8">
         <div className="">
           <p className="inline-flex items-center gap-1 whitespace-nowrap">
-            Made with{' '}
-            <Image src="/icons/heart.svg" alt="" width={20} height={20} /> by
-            <span className="font-bold">Sivaram P</span>{' '}
+            Made with
+            <Image src="/icons/heart.svg" alt="heart" width={20} height={20} />
+            by
+            <span className="font-bold">Sivaram P</span>
             <span className="font-mono ml-2 font-bold hidden md:block">
               2023
             </span>
@@ -18,19 +19,34 @@ export default function Footer() {
         <div className="flex gap-8 items-center justify-center">
           <Link href="https://sivaramp.com" target="_blank">
             <div className="flex items-center justify-center gap-1 opacity-80 hover:opacity-100 hover:drop-shadow-md">
-              <Image src="/icons/website.svg" alt="" width={24} height={24} />
+              <Image
+                src="/icons/website.svg"
+                alt="website"
+                width={24}
+                height={24}
+              />
             </div>
           </Link>
 
           <Link href="https://github.com/SivaramPg" target="_blank">
             <div className="flex items-center justify-center gap-1 opacity-80 hover:opacity-100 hover:drop-shadow-md">
-              <Image src="/icons/github.svg" alt="" width={24} height={24} />
+              <Image
+                src="/icons/github.svg"
+                alt="github"
+                width={24}
+                height={24}
+              />
             </div>
           </Link>
 
           <Link href="https://sivarampg.medium.com/" target="_blank">
             <div className="flex items-center justify-center gap-1 opacity-80 hover:opacity-100 hover:drop-shadow-md">
-              <Image src="/icons/medium.svg" alt="" width={24} height={24} />
+              <Image
+                src="/icons/medium.svg"
+                alt="medium"
+                width={24}
+                height={24}
+              />
             </div>
           </Link>
 
@@ -39,13 +55,23 @@ export default function Footer() {
             target="_blank"
           >
             <div className="flex items-center justify-center gap-1 opacity-80 hover:opacity-100 hover:drop-shadow-md">
-              <Image src="/icons/linkedin.svg" alt="" width={24} height={24} />
+              <Image
+                src="/icons/linkedin.svg"
+                alt="linkedin"
+                width={24}
+                height={24}
+              />
             </div>
           </Link>
 
           <Link href="https://codepen.io/kaizoku_95" target="_blank">
             <div className="flex items-center justify-center gap-1 opacity-80 hover:opacity-100 hover:drop-shadow-md">
-              <Image src="/icons/codepen.svg" alt="" width={24} height={24} />
+              <Image
+                src="/icons/codepen.svg"
+                alt="codepen"
+                width={24}
+                height={24}
+              />
             </div>
           </Link>
         </div>
@@ -56,7 +82,7 @@ export default function Footer() {
           <Link href="https://nextjs.org/" target="_blank">
             <Image
               src="/icons/nextjs.svg"
-              alt=""
+              alt="Nextjs"
               width={96}
               height={96}
               className="hover:drop-shadow-md"
@@ -66,7 +92,7 @@ export default function Footer() {
           <Link href="https://cloudflare.com" target="_blank">
             <Image
               src="/icons/cloudflare.svg"
-              alt=""
+              alt="Cloudflare"
               width={150}
               height={150}
               className="hover:drop-shadow-md"

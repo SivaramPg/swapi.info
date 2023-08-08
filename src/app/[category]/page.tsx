@@ -82,7 +82,7 @@ export default async function Page({
                 </h2>
                 <Image
                   src="/icons/caret-right.svg"
-                  alt="..."
+                  alt="caret-right"
                   width={24}
                   height={24}
                 />
@@ -107,7 +107,7 @@ export default async function Page({
                   <h2 className="font-bold text-lg">{value.url}</h2>
                   <Image
                     src="/icons/tab-external.svg"
-                    alt=""
+                    alt="tab-external"
                     width={20}
                     height={20}
                   />

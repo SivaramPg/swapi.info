@@ -44,7 +44,7 @@ export default async function Home() {
                   </h2>
                   <Image
                     src="/icons/caret-right.svg"
-                    alt="..."
+                    alt="caret-right"
                     width={24}
                     height={24}
                     className="hidden sm:block"
@@ -72,7 +72,7 @@ export default async function Home() {
                     <h2 className="font-bold text-lg">{value as string}</h2>
                     <Image
                       src="/icons/tab-external.svg"
-                      alt=""
+                      alt="tab-external"
                       width={20}
                       height={20}
                     />

@@ -41,7 +41,12 @@ const ApiEndpointElement = ({
             'bg-slate-50'
           )}
         >
-          <Image src="/icons/tab-external.svg" alt="" width={32} height={32} />
+          <Image
+            src="/icons/tab-external.svg"
+            alt="tab-external"
+            width={32}
+            height={32}
+          />
         </Link>
         <button
           type="button"
