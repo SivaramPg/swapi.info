@@ -1,11 +1,10 @@
 import fsPromises from 'fs/promises'
 import path from 'path'
+import clsx from 'clsx'
 import Image from 'next/image'
 import Link from 'next/link'
 
 import ResponseDisplayElement from '@/components/ResponseDisplayElement'
-import ApiEndpointElement from '@/components/ApiEndpointElement'
-import clsx from 'clsx'
 import HeroSection from './components/HeroSection'
 
 async function getRootJson() {
@@ -23,7 +22,6 @@ export default async function Home() {
     <main className="w-full min-h-screen pb-20 flex flex-col gap-8 items-center justify-center">
       <HeroSection />
       <div className="container mx-auto px-4 flex flex-col gap-8 items-center justify-center">
-        <ApiEndpointElement text={`https://swapi.info/api/`} />
         <ResponseDisplayElement>
           {JSON.stringify(data, null, 4)}
         </ResponseDisplayElement>

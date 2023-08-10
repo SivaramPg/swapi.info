@@ -1,3 +1,4 @@
+import ApiEndpointElement from '@/components/ApiEndpointElement'
 import clsx from 'clsx'
 import Image from 'next/image'
 import Link from 'next/link'
@@ -33,6 +34,13 @@ const HeroSection = ({ className }: HeroSectionProps): JSX.Element => {
           </Link>{' '}
           ❤️
         </h3>
+        <div className="w-full max-w-screen-lg px-2">
+          <ApiEndpointElement
+            className="mb-10"
+            hideLabel
+            text={`https://swapi.info/api/`}
+          />
+        </div>
         <Link
           href="https://github.com/SivaramPg/sw-api"
           target="blank"
