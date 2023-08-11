@@ -99,7 +99,7 @@ export default async function Page({
           {data.map((value: any, i: number) => (
             <ul key={i}>
               <li className="list-disc text-gray-800">
-                <Link
+                <a
                   target="_blank"
                   href={value.url}
                   className="w-full underline underline-offset-4 hover:text-blue-500 inline-flex items-center gap-2"
@@ -111,7 +111,7 @@ export default async function Page({
                     width={20}
                     height={20}
                   />
-                </Link>
+                </a>
               </li>
             </ul>
           ))}

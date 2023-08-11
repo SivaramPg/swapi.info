@@ -62,7 +62,7 @@ export default async function Home() {
             {Object.values(data).map((value, i: number) => (
               <ul key={i}>
                 <li className="list-disc text-gray-800">
-                  <Link
+                  <a
                     target="_blank"
                     href={value as string}
                     className="w-full underline underline-offset-4 hover:text-blue-500 inline-flex items-center gap-2"
@@ -74,7 +74,7 @@ export default async function Home() {
                       width={20}
                       height={20}
                     />
-                  </Link>
+                  </a>
                 </li>
               </ul>
             ))}

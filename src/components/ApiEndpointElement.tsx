@@ -37,7 +37,7 @@ const ApiEndpointElement = ({
           value={text}
           readOnly
         />
-        <Link
+        <a
           href={text}
           target="_blank"
           className={clsx(
@@ -51,7 +51,7 @@ const ApiEndpointElement = ({
             width={32}
             height={32}
           />
-        </Link>
+        </a>
         <button
           type="button"
           className={clsx(

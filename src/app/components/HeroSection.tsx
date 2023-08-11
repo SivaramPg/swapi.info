@@ -25,13 +25,13 @@ const HeroSection = ({ className }: HeroSectionProps): JSX.Element => {
         <h3 className="max-w-screen-sm mx-5 text-md sm:text-xl md:text-xl opacity-75 text-center mt-2 mb-6">
           JSON-only, CDN-powered, Wicked-fast, Unrestricted Star Wars data API
           endpoints. All data sourced from our beloved{' '}
-          <Link
+          <a
             href="https://swapi.dev"
             target="_blank"
             className="font-bold underline underline-offset-4"
           >
             swapi.dev
-          </Link>{' '}
+          </a>{' '}
           ❤️
         </h3>
         <div className="w-full max-w-screen-lg px-2">
