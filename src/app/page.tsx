@@ -21,14 +21,6 @@ export default async function Home() {
 
   return (
     <main className="w-full min-h-screen pb-20 flex flex-col gap-8 items-center justify-center">
-      <Image
-        priority
-        src={'/icons/sprite.svg'}
-        width={0}
-        height={0}
-        alt="Prefetch SVG Sprites"
-        className="hidden"
-      />
       <HeroSection />
       <div className="container mx-auto px-4 flex flex-col gap-8 items-center justify-center">
         <ResponseDisplayElement>

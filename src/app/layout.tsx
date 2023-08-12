@@ -5,6 +5,7 @@ import { Mulish, JetBrains_Mono } from 'next/font/google'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
 import QuickLinks from '@/components/QuickLinks'
+import Image from 'next/image'
 
 const jetBrainsMono = JetBrains_Mono({
   subsets: ['latin'],
@@ -80,6 +81,14 @@ export default function RootLayout({
         className={`${jetBrainsMono.variable} ${mulish.variable} font-sans`}
         suppressHydrationWarning
       >
+        <Image
+          priority
+          src={'/icons/sprite.svg'}
+          width={0}
+          height={0}
+          alt="Prefetch SVG Sprites"
+          className="hidden"
+        />
         <main className="w-full min-h-screen">
           <Navbar />
           <main className="w-full min-h-[calc(100vh-64px)] relative">
