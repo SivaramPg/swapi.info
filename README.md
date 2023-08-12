@@ -2,7 +2,11 @@
 
 SWAPI.INFO is an Open Source no-server, file-based simple GET API provider & endpoint data explorer. Built using the latest Next.js App Router & hosted via Cloudflare Pages to utilize Cloudflares awesome & highly available CDN network to provide wicked-fast API resolution and page exploration experience. The architecture allows the provider to be highly resilient against DDoS attacks and network traffic surges.
 
-![SWAPI.INFO](https://swapi.info/opengraph-image.png)
+<!-- ![SWAPI.INFO](https://swapi.info/opengraph-image.png) -->
+
+<div align="center">
+  <img src=".github/swapi-info.png">
+</div>
 
 ### [Health Status](https://status.swapi.info/)
 
