@@ -2,6 +2,7 @@ import clsx from 'clsx'
 import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
+import SpriteIcon, { Icons } from './SpriteIcon'
 
 interface BreadcrumbsProps {
   className?: string
@@ -21,21 +22,9 @@ const Breadcrumbs = ({
         )}
       >
         <Link href="/">
-          <Image
-            priority
-            src="/icons/home.svg"
-            alt="Home"
-            width={24}
-            height={24}
-          />
+          <SpriteIcon id={Icons.home} width={24} height={24} />
         </Link>
-        <Image
-          priority
-          src="/icons/caret-right.svg"
-          alt="..."
-          width={24}
-          height={24}
-        />
+        <SpriteIcon id={Icons['caret-right']} width={24} height={24} />
         {pathElements.map((e, i) => (
           <React.Fragment key={i}>
             {i < pathElements.length - 1 ? (
@@ -51,13 +40,7 @@ const Breadcrumbs = ({
               </p>
             )}
             {i < pathElements.length - 1 && (
-              <Image
-                priority
-                src="/icons/caret-right.svg"
-                alt="..."
-                width={24}
-                height={24}
-              />
+              <SpriteIcon id={Icons['caret-right']} width={24} height={24} />
             )}
           </React.Fragment>
         ))}

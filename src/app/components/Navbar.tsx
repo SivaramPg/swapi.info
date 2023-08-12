@@ -1,3 +1,4 @@
+import SpriteIcon, { Icons } from '@/components/SpriteIcon'
 import Image from 'next/image'
 import Link from 'next/link'
 
@@ -11,39 +12,26 @@ export default function Navbar() {
           </div>
         </Link>
         <div className="items-center justify-center gap-2 md:gap-4 hidden sm:flex">
-          <CustomNavLink
-            href="/films"
-            imageSrc="/icons/film.svg"
-            linkText="Films"
-          />
-
-          <CustomNavLink
-            href="/people"
-            imageSrc="/icons/people.svg"
-            linkText="People"
-          />
-
+          <CustomNavLink href="/films" icon={Icons.film} linkText="Films" />
+          <CustomNavLink href="/people" icon={Icons.people} linkText="People" />
           <CustomNavLink
             href="/planets"
-            imageSrc="/icons/planet.svg"
+            icon={Icons.planet}
             linkText="Planets"
           />
-
           <CustomNavLink
             href="/species"
-            imageSrc="/icons/species.svg"
+            icon={Icons.species}
             linkText="Species"
           />
-
           <CustomNavLink
             href="/starships"
-            imageSrc="/icons/starship.svg"
+            icon={Icons.starship}
             linkText="Starships"
           />
-
           <CustomNavLink
             href="/vehicles"
-            imageSrc="/icons/vehicle.svg"
+            icon={Icons.vehicle}
             linkText="Vehicles"
           />
         </div>
@@ -54,11 +42,11 @@ export default function Navbar() {
 
 const CustomNavLink = ({
   href,
-  imageSrc,
+  icon,
   linkText,
 }: {
   href: string
-  imageSrc: string
+  icon: Icons
   linkText: string
 }) => {
   return (
@@ -67,10 +55,8 @@ const CustomNavLink = ({
       className="px-3 py-1 opacity-80 hover:opacity-100 hover:drop-shadow-md"
     >
       <div className="flex items-center justify-center gap-1">
-        <Image
-          priority
-          src={imageSrc}
-          alt={linkText}
+        <SpriteIcon
+          id={icon}
           width={20}
           height={20}
           className="block md:hidden lg:block"

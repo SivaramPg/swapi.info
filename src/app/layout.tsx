@@ -1,6 +1,7 @@
 import './globals.css'
 import type { Metadata } from 'next'
 import { Mulish, JetBrains_Mono } from 'next/font/google'
+
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
 import QuickLinks from '@/components/QuickLinks'
@@ -77,6 +78,7 @@ export default function RootLayout({
     <html lang="en">
       <body
         className={`${jetBrainsMono.variable} ${mulish.variable} font-sans`}
+        suppressHydrationWarning
       >
         <main className="w-full min-h-screen">
           <Navbar />

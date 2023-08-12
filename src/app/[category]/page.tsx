@@ -1,6 +1,6 @@
 import fsPromises from 'fs/promises'
 import path from 'path'
-import { Metadata } from 'next'
+
 import clsx from 'clsx'
 import Link from 'next/link'
 import Image from 'next/image'
@@ -8,6 +8,8 @@ import Image from 'next/image'
 import ResponseDisplayElement from '@/components/ResponseDisplayElement'
 import ApiEndpointElement from '@/components/ApiEndpointElement'
 import Breadcrumbs from '@/components/Breadcrumbs'
+import SpriteIcon, { Icons } from '@/components/SpriteIcon'
+
 import { capitalize } from '@/utils/capitalize'
 
 export async function generateStaticParams() {
@@ -80,12 +82,11 @@ export default async function Page({
                   {obj.url.split('/').at(-1).split('.')[0]}.{' '}
                   {obj.title ?? obj.name}
                 </h2>
-                <Image
-                  priority
-                  src="/icons/caret-right.svg"
-                  alt="caret-right"
+                <SpriteIcon
+                  id={Icons['caret-right']}
                   width={24}
                   height={24}
+                  className="hidden sm:block"
                 />
               </div>
             </Link>
@@ -106,10 +107,8 @@ export default async function Page({
                   className="w-full underline underline-offset-4 hover:text-blue-500 inline-flex items-center gap-2"
                 >
                   <h2 className="font-bold text-lg">{value.url}</h2>
-                  <Image
-                    priority
-                    src="/icons/tab-external.svg"
-                    alt="tab-external"
+                  <SpriteIcon
+                    id={Icons['tab-external']}
                     width={20}
                     height={20}
                   />

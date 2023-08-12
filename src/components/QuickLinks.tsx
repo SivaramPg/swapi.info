@@ -4,6 +4,7 @@ import clsx from 'clsx'
 import Image from 'next/image'
 import Link from 'next/link'
 import { useState } from 'react'
+import SpriteIcon, { Icons } from './SpriteIcon'
 
 interface QuickLinksProps {
   className?: string
@@ -27,10 +28,8 @@ const QuickLinks = ({ className }: QuickLinksProps): JSX.Element => {
             href="/films"
             className="flex flex-grow items-center justify-center"
           >
-            <Image
-              priority
-              src={'/icons/film.svg'}
-              alt="film"
+            <SpriteIcon
+              id={Icons.film}
               width={28}
               height={28}
               className="invert drop-shadow-md"
@@ -40,10 +39,8 @@ const QuickLinks = ({ className }: QuickLinksProps): JSX.Element => {
             href="/people"
             className="flex flex-grow items-center justify-center"
           >
-            <Image
-              priority
-              src={'/icons/people.svg'}
-              alt="people"
+            <SpriteIcon
+              id={Icons.people}
               width={28}
               height={28}
               className="invert drop-shadow-md"
@@ -53,10 +50,8 @@ const QuickLinks = ({ className }: QuickLinksProps): JSX.Element => {
             href="/planets"
             className="flex flex-grow items-center justify-center"
           >
-            <Image
-              priority
-              src={'/icons/planet.svg'}
-              alt="planet"
+            <SpriteIcon
+              id={Icons.planet}
               width={28}
               height={28}
               className="invert drop-shadow-md"
@@ -66,10 +61,8 @@ const QuickLinks = ({ className }: QuickLinksProps): JSX.Element => {
             href="/species"
             className="flex flex-grow items-center justify-center"
           >
-            <Image
-              priority
-              src={'/icons/species.svg'}
-              alt="species"
+            <SpriteIcon
+              id={Icons.species}
               width={28}
               height={28}
               className="invert drop-shadow-md"
@@ -79,10 +72,8 @@ const QuickLinks = ({ className }: QuickLinksProps): JSX.Element => {
             href="/starships"
             className="flex flex-grow items-center justify-center"
           >
-            <Image
-              priority
-              src={'/icons/starship.svg'}
-              alt="starship"
+            <SpriteIcon
+              id={Icons.starship}
               width={28}
               height={28}
               className="invert drop-shadow-md"
@@ -92,10 +83,8 @@ const QuickLinks = ({ className }: QuickLinksProps): JSX.Element => {
             href="/vehicles"
             className="flex flex-grow items-center justify-center"
           >
-            <Image
-              priority
-              src={'/icons/vehicle.svg'}
-              alt="vehicle"
+            <SpriteIcon
+              id={Icons.vehicle}
               width={28}
               height={28}
               className="block invert drop-shadow-md"
@@ -104,20 +93,16 @@ const QuickLinks = ({ className }: QuickLinksProps): JSX.Element => {
         </>
       )}
       {show ? (
-        <Image
-          priority
-          src={'/icons/eye-close.svg'}
-          alt="eye-close"
+        <SpriteIcon
+          id={Icons['eye-close']}
           width={28}
           height={28}
           className="invert drop-shadow-md"
           onClick={() => setShow((prevState) => !prevState)}
         />
       ) : (
-        <Image
-          priority
-          src={'/icons/eye-open.svg'}
-          alt="eye-open"
+        <SpriteIcon
+          id={Icons['eye-open']}
           width={28}
           height={28}
           className="invert drop-shadow-md"

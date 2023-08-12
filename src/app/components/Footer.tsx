@@ -1,3 +1,4 @@
+import SpriteIcon, { Icons } from '@/components/SpriteIcon'
 import Image from 'next/image'
 
 export default function Footer() {
@@ -7,13 +8,7 @@ export default function Footer() {
         <div className="">
           <p className="inline-flex items-center gap-1 whitespace-nowrap">
             Made with
-            <Image
-              priority
-              src="/icons/heart.svg"
-              alt="heart"
-              width={20}
-              height={20}
-            />
+            <SpriteIcon id={Icons['heart']} width={20} height={20} />
             by
             <span className="font-bold">Sivaram P</span>
             <span className="font-mono ml-2 font-bold hidden md:block">
@@ -24,37 +19,19 @@ export default function Footer() {
         <div className="flex gap-8 items-center justify-center">
           <a href="https://sivaramp.com" target="_blank">
             <div className="flex items-center justify-center gap-1 opacity-80 hover:opacity-100 hover:drop-shadow-md">
-              <Image
-                priority
-                src="/icons/website.svg"
-                alt="website"
-                width={24}
-                height={24}
-              />
+              <SpriteIcon id={Icons['website']} width={24} height={24} />
             </div>
           </a>
 
           <a href="https://github.com/SivaramPg" target="_blank">
             <div className="flex items-center justify-center gap-1 opacity-80 hover:opacity-100 hover:drop-shadow-md">
-              <Image
-                priority
-                src="/icons/github.svg"
-                alt="github"
-                width={24}
-                height={24}
-              />
+              <SpriteIcon id={Icons['github']} width={24} height={24} />
             </div>
           </a>
 
           <a href="https://sivarampg.medium.com/" target="_blank">
             <div className="flex items-center justify-center gap-1 opacity-80 hover:opacity-100 hover:drop-shadow-md">
-              <Image
-                priority
-                src="/icons/medium.svg"
-                alt="medium"
-                width={24}
-                height={24}
-              />
+              <SpriteIcon id={Icons['medium']} width={24} height={24} />
             </div>
           </a>
 
@@ -63,25 +40,13 @@ export default function Footer() {
             target="_blank"
           >
             <div className="flex items-center justify-center gap-1 opacity-80 hover:opacity-100 hover:drop-shadow-md">
-              <Image
-                priority
-                src="/icons/linkedin.svg"
-                alt="linkedin"
-                width={24}
-                height={24}
-              />
+              <SpriteIcon id={Icons['linkedin']} width={24} height={24} />
             </div>
           </a>
 
           <a href="https://codepen.io/kaizoku_95" target="_blank">
             <div className="flex items-center justify-center gap-1 opacity-80 hover:opacity-100 hover:drop-shadow-md">
-              <Image
-                priority
-                src="/icons/codepen.svg"
-                alt="codepen"
-                width={24}
-                height={24}
-              />
+              <SpriteIcon id={Icons['codepen']} width={24} height={24} />
             </div>
           </a>
         </div>

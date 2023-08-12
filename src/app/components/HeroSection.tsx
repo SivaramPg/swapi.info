@@ -1,4 +1,5 @@
 import ApiEndpointElement from '@/components/ApiEndpointElement'
+import SpriteIcon, { Icons } from '@/components/SpriteIcon'
 import clsx from 'clsx'
 import Image from 'next/image'
 import Link from 'next/link'
@@ -32,7 +33,13 @@ const HeroSection = ({ className }: HeroSectionProps): JSX.Element => {
           >
             swapi.dev
           </a>{' '}
-          ❤️
+          &nbsp;
+          <SpriteIcon
+            id={Icons['heart']}
+            width={20}
+            height={20}
+            className="inline-block"
+          />
         </h3>
         <div className="w-full max-w-screen-lg px-2">
           <ApiEndpointElement
@@ -46,13 +53,7 @@ const HeroSection = ({ className }: HeroSectionProps): JSX.Element => {
           target="blank"
           className="font-bold text-lg sm:text-xl inline-flex items-center gap-2 border p-3 bg-white rounded-lg hover:shadow-md"
         >
-          <Image
-            priority
-            src={'/icons/github.svg'}
-            alt="Github"
-            width={28}
-            height={28}
-          />
+          <SpriteIcon id={Icons['github']} width={28} height={28} />
           View Source Code
         </Link>
       </div>

@@ -4,6 +4,7 @@ import clsx from 'clsx'
 import Image from 'next/image'
 import Link from 'next/link'
 import { useClipboard } from 'use-clipboard-copy'
+import SpriteIcon, { Icons } from './SpriteIcon'
 
 interface ApiEndpointElementProps {
   className?: string
@@ -45,13 +46,7 @@ const ApiEndpointElement = ({
             'bg-slate-50'
           )}
         >
-          <Image
-            priority
-            src="/icons/tab-external.svg"
-            alt="tab-external"
-            width={32}
-            height={32}
-          />
+          <SpriteIcon id={Icons['tab-external']} width={32} height={32} />
         </a>
         <button
           type="button"

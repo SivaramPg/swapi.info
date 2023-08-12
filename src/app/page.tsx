@@ -4,8 +4,9 @@ import clsx from 'clsx'
 import Image from 'next/image'
 import Link from 'next/link'
 
-import ResponseDisplayElement from '@/components/ResponseDisplayElement'
 import HeroSection from './components/HeroSection'
+import ResponseDisplayElement from '@/components/ResponseDisplayElement'
+import SpriteIcon, { Icons } from '@/components/SpriteIcon'
 
 async function getRootJson() {
   const jsonFile = await fsPromises.readFile(
@@ -20,6 +21,14 @@ export default async function Home() {
 
   return (
     <main className="w-full min-h-screen pb-20 flex flex-col gap-8 items-center justify-center">
+      <Image
+        priority
+        src={'/icons/sprite.svg'}
+        width={0}
+        height={0}
+        alt="Prefetch SVG Sprites"
+        className="hidden"
+      />
       <HeroSection />
       <div className="container mx-auto px-4 flex flex-col gap-8 items-center justify-center">
         <ResponseDisplayElement>
@@ -40,10 +49,8 @@ export default async function Home() {
                   <h2 className="font-bold text-md md:text-lg capitalize">
                     {key}
                   </h2>
-                  <Image
-                    priority
-                    src="/icons/caret-right.svg"
-                    alt="caret-right"
+                  <SpriteIcon
+                    id={Icons['caret-right']}
                     width={24}
                     height={24}
                     className="hidden sm:block"
@@ -69,10 +76,8 @@ export default async function Home() {
                     className="w-full underline underline-offset-4 hover:text-blue-500 inline-flex items-center gap-2"
                   >
                     <h2 className="font-bold text-lg">{value as string}</h2>
-                    <Image
-                      priority
-                      src="/icons/tab-external.svg"
-                      alt="tab-external"
+                    <SpriteIcon
+                      id={Icons['tab-external']}
                       width={20}
                       height={20}
                     />
