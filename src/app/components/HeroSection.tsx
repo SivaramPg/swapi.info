@@ -47,6 +47,7 @@ const HeroSection = ({ className }: HeroSectionProps): JSX.Element => {
           className="font-bold text-lg sm:text-xl inline-flex items-center gap-2 border p-3 bg-white rounded-lg hover:shadow-md"
         >
           <Image
+            priority
             src={'/icons/github.svg'}
             alt="Github"
             width={28}

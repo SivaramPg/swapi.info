@@ -28,6 +28,7 @@ const QuickLinks = ({ className }: QuickLinksProps): JSX.Element => {
             className="flex flex-grow items-center justify-center"
           >
             <Image
+              priority
               src={'/icons/film.svg'}
               alt="film"
               width={28}
@@ -40,6 +41,7 @@ const QuickLinks = ({ className }: QuickLinksProps): JSX.Element => {
             className="flex flex-grow items-center justify-center"
           >
             <Image
+              priority
               src={'/icons/people.svg'}
               alt="people"
               width={28}
@@ -52,6 +54,7 @@ const QuickLinks = ({ className }: QuickLinksProps): JSX.Element => {
             className="flex flex-grow items-center justify-center"
           >
             <Image
+              priority
               src={'/icons/planet.svg'}
               alt="planet"
               width={28}
@@ -64,6 +67,7 @@ const QuickLinks = ({ className }: QuickLinksProps): JSX.Element => {
             className="flex flex-grow items-center justify-center"
           >
             <Image
+              priority
               src={'/icons/species.svg'}
               alt="species"
               width={28}
@@ -76,6 +80,7 @@ const QuickLinks = ({ className }: QuickLinksProps): JSX.Element => {
             className="flex flex-grow items-center justify-center"
           >
             <Image
+              priority
               src={'/icons/starship.svg'}
               alt="starship"
               width={28}
@@ -88,6 +93,7 @@ const QuickLinks = ({ className }: QuickLinksProps): JSX.Element => {
             className="flex flex-grow items-center justify-center"
           >
             <Image
+              priority
               src={'/icons/vehicle.svg'}
               alt="vehicle"
               width={28}
@@ -99,6 +105,7 @@ const QuickLinks = ({ className }: QuickLinksProps): JSX.Element => {
       )}
       {show ? (
         <Image
+          priority
           src={'/icons/eye-close.svg'}
           alt="eye-close"
           width={28}
@@ -108,6 +115,7 @@ const QuickLinks = ({ className }: QuickLinksProps): JSX.Element => {
         />
       ) : (
         <Image
+          priority
           src={'/icons/eye-open.svg'}
           alt="eye-open"
           width={28}

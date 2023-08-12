@@ -41,6 +41,7 @@ export default async function Home() {
                     {key}
                   </h2>
                   <Image
+                    priority
                     src="/icons/caret-right.svg"
                     alt="caret-right"
                     width={24}
@@ -69,6 +70,7 @@ export default async function Home() {
                   >
                     <h2 className="font-bold text-lg">{value as string}</h2>
                     <Image
+                      priority
                       src="/icons/tab-external.svg"
                       alt="tab-external"
                       width={20}

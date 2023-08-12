@@ -46,6 +46,7 @@ const ApiEndpointElement = ({
           )}
         >
           <Image
+            priority
             src="/icons/tab-external.svg"
             alt="tab-external"
             width={32}

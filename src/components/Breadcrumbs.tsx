@@ -21,9 +21,21 @@ const Breadcrumbs = ({
         )}
       >
         <Link href="/">
-          <Image src="/icons/home.svg" alt="Home" width={24} height={24} />
+          <Image
+            priority
+            src="/icons/home.svg"
+            alt="Home"
+            width={24}
+            height={24}
+          />
         </Link>
-        <Image src="/icons/caret-right.svg" alt="..." width={24} height={24} />
+        <Image
+          priority
+          src="/icons/caret-right.svg"
+          alt="..."
+          width={24}
+          height={24}
+        />
         {pathElements.map((e, i) => (
           <React.Fragment key={i}>
             {i < pathElements.length - 1 ? (
@@ -40,6 +52,7 @@ const Breadcrumbs = ({
             )}
             {i < pathElements.length - 1 && (
               <Image
+                priority
                 src="/icons/caret-right.svg"
                 alt="..."
                 width={24}

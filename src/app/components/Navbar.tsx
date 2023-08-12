@@ -68,6 +68,7 @@ const CustomNavLink = ({
     >
       <div className="flex items-center justify-center gap-1">
         <Image
+          priority
           src={imageSrc}
           alt={linkText}
           width={20}

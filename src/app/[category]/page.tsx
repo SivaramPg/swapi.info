@@ -81,6 +81,7 @@ export default async function Page({
                   {obj.title ?? obj.name}
                 </h2>
                 <Image
+                  priority
                   src="/icons/caret-right.svg"
                   alt="caret-right"
                   width={24}
@@ -106,6 +107,7 @@ export default async function Page({
                 >
                   <h2 className="font-bold text-lg">{value.url}</h2>
                   <Image
+                    priority
                     src="/icons/tab-external.svg"
                     alt="tab-external"
                     width={20}
