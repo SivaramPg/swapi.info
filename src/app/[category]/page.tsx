@@ -3,7 +3,7 @@ import path from 'path'
 
 import clsx from 'clsx'
 import Link from 'next/link'
-import Image from 'next/image'
+import { Metadata } from 'next'
 
 import ResponseDisplayElement from '@/components/ResponseDisplayElement'
 import ApiEndpointElement from '@/components/ApiEndpointElement'
@@ -42,9 +42,10 @@ export async function generateMetadata({
 }) {
   return {
     title: capitalize(params.category),
+    alternates: { canonical: `https://swapi.info/${params.category}` },
     openGraph: { title: capitalize(params.category) },
     twitter: { title: capitalize(params.category) },
-  }
+  } as Metadata
 }
 
 export default async function Page({

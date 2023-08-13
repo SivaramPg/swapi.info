@@ -1,11 +1,11 @@
 import './globals.css'
 import type { Metadata } from 'next'
 import { Mulish, JetBrains_Mono } from 'next/font/google'
+import Image from 'next/image'
 
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
 import QuickLinks from '@/components/QuickLinks'
-import Image from 'next/image'
 
 const jetBrainsMono = JetBrains_Mono({
   subsets: ['latin'],
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
   description:
     "All the Star Wars data you've ever wanted. Access it via a CDN-powered, Wicked-fast, Unrestricted Star Wars data API provider.",
   metadataBase: new URL('https://swapi.info'),
-  alternates: { canonical: '/' },
+  alternates: { canonical: 'https://swapi.info' },
   keywords: [
     'wtar wars',
     'star wars api',

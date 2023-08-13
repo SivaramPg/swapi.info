@@ -1,0 +1,9 @@
+
+
+User-Agent: *
+Allow: /
+
+Disallow: /api
+Disallow /api/*
+
+Sitemap: https://swapi.info/sitemap.xml

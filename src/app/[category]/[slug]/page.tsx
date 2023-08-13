@@ -1,9 +1,12 @@
 import fsPromises from 'fs/promises'
 import path from 'path'
 
+import { Metadata } from 'next'
+
 import ResponseDisplayElement from '@/components/ResponseDisplayElement'
 import ApiEndpointElement from '@/components/ApiEndpointElement'
 import Breadcrumbs from '@/components/Breadcrumbs'
+
 import { capitalize } from '@/utils/capitalize'
 
 export async function generateStaticParams() {
@@ -47,9 +50,12 @@ export async function generateMetadata({
 }) {
   return {
     title: capitalize(`${params.category}/${params.slug}`),
+    alternates: {
+      canonical: `https://swapi.info/${params.category}/${params.slug}`,
+    },
     openGraph: { title: capitalize(`${params.category}/${params.slug}`) },
     twitter: { title: capitalize(`${params.category}/${params.slug}`) },
-  }
+  } as Metadata
 }
 
 export default async function Page({
