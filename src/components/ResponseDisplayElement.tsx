@@ -1,4 +1,4 @@
-import clsx from 'clsx'
+import { Code } from 'bright'
 
 interface ResponseDisplayElementProps {
   className?: string
@@ -14,17 +14,15 @@ const ResponseDisplayElement = ({
       <h4 className="font-bold text-lg md:text-xl lg:text-2xl opacity-70">
         Response Body:
       </h4>
-      <pre
-        className={clsx(
-          'w-full bg-slate-50 p-4 rounded-md border',
-          'whitespace-pre-wrap break-words',
-          'max-h-screen overflow-y-auto',
-          'text-sm md:text-base',
-          className
-        )}
+      <Code
+        lang="json"
+        title="response.json"
+        lineNumbers
+        theme={'github-dark-dimmed'}
+        className="max-h-screen !overflow-y-auto"
       >
         {children}
-      </pre>
+      </Code>
     </div>
   )
 }
