@@ -19,6 +19,11 @@
   dependencies:
     regenerator-runtime "^0.13.11"
 
+"@code-hike/lighter@0.8.1":
+  version "0.8.1"
+  resolved "https://registry.yarnpkg.com/@code-hike/lighter/-/lighter-0.8.1.tgz#3bde8e1eea3900132359e37c05bae5ac96ddd53c"
+  integrity sha512-St4rPmB7C2EWmAK1sAbvD3lZeM7UDInVDMjQDzEDsu4Q3B3AqF25vXedQK51U0UO0MCOASgBBdTiNwvJAfIqMQ==
+
 "@corex/deepmerge@^4.0.43":
   version "4.0.43"
   resolved "https://registry.yarnpkg.com/@corex/deepmerge/-/deepmerge-4.0.43.tgz#9bd42559ebb41cc5a7fb7cfeea5f231c20977dca"
@@ -509,6 +514,14 @@ braces@^3.0.2, braces@~3.0.2:
   integrity sha512-b8um+L1RzM3WDSzvhm6gIz1yfTbBt6YTlcEKAvsmqCZZFw46z626lVj9j1yEPW33H5H+lBQpZMP1k8l+78Ha0A==
   dependencies:
     fill-range "^7.0.1"
+
+bright@^0.8.4:
+  version "0.8.4"
+  resolved "https://registry.yarnpkg.com/bright/-/bright-0.8.4.tgz#9b2f3d76e9cdc4a36cdeafe8a8d1a11a61fbae52"
+  integrity sha512-SBlcJje8EDh3lLihqr0W27yHCVpuh3NReziNxZOwUzuaShqq+V/imY+J+AvJdTIOifiCQkyIsgVWKAj5G/eOyg==
+  dependencies:
+    "@code-hike/lighter" "0.8.1"
+    server-only "^0.0.1"
 
 browserslist@^4.21.5:
   version "4.21.10"
@@ -2218,6 +2231,11 @@ semver@^7.3.7:
   integrity sha512-1bCSESV6Pv+i21Hvpxp3Dx+pSD8lIPt8uVjRrxAUt/nbswYc+tK6Y2btiULjd4+fnq15PX+nqQDC7Oft7WkwcA==
   dependencies:
     lru-cache "^6.0.0"
+
+server-only@^0.0.1:
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/server-only/-/server-only-0.0.1.tgz#0f366bb6afb618c37c9255a314535dc412cd1c9e"
+  integrity sha512-qepMx2JxAa5jjfzxG79yPPq+8BuFToHd1hm7kI+Z4zAq1ftQiP7HcxMhDDItrbtwVeLg/cY2JnKnrcFkmiswNA==
 
 shebang-command@^2.0.0:
   version "2.0.0"
