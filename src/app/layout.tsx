@@ -66,7 +66,7 @@ export const metadata: Metadata = {
     description:
       "All the Star Wars data you've ever wanted. Access it via a CDN-powered, Wicked-fast, Unrestricted Star Wars data API provider.",
     card: 'summary_large_image',
-    creator: '@sivarampg95',
+    creator: '@SivaramPg',
   },
 }
 
