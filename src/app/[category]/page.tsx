@@ -11,6 +11,7 @@ import Breadcrumbs from '@/components/Breadcrumbs'
 import SpriteIcon, { Icons } from '@/components/SpriteIcon'
 
 import { capitalize } from '@/utils/capitalize'
+import { metadata } from '@/app/layout'
 
 export async function generateStaticParams() {
   const categories = (
@@ -42,9 +43,16 @@ export async function generateMetadata({
 }) {
   return {
     title: capitalize(params.category),
+    description: `Get all the Star Wars ${params.category} in one place! ${metadata.description}`,
     alternates: { canonical: `https://swapi.info/${params.category}` },
-    openGraph: { title: capitalize(params.category) },
-    twitter: { title: capitalize(params.category) },
+    openGraph: {
+      title: capitalize(params.category),
+      description: `Get all the Star Wars ${params.category} in one place! ${metadata.description}`,
+    },
+    twitter: {
+      title: capitalize(params.category),
+      description: `Get all the Star Wars ${params.category} in one place! ${metadata.description}`,
+    },
   } as Metadata
 }
 

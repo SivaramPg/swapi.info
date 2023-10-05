@@ -6,8 +6,7 @@ import { Metadata } from 'next'
 import ResponseDisplayElement from '@/components/ResponseDisplayElement'
 import ApiEndpointElement from '@/components/ApiEndpointElement'
 import Breadcrumbs from '@/components/Breadcrumbs'
-
-import { capitalize } from '@/utils/capitalize'
+import { metadata } from '@/app/layout'
 
 export async function generateStaticParams() {
   const slugs = (
@@ -43,18 +42,52 @@ async function getCategorySlugJson(category: string, slug: string) {
   return JSON.parse(jsonFile.toString())
 }
 
+function getFlattenedDetails(json: Record<string, string>) {
+  return Object.entries(json)
+    .map(([key, value]) => {
+      if (typeof value === 'string' && !value.startsWith('http')) {
+        return `${key}: ${value}`
+      }
+    })
+    .filter(Boolean)
+    .join(', ')
+}
+
 export async function generateMetadata({
   params,
 }: {
   params: { category: string; slug: string }
 }) {
+  const json = await getCategorySlugJson(params.category, params.slug)
   return {
-    title: capitalize(`${params.category}/${params.slug}`),
+    title:
+      `${json?.title || json?.name} | ` + `${params.category}/${params.slug}`,
+    description: `${
+      json?.opening_crawl?.replaceAll('\r\n', ' ') ||
+      getFlattenedDetails(json) ||
+      metadata.description
+    }`,
     alternates: {
       canonical: `https://swapi.info/${params.category}/${params.slug}`,
     },
-    openGraph: { title: capitalize(`${params.category}/${params.slug}`) },
-    twitter: { title: capitalize(`${params.category}/${params.slug}`) },
+    openGraph: {
+      title:
+        `${json.title || json.name} | ` + `${params.category}/${params.slug}`,
+      description: `${
+        json?.opening_crawl?.replaceAll('\r\n', ' ') ||
+        getFlattenedDetails(json) ||
+        metadata.description
+      }`,
+    },
+    twitter: {
+      title:
+        `${json.title || json.name} | ` + `${params.category}/${params.slug}`,
+      description: `${
+        json?.opening_crawl?.replaceAll('\r\n', ' ') ||
+        getFlattenedDetails(json) ||
+        metadata.description
+      }`,
+    },
   } as Metadata
 }
 

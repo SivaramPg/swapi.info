@@ -30,14 +30,13 @@ export const metadata: Metadata = {
     default: 'SWAPI.INFO - Star Wars APIs & Explorer',
     template: '%s | SWAPI.INFO - Star Wars APIs & Explorer',
   },
-  description:
-    "All the Star Wars data you've ever wanted. Access it via a CDN-powered, Wicked-fast, Unrestricted Star Wars data API provider.",
+  description: `The Star Wars API, or "swapi" (Swah-pee)!. All the Star Wars data you've ever wanted. Inspired by swapi.dev. Access it via a CDN-powered, Wicked-fast, Unrestricted Star Wars data API provider.`,
   metadataBase: new URL('https://swapi.info'),
   alternates: { canonical: 'https://swapi.info' },
   keywords: [
-    'wtar wars',
+    'star wars',
     'star wars api',
-    'star sars api sxplorer',
+    'star wars api explorer',
     'swapi',
     'sw-api',
     'nextjs 13',
@@ -51,8 +50,7 @@ export const metadata: Metadata = {
       default: 'SWAPI.INFO - Star Wars APIs & Explorer',
       template: '%s | SWAPI.INFO - Star Wars APIs & Explorer',
     },
-    description:
-      "All the Star Wars data you've ever wanted. Access it via a CDN-powered, Wicked-fast, Unrestricted Star Wars data API provider.",
+    description: `The Star Wars API, or "swapi" (Swah-pee)!. All the Star Wars data you've ever wanted. Inspired by swapi.dev. Access it via a CDN-powered, Wicked-fast, Unrestricted Star Wars data API provider.`,
     type: 'website',
     siteName: 'SWAPI.INFO',
     url: 'https://swapi.info',
@@ -63,8 +61,7 @@ export const metadata: Metadata = {
       default: 'SWAPI.INFO - Star Wars APIs & Explorer',
       template: '%s | SWAPI.INFO - Star Wars APIs & Explorer',
     },
-    description:
-      "All the Star Wars data you've ever wanted. Access it via a CDN-powered, Wicked-fast, Unrestricted Star Wars data API provider.",
+    description: `The Star Wars API, or "swapi" (Swah-pee)!. All the Star Wars data you've ever wanted. Inspired by swapi.dev. Access it via a CDN-powered, Wicked-fast, Unrestricted Star Wars data API provider.`,
     card: 'summary_large_image',
     creator: '@SivaramPg',
   },
