@@ -1,7 +1,6 @@
 import ApiEndpointElement from '@/components/ApiEndpointElement'
 import SpriteIcon, { Icons } from '@/components/SpriteIcon'
 import clsx from 'clsx'
-import Image from 'next/image'
 import Link from 'next/link'
 
 interface HeroSectionProps {
@@ -17,13 +16,13 @@ const HeroSection = ({ className }: HeroSectionProps): JSX.Element => {
       )}
     >
       <div className="min-h-[calc(100vh-64px)] w-full max-w-screen-md mx-auto flex flex-col items-center justify-center gap-4 py-20">
-        <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-black inline-flex items-center gap-2 bg-gradient-to-r from-indigo-500 to-blue-500 bg-clip-text text-transparent">
+        <h1 className="inline-flex items-center gap-2 text-5xl font-black text-transparent sm:text-6xl md:text-7xl lg:text-8xl bg-gradient-to-r from-indigo-500 to-blue-500 bg-clip-text">
           SWAPI.INFO
         </h1>
-        <h2 className="text-2xl lg:text-3xl opacity-80 font-bold text-center mt-2 md:mt-4 mb-2">
+        <h2 className="mt-2 mb-2 text-2xl font-bold text-center lg:text-3xl opacity-80 md:mt-4">
           Star Wars APIs & Explorer
         </h2>
-        <h3 className="max-w-screen-sm mx-5 text-md sm:text-xl md:text-xl opacity-75 text-center mt-2 mb-6">
+        <h3 className="max-w-screen-sm mx-5 mt-2 mb-6 text-center opacity-75 text-md sm:text-xl md:text-xl">
           JSON-only, CDN-powered, Wicked-fast, Unrestricted Star Wars data API
           endpoints. All data sourced from our beloved{' '}
           <a
@@ -51,7 +50,7 @@ const HeroSection = ({ className }: HeroSectionProps): JSX.Element => {
         <Link
           href="https://github.com/SivaramPg/sw-api"
           target="blank"
-          className="font-bold text-lg sm:text-xl inline-flex items-center gap-2 border p-3 bg-white rounded-lg hover:shadow-md"
+          className="inline-flex items-center gap-2 p-3 text-lg font-bold bg-white border rounded-lg sm:text-xl hover:shadow-md"
         >
           <SpriteIcon id={Icons['github']} width={28} height={28} />
           View Source Code

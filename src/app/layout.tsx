@@ -1,11 +1,11 @@
-import './globals.css'
 import type { Metadata } from 'next'
-import { Mulish, JetBrains_Mono } from 'next/font/google'
+import { JetBrains_Mono, Mulish } from 'next/font/google'
 import Image from 'next/image'
+import './globals.css'
 
-import Navbar from './components/Navbar'
-import Footer from './components/Footer'
 import QuickLinks from '@/components/QuickLinks'
+import Footer from './components/Footer'
+import Navbar from './components/Navbar'
 
 const jetBrainsMono = JetBrains_Mono({
   subsets: ['latin'],

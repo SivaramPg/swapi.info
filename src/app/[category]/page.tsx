@@ -2,16 +2,16 @@ import fsPromises from 'fs/promises'
 import path from 'path'
 
 import clsx from 'clsx'
-import Link from 'next/link'
 import { Metadata } from 'next'
+import Link from 'next/link'
 
-import ResponseDisplayElement from '@/components/ResponseDisplayElement'
 import ApiEndpointElement from '@/components/ApiEndpointElement'
 import Breadcrumbs from '@/components/Breadcrumbs'
+import ResponseDisplayElement from '@/components/ResponseDisplayElement'
 import SpriteIcon, { Icons } from '@/components/SpriteIcon'
 
-import { capitalize } from '@/utils/capitalize'
 import { metadata } from '@/app/layout'
+import { capitalize } from '@/utils/capitalize'
 
 export async function generateStaticParams() {
   const categories = (
@@ -66,8 +66,8 @@ export default async function Page({
   const data = await getCategoryAllJson(category)
 
   return (
-    <main className="container mx-auto min-h-screen px-4 py-10 md:py-16 lg:py-20 flex flex-col gap-8 items-center justify-center">
-      <h1 className="text-5xl lg:text-7xl font-black mb-6 md:mb-10">
+    <main className="container flex flex-col items-center justify-center min-h-screen gap-8 px-4 py-10 mx-auto md:py-16 lg:py-20">
+      <h1 className="mb-6 text-5xl font-black lg:text-7xl md:mb-10">
         /{category}
       </h1>
       <Breadcrumbs pathElements={[category]} />
@@ -76,7 +76,7 @@ export default async function Page({
         {JSON.stringify(data, null, 4)}
       </ResponseDisplayElement>
       <div className={clsx('w-full max-w-screen-lg flex flex-col gap-2')}>
-        <h4 className="font-bold text-lg md:text-xl lg:text-2xl opacity-70">
+        <h4 className="text-lg font-bold md:text-xl lg:text-2xl opacity-70">
           View {category}:
         </h4>
         <div className="flex flex-wrap gap-4">
@@ -84,10 +84,10 @@ export default async function Page({
             <Link
               key={i}
               href={obj.url.replace('/api', '')}
-              className="w-1/2 sm:w-1/3 md:w-1/4 grow border-2 rounded-lg shadow-sm bg-blue-50"
+              className="w-1/2 border-2 rounded-lg shadow-sm sm:w-1/3 md:w-1/4 grow bg-blue-50"
             >
-              <div className="w-full h-fit p-4 flex items-center justify-between gap-2">
-                <h2 className="font-bold text-lg capitalize">
+              <div className="flex items-center justify-between w-full gap-2 p-4 h-fit">
+                <h2 className="text-lg font-bold capitalize">
                   {obj.url.split('/').at(-1).split('.')[0]}.{' '}
                   {obj.title ?? obj.name}
                 </h2>
@@ -103,19 +103,19 @@ export default async function Page({
         </div>
       </div>
       <div className={clsx('w-full max-w-screen-lg flex flex-col gap-2 mb-10')}>
-        <h4 className="font-bold text-lg md:text-xl lg:text-2xl opacity-70">
+        <h4 className="text-lg font-bold md:text-xl lg:text-2xl opacity-70">
           Visit the API endpoint:
         </h4>
         <div className="flex flex-col gap-2 pl-6">
           {data.map((value: any, i: number) => (
             <ul key={i}>
-              <li className="list-disc text-gray-800">
+              <li className="text-gray-800 list-disc">
                 <a
                   target="_blank"
                   href={value.url}
-                  className="w-full underline underline-offset-4 hover:text-blue-500 inline-flex items-center gap-2"
+                  className="inline-flex items-center w-full gap-2 underline underline-offset-4 hover:text-blue-500"
                 >
-                  <h2 className="font-bold text-lg">{value.url}</h2>
+                  <h2 className="text-lg font-bold">{value.url}</h2>
                   <SpriteIcon
                     id={Icons['tab-external']}
                     width={20}

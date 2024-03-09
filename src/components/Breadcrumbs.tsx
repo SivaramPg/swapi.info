@@ -1,5 +1,4 @@
 import clsx from 'clsx'
-import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
 import SpriteIcon, { Icons } from './SpriteIcon'
@@ -35,7 +34,7 @@ const Breadcrumbs = ({
                 {e}
               </Link>
             ) : (
-              <p className="text-xl font-bold capitalize text-blue-500 underline underline-offset-4">
+              <p className="text-xl font-bold text-blue-500 underline capitalize underline-offset-4">
                 {e}
               </p>
             )}

@@ -3,10 +3,10 @@ import path from 'path'
 
 import { Metadata } from 'next'
 
-import ResponseDisplayElement from '@/components/ResponseDisplayElement'
+import { metadata } from '@/app/layout'
 import ApiEndpointElement from '@/components/ApiEndpointElement'
 import Breadcrumbs from '@/components/Breadcrumbs'
-import { metadata } from '@/app/layout'
+import ResponseDisplayElement from '@/components/ResponseDisplayElement'
 
 export async function generateStaticParams() {
   const slugs = (
@@ -101,8 +101,8 @@ export default async function Page({
   const data = await getCategorySlugJson(category, slug)
 
   return (
-    <main className="container mx-auto min-h-screen px-4 py-10 md:py-16 lg:py-20 flex flex-col gap-8 items-center justify-center">
-      <h1 className="text-5xl lg:text-7xl font-black mb-6 md:mb-10">
+    <main className="container flex flex-col items-center justify-center min-h-screen gap-8 px-4 py-10 mx-auto md:py-16 lg:py-20">
+      <h1 className="mb-6 text-5xl font-black lg:text-7xl md:mb-10">
         /{category}/{slug}
       </h1>
       <Breadcrumbs pathElements={[category, slug]} />

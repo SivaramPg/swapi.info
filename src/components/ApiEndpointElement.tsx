@@ -1,8 +1,6 @@
 'use client'
 
 import clsx from 'clsx'
-import Image from 'next/image'
-import Link from 'next/link'
 import { useClipboard } from 'use-clipboard-copy'
 import SpriteIcon, { Icons } from './SpriteIcon'
 
@@ -20,9 +18,9 @@ const ApiEndpointElement = ({
   const { copied, copy } = useClipboard({ copiedTimeout: 1_000 })
 
   return (
-    <div className="w-full max-w-screen-lg flex flex-col gap-2">
+    <div className="flex flex-col w-full max-w-screen-lg gap-2">
       {!hideLabel && (
-        <h4 className="font-bold text-lg md:text-xl lg:text-2xl opacity-70">
+        <h4 className="text-lg font-bold md:text-xl lg:text-2xl opacity-70">
           API Endpoint:
         </h4>
       )}
@@ -34,7 +32,7 @@ const ApiEndpointElement = ({
       >
         <input
           type="text"
-          className="w-full bg-slate-50 rounded-l-md border border-r-0 px-4 font-bold text-lg"
+          className="w-full px-4 text-lg font-bold border border-r-0 bg-slate-50 rounded-l-md"
           value={text}
           readOnly
         />

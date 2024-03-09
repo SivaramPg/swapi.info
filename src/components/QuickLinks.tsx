@@ -1,7 +1,6 @@
 'use client'
 
 import clsx from 'clsx'
-import Image from 'next/image'
 import Link from 'next/link'
 import { useState } from 'react'
 import SpriteIcon, { Icons } from './SpriteIcon'
@@ -26,7 +25,7 @@ const QuickLinks = ({ className }: QuickLinksProps): JSX.Element => {
         <>
           <Link
             href="/films"
-            className="flex flex-grow items-center justify-center"
+            className="flex items-center justify-center flex-grow"
           >
             <SpriteIcon
               id={Icons.film}
@@ -37,7 +36,7 @@ const QuickLinks = ({ className }: QuickLinksProps): JSX.Element => {
           </Link>
           <Link
             href="/people"
-            className="flex flex-grow items-center justify-center"
+            className="flex items-center justify-center flex-grow"
           >
             <SpriteIcon
               id={Icons.people}
@@ -48,7 +47,7 @@ const QuickLinks = ({ className }: QuickLinksProps): JSX.Element => {
           </Link>
           <Link
             href="/planets"
-            className="flex flex-grow items-center justify-center"
+            className="flex items-center justify-center flex-grow"
           >
             <SpriteIcon
               id={Icons.planet}
@@ -59,7 +58,7 @@ const QuickLinks = ({ className }: QuickLinksProps): JSX.Element => {
           </Link>
           <Link
             href="/species"
-            className="flex flex-grow items-center justify-center"
+            className="flex items-center justify-center flex-grow"
           >
             <SpriteIcon
               id={Icons.species}
@@ -70,7 +69,7 @@ const QuickLinks = ({ className }: QuickLinksProps): JSX.Element => {
           </Link>
           <Link
             href="/starships"
-            className="flex flex-grow items-center justify-center"
+            className="flex items-center justify-center flex-grow"
           >
             <SpriteIcon
               id={Icons.starship}
@@ -81,7 +80,7 @@ const QuickLinks = ({ className }: QuickLinksProps): JSX.Element => {
           </Link>
           <Link
             href="/vehicles"
-            className="flex flex-grow items-center justify-center"
+            className="flex items-center justify-center flex-grow"
           >
             <SpriteIcon
               id={Icons.vehicle}
