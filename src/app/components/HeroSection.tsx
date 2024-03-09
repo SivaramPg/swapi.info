@@ -48,7 +48,7 @@ const HeroSection = ({ className }: HeroSectionProps): JSX.Element => {
           />
         </div>
         <Link
-          href="https://github.com/SivaramPg/sw-api"
+          href="https://github.com/SivaramPg/swapi.info"
           target="blank"
           className="inline-flex items-center gap-2 p-3 text-lg font-bold bg-white border rounded-lg sm:text-xl hover:shadow-md"
         >
