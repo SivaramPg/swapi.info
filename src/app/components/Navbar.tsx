@@ -1,17 +1,16 @@
 import SpriteIcon, { Icons } from '@/components/SpriteIcon'
-import Image from 'next/image'
 import Link from 'next/link'
 
 export default function Navbar() {
   return (
-    <header className="sticky left-0 top-0 right-0 bg-white w-full h-16 shadow-md font-sans z-50">
-      <nav className="h-full container px-4 mx-auto flex items-center justify-between gap-4">
+    <header className="sticky top-0 left-0 right-0 z-50 w-full h-16 font-sans bg-white shadow-md">
+      <nav className="container flex items-center justify-between h-full gap-4 px-4 mx-auto">
         <Link href="/" className="inline-flex items-center gap-2">
-          <div className="font-black text-2xl md:text-3xl hover:drop-shadow-md bg-gradient-to-r from-indigo-500 to-blue-500 bg-clip-text text-transparent">
+          <div className="text-2xl font-black text-transparent md:text-3xl hover:drop-shadow-md bg-gradient-to-r from-indigo-500 to-blue-500 bg-clip-text">
             SWAPI.INFO
           </div>
         </Link>
-        <div className="items-center justify-center gap-2 md:gap-4 hidden sm:flex">
+        <div className="items-center justify-center hidden gap-2 md:gap-4 sm:flex">
           <CustomNavLink href="/films" icon={Icons.film} linkText="Films" />
           <CustomNavLink href="/people" icon={Icons.people} linkText="People" />
           <CustomNavLink
@@ -53,6 +52,7 @@ const CustomNavLink = ({
     <Link
       href={href}
       className="px-3 py-1 opacity-80 hover:opacity-100 hover:drop-shadow-md"
+      prefetch={false}
     >
       <div className="flex items-center justify-center gap-1">
         <SpriteIcon
@@ -61,7 +61,7 @@ const CustomNavLink = ({
           height={20}
           className="block md:hidden lg:block"
         />
-        <p className="font-bold hidden md:block">{linkText}</p>
+        <p className="hidden font-bold md:block">{linkText}</p>
       </div>
     </Link>
   )
