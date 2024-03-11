@@ -7,6 +7,7 @@ import { metadata } from '@/app/layout'
 import ApiEndpointElement from '@/components/ApiEndpointElement'
 import Breadcrumbs from '@/components/Breadcrumbs'
 import ResponseDisplayElement from '@/components/ResponseDisplayElement'
+import RequestDisplayElement from '@/components/RequestDisplayElement'
 
 export async function generateStaticParams() {
   const slugs = (
@@ -107,6 +108,7 @@ export default async function Page({
       </h1>
       <Breadcrumbs pathElements={[category, slug]} />
       <ApiEndpointElement text={data.url} />
+      <RequestDisplayElement slug={`/${category}/${slug}`} />
       <ResponseDisplayElement>
         {JSON.stringify(data, null, 4)}
       </ResponseDisplayElement>

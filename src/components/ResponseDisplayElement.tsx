@@ -2,7 +2,7 @@ import { Code } from 'bright'
 
 interface ResponseDisplayElementProps {
   className?: string
-  children: React.ReactNode
+  children: string
 }
 
 const ResponseDisplayElement = ({
@@ -10,9 +10,9 @@ const ResponseDisplayElement = ({
   children,
 }: ResponseDisplayElementProps): JSX.Element => {
   return (
-    <div className="w-full max-w-screen-lg flex flex-col gap-2">
-      <h4 className="font-bold text-lg md:text-xl lg:text-2xl opacity-70">
-        Response Body:
+    <div className="flex flex-col w-full max-w-screen-lg">
+      <h4 className="-mb-2 text-lg font-bold md:text-xl lg:text-2xl opacity-70">
+        Result:
       </h4>
       <Code
         lang="json"
@@ -20,9 +20,9 @@ const ResponseDisplayElement = ({
         lineNumbers
         theme={'github-dark-dimmed'}
         className="max-h-screen !overflow-y-auto"
-      >
-        {children}
-      </Code>
+        codeClassName="!select-text selection:!bg-[#ffffff44]"
+        code={children}
+      />
     </div>
   )
 }

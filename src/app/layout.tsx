@@ -6,6 +6,7 @@ import './globals.css'
 import QuickLinks from '@/components/QuickLinks'
 import Footer from './components/Footer'
 import Navbar from './components/Navbar'
+import { AboutTheProject } from './components/AboutTheProject'
 
 const jetBrainsMono = JetBrains_Mono({
   subsets: ['latin'],
@@ -92,6 +93,7 @@ export default function RootLayout({
             {children}
             <QuickLinks />
           </main>
+          <AboutTheProject />
           <Footer />
         </main>
       </body>

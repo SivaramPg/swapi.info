@@ -7,6 +7,7 @@ import Link from 'next/link'
 import HeroSection from './components/HeroSection'
 import ResponseDisplayElement from '@/components/ResponseDisplayElement'
 import SpriteIcon, { Icons } from '@/components/SpriteIcon'
+import RequestDisplayElement from '@/components/RequestDisplayElement'
 
 async function getRootJson() {
   const jsonFile = await fsPromises.readFile(
@@ -20,14 +21,15 @@ export default async function Home() {
   const data = await getRootJson()
 
   return (
-    <main className="w-full min-h-screen pb-20 flex flex-col gap-8 items-center justify-center">
+    <main className="flex flex-col items-center justify-center w-full min-h-screen gap-8 pb-20">
       <HeroSection />
-      <div className="container mx-auto px-4 flex flex-col gap-8 items-center justify-center">
+      <div className="container flex flex-col items-center justify-center gap-8 px-4 mx-auto">
+        <RequestDisplayElement slug={`/`} />
         <ResponseDisplayElement>
           {JSON.stringify(data, null, 4)}
         </ResponseDisplayElement>
         <div className={clsx('w-full max-w-screen-lg flex flex-col gap-2')}>
-          <h4 className="font-bold text-lg md:text-xl lg:text-2xl opacity-70">
+          <h4 className="text-lg font-bold md:text-xl lg:text-2xl opacity-70">
             View a category:
           </h4>
           <div className="flex flex-wrap gap-2 sm:gap-4">
@@ -35,10 +37,10 @@ export default async function Home() {
               <Link
                 key={i}
                 href={(value as string).replace('/api', '')}
-                className="w-1/4 grow border-2 rounded-lg shadow-sm bg-blue-50"
+                className="w-1/4 border-2 rounded-lg shadow-sm grow bg-blue-50"
               >
-                <div className="w-full h-fit p-2 sm:p-4 flex items-center justify-between gap-1 md:gap-2">
-                  <h2 className="font-bold text-md md:text-lg capitalize">
+                <div className="flex items-center justify-between w-full gap-1 p-2 h-fit sm:p-4 md:gap-2">
+                  <h2 className="font-bold capitalize text-md md:text-lg">
                     {key}
                   </h2>
                   <SpriteIcon
@@ -55,19 +57,19 @@ export default async function Home() {
         <div
           className={clsx('w-full max-w-screen-lg flex flex-col gap-2 mb-10')}
         >
-          <h4 className="font-bold text-lg md:text-xl lg:text-2xl opacity-70">
+          <h4 className="text-lg font-bold md:text-xl lg:text-2xl opacity-70">
             Visit the API endpoint:
           </h4>
           <div className="flex flex-col gap-2 pl-6">
             {Object.values(data).map((value, i: number) => (
               <ul key={i}>
-                <li className="list-disc text-gray-800">
+                <li className="text-gray-800 list-disc">
                   <a
                     target="_blank"
                     href={value as string}
-                    className="w-full underline underline-offset-4 hover:text-blue-500 inline-flex items-center gap-2"
+                    className="inline-flex items-center w-full gap-2 underline underline-offset-4 hover:text-blue-500"
                   >
-                    <h2 className="font-bold text-lg">{value as string}</h2>
+                    <h2 className="text-lg font-bold">{value as string}</h2>
                     <SpriteIcon
                       id={Icons['tab-external']}
                       width={20}

@@ -12,6 +12,7 @@ import SpriteIcon, { Icons } from '@/components/SpriteIcon'
 
 import { metadata } from '@/app/layout'
 import { capitalize } from '@/utils/capitalize'
+import RequestDisplayElement from '@/components/RequestDisplayElement'
 
 export async function generateStaticParams() {
   const categories = (
@@ -72,6 +73,7 @@ export default async function Page({
       </h1>
       <Breadcrumbs pathElements={[category]} />
       <ApiEndpointElement text={`https://swapi.info/api/${category}`} />
+      <RequestDisplayElement slug={`/${category}`} />
       <ResponseDisplayElement>
         {JSON.stringify(data, null, 4)}
       </ResponseDisplayElement>
