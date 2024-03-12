@@ -9,7 +9,7 @@ export function AboutTheProject({ className }: AboutTheProjectProps) {
     <div className="w-full bg-gray-50 border-y-2">
       <div
         className={clsx(
-          'w-full max-w-screen-lg mx-auto px-4 flex flex-wrap py-10 items-start gap-10 justify-between',
+          'w-full container mx-auto px-4 flex flex-wrap py-10 items-start gap-10 md:gap-4 justify-between',
           className
         )}
       >
@@ -26,6 +26,16 @@ export function AboutTheProject({ className }: AboutTheProjectProps) {
           All the data is accessible through our HTTP web API. Consult our
           explorer pages if you&lsquo;d like to get started.
         </Block>
+        <Block title="Promise of longevity">
+          Swapi.info is here to stay!. Created as service which runs solely via
+          static files, this service does not require database or expensive
+          hosting to run. Currently hosted on the generosity of Cloudflare
+          Pages, the only barrier to utilization is a public facing domain. No
+          other costs associated with running this project yourself as well.
+          Created as a self-owned alternative to keep my older projects alive,
+          now publicly available and Open Source allows it to be perpetually
+          available to the community.
+        </Block>
       </div>
     </div>
   )
@@ -39,7 +49,7 @@ function Block({
   children: React.ReactNode
 }) {
   return (
-    <div className="flex flex-col items-center justify-center gap-4 px-4 w-full max-w-[100%] md:max-w-[calc(50%-20px)]">
+    <div className="flex flex-col items-center justify-center gap-4 px-4 w-full max-w-[100%] md:max-w-[calc(31%)] border grow">
       <h6 className="text-2xl font-bold">{title}</h6>
       <p>{children}</p>
     </div>
