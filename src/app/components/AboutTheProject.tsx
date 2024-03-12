@@ -49,7 +49,7 @@ function Block({
   children: React.ReactNode
 }) {
   return (
-    <div className="flex flex-col items-center justify-center gap-4 px-4 w-full max-w-[100%] md:max-w-[calc(31%)] border grow">
+    <div className="flex flex-col items-center justify-center gap-4 px-4 w-full max-w-[100%] md:max-w-[calc(31%)]">
       <h6 className="text-2xl font-bold">{title}</h6>
       <p>{children}</p>
     </div>
