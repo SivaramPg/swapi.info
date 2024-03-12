@@ -52,7 +52,6 @@ const CustomNavLink = ({
     <Link
       href={href}
       className="px-3 py-1 opacity-80 hover:opacity-100 hover:drop-shadow-md"
-      prefetch={false}
     >
       <div className="flex items-center justify-center gap-1">
         <SpriteIcon
