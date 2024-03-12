@@ -28,10 +28,10 @@ const mulish = Mulish({
 
 export const metadata: Metadata = {
   title: {
-    default: 'SWAPI.INFO - Star Wars APIs & Explorer',
-    template: '%s | SWAPI.INFO - Star Wars APIs & Explorer',
+    default: 'SWAPI - Star Wars APIs & Explorer',
+    template: '%s | SWAPI - Star Wars APIs & Explorer',
   },
-  description: `The Star Wars API, or "swapi" (Swah-pee)!. All the Star Wars data you've ever wanted. Inspired by swapi.dev. Access it via a CDN-powered, Wicked-fast, Unrestricted Star Wars data API provider.`,
+  description: `The Star Wars API, or "swapi" (Swah-pee)!. All the Star Wars data you've ever wanted. A simpler alternative to swapi.dev. Access it via a CDN-powered, Wicked-fast, Unrestricted Star Wars data API provider.`,
   metadataBase: new URL('https://swapi.info'),
   alternates: { canonical: 'https://swapi.info' },
   keywords: [
@@ -48,10 +48,10 @@ export const metadata: Metadata = {
   ],
   openGraph: {
     title: {
-      default: 'SWAPI.INFO - Star Wars APIs & Explorer',
-      template: '%s | SWAPI.INFO - Star Wars APIs & Explorer',
+      default: 'SWAPI - Star Wars APIs & Explorer',
+      template: '%s | SWAPI - Star Wars APIs & Explorer',
     },
-    description: `The Star Wars API, or "swapi" (Swah-pee)!. All the Star Wars data you've ever wanted. Inspired by swapi.dev. Access it via a CDN-powered, Wicked-fast, Unrestricted Star Wars data API provider.`,
+    description: `The Star Wars API, or "swapi" (Swah-pee)!. All the Star Wars data you've ever wanted. A simpler alternative to swapi.dev. Access it via a CDN-powered, Wicked-fast, Unrestricted Star Wars data API provider.`,
     type: 'website',
     siteName: 'SWAPI.INFO',
     url: 'https://swapi.info',
@@ -59,10 +59,10 @@ export const metadata: Metadata = {
   },
   twitter: {
     title: {
-      default: 'SWAPI.INFO - Star Wars APIs & Explorer',
-      template: '%s | SWAPI.INFO - Star Wars APIs & Explorer',
+      default: 'SWAPI - Star Wars APIs & Explorer',
+      template: '%s | SWAPI - Star Wars APIs & Explorer',
     },
-    description: `The Star Wars API, or "swapi" (Swah-pee)!. All the Star Wars data you've ever wanted. Inspired by swapi.dev. Access it via a CDN-powered, Wicked-fast, Unrestricted Star Wars data API provider.`,
+    description: `The Star Wars API, or "swapi" (Swah-pee)!. All the Star Wars data you've ever wanted. A simpler alternative to swapi.dev. Access it via a CDN-powered, Wicked-fast, Unrestricted Star Wars data API provider.`,
     card: 'summary_large_image',
     creator: '@SivaramPg',
   },
