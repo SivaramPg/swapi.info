@@ -557,4 +557,4 @@
 /api/vehicles/all/ /api/vehicles/all.json 308
 /api/vehicles/all /api/vehicles/all.json 308
 
-/api/* /api/404.json 404
+/api/* /api/404.json 200
