@@ -556,5 +556,3 @@
 /api/vehicles/76 /api/vehicles/76.json 308
 /api/vehicles/all/ /api/vehicles/all.json 308
 /api/vehicles/all /api/vehicles/all.json 308
-
-/api/* /404.json 200
