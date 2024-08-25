@@ -20,7 +20,7 @@
 			"arrowParentheses": "always",
 			"jsxQuoteStyle": "double",
 			"semicolons": "asNeeded",
-			"trailingComma": "all",
+			"trailingCommas": "all",
 			"quoteProperties": "asNeeded",
 			"bracketSpacing": true,
 			"bracketSameLine": false
