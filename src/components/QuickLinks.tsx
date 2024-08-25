@@ -24,7 +24,7 @@ const QuickLinks = ({ className }: QuickLinksProps): JSX.Element => {
 			{show && (
 				<>
 					<Link
-						href="/explorer/films"
+						href="/films"
 						className="flex items-center justify-center flex-grow"
 					>
 						<SpriteIcon
@@ -35,7 +35,7 @@ const QuickLinks = ({ className }: QuickLinksProps): JSX.Element => {
 						/>
 					</Link>
 					<Link
-						href="/explorer/people"
+						href="/people"
 						className="flex items-center justify-center flex-grow"
 					>
 						<SpriteIcon
@@ -46,7 +46,7 @@ const QuickLinks = ({ className }: QuickLinksProps): JSX.Element => {
 						/>
 					</Link>
 					<Link
-						href="/explorer/planets"
+						href="/planets"
 						className="flex items-center justify-center flex-grow"
 					>
 						<SpriteIcon
@@ -57,7 +57,7 @@ const QuickLinks = ({ className }: QuickLinksProps): JSX.Element => {
 						/>
 					</Link>
 					<Link
-						href="/explorer/species"
+						href="/species"
 						className="flex items-center justify-center flex-grow"
 					>
 						<SpriteIcon
@@ -68,7 +68,7 @@ const QuickLinks = ({ className }: QuickLinksProps): JSX.Element => {
 						/>
 					</Link>
 					<Link
-						href="/explorer/starships"
+						href="/starships"
 						className="flex items-center justify-center flex-grow"
 					>
 						<SpriteIcon
@@ -79,7 +79,7 @@ const QuickLinks = ({ className }: QuickLinksProps): JSX.Element => {
 						/>
 					</Link>
 					<Link
-						href="/explorer/vehicles"
+						href="/vehicles"
 						className="flex items-center justify-center flex-grow"
 					>
 						<SpriteIcon

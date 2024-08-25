@@ -30,7 +30,7 @@ const Breadcrumbs = ({
 					<React.Fragment key={e}>
 						{i < pathElements.length - 1 ? (
 							<Link
-								href={`/explorer/${pathElements.slice(0, i + 1).join("/")}`}
+								href={`/${pathElements.slice(0, i + 1).join("/")}`}
 								className="text-xl font-bold capitalize hover:text-[#FFE81F] hover:underline hover:underline-offset-4"
 							>
 								{e}

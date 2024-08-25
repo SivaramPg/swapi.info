@@ -89,7 +89,7 @@ export default async function Page({
 							text={`${obj.url.split("/").at(-1).split(".")[0]}. ${
 								obj.title ?? obj.name
 							}`}
-							href={obj.url.replace("/api", "/explorer")}
+							href={obj.url.replace("/api", "/")}
 						/>
 					))}
 				</div>
