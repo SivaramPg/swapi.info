@@ -5,7 +5,7 @@ SWAPI.INFO is an Open Source no-server, file-based simple GET API provider & end
 <!-- ![SWAPI.INFO](https://swapi.info/opengraph-image.png) -->
 
 <div align="center">
-  <img src=".github/swapi-info.png">
+  <img src=".github/swapi-info.jpg">
 </div>
 
 ### [Health Status](https://status.swapi.info/)

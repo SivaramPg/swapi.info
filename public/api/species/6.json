@@ -1,23 +1,23 @@
 {
-  "name": "Yoda's species",
-  "classification": "mammal",
-  "designation": "sentient",
-  "average_height": "66",
-  "skin_colors": "green, yellow",
-  "hair_colors": "brown, white",
-  "eye_colors": "brown, green, yellow",
-  "average_lifespan": "900",
-  "homeworld": "https://swapi.info/api/planets/28",
-  "language": "Galactic basic",
-  "people": ["https://swapi.info/api/people/20"],
-  "films": [
-    "https://swapi.info/api/films/2",
-    "https://swapi.info/api/films/3",
-    "https://swapi.info/api/films/4",
-    "https://swapi.info/api/films/5",
-    "https://swapi.info/api/films/6"
-  ],
-  "created": "2014-12-15T12:27:22.877000Z",
-  "edited": "2014-12-20T21:36:42.148000Z",
-  "url": "https://swapi.info/api/species/6"
+	"name": "Yoda's species",
+	"classification": "mammal",
+	"designation": "sentient",
+	"average_height": "66",
+	"skin_colors": "green, yellow",
+	"hair_colors": "brown, white",
+	"eye_colors": "brown, green, yellow",
+	"average_lifespan": "900",
+	"homeworld": "https://swapi.info/api/planets/28",
+	"language": "Galactic basic",
+	"people": ["https://swapi.info/api/people/20"],
+	"films": [
+		"https://swapi.info/api/films/2",
+		"https://swapi.info/api/films/3",
+		"https://swapi.info/api/films/4",
+		"https://swapi.info/api/films/5",
+		"https://swapi.info/api/films/6"
+	],
+	"created": "2014-12-15T12:27:22.877000Z",
+	"edited": "2014-12-20T21:36:42.148000Z",
+	"url": "https://swapi.info/api/species/6"
 }

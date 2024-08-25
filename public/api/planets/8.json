@@ -1,33 +1,33 @@
 {
-  "name": "Naboo",
-  "rotation_period": "26",
-  "orbital_period": "312",
-  "diameter": "12120",
-  "climate": "temperate",
-  "gravity": "1 standard",
-  "terrain": "grassy hills, swamps, forests, mountains",
-  "surface_water": "12",
-  "population": "4500000000",
-  "residents": [
-    "https://swapi.info/api/people/3",
-    "https://swapi.info/api/people/21",
-    "https://swapi.info/api/people/35",
-    "https://swapi.info/api/people/36",
-    "https://swapi.info/api/people/37",
-    "https://swapi.info/api/people/38",
-    "https://swapi.info/api/people/39",
-    "https://swapi.info/api/people/42",
-    "https://swapi.info/api/people/60",
-    "https://swapi.info/api/people/61",
-    "https://swapi.info/api/people/66"
-  ],
-  "films": [
-    "https://swapi.info/api/films/3",
-    "https://swapi.info/api/films/4",
-    "https://swapi.info/api/films/5",
-    "https://swapi.info/api/films/6"
-  ],
-  "created": "2014-12-10T11:52:31.066000Z",
-  "edited": "2014-12-20T20:58:18.430000Z",
-  "url": "https://swapi.info/api/planets/8"
+	"name": "Naboo",
+	"rotation_period": "26",
+	"orbital_period": "312",
+	"diameter": "12120",
+	"climate": "temperate",
+	"gravity": "1 standard",
+	"terrain": "grassy hills, swamps, forests, mountains",
+	"surface_water": "12",
+	"population": "4500000000",
+	"residents": [
+		"https://swapi.info/api/people/3",
+		"https://swapi.info/api/people/21",
+		"https://swapi.info/api/people/35",
+		"https://swapi.info/api/people/36",
+		"https://swapi.info/api/people/37",
+		"https://swapi.info/api/people/38",
+		"https://swapi.info/api/people/39",
+		"https://swapi.info/api/people/42",
+		"https://swapi.info/api/people/60",
+		"https://swapi.info/api/people/61",
+		"https://swapi.info/api/people/66"
+	],
+	"films": [
+		"https://swapi.info/api/films/3",
+		"https://swapi.info/api/films/4",
+		"https://swapi.info/api/films/5",
+		"https://swapi.info/api/films/6"
+	],
+	"created": "2014-12-10T11:52:31.066000Z",
+	"edited": "2014-12-20T20:58:18.430000Z",
+	"url": "https://swapi.info/api/planets/8"
 }

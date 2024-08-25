@@ -1,21 +1,21 @@
 {
-  "name": "Gungan",
-  "classification": "amphibian",
-  "designation": "sentient",
-  "average_height": "190",
-  "skin_colors": "brown, green",
-  "hair_colors": "none",
-  "eye_colors": "orange",
-  "average_lifespan": "unknown",
-  "homeworld": "https://swapi.info/api/planets/8",
-  "language": "Gungan basic",
-  "people": [
-    "https://swapi.info/api/people/36",
-    "https://swapi.info/api/people/37",
-    "https://swapi.info/api/people/38"
-  ],
-  "films": ["https://swapi.info/api/films/4", "https://swapi.info/api/films/5"],
-  "created": "2014-12-19T17:30:37.341000Z",
-  "edited": "2014-12-20T21:36:42.163000Z",
-  "url": "https://swapi.info/api/species/12"
+	"name": "Gungan",
+	"classification": "amphibian",
+	"designation": "sentient",
+	"average_height": "190",
+	"skin_colors": "brown, green",
+	"hair_colors": "none",
+	"eye_colors": "orange",
+	"average_lifespan": "unknown",
+	"homeworld": "https://swapi.info/api/planets/8",
+	"language": "Gungan basic",
+	"people": [
+		"https://swapi.info/api/people/36",
+		"https://swapi.info/api/people/37",
+		"https://swapi.info/api/people/38"
+	],
+	"films": ["https://swapi.info/api/films/4", "https://swapi.info/api/films/5"],
+	"created": "2014-12-19T17:30:37.341000Z",
+	"edited": "2014-12-20T21:36:42.163000Z",
+	"url": "https://swapi.info/api/species/12"
 }

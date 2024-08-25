@@ -1,22 +1,22 @@
 {
-  "name": "Mace Windu",
-  "height": "188",
-  "mass": "84",
-  "hair_color": "none",
-  "skin_color": "dark",
-  "eye_color": "brown",
-  "birth_year": "72BBY",
-  "gender": "male",
-  "homeworld": "https://swapi.info/api/planets/42",
-  "films": [
-    "https://swapi.info/api/films/4",
-    "https://swapi.info/api/films/5",
-    "https://swapi.info/api/films/6"
-  ],
-  "species": [],
-  "vehicles": [],
-  "starships": [],
-  "created": "2014-12-20T10:12:30.846000Z",
-  "edited": "2014-12-20T21:17:50.420000Z",
-  "url": "https://swapi.info/api/people/51"
+	"name": "Mace Windu",
+	"height": "188",
+	"mass": "84",
+	"hair_color": "none",
+	"skin_color": "dark",
+	"eye_color": "brown",
+	"birth_year": "72BBY",
+	"gender": "male",
+	"homeworld": "https://swapi.info/api/planets/42",
+	"films": [
+		"https://swapi.info/api/films/4",
+		"https://swapi.info/api/films/5",
+		"https://swapi.info/api/films/6"
+	],
+	"species": [],
+	"vehicles": [],
+	"starships": [],
+	"created": "2014-12-20T10:12:30.846000Z",
+	"edited": "2014-12-20T21:17:50.420000Z",
+	"url": "https://swapi.info/api/people/51"
 }

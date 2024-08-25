@@ -1,22 +1,22 @@
 {
-  "name": "Nute Gunray",
-  "height": "191",
-  "mass": "90",
-  "hair_color": "none",
-  "skin_color": "mottled green",
-  "eye_color": "red",
-  "birth_year": "unknown",
-  "gender": "male",
-  "homeworld": "https://swapi.info/api/planets/18",
-  "films": [
-    "https://swapi.info/api/films/4",
-    "https://swapi.info/api/films/5",
-    "https://swapi.info/api/films/6"
-  ],
-  "species": ["https://swapi.info/api/species/11"],
-  "vehicles": [],
-  "starships": [],
-  "created": "2014-12-19T17:05:57.357000Z",
-  "edited": "2014-12-20T21:17:50.377000Z",
-  "url": "https://swapi.info/api/people/33"
+	"name": "Nute Gunray",
+	"height": "191",
+	"mass": "90",
+	"hair_color": "none",
+	"skin_color": "mottled green",
+	"eye_color": "red",
+	"birth_year": "unknown",
+	"gender": "male",
+	"homeworld": "https://swapi.info/api/planets/18",
+	"films": [
+		"https://swapi.info/api/films/4",
+		"https://swapi.info/api/films/5",
+		"https://swapi.info/api/films/6"
+	],
+	"species": ["https://swapi.info/api/species/11"],
+	"vehicles": [],
+	"starships": [],
+	"created": "2014-12-19T17:05:57.357000Z",
+	"edited": "2014-12-20T21:17:50.377000Z",
+	"url": "https://swapi.info/api/people/33"
 }

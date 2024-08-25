@@ -1,20 +1,20 @@
 {
-  "name": "Kamino",
-  "rotation_period": "27",
-  "orbital_period": "463",
-  "diameter": "19720",
-  "climate": "temperate",
-  "gravity": "1 standard",
-  "terrain": "ocean",
-  "surface_water": "100",
-  "population": "1000000000",
-  "residents": [
-    "https://swapi.info/api/people/22",
-    "https://swapi.info/api/people/72",
-    "https://swapi.info/api/people/73"
-  ],
-  "films": ["https://swapi.info/api/films/5"],
-  "created": "2014-12-10T12:45:06.577000Z",
-  "edited": "2014-12-20T20:58:18.434000Z",
-  "url": "https://swapi.info/api/planets/10"
+	"name": "Kamino",
+	"rotation_period": "27",
+	"orbital_period": "463",
+	"diameter": "19720",
+	"climate": "temperate",
+	"gravity": "1 standard",
+	"terrain": "ocean",
+	"surface_water": "100",
+	"population": "1000000000",
+	"residents": [
+		"https://swapi.info/api/people/22",
+		"https://swapi.info/api/people/72",
+		"https://swapi.info/api/people/73"
+	],
+	"films": ["https://swapi.info/api/films/5"],
+	"created": "2014-12-10T12:45:06.577000Z",
+	"edited": "2014-12-20T20:58:18.434000Z",
+	"url": "https://swapi.info/api/planets/10"
 }

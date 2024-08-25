@@ -1,20 +1,20 @@
 {
-  "name": "Mirialan",
-  "classification": "mammal",
-  "designation": "sentient",
-  "average_height": "180",
-  "skin_colors": "yellow, green",
-  "hair_colors": "black, brown",
-  "eye_colors": "blue, green, red, yellow, brown, orange",
-  "average_lifespan": "unknown",
-  "homeworld": "https://swapi.info/api/planets/51",
-  "language": "Mirialan",
-  "people": [
-    "https://swapi.info/api/people/64",
-    "https://swapi.info/api/people/65"
-  ],
-  "films": ["https://swapi.info/api/films/5", "https://swapi.info/api/films/6"],
-  "created": "2014-12-20T16:46:48.290000Z",
-  "edited": "2014-12-20T21:36:42.197000Z",
-  "url": "https://swapi.info/api/species/29"
+	"name": "Mirialan",
+	"classification": "mammal",
+	"designation": "sentient",
+	"average_height": "180",
+	"skin_colors": "yellow, green",
+	"hair_colors": "black, brown",
+	"eye_colors": "blue, green, red, yellow, brown, orange",
+	"average_lifespan": "unknown",
+	"homeworld": "https://swapi.info/api/planets/51",
+	"language": "Mirialan",
+	"people": [
+		"https://swapi.info/api/people/64",
+		"https://swapi.info/api/people/65"
+	],
+	"films": ["https://swapi.info/api/films/5", "https://swapi.info/api/films/6"],
+	"created": "2014-12-20T16:46:48.290000Z",
+	"edited": "2014-12-20T21:36:42.197000Z",
+	"url": "https://swapi.info/api/species/29"
 }

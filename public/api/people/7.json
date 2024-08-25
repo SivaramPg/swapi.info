@@ -1,22 +1,22 @@
 {
-  "name": "Beru Whitesun lars",
-  "height": "165",
-  "mass": "75",
-  "hair_color": "brown",
-  "skin_color": "light",
-  "eye_color": "blue",
-  "birth_year": "47BBY",
-  "gender": "female",
-  "homeworld": "https://swapi.info/api/planets/1",
-  "films": [
-    "https://swapi.info/api/films/1",
-    "https://swapi.info/api/films/5",
-    "https://swapi.info/api/films/6"
-  ],
-  "species": [],
-  "vehicles": [],
-  "starships": [],
-  "created": "2014-12-10T15:53:41.121000Z",
-  "edited": "2014-12-20T21:17:50.319000Z",
-  "url": "https://swapi.info/api/people/7"
+	"name": "Beru Whitesun lars",
+	"height": "165",
+	"mass": "75",
+	"hair_color": "brown",
+	"skin_color": "light",
+	"eye_color": "blue",
+	"birth_year": "47BBY",
+	"gender": "female",
+	"homeworld": "https://swapi.info/api/planets/1",
+	"films": [
+		"https://swapi.info/api/films/1",
+		"https://swapi.info/api/films/5",
+		"https://swapi.info/api/films/6"
+	],
+	"species": [],
+	"vehicles": [],
+	"starships": [],
+	"created": "2014-12-10T15:53:41.121000Z",
+	"edited": "2014-12-20T21:17:50.319000Z",
+	"url": "https://swapi.info/api/people/7"
 }

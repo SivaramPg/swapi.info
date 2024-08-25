@@ -5,5 +5,17 @@ Allow: /
 
 Disallow: /api
 Disallow /api/*
+Disallow /films
+Disallow /people
+Disallow /planets
+Disallow /species
+Disallow /starships
+Disallow /vehicles
+Disallow /films/*
+Disallow /people/*
+Disallow /planets/*
+Disallow /species/*
+Disallow /starships/*
+Disallow /vehicles/*
 
 Sitemap: https://swapi.info/sitemap.xml
