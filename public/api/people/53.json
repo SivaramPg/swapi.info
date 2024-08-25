@@ -1,22 +1,22 @@
 {
-  "name": "Kit Fisto",
-  "height": "196",
-  "mass": "87",
-  "hair_color": "none",
-  "skin_color": "green",
-  "eye_color": "black",
-  "birth_year": "unknown",
-  "gender": "male",
-  "homeworld": "https://swapi.info/api/planets/44",
-  "films": [
-    "https://swapi.info/api/films/4",
-    "https://swapi.info/api/films/5",
-    "https://swapi.info/api/films/6"
-  ],
-  "species": ["https://swapi.info/api/species/21"],
-  "vehicles": [],
-  "starships": [],
-  "created": "2014-12-20T10:18:57.202000Z",
-  "edited": "2014-12-20T21:17:50.424000Z",
-  "url": "https://swapi.info/api/people/53"
+	"name": "Kit Fisto",
+	"height": "196",
+	"mass": "87",
+	"hair_color": "none",
+	"skin_color": "green",
+	"eye_color": "black",
+	"birth_year": "unknown",
+	"gender": "male",
+	"homeworld": "https://swapi.info/api/planets/44",
+	"films": [
+		"https://swapi.info/api/films/4",
+		"https://swapi.info/api/films/5",
+		"https://swapi.info/api/films/6"
+	],
+	"species": ["https://swapi.info/api/species/21"],
+	"vehicles": [],
+	"starships": [],
+	"created": "2014-12-20T10:18:57.202000Z",
+	"edited": "2014-12-20T21:17:50.424000Z",
+	"url": "https://swapi.info/api/people/53"
 }

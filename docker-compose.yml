@@ -1,0 +1,7 @@
+services:
+  swapi.info:
+    ports:
+      - 3000:3000
+    build:
+      context: .
+      dockerfile: Dockerfile

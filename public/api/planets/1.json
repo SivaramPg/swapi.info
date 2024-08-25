@@ -1,33 +1,33 @@
 {
-  "name": "Tatooine",
-  "rotation_period": "23",
-  "orbital_period": "304",
-  "diameter": "10465",
-  "climate": "arid",
-  "gravity": "1 standard",
-  "terrain": "desert",
-  "surface_water": "1",
-  "population": "200000",
-  "residents": [
-    "https://swapi.info/api/people/1",
-    "https://swapi.info/api/people/2",
-    "https://swapi.info/api/people/4",
-    "https://swapi.info/api/people/6",
-    "https://swapi.info/api/people/7",
-    "https://swapi.info/api/people/8",
-    "https://swapi.info/api/people/9",
-    "https://swapi.info/api/people/11",
-    "https://swapi.info/api/people/43",
-    "https://swapi.info/api/people/62"
-  ],
-  "films": [
-    "https://swapi.info/api/films/1",
-    "https://swapi.info/api/films/3",
-    "https://swapi.info/api/films/4",
-    "https://swapi.info/api/films/5",
-    "https://swapi.info/api/films/6"
-  ],
-  "created": "2014-12-09T13:50:49.641000Z",
-  "edited": "2014-12-20T20:58:18.411000Z",
-  "url": "https://swapi.info/api/planets/1"
+	"name": "Tatooine",
+	"rotation_period": "23",
+	"orbital_period": "304",
+	"diameter": "10465",
+	"climate": "arid",
+	"gravity": "1 standard",
+	"terrain": "desert",
+	"surface_water": "1",
+	"population": "200000",
+	"residents": [
+		"https://swapi.info/api/people/1",
+		"https://swapi.info/api/people/2",
+		"https://swapi.info/api/people/4",
+		"https://swapi.info/api/people/6",
+		"https://swapi.info/api/people/7",
+		"https://swapi.info/api/people/8",
+		"https://swapi.info/api/people/9",
+		"https://swapi.info/api/people/11",
+		"https://swapi.info/api/people/43",
+		"https://swapi.info/api/people/62"
+	],
+	"films": [
+		"https://swapi.info/api/films/1",
+		"https://swapi.info/api/films/3",
+		"https://swapi.info/api/films/4",
+		"https://swapi.info/api/films/5",
+		"https://swapi.info/api/films/6"
+	],
+	"created": "2014-12-09T13:50:49.641000Z",
+	"edited": "2014-12-20T20:58:18.411000Z",
+	"url": "https://swapi.info/api/planets/1"
 }

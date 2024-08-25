@@ -1,24 +1,24 @@
 {
-  "name": "Palpatine",
-  "height": "170",
-  "mass": "75",
-  "hair_color": "grey",
-  "skin_color": "pale",
-  "eye_color": "yellow",
-  "birth_year": "82BBY",
-  "gender": "male",
-  "homeworld": "https://swapi.info/api/planets/8",
-  "films": [
-    "https://swapi.info/api/films/2",
-    "https://swapi.info/api/films/3",
-    "https://swapi.info/api/films/4",
-    "https://swapi.info/api/films/5",
-    "https://swapi.info/api/films/6"
-  ],
-  "species": [],
-  "vehicles": [],
-  "starships": [],
-  "created": "2014-12-15T12:48:05.971000Z",
-  "edited": "2014-12-20T21:17:50.347000Z",
-  "url": "https://swapi.info/api/people/21"
+	"name": "Palpatine",
+	"height": "170",
+	"mass": "75",
+	"hair_color": "grey",
+	"skin_color": "pale",
+	"eye_color": "yellow",
+	"birth_year": "82BBY",
+	"gender": "male",
+	"homeworld": "https://swapi.info/api/planets/8",
+	"films": [
+		"https://swapi.info/api/films/2",
+		"https://swapi.info/api/films/3",
+		"https://swapi.info/api/films/4",
+		"https://swapi.info/api/films/5",
+		"https://swapi.info/api/films/6"
+	],
+	"species": [],
+	"vehicles": [],
+	"starships": [],
+	"created": "2014-12-15T12:48:05.971000Z",
+	"edited": "2014-12-20T21:17:50.347000Z",
+	"url": "https://swapi.info/api/people/21"
 }

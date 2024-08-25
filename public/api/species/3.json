@@ -1,25 +1,25 @@
 {
-  "name": "Wookie",
-  "classification": "mammal",
-  "designation": "sentient",
-  "average_height": "210",
-  "skin_colors": "gray",
-  "hair_colors": "black, brown",
-  "eye_colors": "blue, green, yellow, brown, golden, red",
-  "average_lifespan": "400",
-  "homeworld": "https://swapi.info/api/planets/14",
-  "language": "Shyriiwook",
-  "people": [
-    "https://swapi.info/api/people/13",
-    "https://swapi.info/api/people/80"
-  ],
-  "films": [
-    "https://swapi.info/api/films/1",
-    "https://swapi.info/api/films/2",
-    "https://swapi.info/api/films/3",
-    "https://swapi.info/api/films/6"
-  ],
-  "created": "2014-12-10T16:44:31.486000Z",
-  "edited": "2014-12-20T21:36:42.142000Z",
-  "url": "https://swapi.info/api/species/3"
+	"name": "Wookie",
+	"classification": "mammal",
+	"designation": "sentient",
+	"average_height": "210",
+	"skin_colors": "gray",
+	"hair_colors": "black, brown",
+	"eye_colors": "blue, green, yellow, brown, golden, red",
+	"average_lifespan": "400",
+	"homeworld": "https://swapi.info/api/planets/14",
+	"language": "Shyriiwook",
+	"people": [
+		"https://swapi.info/api/people/13",
+		"https://swapi.info/api/people/80"
+	],
+	"films": [
+		"https://swapi.info/api/films/1",
+		"https://swapi.info/api/films/2",
+		"https://swapi.info/api/films/3",
+		"https://swapi.info/api/films/6"
+	],
+	"created": "2014-12-10T16:44:31.486000Z",
+	"edited": "2014-12-20T21:36:42.142000Z",
+	"url": "https://swapi.info/api/species/3"
 }

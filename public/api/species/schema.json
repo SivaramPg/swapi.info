@@ -1,0 +1,78 @@
+{
+	"$schema": "http://json-schema.org/draft-04/schema#",
+	"type": "object",
+	"properties": {
+		"name": {
+			"type": "string"
+		},
+		"classification": {
+			"type": "string"
+		},
+		"designation": {
+			"type": "string"
+		},
+		"average_height": {
+			"type": "string"
+		},
+		"skin_colors": {
+			"type": "string"
+		},
+		"hair_colors": {
+			"type": "string"
+		},
+		"eye_colors": {
+			"type": "string"
+		},
+		"average_lifespan": {
+			"type": "string"
+		},
+		"homeworld": {
+			"type": "string"
+		},
+		"language": {
+			"type": "string"
+		},
+		"people": {
+			"type": "array",
+			"items": [
+				{
+					"type": "string"
+				}
+			]
+		},
+		"films": {
+			"type": "array",
+			"items": [
+				{
+					"type": "string"
+				}
+			]
+		},
+		"created": {
+			"type": "string"
+		},
+		"edited": {
+			"type": "string"
+		},
+		"url": {
+			"type": "string"
+		}
+	},
+	"required": [
+		"name",
+		"classification",
+		"designation",
+		"average_height",
+		"skin_colors",
+		"hair_colors",
+		"eye_colors",
+		"average_lifespan",
+		"homeworld",
+		"language",
+		"people",
+		"films",
+		"created",
+		"edited",
+		"url"
+	]
+}

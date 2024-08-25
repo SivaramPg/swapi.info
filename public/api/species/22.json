@@ -1,20 +1,20 @@
 {
-  "name": "Zabrak",
-  "classification": "mammal",
-  "designation": "sentient",
-  "average_height": "180",
-  "skin_colors": "pale, brown, red, orange, yellow",
-  "hair_colors": "black",
-  "eye_colors": "brown, orange",
-  "average_lifespan": "unknown",
-  "homeworld": "https://swapi.info/api/planets/45",
-  "language": "Zabraki",
-  "people": [
-    "https://swapi.info/api/people/44",
-    "https://swapi.info/api/people/54"
-  ],
-  "films": ["https://swapi.info/api/films/4"],
-  "created": "2014-12-20T10:26:59.894000Z",
-  "edited": "2014-12-20T21:36:42.183000Z",
-  "url": "https://swapi.info/api/species/22"
+	"name": "Zabrak",
+	"classification": "mammal",
+	"designation": "sentient",
+	"average_height": "180",
+	"skin_colors": "pale, brown, red, orange, yellow",
+	"hair_colors": "black",
+	"eye_colors": "brown, orange",
+	"average_lifespan": "unknown",
+	"homeworld": "https://swapi.info/api/planets/45",
+	"language": "Zabraki",
+	"people": [
+		"https://swapi.info/api/people/44",
+		"https://swapi.info/api/people/54"
+	],
+	"films": ["https://swapi.info/api/films/4"],
+	"created": "2014-12-20T10:26:59.894000Z",
+	"edited": "2014-12-20T21:36:42.183000Z",
+	"url": "https://swapi.info/api/species/22"
 }
