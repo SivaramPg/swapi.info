@@ -108,7 +108,7 @@ export default async function Page({
 									target="_blank"
 									rel="noopener noreferrer"
 									href={value.url}
-									className="inline-flex items-center w-full gap-2 underline underline-offset-4 hover:text-blue-500"
+									className="inline-flex items-center w-full gap-2 underline underline-offset-4 hover:text-[#FFE81F]"
 								>
 									<h2 className="text-lg">{value.url}</h2>
 									<SpriteIcon
