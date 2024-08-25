@@ -20,11 +20,11 @@ export async function generateStaticParams() {
 			category.isFile() &&
 			!["all.json", ".DS_Store", "root.json"].includes(category.name)
 		) {
-			const [categoryName, slug] = category.name.split("/")
+			const categoryName = category.path.split("/").at(-1)
 
 			slugs.push({
-				category: categoryName,
-				slug: slug.split(".")[0],
+				category: categoryName ?? "",
+				slug: category.name.split(".")[0],
 			})
 		}
 	}
