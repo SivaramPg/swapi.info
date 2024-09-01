@@ -1,28 +1,29 @@
 import { cn } from "@/utils/cn"
-import { Code } from "bright"
+import { codeToHtml } from "shiki/bundle-web.mjs"
 
 interface ResponseDisplayElementProps {
 	className?: string
 	children: string
 }
 
-const ResponseDisplayElement = ({
+const ResponseDisplayElement = async ({
 	className,
 	children,
-}: ResponseDisplayElementProps): JSX.Element => {
+}: ResponseDisplayElementProps): Promise<JSX.Element> => {
+	const code = await codeToHtml(children, {
+		lang: "json",
+		theme: "solarized-dark",
+	})
+
 	return (
 		<div className={cn("flex flex-col w-full max-w-screen-lg", className)}>
-			<h4 className="-mb-2 text-lg font-bold md:text-xl lg:text-2xl opacity-70">
+			<h4 className="mb-2 text-lg font-bold md:text-xl lg:text-2xl opacity-70">
 				Result:
 			</h4>
-			<Code
-				lang="json"
-				title="response.json"
-				lineNumbers
-				theme={"github-dark-dimmed"}
-				className="max-h-screen !overflow-y-auto"
-				codeClassName="!select-text selection:!bg-[#ffffff44] text-sm"
-				code={children}
+			<div
+				className="rounded-xl border border-[#333] overflow-x-auto"
+				/* biome-ignore lint/security/noDangerouslySetInnerHtml: <explanation> */
+				dangerouslySetInnerHTML={{ __html: code }}
 			/>
 		</div>
 	)

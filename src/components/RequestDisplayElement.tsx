@@ -1,28 +1,29 @@
 import { cn } from "@/utils/cn"
-import { Code } from "bright"
+import { codeToHtml } from "shiki"
 
 interface RequestDisplayElementProps {
 	className?: string
 	slug: string
 }
 
-const RequestDisplayElement = ({
+const RequestDisplayElement = async ({
 	className,
 	slug,
-}: RequestDisplayElementProps): JSX.Element => {
+}: RequestDisplayElementProps): Promise<JSX.Element> => {
+	const code = await codeToHtml(getRequest(slug), {
+		lang: "typescript",
+		theme: "solarized-dark",
+	})
+
 	return (
 		<div className={cn("flex flex-col w-full max-w-screen-lg", className)}>
-			<h4 className="-mb-2 text-lg font-bold md:text-xl lg:text-2xl opacity-70">
+			<h4 className="mb-2 text-lg font-bold md:text-xl lg:text-2xl opacity-70">
 				Request:
 			</h4>
-			<Code
-				lang="javascript"
-				title="request.js"
-				lineNumbers
-				theme={"github-dark-dimmed"}
-				className="max-h-screen !overflow-y-auto"
-				codeClassName="!select-text selection:!bg-[#ffffff44] text-sm"
-				code={getRequest(slug)}
+			<div
+				className="rounded-xl border border-[#333] overflow-x-auto"
+				/* biome-ignore lint/security/noDangerouslySetInnerHtml: <explanation> */
+				dangerouslySetInnerHTML={{ __html: code }}
 			/>
 		</div>
 	)
