@@ -110,7 +110,7 @@ export default async function Page({
 									href={value.url}
 									className="inline-flex items-center w-full gap-2 underline underline-offset-4 hover:text-[#FFE81F]"
 								>
-									<h2 className="text-lg">{value.url}</h2>
+									<h2 className="text-base lg:text-lg">{value.url}</h2>
 									<SpriteIcon
 										id={Icons["tab-external"]}
 										width={20}
