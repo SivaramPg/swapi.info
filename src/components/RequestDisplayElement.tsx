@@ -21,7 +21,7 @@ const RequestDisplayElement = async ({
 				Request:
 			</h4>
 			<div
-				className="rounded-xl border border-[#333] overflow-x-auto"
+				className="rounded-xl border border-[#333] overflow-x-auto text-xs"
 				/* biome-ignore lint/security/noDangerouslySetInnerHtml: <explanation> */
 				dangerouslySetInnerHTML={{ __html: code }}
 			/>
