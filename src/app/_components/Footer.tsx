@@ -32,7 +32,7 @@ export default function Footer() {
 				</div>
 
 				<div className="flex flex-wrap items-center justify-between w-full gap-8">
-					<p className="inline-flex items-center gap-2 text-lg font-medium whitespace-nowrap">
+					<p className="inline-flex items-center gap-2 text-sm sm:text-base md:text-lg font-medium whitespace-nowrap">
 						Credits:{" "}
 						<a
 							className="underline underline-offset-4"
