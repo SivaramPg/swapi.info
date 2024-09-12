@@ -15,7 +15,7 @@ const QuickLinks = ({ className }: QuickLinksProps): JSX.Element => {
 	return (
 		<div
 			className={cn(
-				"fixed z-50 bottom-[50px] right-[30px] rounded-3xl flex flex-col items-center justify-between gap-4 w-auto mx-auto sm:hidden p-3 flex-grow",
+				"fixed z-50 bottom-[90px] right-[30px] rounded-3xl flex flex-col items-center justify-between gap-4 w-auto mx-auto sm:hidden p-3 flex-grow",
 				"bg-gradient-to-t from-cyan-500 to-blue-500",
 				"shadow-lg shadow-gray-500",
 				className,
