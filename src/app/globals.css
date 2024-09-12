@@ -7,8 +7,10 @@ body {
 }
 
 html .shiki {
+  @apply w-full;
+  @apply !overflow-x-auto;
   background: #d4d4d411 !important;
-  @apply sm:!p-4 !p-6;
-  @apply !text-sm sm:!text-base;
-  @apply !text-wrap
+  @apply !p-2 sm:!p-4 md:!p-6;
+  @apply !text-xs sm:!text-sm;
+  /* @apply !text-wrap; */
 }
