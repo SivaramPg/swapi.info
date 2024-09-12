@@ -11,7 +11,7 @@
 	},
 	"dependencies": {
 		"clsx": "^2.1.1",
-		"next": "14.2.7",
+		"next": "14.2.10",
 		"next-sitemap": "^4.2.3",
 		"next-themes": "^0.3.0",
 		"react": "18.3.1",
@@ -21,18 +21,18 @@
 		"zod": "^3.23.8"
 	},
 	"devDependencies": {
-		"@biomejs/biome": "^1.8.3",
-		"@types/bun": "^1.1.8",
-		"@types/node": "22.5.2",
+		"@biomejs/biome": "^1.9.0",
+		"@types/bun": "^1.1.9",
+		"@types/node": "22.5.4",
 		"@types/react": "18.3.5",
 		"@types/react-dom": "18.3.0",
 		"autoprefixer": "10.4.20",
-		"husky": "^9.1.5",
-		"lint-staged": "^15.2.9",
-		"postcss": "8.4.42",
-		"shiki": "^1.15.2",
-		"tailwindcss": "3.4.10",
-		"typescript": "5.5.4"
+		"husky": "^9.1.6",
+		"lint-staged": "^15.2.10",
+		"postcss": "8.4.45",
+		"shiki": "^1.17.0",
+		"tailwindcss": "3.4.11",
+		"typescript": "5.6.2"
 	},
 	"lint-staged": {
 		"*.{js,ts,cjs,mjs,d.cts,d.mts,jsx,tsx,json,jsonc}": [
