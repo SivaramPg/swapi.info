@@ -43,7 +43,7 @@ export const metadata: Metadata = {
 		"swapi",
 		"sw-api",
 		"nextjs 13",
-		"cloudflare",
+		"vercel",
 		"swapi.dev alternative",
 		"swapi.co alternative",
 		"alternative",

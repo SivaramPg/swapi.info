@@ -1,5 +1,4 @@
 import SpriteIcon, { Icons } from "@/components/SpriteIcon"
-import Image from "next/image"
 
 export default function Footer() {
 	return (
@@ -7,7 +6,7 @@ export default function Footer() {
 			<footer className="container flex flex-col items-center justify-around w-full gap-4 px-4 mx-auto h-fit">
 				<div className="flex flex-wrap items-center justify-between w-full gap-4 md:gap-8">
 					<div>
-						<p className="inline-flex items-center gap-1 text-lg font-medium whitespace-nowrap">
+						<p className="inline-flex items-center gap-1 font-medium whitespace-nowrap">
 							Made with
 							<SpriteIcon
 								id={Icons.heart}
@@ -32,7 +31,7 @@ export default function Footer() {
 				</div>
 
 				<div className="flex flex-wrap items-center justify-between w-full gap-8">
-					<p className="inline-flex items-center gap-2 text-sm sm:text-base md:text-lg font-medium whitespace-nowrap">
+					<p className="inline-flex items-center gap-2 text-sm sm:text-base font-medium whitespace-nowrap">
 						Credits:{" "}
 						<a
 							className="underline underline-offset-4"
@@ -50,38 +49,6 @@ export default function Footer() {
 							rel="noopener noreferrer"
 						>
 							Juriy Bura
-						</a>
-					</p>
-
-					<p className="flex items-center gap-2 font-medium whitespace-nowrap">
-						Powered by:
-						<a
-							href="https://nextjs.org/"
-							target="_blank"
-							rel="noopener noreferrer"
-						>
-							<Image
-								priority
-								src="/icons/nextjs.svg"
-								alt="Nextjs"
-								width={48}
-								height={48}
-								className="hover:drop-shadow-md"
-							/>
-						</a>
-						<a
-							href="https://cloudflare.com"
-							target="_blank"
-							rel="noopener noreferrer"
-						>
-							<Image
-								priority
-								src="/icons/cloudflare.svg"
-								alt="Cloudflare"
-								width={64}
-								height={64}
-								className="hover:drop-shadow-md"
-							/>
 						</a>
 					</p>
 				</div>

@@ -53,23 +53,23 @@ function getFlattenedDetails(json: Record<string, string>) {
 export async function generateMetadata({
 	params,
 }: {
-	params: { category: string; slug: string }
+	params: Promise<{ category: string; slug: string }>
 }) {
-	const json = await getCategorySlugJson(params.category, params.slug)
+	const { category, slug } = await params
+
+	const json = await getCategorySlugJson(category, slug)
 	return {
-		title:
-			`${json?.title || json?.name} | ` + `${params.category}/${params.slug}`,
+		title: `${json?.title || json?.name} | ` + `${category}/${slug}`,
 		description: `${
 			json?.opening_crawl?.replaceAll("\r\n", " ") ||
 			getFlattenedDetails(json) ||
 			metadata.description
 		}`,
 		alternates: {
-			canonical: `https://swapi.info/${params.category}/${params.slug}`,
+			canonical: `https://swapi.info/${category}/${slug}`,
 		},
 		openGraph: {
-			title:
-				`${json.title || json.name} | ` + `${params.category}/${params.slug}`,
+			title: `${json.title || json.name} | ` + `${category}/${slug}`,
 			description: `${
 				json?.opening_crawl?.replaceAll("\r\n", " ") ||
 				getFlattenedDetails(json) ||
@@ -77,8 +77,7 @@ export async function generateMetadata({
 			}`,
 		},
 		twitter: {
-			title:
-				`${json.title || json.name} | ` + `${params.category}/${params.slug}`,
+			title: `${json.title || json.name} | ` + `${category}/${slug}`,
 			description: `${
 				json?.opening_crawl?.replaceAll("\r\n", " ") ||
 				getFlattenedDetails(json) ||

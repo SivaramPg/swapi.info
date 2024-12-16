@@ -1,0 +1,44 @@
+{
+	"trailingSlash": false,
+	"rewrites": [
+		{ "source": "/api", "destination": "/api/root.json" },
+
+		{ "source": "/api/people", "destination": "/api/people.json" },
+		{ "source": "/api/people/:id", "destination": "/api/people/:id.json" },
+		{ "source": "/api/planets", "destination": "/api/planets.json" },
+		{ "source": "/api/planets/:id", "destination": "/api/planets/:id.json" },
+		{ "source": "/api/films", "destination": "/api/films.json" },
+		{ "source": "/api/films/:id", "destination": "/api/films/:id.json" },
+		{ "source": "/api/species", "destination": "/api/species.json" },
+		{ "source": "/api/species/:id", "destination": "/api/species/:id.json" },
+		{ "source": "/api/vehicles", "destination": "/api/vehicles.json" },
+		{ "source": "/api/vehicles/:id", "destination": "/api/vehicles/:id.json" },
+		{ "source": "/api/starships", "destination": "/api/starships.json" },
+		{
+			"source": "/api/starships/:id",
+			"destination": "/api/starships/:id.json"
+		},
+
+		{
+			"source": "/api/people/schema",
+			"destination": "/api/people/schema.json"
+		},
+		{
+			"source": "/api/planets/schema",
+			"destination": "/api/planets/schema.json"
+		},
+		{ "source": "/api/films/schema", "destination": "/api/films/schema.json" },
+		{
+			"source": "/api/species/schema",
+			"destination": "/api/species/schema.json"
+		},
+		{
+			"source": "/api/vehicles/schema",
+			"destination": "/api/vehicles/schema.json"
+		},
+		{
+			"source": "/api/starships/schema",
+			"destination": "/api/starships/schema.json"
+		}
+	]
+}
