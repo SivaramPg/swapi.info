@@ -28,7 +28,7 @@ export default async function Home() {
 				<div className="container flex flex-col items-center justify-center gap-8 px-4 mx-auto">
 					<RequestDisplayElement slug={"/"} />
 					<ResponseDisplayElement>
-						{JSON.stringify(data, null, 8)}
+						{JSON.stringify(data, null, 4)}
 					</ResponseDisplayElement>
 					<div className={clsx("w-full max-w-screen-lg flex flex-col gap-2")}>
 						<h4 className="text-lg font-bold md:text-xl lg:text-2xl opacity-70">

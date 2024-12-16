@@ -82,7 +82,7 @@ export default async function Page({
 			<ApiEndpointElement text={`https://swapi.info/api/${category}`} />
 			<RequestDisplayElement slug={`/${category}`} />
 			<ResponseDisplayElement>
-				{JSON.stringify(data, null, 8)}
+				{JSON.stringify(data, null, 2)}
 			</ResponseDisplayElement>
 			<div className={cn("w-full max-w-screen-lg flex flex-col gap-2")}>
 				<h4 className="text-lg font-bold md:text-xl lg:text-2xl opacity-70">
