@@ -22,7 +22,7 @@ const ResponseDisplayElement = async ({
 				Result:
 			</h4>
 			<div
-				className="rounded-xl border border-[#333] overflow-x-auto"
+				className="rounded-xl border border-[#333] overflow-auto max-h-[100vh]"
 				/* biome-ignore lint/security/noDangerouslySetInnerHtml: <explanation> */
 				dangerouslySetInnerHTML={{ __html: code }}
 			/>

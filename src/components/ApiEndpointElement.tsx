@@ -34,7 +34,7 @@ export default function ApiEndpointElement({
 				<input
 					type="text"
 					className="w-full px-4 text-lg font-bold text-black border border-r-0 bg-gray-50"
-					value={text}
+					value={text.replace("https://", "")}
 					readOnly
 				/>
 				<a

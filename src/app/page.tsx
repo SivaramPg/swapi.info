@@ -28,7 +28,7 @@ export default async function Home() {
 				<div className="container flex flex-col items-center justify-center gap-8 px-4 mx-auto">
 					<RequestDisplayElement slug={"/"} />
 					<ResponseDisplayElement>
-						{JSON.stringify(data, null, 4)}
+						{JSON.stringify(data, null, 8)}
 					</ResponseDisplayElement>
 					<div className={clsx("w-full max-w-screen-lg flex flex-col gap-2")}>
 						<h4 className="text-lg font-bold md:text-xl lg:text-2xl opacity-70">
@@ -72,8 +72,8 @@ export default async function Home() {
 											href={value as string}
 											className="inline-flex items-center w-full gap-2 underline underline-offset-4 hover:text-[#FFE81F]"
 										>
-											<h2 className="text-base lg:text-lg">
-												{value as string}
+											<h2 className="text-sm sm:text-base">
+												{(value as string).replace("https://", "")}
 											</h2>
 											<SpriteIcon
 												id={Icons["tab-external"]}

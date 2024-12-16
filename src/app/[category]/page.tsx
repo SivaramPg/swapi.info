@@ -82,7 +82,7 @@ export default async function Page({
 			<ApiEndpointElement text={`https://swapi.info/api/${category}`} />
 			<RequestDisplayElement slug={`/${category}`} />
 			<ResponseDisplayElement>
-				{JSON.stringify(data, null, 2)}
+				{JSON.stringify(data, null, 8)}
 			</ResponseDisplayElement>
 			<div className={cn("w-full max-w-screen-lg flex flex-col gap-2")}>
 				<h4 className="text-lg font-bold md:text-xl lg:text-2xl opacity-70">
@@ -118,7 +118,9 @@ export default async function Page({
 									href={value.url}
 									className="inline-flex items-center w-full gap-2 underline underline-offset-4 hover:text-[#FFE81F]"
 								>
-									<h2 className="text-base lg:text-lg">{value.url}</h2>
+									<h2 className="text-sm sm:text-base">
+										{value.url.replace("https://", "")}
+									</h2>
 									<SpriteIcon
 										id={Icons["tab-external"]}
 										width={20}

@@ -116,7 +116,7 @@ export default async function Page({
 			<ApiEndpointElement text={data.url} />
 			<RequestDisplayElement slug={`/${category}/${slug}`} />
 			<ResponseDisplayElement>
-				{JSON.stringify(data, null, 2)}
+				{JSON.stringify(data, null, 8)}
 			</ResponseDisplayElement>
 		</main>
 	)

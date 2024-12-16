@@ -11,6 +11,6 @@ html .shiki {
   @apply !overflow-x-auto;
   background: #d4d4d411 !important;
   @apply !p-2 sm:!p-4 md:!p-6;
-  @apply !text-xs sm:!text-sm;
+  @apply !text-sm sm:!text-base md:!text-lg;
   /* @apply !text-wrap; */
 }

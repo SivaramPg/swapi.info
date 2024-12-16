@@ -22,7 +22,10 @@ const RequestDisplayElement = async ({
 				Request:
 			</h4>
 			<div
-				className="rounded-xl border border-[#333] overflow-x-auto text-xs"
+				className="rounded-xl border border-[#333] overflow-x-auto"
+				style={{
+					fontSize: 16,
+				}}
 				/* biome-ignore lint/security/noDangerouslySetInnerHtml: <explanation> */
 				dangerouslySetInnerHTML={{ __html: code }}
 			/>
@@ -34,7 +37,7 @@ export default RequestDisplayElement
 
 function getRequest(slug: string) {
 	return `fetch("https://swapi.info/api${slug}")
-  .then((res) => res.json()) // Parse the JSON content from the API to be consumed
-  .then((json) => console.log(json)) // Log the JSON response to your console
-  .catch((error) => console.error(error)) // Log the API error (if any) to your console`
+        .then((res) => res.json()) // Parse the JSON content from the API to be consumed
+        .then((json) => console.log(json)) // Log the JSON response to your console
+        .catch((error) => console.error(error)) // Log the API error (if any) to your console`
 }
