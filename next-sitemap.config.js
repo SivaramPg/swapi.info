@@ -1,7 +1,6 @@
 /** @type {import('next-sitemap').IConfig} */
 const sitemapConfig = {
 	siteUrl: "https://swapi.info",
-	output: "export",
 	generateIndexSitemap: false,
 	exclude: [
 		"/api/*",
