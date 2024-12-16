@@ -8,6 +8,8 @@ import Link from "next/link"
 import { AboutTheProject } from "./_components/AboutTheProject"
 import HeroSection from "./_components/HeroSection"
 
+export const dynamic = "force-static"
+
 async function getRootJson() {
 	const jsonFile = await fsPromises.readFile(
 		path.resolve(__dirname, "../../../public/api/root.json"),

@@ -14,6 +14,8 @@ import RequestDisplayElement from "@/components/RequestDisplayElement"
 import { LinkPill } from "@/components/link-pill"
 import { capitalize } from "@/utils/capitalize"
 
+export const dynamic = "force-static"
+
 export async function generateStaticParams() {
 	const categories: { category: string }[] = []
 

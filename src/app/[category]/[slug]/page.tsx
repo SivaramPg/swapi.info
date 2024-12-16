@@ -9,6 +9,8 @@ import Breadcrumbs from "@/components/Breadcrumbs"
 import RequestDisplayElement from "@/components/RequestDisplayElement"
 import ResponseDisplayElement from "@/components/ResponseDisplayElement"
 
+export const dynamic = "force-static"
+
 export async function generateStaticParams() {
 	const slugs: { category: string; slug: string }[] = []
 
@@ -19,7 +21,9 @@ export async function generateStaticParams() {
 	for (const category of rawCategories) {
 		if (
 			category.isFile() &&
-			!["all.json", ".DS_Store", "root.json"].includes(category.name)
+			!["all.json", ".DS_Store", "root.json", "schema.json"].includes(
+				category.name,
+			)
 		) {
 			const categoryName = category.path.split("/").at(-1)
 
