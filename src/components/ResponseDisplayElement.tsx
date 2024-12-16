@@ -1,4 +1,5 @@
 import { cn } from "@/utils/cn"
+import type { JSX } from "react"
 import { codeToHtml } from "shiki/bundle-web.mjs"
 
 interface ResponseDisplayElementProps {

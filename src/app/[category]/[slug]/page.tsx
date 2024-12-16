@@ -1,7 +1,8 @@
-import fsPromises from "node:fs/promises"
+import fsPromises, { readFile } from "node:fs/promises"
 
 import type { Metadata } from "next"
 
+import path from "node:path"
 import { metadata } from "@/app/layout"
 import ApiEndpointElement from "@/components/ApiEndpointElement"
 import Breadcrumbs from "@/components/Breadcrumbs"
@@ -33,8 +34,13 @@ export async function generateStaticParams() {
 }
 
 async function getCategorySlugJson(category: string, slug: string) {
-	const jsonFile = Bun.file(`public/api/${category}/${slug}.json`)
-	const json = await jsonFile.json()
+	const jsonFile = await readFile(
+		path.resolve(
+			__dirname,
+			`../../../../../public/api/${category}/${slug}.json`,
+		),
+	)
+	const json = await JSON.parse(jsonFile.toString())
 
 	return json
 }
@@ -65,6 +71,7 @@ export async function generateMetadata({
 			getFlattenedDetails(json) ||
 			metadata.description
 		}`,
+		metadataBase: new URL("https://swapi.info"),
 		alternates: {
 			canonical: `https://swapi.info/${category}/${slug}`,
 		},
@@ -90,9 +97,9 @@ export async function generateMetadata({
 export default async function Page({
 	params,
 }: {
-	params: { category: string; slug: string }
+	params: Promise<{ category: string; slug: string }>
 }) {
-	const { category, slug } = params
+	const { category, slug } = await params
 
 	const data = await getCategorySlugJson(category, slug)
 

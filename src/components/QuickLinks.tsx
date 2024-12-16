@@ -2,7 +2,7 @@
 
 import { cn } from "@/utils/cn"
 import Link from "next/link"
-import { useState } from "react"
+import { type JSX, useState } from "react"
 import SpriteIcon, { Icons } from "./SpriteIcon"
 
 interface QuickLinksProps {

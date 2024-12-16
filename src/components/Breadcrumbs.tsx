@@ -1,6 +1,6 @@
 import { cn } from "@/utils/cn"
 import Link from "next/link"
-import React from "react"
+import React, { type JSX } from "react"
 import SpriteIcon, { Icons } from "./SpriteIcon"
 
 interface BreadcrumbsProps {
