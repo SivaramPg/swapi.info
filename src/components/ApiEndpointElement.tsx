@@ -1,6 +1,7 @@
 "use client"
 
 import { cn } from "@/utils/cn"
+import type { JSX } from "react"
 import { useClipboard } from "use-clipboard-copy"
 import SpriteIcon, { Icons } from "./SpriteIcon"
 

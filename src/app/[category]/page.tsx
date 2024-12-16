@@ -1,4 +1,4 @@
-import fsPromises from "node:fs/promises"
+import fsPromises, { readFile } from "node:fs/promises"
 
 import { cn } from "@/utils/cn"
 import type { Metadata } from "next"
@@ -8,6 +8,7 @@ import Breadcrumbs from "@/components/Breadcrumbs"
 import ResponseDisplayElement from "@/components/ResponseDisplayElement"
 import SpriteIcon, { Icons } from "@/components/SpriteIcon"
 
+import { resolve } from "node:path"
 import { metadata } from "@/app/layout"
 import RequestDisplayElement from "@/components/RequestDisplayElement"
 import { LinkPill } from "@/components/link-pill"
@@ -30,8 +31,10 @@ export async function generateStaticParams() {
 }
 
 async function getCategoryAllJson(category: string) {
-	const jsonFile = Bun.file(`public/api/${category}/all.json`)
-	const json = await jsonFile.json()
+	const jsonFile = await readFile(
+		resolve(__dirname, `../../../../public/api/${category}/all.json`),
+	)
+	const json = await JSON.parse(jsonFile.toString())
 
 	return json
 }
@@ -39,19 +42,22 @@ async function getCategoryAllJson(category: string) {
 export async function generateMetadata({
 	params,
 }: {
-	params: { category: string }
+	params: Promise<{ category: string }>
 }) {
+	const { category } = await params
+
 	return {
-		title: capitalize(params.category),
-		description: `Get all the Star Wars ${params.category} in one place! ${metadata.description}`,
-		alternates: { canonical: `https://swapi.info/${params.category}` },
+		title: capitalize(category),
+		description: `Get all the Star Wars ${category} in one place! ${metadata.description}`,
+		alternates: { canonical: `https://swapi.info/${category}` },
+		metadataBase: new URL("https://swapi.info"),
 		openGraph: {
-			title: capitalize(params.category),
-			description: `Get all the Star Wars ${params.category} in one place! ${metadata.description}`,
+			title: capitalize(category),
+			description: `Get all the Star Wars ${category} in one place! ${metadata.description}`,
 		},
 		twitter: {
-			title: capitalize(params.category),
-			description: `Get all the Star Wars ${params.category} in one place! ${metadata.description}`,
+			title: capitalize(category),
+			description: `Get all the Star Wars ${category} in one place! ${metadata.description}`,
 		},
 	} as Metadata
 }
@@ -59,9 +65,9 @@ export async function generateMetadata({
 export default async function Page({
 	params,
 }: {
-	params: { category: string }
+	params: Promise<{ category: string }>
 }) {
-	const { category } = params
+	const { category } = await params
 
 	const data = await getCategoryAllJson(category)
 

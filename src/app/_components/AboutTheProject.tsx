@@ -35,9 +35,9 @@ export function AboutTheProject({ className }: AboutTheProjectProps) {
 					static files, this service does not require database or expensive
 					hosting to run. <br />
 					<br />
-					Currently hosted on the generosity of Cloudflare Pages, the only
-					barrier to utilization is a public facing domain. No other costs
-					associated with running this project yourself as well.
+					Currently hosted on the generosity of Vercl, the only barrier to
+					utilization is a public facing domain. No other costs associated with
+					running this project yourself as well.
 					<br />
 					<br />
 					{/* Created as a self-owned alternative to keep my older projects alive,

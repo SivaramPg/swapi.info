@@ -1,5 +1,6 @@
 import ApiEndpointElement from "@/components/ApiEndpointElement"
 import { cn } from "@/utils/cn"
+import type { JSX } from "react"
 
 interface HeroSectionProps {
 	className?: string
