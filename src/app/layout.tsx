@@ -82,9 +82,6 @@ export default function RootLayout({
 			<body
 				className={`${jetBrainsMono.variable} ${mulish.variable} font-sans className="bg-[#f5f5f5] text-[#121212] dark:bg-[#121212] dark:text-[#f5f5f5]`}
 			>
-				<Analytics />
-				<SpeedInsights />
-
 				<Providers>
 					<Image
 						priority
@@ -104,6 +101,9 @@ export default function RootLayout({
 					</main>
 				</Providers>
 				<AllSystemsNormal className="fixed bottom-6 right-6" />
+
+				<Analytics />
+				<SpeedInsights />
 			</body>
 		</html>
 	)
