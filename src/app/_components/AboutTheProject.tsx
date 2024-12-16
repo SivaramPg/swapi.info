@@ -35,7 +35,7 @@ export function AboutTheProject({ className }: AboutTheProjectProps) {
 					static files, this service does not require database or expensive
 					hosting to run. <br />
 					<br />
-					Currently hosted on the generosity of Vercl, the only barrier to
+					Currently hosted on the generosity of Vercel, the only barrier to
 					utilization is a public facing domain. No other costs associated with
 					running this project yourself as well.
 					<br />
