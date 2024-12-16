@@ -5,6 +5,8 @@ import { IBM_Plex_Mono, IBM_Plex_Sans } from "next/font/google"
 import Image from "next/image"
 
 import QuickLinks from "@/components/QuickLinks"
+import { Analytics } from "@vercel/analytics/react"
+import { SpeedInsights } from "@vercel/speed-insights/next"
 import Footer from "./_components/Footer"
 import { AllSystemsNormal } from "./_components/all-systems-normal"
 import NewNavbar from "./_components/new-navbar"
@@ -80,6 +82,9 @@ export default function RootLayout({
 			<body
 				className={`${jetBrainsMono.variable} ${mulish.variable} font-sans className="bg-[#f5f5f5] text-[#121212] dark:bg-[#121212] dark:text-[#f5f5f5]`}
 			>
+				<Analytics />
+				<SpeedInsights />
+
 				<Providers>
 					<Image
 						priority
