@@ -12,7 +12,6 @@ export default {
 		extend: {
 			fontFamily: {
 				sans: ["var(--font-syne)", ...fontFamily.sans],
-				mono: ["var(--font-syne-mono)", ...fontFamily.mono],
 			},
 		},
 	},

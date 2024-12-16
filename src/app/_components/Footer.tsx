@@ -21,9 +21,7 @@ export default function Footer() {
 							>
 								Sivaram P
 							</a>
-							<span className="hidden ml-2 font-mono font-bold md:block">
-								&copy;2024
-							</span>
+							<span className="hidden ml-2 font-bold md:block">&copy;2024</span>
 						</p>
 					</div>
 

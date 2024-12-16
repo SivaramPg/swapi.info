@@ -1,7 +1,7 @@
 import "./globals.css"
 
 import type { Metadata } from "next"
-import { Syne, Syne_Mono } from "next/font/google"
+import { Syne } from "next/font/google"
 import Image from "next/image"
 
 import QuickLinks from "@/components/QuickLinks"
@@ -12,21 +12,12 @@ import { AllSystemsNormal } from "./_components/all-systems-normal"
 import NewNavbar from "./_components/new-navbar"
 import { Providers } from "./providers"
 
-const syneMono = Syne_Mono({
-	subsets: ["latin"],
-	display: "swap",
-	preload: true,
-	style: "normal",
-	weight: ["400"],
-	variable: "--font-syne-mono",
-})
-
 const syne = Syne({
 	subsets: ["latin"],
 	display: "swap",
 	preload: true,
 	style: "normal",
-	weight: ["400", "500", "700"],
+	weight: ["400", "500", "600", "700", "800"],
 	variable: "--font-syne",
 })
 
@@ -80,7 +71,7 @@ export default function RootLayout({
 	return (
 		<html lang="en" suppressHydrationWarning>
 			<body
-				className={`${syne.variable} ${syne.variable} font-sans className="bg-[#f5f5f5] text-[#121212] dark:bg-[#121212] dark:text-[#f5f5f5]`}
+				className={`${syne.variable} font-sans className="bg-[#f5f5f5] text-[#121212] dark:bg-[#121212] dark:text-[#f5f5f5]`}
 			>
 				<Providers>
 					<Image
