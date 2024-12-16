@@ -3,17 +3,17 @@
 	"rewrites": [
 		{ "source": "/api", "destination": "/api/root.json" },
 
-		{ "source": "/api/people", "destination": "/api/all.json" },
+		{ "source": "/api/people", "destination": "/api/people/all.json" },
 		{ "source": "/api/people/:id", "destination": "/api/people/:id.json" },
-		{ "source": "/api/planets", "destination": "/api/all.json" },
+		{ "source": "/api/planets", "destination": "/api/planets/all.json" },
 		{ "source": "/api/planets/:id", "destination": "/api/planets/:id.json" },
-		{ "source": "/api/films", "destination": "/api/all.json" },
+		{ "source": "/api/films", "destination": "/api/films/all.json" },
 		{ "source": "/api/films/:id", "destination": "/api/films/:id.json" },
-		{ "source": "/api/species", "destination": "/api/all.json" },
+		{ "source": "/api/species", "destination": "/api/species/all.json" },
 		{ "source": "/api/species/:id", "destination": "/api/species/:id.json" },
-		{ "source": "/api/vehicles", "destination": "/api/all.json" },
+		{ "source": "/api/vehicles", "destination": "/api/vehicles/all.json" },
 		{ "source": "/api/vehicles/:id", "destination": "/api/vehicles/:id.json" },
-		{ "source": "/api/starships", "destination": "/api/all.json" },
+		{ "source": "/api/starships", "destination": "/api/starships/all.json" },
 		{
 			"source": "/api/starships/:id",
 			"destination": "/api/starships/:id.json"
