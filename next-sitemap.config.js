@@ -2,21 +2,8 @@
 const sitemapConfig = {
 	siteUrl: "https://swapi.info",
 	generateIndexSitemap: false,
-	exclude: [
-		"/api/*",
-		"/films",
-		"/films/*",
-		"/people",
-		"/people/*",
-		"/planets",
-		"/planets/*",
-		"/species",
-		"/species/*",
-		"/starships",
-		"/starships/*",
-		"/vehicles",
-		"/vehicles/*",
-	],
+	changefreq: "monthly",
+	exclude: ["/api*"],
 }
 
 module.exports = sitemapConfig

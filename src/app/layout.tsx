@@ -1,7 +1,7 @@
 import "./globals.css"
 
 import type { Metadata } from "next"
-import { Syne } from "next/font/google"
+import { Poppins } from "next/font/google"
 import Image from "next/image"
 
 import QuickLinks from "@/components/QuickLinks"
@@ -12,7 +12,7 @@ import { AllSystemsNormal } from "./_components/all-systems-normal"
 import NewNavbar from "./_components/new-navbar"
 import { Providers } from "./providers"
 
-const syne = Syne({
+const syne = Poppins({
 	subsets: ["latin"],
 	display: "swap",
 	preload: true,
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
 		default: "SWAPI Reborn - Star Wars APIs & Explorer",
 		template: "%s | SWAPI Reborn - Star Wars APIs & Explorer",
 	},
-	description: `The Star Wars API, or "swapi" (Swah-pee)!. All the Star Wars data you've ever wanted. A simpler alternative to swapi.dev. Access it via a CDN-powered, Wicked-fast, Unrestricted Star Wars data API provider.`,
+	description: `The Star Wars API, or "swapi" (Swah-pee)!. All the Star Wars data you've ever wanted. A simpler alternative to swapi.dev.`,
 	metadataBase: new URL("https://swapi.info"),
 	alternates: { canonical: "https://swapi.info" },
 	keywords: [
@@ -46,7 +46,7 @@ export const metadata: Metadata = {
 			default: "SWAPI Reborn - Star Wars APIs & Explorer",
 			template: "%s | SWAPI Reborn - Star Wars APIs & Explorer",
 		},
-		description: `The Star Wars API, or "swapi" (Swah-pee)!. All the Star Wars data you've ever wanted. A simpler alternative to swapi.dev. Access it via a CDN-powered, Wicked-fast, Unrestricted Star Wars data API provider.`,
+		description: `The Star Wars API, or "swapi" (Swah-pee)!. All the Star Wars data you've ever wanted. A simpler alternative to swapi.dev.`,
 		type: "website",
 		siteName: "SWAPI.INFO",
 		url: "https://swapi.info",
@@ -57,7 +57,7 @@ export const metadata: Metadata = {
 			default: "SWAPI Reborn - Star Wars APIs & Explorer",
 			template: "%s | SWAPI Reborn - Star Wars APIs & Explorer",
 		},
-		description: `The Star Wars API, or "swapi" (Swah-pee)!. All the Star Wars data you've ever wanted. A simpler alternative to swapi.dev. Access it via a CDN-powered, Wicked-fast, Unrestricted Star Wars data API provider.`,
+		description: `The Star Wars API, or "swapi" (Swah-pee)!. All the Star Wars data you've ever wanted. A simpler alternative to swapi.dev.`,
 		card: "summary_large_image",
 		creator: "@SivaramPg",
 	},

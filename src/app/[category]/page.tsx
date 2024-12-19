@@ -1,7 +1,6 @@
 import fsPromises, { readFile } from "node:fs/promises"
 
 import { cn } from "@/utils/cn"
-import type { Metadata } from "next"
 
 import ApiEndpointElement from "@/components/ApiEndpointElement"
 import Breadcrumbs from "@/components/Breadcrumbs"
@@ -9,10 +8,8 @@ import ResponseDisplayElement from "@/components/ResponseDisplayElement"
 import SpriteIcon, { Icons } from "@/components/SpriteIcon"
 
 import { resolve } from "node:path"
-import { metadata } from "@/app/layout"
 import RequestDisplayElement from "@/components/RequestDisplayElement"
 import { LinkPill } from "@/components/link-pill"
-import { capitalize } from "@/utils/capitalize"
 
 export const dynamic = "force-static"
 
@@ -39,29 +36,6 @@ async function getCategoryAllJson(category: string) {
 	const json = await JSON.parse(jsonFile.toString())
 
 	return json
-}
-
-export async function generateMetadata({
-	params,
-}: {
-	params: Promise<{ category: string }>
-}) {
-	const { category } = await params
-
-	return {
-		title: capitalize(category),
-		description: `Get all the Star Wars ${category} in one place! ${metadata.description}`,
-		alternates: { canonical: `https://swapi.info/${category}` },
-		metadataBase: new URL("https://swapi.info"),
-		openGraph: {
-			title: capitalize(category),
-			description: `Get all the Star Wars ${category} in one place! ${metadata.description}`,
-		},
-		twitter: {
-			title: capitalize(category),
-			description: `Get all the Star Wars ${category} in one place! ${metadata.description}`,
-		},
-	} as Metadata
 }
 
 export default async function Page({

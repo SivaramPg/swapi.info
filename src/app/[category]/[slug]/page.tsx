@@ -1,9 +1,6 @@
 import fsPromises, { readFile } from "node:fs/promises"
 
-import type { Metadata } from "next"
-
 import path from "node:path"
-import { metadata } from "@/app/layout"
 import ApiEndpointElement from "@/components/ApiEndpointElement"
 import Breadcrumbs from "@/components/Breadcrumbs"
 import RequestDisplayElement from "@/components/RequestDisplayElement"
@@ -47,55 +44,6 @@ async function getCategorySlugJson(category: string, slug: string) {
 	const json = await JSON.parse(jsonFile.toString())
 
 	return json
-}
-
-function getFlattenedDetails(json: Record<string, string>) {
-	return Object.entries(json)
-		.map(([key, value]) => {
-			if (typeof value === "string" && !value.startsWith("http")) {
-				return `${key}: ${value}`
-			}
-		})
-		.filter(Boolean)
-		.join(", ")
-}
-
-export async function generateMetadata({
-	params,
-}: {
-	params: Promise<{ category: string; slug: string }>
-}) {
-	const { category, slug } = await params
-
-	const json = await getCategorySlugJson(category, slug)
-	return {
-		title: `${json?.title || json?.name} | ` + `${category}/${slug}`,
-		description: `${
-			json?.opening_crawl?.replaceAll("\r\n", " ") ||
-			getFlattenedDetails(json) ||
-			metadata.description
-		}`,
-		metadataBase: new URL("https://swapi.info"),
-		alternates: {
-			canonical: `https://swapi.info/${category}/${slug}`,
-		},
-		openGraph: {
-			title: `${json.title || json.name} | ` + `${category}/${slug}`,
-			description: `${
-				json?.opening_crawl?.replaceAll("\r\n", " ") ||
-				getFlattenedDetails(json) ||
-				metadata.description
-			}`,
-		},
-		twitter: {
-			title: `${json.title || json.name} | ` + `${category}/${slug}`,
-			description: `${
-				json?.opening_crawl?.replaceAll("\r\n", " ") ||
-				getFlattenedDetails(json) ||
-				metadata.description
-			}`,
-		},
-	} as Metadata
 }
 
 export default async function Page({
