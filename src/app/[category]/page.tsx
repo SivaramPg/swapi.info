@@ -1,4 +1,4 @@
-import fsPromises, { readFile } from "node:fs/promises"
+import { readFile } from "node:fs/promises"
 
 import { cn } from "@/utils/cn"
 
@@ -14,21 +14,21 @@ import { notFound } from "next/navigation"
 
 export const dynamic = "force-static"
 
-export async function generateStaticParams() {
-	const categories: { category: string }[] = []
+// export async function generateStaticParams() {
+// 	const categories: { category: string }[] = []
 
-	const rawCategories = await fsPromises.readdir("public/api", {
-		withFileTypes: true,
-	})
+// 	const rawCategories = await fsPromises.readdir("public/api", {
+// 		withFileTypes: true,
+// 	})
 
-	for (const category of rawCategories) {
-		if (category.isDirectory()) {
-			categories.push({ category: category.name })
-		}
-	}
+// 	for (const category of rawCategories) {
+// 		if (category.isDirectory()) {
+// 			categories.push({ category: category.name })
+// 		}
+// 	}
 
-	return categories
-}
+// 	return categories
+// }
 
 async function getCategoryAllJson(category: string) {
 	try {

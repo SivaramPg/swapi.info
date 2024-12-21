@@ -1,4 +1,4 @@
-import fsPromises, { readFile } from "node:fs/promises"
+import { readFile } from "node:fs/promises"
 
 import path from "node:path"
 import ApiEndpointElement from "@/components/ApiEndpointElement"
@@ -9,31 +9,31 @@ import { notFound } from "next/navigation"
 
 export const dynamic = "force-static"
 
-export async function generateStaticParams() {
-	const slugs: { category: string; slug: string }[] = []
+// export async function generateStaticParams() {
+// 	const slugs: { category: string; slug: string }[] = []
 
-	const rawCategories = await fsPromises.readdir("public/api/", {
-		withFileTypes: true,
-		recursive: true,
-	})
-	for (const category of rawCategories) {
-		if (
-			category.isFile() &&
-			!["all.json", ".DS_Store", "root.json", "schema.json"].includes(
-				category.name,
-			)
-		) {
-			const categoryName = category.path.split("/").at(-1)
+// 	const rawCategories = await fsPromises.readdir("public/api/", {
+// 		withFileTypes: true,
+// 		recursive: true,
+// 	})
+// 	for (const category of rawCategories) {
+// 		if (
+// 			category.isFile() &&
+// 			!["all.json", ".DS_Store", "root.json", "schema.json"].includes(
+// 				category.name,
+// 			)
+// 		) {
+// 			const categoryName = category.path.split("/").at(-1)
 
-			slugs.push({
-				category: categoryName ?? "",
-				slug: category.name.split(".")[0],
-			})
-		}
-	}
+// 			slugs.push({
+// 				category: categoryName ?? "",
+// 				slug: category.name.split(".")[0],
+// 			})
+// 		}
+// 	}
 
-	return slugs
-}
+// 	return slugs
+// }
 
 async function getCategorySlugJson(category: string, slug: string) {
 	try {
