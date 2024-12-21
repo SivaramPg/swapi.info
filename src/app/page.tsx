@@ -37,6 +37,7 @@ export default async function Home() {
 						<div className="flex flex-wrap gap-2 sm:gap-4">
 							{Object.entries(data).map(([key, value], i: number) => (
 								<Link
+									prefetch={false}
 									key={key}
 									href={(value as string).replace("/api", "")}
 									className="w-1/4 bg-black border hover:border-[#FFE81F] duration-100 rounded-lg shadow-sm grow dark:bg-white dark:bg-opacity-10"

@@ -11,6 +11,7 @@ type LinkPillProps = {
 export function LinkPill({ className, text, href }: LinkPillProps) {
 	return (
 		<Link
+			prefetch={false}
 			href={href}
 			className={cn(
 				"w-1/4 bg-black border hover:border-[#FFE81F] duration-100 rounded-lg shadow-sm grow dark:bg-white dark:bg-opacity-10",
