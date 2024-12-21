@@ -1,7 +1,7 @@
 import "./globals.css"
 
 import type { Metadata } from "next"
-import { Poppins } from "next/font/google"
+import { Inter } from "next/font/google"
 import Image from "next/image"
 
 import QuickLinks from "@/components/QuickLinks"
@@ -12,7 +12,7 @@ import { AllSystemsNormal } from "./_components/all-systems-normal"
 import NewNavbar from "./_components/new-navbar"
 import { Providers } from "./providers"
 
-const syne = Poppins({
+const syne = Inter({
 	subsets: ["latin"],
 	display: "swap",
 	preload: true,

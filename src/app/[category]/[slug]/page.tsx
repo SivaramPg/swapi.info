@@ -5,6 +5,7 @@ import ApiEndpointElement from "@/components/ApiEndpointElement"
 import Breadcrumbs from "@/components/Breadcrumbs"
 import RequestDisplayElement from "@/components/RequestDisplayElement"
 import ResponseDisplayElement from "@/components/ResponseDisplayElement"
+import { notFound } from "next/navigation"
 
 export const dynamic = "force-static"
 
@@ -35,15 +36,19 @@ export async function generateStaticParams() {
 }
 
 async function getCategorySlugJson(category: string, slug: string) {
-	const jsonFile = await readFile(
-		path.resolve(
-			__dirname,
-			`../../../../../public/api/${category}/${slug}.json`,
-		),
-	)
-	const json = await JSON.parse(jsonFile.toString())
+	try {
+		const jsonFile = await readFile(
+			path.resolve(
+				__dirname,
+				`../../../../../public/api/${category}/${slug}.json`,
+			),
+		)
+		const json = await JSON.parse(jsonFile.toString())
 
-	return json
+		return json
+	} catch (error) {
+		notFound()
+	}
 }
 
 export default async function Page({
@@ -52,6 +57,23 @@ export default async function Page({
 	params: Promise<{ category: string; slug: string }>
 }) {
 	const { category, slug } = await params
+
+	if (
+		![
+			"films",
+			"people",
+			"planets",
+			"species",
+			"starships",
+			"vehicles",
+		].includes(category) ||
+		+slug <= 0 ||
+		+slug > 100 ||
+		Number.isNaN(+slug) ||
+		!Number.isInteger(+slug)
+	) {
+		return notFound()
+	}
 
 	const data = await getCategorySlugJson(category, slug)
 

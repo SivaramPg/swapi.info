@@ -10,6 +10,7 @@ import SpriteIcon, { Icons } from "@/components/SpriteIcon"
 import { resolve } from "node:path"
 import RequestDisplayElement from "@/components/RequestDisplayElement"
 import { LinkPill } from "@/components/link-pill"
+import { notFound } from "next/navigation"
 
 export const dynamic = "force-static"
 
@@ -30,12 +31,16 @@ export async function generateStaticParams() {
 }
 
 async function getCategoryAllJson(category: string) {
-	const jsonFile = await readFile(
-		resolve(__dirname, `../../../../public/api/${category}/all.json`),
-	)
-	const json = await JSON.parse(jsonFile.toString())
+	try {
+		const jsonFile = await readFile(
+			resolve(__dirname, `../../../../public/api/${category}/all.json`),
+		)
+		const json = await JSON.parse(jsonFile.toString())
 
-	return json
+		return json
+	} catch (error) {
+		notFound()
+	}
 }
 
 export default async function Page({
@@ -44,6 +49,19 @@ export default async function Page({
 	params: Promise<{ category: string }>
 }) {
 	const { category } = await params
+
+	if (
+		![
+			"films",
+			"people",
+			"planets",
+			"species",
+			"starships",
+			"vehicles",
+		].includes(category)
+	) {
+		return notFound()
+	}
 
 	const data = await getCategoryAllJson(category)
 
