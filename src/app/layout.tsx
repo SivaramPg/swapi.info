@@ -1,7 +1,7 @@
 import "./globals.css"
 
 import type { Metadata } from "next"
-import { Inter } from "next/font/google"
+import { Chivo, Chivo_Mono } from "next/font/google"
 import Image from "next/image"
 
 import QuickLinks from "@/components/QuickLinks"
@@ -12,13 +12,22 @@ import { AllSystemsNormal } from "./_components/all-systems-normal"
 import NewNavbar from "./_components/new-navbar"
 import { Providers } from "./providers"
 
-const syne = Inter({
+const chivo = Chivo({
 	subsets: ["latin"],
 	display: "swap",
 	preload: true,
 	style: "normal",
 	weight: ["400", "500", "600", "700", "800"],
-	variable: "--font-syne",
+	variable: "--font-chivo",
+})
+
+const chivoMono = Chivo_Mono({
+	subsets: ["latin"],
+	display: "swap",
+	preload: true,
+	style: "normal",
+	weight: ["400", "500", "600", "700", "800"],
+	variable: "--font-chivo-mono",
 })
 
 export const metadata: Metadata = {
@@ -71,7 +80,7 @@ export default function RootLayout({
 	return (
 		<html lang="en" suppressHydrationWarning>
 			<body
-				className={`${syne.variable} font-sans className="bg-[#f5f5f5] text-[#121212] dark:bg-[#121212] dark:text-[#f5f5f5]`}
+				className={`${chivo.variable} ${chivoMono.variable} font-sans className="bg-[#f5f5f5] text-[#121212] dark:bg-[#121212] dark:text-[#f5f5f5]`}
 			>
 				<Providers>
 					<Image
