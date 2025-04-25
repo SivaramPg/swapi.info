@@ -1,7 +1,7 @@
 import "./globals.css"
 
 import type { Metadata } from "next"
-import { Chivo, Chivo_Mono } from "next/font/google"
+import { Azeret_Mono, Bricolage_Grotesque } from "next/font/google"
 import Image from "next/image"
 
 import QuickLinks from "@/components/QuickLinks"
@@ -12,22 +12,22 @@ import { AllSystemsNormal } from "./_components/all-systems-normal"
 import NewNavbar from "./_components/new-navbar"
 import { Providers } from "./providers"
 
-const chivo = Chivo({
+const bricolage = Bricolage_Grotesque({
 	subsets: ["latin"],
 	display: "swap",
 	preload: true,
 	style: "normal",
-	weight: ["400", "500", "600", "700", "800"],
-	variable: "--font-chivo",
+	weight: "variable",
+	variable: "--font-bricolage",
 })
 
-const chivoMono = Chivo_Mono({
+const azeretMono = Azeret_Mono({
 	subsets: ["latin"],
 	display: "swap",
 	preload: true,
 	style: "normal",
-	weight: ["400", "500", "600", "700", "800"],
-	variable: "--font-chivo-mono",
+	weight: "variable",
+	variable: "--font-azeret-mono",
 })
 
 export const metadata: Metadata = {
@@ -80,7 +80,7 @@ export default function RootLayout({
 	return (
 		<html lang="en" suppressHydrationWarning>
 			<body
-				className={`${chivo.variable} ${chivoMono.variable} font-sans className="bg-[#f5f5f5] text-[#121212] dark:bg-[#121212] dark:text-[#f5f5f5]`}
+				className={`${bricolage.variable} ${azeretMono.variable} font-sans bg-[#f5f5f5] text-[#121212] dark:bg-[#121212] dark:text-[#f5f5f5]`}
 			>
 				<Providers>
 					<Image

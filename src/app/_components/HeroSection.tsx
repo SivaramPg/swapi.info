@@ -32,8 +32,8 @@ const HeroSection = ({ className }: HeroSectionProps): JSX.Element => {
 				</h3>
 
 				<h4 className="text-lg md:text-xl font-medium text-center text-white">
-					🎉🎉 Over <span className="text-[#FFE81F]">30,000+</span> API Requests
-					served daily! 🎉🎉
+					🎉🎉&nbsp;&nbsp;Over <span className="text-[#FFE81F]">100,000+</span>{" "}
+					API Requests served daily!&nbsp;&nbsp;🎉🎉
 				</h4>
 				<div className="w-full max-w-screen-lg px-2">
 					<ApiEndpointElement hideLabel text={"https://swapi.info/api/"} />

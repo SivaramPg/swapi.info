@@ -11,8 +11,8 @@ export default {
 	theme: {
 		extend: {
 			fontFamily: {
-				sans: ["var(--font-chivo)", ...fontFamily.sans],
-				mono: ["var(--font-chivo-mono)", ...fontFamily.mono],
+				sans: ["var(--font-bricolage)", ...fontFamily.sans],
+				mono: ["var(--font-azeret-mono)", ...fontFamily.mono],
 			},
 		},
 	},
