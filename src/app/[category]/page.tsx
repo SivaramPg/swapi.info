@@ -12,6 +12,8 @@ import RequestDisplayElement from "@/components/RequestDisplayElement"
 import { LinkPill } from "@/components/link-pill"
 import { notFound } from "next/navigation"
 
+export const dynamicParams = false
+
 // Explicitly disable dynamic rendering and force static generation
 export const dynamic = "force-static"
 

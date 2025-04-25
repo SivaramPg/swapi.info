@@ -7,6 +7,8 @@ import RequestDisplayElement from "@/components/RequestDisplayElement"
 import ResponseDisplayElement from "@/components/ResponseDisplayElement"
 import { notFound } from "next/navigation"
 
+export const dynamicParams = false
+
 // Explicitly disable dynamic rendering and force static generation
 export const dynamic = "force-static"
 
