@@ -14,6 +14,12 @@ import { notFound } from "next/navigation"
 
 export const dynamicParams = false
 
+// Explicitly disable dynamic rendering and force static generation
+export const dynamic = "force-static"
+
+// Explicitly disable any time-based revalidation
+export const revalidate = false
+
 export async function generateStaticParams() {
 	const categories: { category: string }[] = []
 
