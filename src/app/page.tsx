@@ -12,7 +12,7 @@ export const dynamic = "force-static"
 
 async function getRootJson() {
 	const jsonFile = await fsPromises.readFile(
-		path.resolve(__dirname, "../../../public/api/root.json"),
+		path.resolve(process.cwd(), "public/api/root.json"),
 	)
 
 	return JSON.parse(jsonFile.toString())

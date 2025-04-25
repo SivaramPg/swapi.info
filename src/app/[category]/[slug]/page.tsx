@@ -7,8 +7,6 @@ import RequestDisplayElement from "@/components/RequestDisplayElement"
 import ResponseDisplayElement from "@/components/ResponseDisplayElement"
 import { notFound } from "next/navigation"
 
-export const dynamicParams = false
-
 // Explicitly disable dynamic rendering and force static generation
 export const dynamic = "force-static"
 
@@ -44,10 +42,7 @@ export async function generateStaticParams() {
 async function getCategorySlugJson(category: string, slug: string) {
 	try {
 		const jsonFile = await readFile(
-			path.resolve(
-				__dirname,
-				`../../../../../public/api/${category}/${slug}.json`,
-			),
+			path.resolve(process.cwd(), `public/api/${category}/${slug}.json`),
 		)
 		const json = await JSON.parse(jsonFile.toString())
 

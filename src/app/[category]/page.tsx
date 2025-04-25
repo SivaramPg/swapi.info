@@ -12,8 +12,6 @@ import RequestDisplayElement from "@/components/RequestDisplayElement"
 import { LinkPill } from "@/components/link-pill"
 import { notFound } from "next/navigation"
 
-export const dynamicParams = false
-
 // Explicitly disable dynamic rendering and force static generation
 export const dynamic = "force-static"
 
@@ -39,7 +37,7 @@ export async function generateStaticParams() {
 async function getCategoryAllJson(category: string) {
 	try {
 		const jsonFile = await readFile(
-			resolve(__dirname, `../../../../public/api/${category}/all.json`),
+			resolve(process.cwd(), `public/api/${category}/all.json`),
 		)
 		const json = await JSON.parse(jsonFile.toString())
 
