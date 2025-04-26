@@ -1,5 +1,4 @@
 import { readFile, readdir } from "node:fs/promises"
-
 import path from "node:path"
 import ApiEndpointElement from "@/components/ApiEndpointElement"
 import Breadcrumbs from "@/components/Breadcrumbs"

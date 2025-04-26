@@ -1,12 +1,11 @@
 import "./globals.css"
 
-import type { Metadata } from "next"
-import { Azeret_Mono, Bricolage_Grotesque } from "next/font/google"
-import Image from "next/image"
-
 import QuickLinks from "@/components/QuickLinks"
 import { Analytics } from "@vercel/analytics/react"
 import { SpeedInsights } from "@vercel/speed-insights/next"
+import type { Metadata } from "next"
+import { Azeret_Mono, Bricolage_Grotesque } from "next/font/google"
+import Image from "next/image"
 import Footer from "./_components/Footer"
 import { AllSystemsNormal } from "./_components/all-systems-normal"
 import NewNavbar from "./_components/new-navbar"

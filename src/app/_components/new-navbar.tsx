@@ -9,7 +9,7 @@ export default function NewNavbar() {
 				<Link href="/" className="inline-flex items-center gap-2">
 					<SwapiLogo className="w-10 h-10" />
 					<div className="text-2xl font-black md:text-3xl text-[#FFE81F] dark:text=[#ffe81f] lowercase">
-						swapi.info
+						swapi
 					</div>
 				</Link>
 				<div className="items-center justify-center hidden gap-2 sm:flex">

@@ -1,15 +1,12 @@
 import { readFile, readdir } from "node:fs/promises"
-
-import { cn } from "@/utils/cn"
-
+import { resolve } from "node:path"
 import ApiEndpointElement from "@/components/ApiEndpointElement"
 import Breadcrumbs from "@/components/Breadcrumbs"
+import RequestDisplayElement from "@/components/RequestDisplayElement"
 import ResponseDisplayElement from "@/components/ResponseDisplayElement"
 import SpriteIcon, { Icons } from "@/components/SpriteIcon"
-
-import { resolve } from "node:path"
-import RequestDisplayElement from "@/components/RequestDisplayElement"
 import { LinkPill } from "@/components/link-pill"
+import { cn } from "@/utils/cn"
 import { notFound } from "next/navigation"
 
 export const dynamicParams = false

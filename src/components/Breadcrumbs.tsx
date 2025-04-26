@@ -1,6 +1,6 @@
 import { cn } from "@/utils/cn"
 import Link from "next/link"
-import React, { type JSX } from "react"
+import { Fragment, type JSX } from "react"
 import SpriteIcon, { Icons } from "./SpriteIcon"
 
 interface BreadcrumbsProps {
@@ -27,7 +27,7 @@ const Breadcrumbs = ({
 					<SpriteIcon id={Icons["caret-right"]} width={24} height={24} />
 				)}
 				{pathElements.map((e, i) => (
-					<React.Fragment key={e}>
+					<Fragment key={e}>
 						{i < pathElements.length - 1 ? (
 							<Link
 								href={`/${pathElements.slice(0, i + 1).join("/")}`}
@@ -43,7 +43,7 @@ const Breadcrumbs = ({
 						{i < pathElements.length - 1 && (
 							<SpriteIcon id={Icons["caret-right"]} width={24} height={24} />
 						)}
-					</React.Fragment>
+					</Fragment>
 				))}
 			</div>
 		</div>
