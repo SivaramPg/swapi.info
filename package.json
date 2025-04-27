@@ -15,6 +15,7 @@
 		"next": "15.3.1",
 		"next-sitemap": "^4.2.3",
 		"next-themes": "^0.4.6",
+		"posthog-js": "^1.236.7",
 		"react": "19.1.0",
 		"react-dom": "19.1.0",
 		"tailwind-merge": "^3.2.0",
@@ -37,9 +38,9 @@
 	},
 	"lint-staged": {
 		"*.{js,ts,cjs,mjs,d.cts,d.mts,jsx,tsx,json,jsonc}": [
-			"biome check --apply --no-errors-on-unmatched",
+			"biome check --write --no-errors-on-unmatched",
 			"biome format --write --no-errors-on-unmatched",
-			"biome lint --apply --no-errors-on-unmatched"
+			"biome lint --write --no-errors-on-unmatched"
 		]
 	}
 }

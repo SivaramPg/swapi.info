@@ -1,8 +1,6 @@
 import "./globals.css"
 
 import QuickLinks from "@/components/QuickLinks"
-import { Analytics } from "@vercel/analytics/react"
-import { SpeedInsights } from "@vercel/speed-insights/next"
 import type { Metadata } from "next"
 import { Azeret_Mono, Bricolage_Grotesque } from "next/font/google"
 import Image from "next/image"
@@ -100,9 +98,6 @@ export default function RootLayout({
 					</main>
 				</Providers>
 				<AllSystemsNormal className="fixed bottom-6 right-6" />
-
-				<Analytics />
-				<SpeedInsights />
 			</body>
 		</html>
 	)
