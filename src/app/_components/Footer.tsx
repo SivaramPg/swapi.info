@@ -73,24 +73,11 @@ const socialLinks = [
 		href: "https://github.com/SivaramPg",
 		icon: Icons.github,
 	},
-	{
-		href: "https://sivarampg.medium.com/",
-		icon: Icons.medium,
-	},
-	{
-		href: "https://www.linkedin.com/in/sivaram-pandariganthan-b753a2145",
-		icon: Icons.linkedin,
-	},
-	{
-		href: "https://codepen.io/kaizoku_95",
-		icon: Icons.codepen,
-	},
 ]
 
 function SocialLinks() {
 	return (
 		<div className="flex items-center justify-center gap-4">
-			<p className="font-medium">My Socials:</p>
 			{socialLinks.map((link) => (
 				<SocialLink key={link.href} href={link.href} icon={link.icon} />
 			))}

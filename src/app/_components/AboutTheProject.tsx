@@ -9,7 +9,7 @@ export function AboutTheProject({ className }: AboutTheProjectProps) {
 		<div className="w-full border-t">
 			<div
 				className={cn(
-					"w-full container mx-auto px-4 py-10 gap-10 md:gap-4",
+					"w-full container mx-auto px-2 sm:px-4 py-6 sm:py-10 gap-4 sm:gap-10",
 					className,
 				)}
 				style={{
@@ -59,7 +59,7 @@ function Block({
 	return (
 		<div className="flex flex-col items-center justify-start gap-2 md-gap-4 px-4 w-full">
 			<h6 className="text-xl md:text-2xl font-bold">{title}</h6>
-			<p className="text-sm sm:text-base">{children}</p>
+			<p className="text-sm sm:text-base text-pretty opacity-80">{children}</p>
 		</div>
 	)
 }

@@ -101,30 +101,31 @@ export default async function Page({
 				<h4 className="text-lg font-bold md:text-xl lg:text-2xl opacity-70">
 					Visit the API endpoint:
 				</h4>
-				<div className="flex flex-col gap-2 pl-6">
-					{/* biome-ignore lint/suspicious/noExplicitAny: <explanation> */}
-					{data.map((value: any, i: number) => (
-						// biome-ignore lint/suspicious/noArrayIndexKey: <explanation>
-						<ul key={i}>
-							<li className="list-disc">
+				<div className="flex flex-col gap-2 pl-6 w-fit">
+					<ol className="w-full">
+						{/* biome-ignore lint/suspicious/noExplicitAny: <explanation> */}
+						{data.map((value: any, i: number) => (
+							// biome-ignore lint/suspicious/noArrayIndexKey: <explanation>
+							<li key={i} className="list-decimal list-item w-full">
 								<a
 									target="_blank"
 									rel="noopener noreferrer"
 									href={value.url}
-									className="inline-flex items-center w-full gap-2 underline underline-offset-4 hover:text-[#FFE81F]"
+									className="inline-flex items-center w-full gap-2 underline underline-offset-4 hover:text-[#FFE81F] space-x-2"
 								>
-									<h2 className="text-sm sm:text-base">
+									<h2 className="text-sm sm:text-base w-full">
 										{value.url.replace("https://", "")}
 									</h2>
 									<SpriteIcon
 										id={Icons["tab-external"]}
 										width={20}
 										height={20}
+										className="shrink-0"
 									/>
 								</a>
 							</li>
-						</ul>
-					))}
+						))}
+					</ol>
 				</div>
 			</div>
 		</main>

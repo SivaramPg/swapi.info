@@ -23,7 +23,7 @@ export default async function Home() {
 
 	return (
 		<>
-			<main className="flex flex-col items-center justify-center w-full min-h-screen gap-8 pb-20">
+			<main className="flex flex-col items-center justify-center w-full min-h-screen gap-4 sm:gap-6 md:gap-8 pb-4 sm:pb-8 md:pb-10">
 				<HeroSection />
 				<div className="container flex flex-col items-center justify-center gap-8 px-4 mx-auto">
 					<RequestDisplayElement slug={"/"} />
@@ -63,28 +63,32 @@ export default async function Home() {
 						<h4 className="text-lg font-bold md:text-xl lg:text-2xl opacity-70">
 							Visit the API endpoint:
 						</h4>
-						<div className="flex flex-col gap-2 pl-6">
-							{Object.values(data).map((value, i: number) => (
-								<ul key={value as string}>
-									<li className="list-disc">
+						<div className="flex flex-col gap-2 pl-6 w-fit">
+							<ol className="w-full">
+								{Object.values(data).map((value, i: number) => (
+									<li
+										key={value as string}
+										className="w-full list-decimal list-item pl-2"
+									>
 										<a
 											target="_blank"
 											rel="noopener noreferrer"
 											href={value as string}
-											className="inline-flex items-center w-full gap-2 underline underline-offset-4 hover:text-[#FFE81F]"
+											className="inline-flex items-center w-full gap-2 hover:text-[#FFE81F] space-x-2"
 										>
-											<h2 className="text-sm sm:text-base">
+											<h2 className="text-sm sm:text-base md:text-lg w-full">
 												{(value as string).replace("https://", "")}
 											</h2>
 											<SpriteIcon
 												id={Icons["tab-external"]}
 												width={20}
 												height={20}
+												className="shrink-0"
 											/>
 										</a>
 									</li>
-								</ul>
-							))}
+								))}
+							</ol>
 						</div>
 					</div>
 				</div>
