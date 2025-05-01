@@ -20,7 +20,7 @@ const Breadcrumbs = ({
 					className,
 				)}
 			>
-				<Link href="/">
+				<Link href="/" prefetch={false}>
 					<SpriteIcon id={Icons.home} width={24} height={24} />
 				</Link>
 				{!!pathElements.length && (
@@ -30,6 +30,7 @@ const Breadcrumbs = ({
 					<Fragment key={e}>
 						{i < pathElements.length - 1 ? (
 							<Link
+								prefetch={false}
 								href={`/${pathElements.slice(0, i + 1).join("/")}`}
 								className="text-xl font-bold capitalize hover:text-[#FFE81F] hover:underline hover:underline-offset-4"
 							>

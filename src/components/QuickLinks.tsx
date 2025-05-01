@@ -24,6 +24,7 @@ const QuickLinks = ({ className }: QuickLinksProps): JSX.Element => {
 			{show && (
 				<>
 					<Link
+						prefetch={false}
 						href="/films"
 						className="flex items-center justify-center flex-grow"
 					>
@@ -35,6 +36,7 @@ const QuickLinks = ({ className }: QuickLinksProps): JSX.Element => {
 						/>
 					</Link>
 					<Link
+						prefetch={false}
 						href="/people"
 						className="flex items-center justify-center flex-grow"
 					>
@@ -46,6 +48,7 @@ const QuickLinks = ({ className }: QuickLinksProps): JSX.Element => {
 						/>
 					</Link>
 					<Link
+						prefetch={false}
 						href="/planets"
 						className="flex items-center justify-center flex-grow"
 					>
@@ -57,6 +60,7 @@ const QuickLinks = ({ className }: QuickLinksProps): JSX.Element => {
 						/>
 					</Link>
 					<Link
+						prefetch={false}
 						href="/species"
 						className="flex items-center justify-center flex-grow"
 					>
@@ -68,6 +72,7 @@ const QuickLinks = ({ className }: QuickLinksProps): JSX.Element => {
 						/>
 					</Link>
 					<Link
+						prefetch={false}
 						href="/starships"
 						className="flex items-center justify-center flex-grow"
 					>
@@ -79,6 +84,7 @@ const QuickLinks = ({ className }: QuickLinksProps): JSX.Element => {
 						/>
 					</Link>
 					<Link
+						prefetch={false}
 						href="/vehicles"
 						className="flex items-center justify-center flex-grow"
 					>
