@@ -2,7 +2,7 @@ import "./globals.css"
 
 import QuickLinks from "@/components/QuickLinks"
 import type { Metadata } from "next"
-import { Azeret_Mono, Bricolage_Grotesque } from "next/font/google"
+import { Bricolage_Grotesque, Martian_Mono } from "next/font/google"
 import Image from "next/image"
 import Footer from "./_components/Footer"
 import { AllSystemsNormal } from "./_components/all-systems-normal"
@@ -18,13 +18,13 @@ const bricolage = Bricolage_Grotesque({
 	variable: "--font-bricolage",
 })
 
-const azeretMono = Azeret_Mono({
+const martianMono = Martian_Mono({
 	subsets: ["latin"],
 	display: "swap",
 	preload: true,
 	style: "normal",
 	weight: "variable",
-	variable: "--font-azeret-mono",
+	variable: "--font-martian-mono",
 })
 
 export const metadata: Metadata = {
@@ -77,7 +77,7 @@ export default function RootLayout({
 	return (
 		<html lang="en" suppressHydrationWarning>
 			<body
-				className={`${bricolage.variable} ${azeretMono.variable} font-sans bg-[#f5f5f5] text-[#121212] dark:bg-[#121212] dark:text-[#f5f5f5]`}
+				className={`${bricolage.variable} ${martianMono.variable} font-sans bg-[#f5f5f5] text-[#121212] dark:bg-[#121212] dark:text-[#f5f5f5]`}
 			>
 				<Providers>
 					<Image
