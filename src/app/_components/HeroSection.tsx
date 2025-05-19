@@ -1,5 +1,6 @@
 import ApiEndpointElement from "@/components/ApiEndpointElement"
 import { cn } from "@/utils/cn"
+import Link from "next/link"
 import type { JSX } from "react"
 
 interface HeroSectionProps {
@@ -31,13 +32,58 @@ const HeroSection = ({ className }: HeroSectionProps): JSX.Element => {
 					</span>
 				</h3>
 
+				<div className="flex gap-4 mb-4">
+					<Link
+						href="/about"
+						className="px-6 py-2 font-semibold text-black bg-[#FFE81F] rounded-md hover:bg-[#FFE81F]/90 transition-colors"
+					>
+						About
+					</Link>
+					<Link
+						href="/documentation"
+						className="px-6 py-2 font-semibold text-black bg-[#FFE81F] rounded-md hover:bg-[#FFE81F]/90 transition-colors"
+					>
+						Documentation
+					</Link>
+				</div>
+
 				<h4 className="text-lg md:text-xl font-medium text-center text-white animate-bounce">
 					🎉🎉&nbsp;&nbsp;Over{" "}
 					<span className="text-[#FFE81F]">1,000,000+</span> API Requests served
 					daily!&nbsp;&nbsp;🎉🎉
 				</h4>
+
 				<div className="w-full max-w-screen-lg px-2">
 					<ApiEndpointElement hideLabel text={"https://swapi.info/api/"} />
+				</div>
+				<div className="w-full max-w-screen-lg px-2 mt-6 text-center">
+					<h4 className="text-lg font-medium text-white md:text-xl">
+						Why Choose SWAPI Reborn?
+					</h4>
+					<div className="overflow-x-hidden whitespace-nowrap">
+						<ul className="inline-block mt-2 space-x-4 text-sm text-gray-300 list-none md:text-md animate-marquee">
+							<li className="inline-block">✅ Free & No Ads</li>
+							<li className="inline-block">✅ 100% Uptime & No SSL Errors</li>
+							<li className="inline-block">
+								✅ Modern Architecture & CDNs (No Rate Limits!)
+							</li>
+							<li className="inline-block">✅ Fast API Responses (~50ms!)</li>
+							<li className="inline-block">✅ Robust Caching</li>
+							<li className="inline-block">
+								✅ Ideal for Students, Developers, & Teachers - Built to Last!
+							</li>
+							<li className="inline-block">✅ Free & No Ads</li>
+							<li className="inline-block">✅ 100% Uptime & No SSL Errors</li>
+							<li className="inline-block">
+								✅ Modern Architecture & CDNs (No Rate Limits!)
+							</li>
+							<li className="inline-block">✅ Fast API Responses (~50ms!)</li>
+							<li className="inline-block">✅ Robust Caching</li>
+							<li className="inline-block">
+								✅ Ideal for Students, Developers, & Teachers - Built to Last!
+							</li>
+						</ul>
+					</div>
 				</div>
 			</div>
 		</section>
