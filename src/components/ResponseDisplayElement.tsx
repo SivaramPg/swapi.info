@@ -26,7 +26,7 @@ const ResponseDisplayElement = async ({
 	})
 
 	return (
-		<div className="response-display-element not-prose bg-gray-800 rounded-lg shadow-md overflow-hidden my-4">
+		<div className="response-display-element w-full max-w-screen-lg not-prose bg-gray-800 rounded-lg shadow-md overflow-hidden my-4">
 			<div className="bg-gray-700 px-4 py-2 rounded-t-lg">
 				<h3 className="text-lg font-semibold text-green-400">Result:</h3>
 			</div>

@@ -19,7 +19,7 @@ const RequestDisplayElement = async ({
 	})
 
 	return (
-		<div className="request-display-element not-prose bg-gray-800 rounded-lg shadow-md overflow-hidden my-4">
+		<div className="request-display-element w-full max-w-screen-lg not-prose bg-gray-800 rounded-lg shadow-md overflow-hidden my-4">
 			<div className="bg-gray-700 px-4 py-2 rounded-t-lg">
 				<h3 className="text-lg font-semibold text-yellow-400">Request:</h3>
 			</div>
