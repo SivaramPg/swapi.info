@@ -13,7 +13,7 @@ const AboutPage: React.FC = () => {
 
 			<section className="mb-8">
 				<h2 className="text-2xl font-semibold mb-3 text-yellow-500">
-					The Star Wars API: Reloaded
+					SWAPI Reborn - Star Wars APIs & Explorer
 				</h2>
 				<p className="mb-4">
 					The Star Wars API is the world's first quantified and
