@@ -1,5 +1,6 @@
 import type { JSX } from "react"
 import { codeToHtml } from "shiki"
+import { CopyButton } from "./copy-button"
 
 interface RequestDisplayElementProps {
 	slug: string
@@ -10,16 +11,15 @@ const RequestDisplayElement = async ({
 	slug,
 	wrapText = false,
 }: RequestDisplayElementProps): Promise<JSX.Element> => {
-	const baseUrl = "https://swapi.info/api"
-	const fullUrl = `${baseUrl}${slug}`
+	const request = getRequest(slug)
 
-	const code = await codeToHtml(getRequest(slug), {
+	const code = await codeToHtml(request, {
 		lang: "typescript",
 		theme: "solarized-dark",
 	})
 
 	return (
-		<div className="request-display-element w-full max-w-screen-lg not-prose bg-gray-800 rounded-lg shadow-md overflow-hidden my-4">
+		<div className="request-display-element w-full max-w-screen-lg not-prose bg-gray-800 rounded-lg shadow-md overflow-hidden my-4 relative">
 			<div className="bg-gray-700 px-4 py-2 rounded-t-lg">
 				<h3 className="text-lg font-semibold text-yellow-400">Request:</h3>
 			</div>
@@ -31,6 +31,9 @@ const RequestDisplayElement = async ({
 				/* biome-ignore lint/security/noDangerouslySetInnerHtml: <explanation> */
 				dangerouslySetInnerHTML={{ __html: code }}
 			/>
+			<div className="absolute top-1.5 right-1.5">
+				<CopyButton text={request} />
+			</div>
 		</div>
 	)
 }
