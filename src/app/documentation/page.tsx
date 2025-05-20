@@ -117,58 +117,39 @@ const ApiGuidePage = (): JSX.Element => {
 				JSON Schema
 			</h2>
 			<p className="mb-4">
-				JSON schema files for each resource type are available in the{" "}
-				<code>public/api</code> directory. You can access them directly or use
-				them to validate API responses. The available schemas are:
+				JSON schema files for each resource type are available via their
+				respective API endpoints. You can access them directly (e.g., by
+				appending <code>/schema</code> to the resource URL) or use them to
+				validate API responses. The available schemas are:
 			</p>
 			<ul>
 				<li>
-					<code>public/api/root.json</code>
+					<code>https://swapi.info/api/films/schema</code>
 				</li>
 				<li>
-					<code>public/api/films/schema.json</code>
+					<code>https://swapi.info/api/people/schema</code>
 				</li>
 				<li>
-					<code>public/api/people/schema.json</code>
+					<code>https://swapi.info/api/planets/schema</code>
 				</li>
 				<li>
-					<code>public/api/planets/schema.json</code>
+					<code>https://swapi.info/api/species/schema</code>
 				</li>
 				<li>
-					<code>public/api/species/schema.json</code>
+					<code>https://swapi.info/api/starships/schema</code>
 				</li>
 				<li>
-					<code>public/api/starships/schema.json</code>
-				</li>
-				<li>
-					<code>public/api/vehicles/schema.json</code>
+					<code>https://swapi.info/api/vehicles/schema</code>
 				</li>
 			</ul>
 
 			<h2 className="text-3xl font-semibold mt-12 mb-6 border-b border-gray-700 pb-2 text-yellow-300">
 				Encodings
 			</h2>
-			<p className="mb-4">
-				SWAPI provides two encodings for you to render the data with:
-			</p>
+			<p className="mb-4">SWAPI provides data in the following encoding:</p>
 			<h3 className="text-2xl font-semibold mt-8 mb-4 text-yellow-200">JSON</h3>
 			<p className="mb-4">
 				JSON is the standard data format provided by SWAPI by default.
-			</p>
-			<h3 className="text-2xl font-semibold mt-8 mb-4 text-yellow-200">
-				Wookiee
-			</h3>
-			<p className="mb-4">
-				Wookiee is for our tall hairy allies who speak Wookiee, this encoding
-				returns the same data as json in a stringified syntax, except using with
-				wookiee translations.
-			</p>
-			<p className="mb-4">
-				Using the wookiee renderer is easy, just append{" "}
-				<code>?format=wookiee</code> to your urls:
-			</p>
-			<p className="mb-4">
-				<code>https://swapi.info/api/planets/1?format=wookiee</code>
 			</p>
 
 			<h2 className="text-3xl font-semibold mt-12 mb-6 border-b border-gray-700 pb-2 text-yellow-300">
