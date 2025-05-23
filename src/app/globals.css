@@ -13,8 +13,12 @@ body {
 html .shiki {
   @apply w-full;
   @apply !overflow-x-auto;
-  background: #d4d4d411 !important;
+  background: #FFE81F11 !important;
   @apply p-2! sm:p-4! md:p-6!;
   @apply text-xs! sm:text-sm md:text-base!;
-  font-family: var(--font-martian-mono);
+  font-family: var(--font-martian-mono) !important;
+}
+
+html .shiki * {
+  font-family: var(--font-martian-mono) !important;
 }

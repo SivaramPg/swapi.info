@@ -19,12 +19,12 @@ const RequestDisplayElement = async ({
 	})
 
 	return (
-		<div className="request-display-element w-full max-w-(--breakpoint-lg) not-prose bg-gray-800 rounded-lg shadow-md overflow-hidden my-4 relative">
-			<div className="bg-gray-700 px-4 py-2 rounded-t-lg">
+		<div className="request-display-element w-full max-w-(--breakpoint-lg) not-prose rounded-lg shadow-md overflow-hidden my-4 relative border border-[#FFE81F11]">
+			<div className="bg-[#FFE81F22] px-4 py-2 rounded-t-lg">
 				<h3 className="text-lg font-semibold text-yellow-400">Request:</h3>
 			</div>
 			<div
-				className={`border-x border-b border-[#333] overflow-x-auto rounded-b-lg rounded-t-none [&>pre]:rounded-none [&>pre]:border-0 ${wrapText ? "![&>pre]:text-nowrap overflow-y-auto" : "![&>pre]:text-wrap overflow-y-hidden"}`}
+				className={`border-x border-b border-[#FFE81F11] overflow-x-auto rounded-b-lg rounded-t-none [&>pre]:rounded-none [&>pre]:border-0 ${wrapText ? "![&>pre]:text-nowrap overflow-y-auto" : "![&>pre]:text-wrap overflow-y-hidden"}`}
 				style={{
 					fontSize: 16,
 				}}

@@ -27,12 +27,12 @@ const ResponseDisplayElement = async ({
 	})
 
 	return (
-		<div className="response-display-element w-full max-w-(--breakpoint-lg) not-prose bg-gray-800 rounded-lg shadow-md overflow-hidden my-4 relative">
-			<div className="bg-gray-700 px-4 py-2 rounded-t-lg">
-				<h3 className="text-lg font-semibold text-green-400">Result:</h3>
+		<div className="response-display-element w-full max-w-(--breakpoint-lg) not-prose rounded-lg shadow-md overflow-hidden my-4 relative border border-[#FFE81F11]">
+			<div className="bg-[#FFE81F22] px-4 py-2 rounded-t-lg">
+				<h3 className="text-lg font-semibold text-yellow-400">Result:</h3>
 			</div>
 			<div
-				className={`overflow-auto max-h-screen border-x border-b border-[#333] rounded-b-lg ${
+				className={`overflow-auto max-h-screen border-x border-b border-[#FFE81F11] rounded-b-lg ${
 					wrapText
 						? "[&>pre]:text-nowrap overflow-y-auto"
 						: "[&>pre]:text-wrap overflow-y-hidden"
