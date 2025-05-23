@@ -1,5 +1,5 @@
 import typography from "@tailwindcss/typography"
-import { fontFamily } from "tailwindcss/defaultTheme"
+// import { fontFamily } from "tailwindcss/defaultTheme"
 
 /** @type {import('tailwindcss').Config} */
 export default {
@@ -12,8 +12,8 @@ export default {
 	theme: {
 		extend: {
 			fontFamily: {
-				sans: ["var(--font-bricolage)", ...fontFamily.sans],
-				mono: ["var(--font-martian-mono)", ...fontFamily.mono],
+				sans: ["var(--font-bricolage)"],
+				mono: ["var(--font-martian-mono)"],
 			},
 			typography: (theme) => ({
 				DEFAULT: {

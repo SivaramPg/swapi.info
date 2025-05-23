@@ -15,8 +15,8 @@ const QuickLinks = ({ className }: QuickLinksProps): JSX.Element => {
 	return (
 		<div
 			className={cn(
-				"fixed z-50 bottom-[90px] right-[30px] rounded-3xl flex flex-col items-center justify-between gap-4 w-auto mx-auto sm:hidden p-3 flex-grow",
-				"bg-gradient-to-t from-cyan-500 to-blue-500",
+				"fixed z-50 bottom-[90px] right-[30px] rounded-3xl flex flex-col items-center justify-between gap-4 w-auto mx-auto sm:hidden p-3 grow",
+				"bg-linear-to-t from-cyan-500 to-blue-500",
 				"shadow-lg shadow-gray-500",
 				className,
 			)}
@@ -26,7 +26,7 @@ const QuickLinks = ({ className }: QuickLinksProps): JSX.Element => {
 					<Link
 						prefetch={false}
 						href="/films"
-						className="flex items-center justify-center flex-grow"
+						className="flex items-center justify-center grow"
 					>
 						<SpriteIcon
 							id={Icons.film}
@@ -38,7 +38,7 @@ const QuickLinks = ({ className }: QuickLinksProps): JSX.Element => {
 					<Link
 						prefetch={false}
 						href="/people"
-						className="flex items-center justify-center flex-grow"
+						className="flex items-center justify-center grow"
 					>
 						<SpriteIcon
 							id={Icons.people}
@@ -50,7 +50,7 @@ const QuickLinks = ({ className }: QuickLinksProps): JSX.Element => {
 					<Link
 						prefetch={false}
 						href="/planets"
-						className="flex items-center justify-center flex-grow"
+						className="flex items-center justify-center grow"
 					>
 						<SpriteIcon
 							id={Icons.planet}
@@ -62,7 +62,7 @@ const QuickLinks = ({ className }: QuickLinksProps): JSX.Element => {
 					<Link
 						prefetch={false}
 						href="/species"
-						className="flex items-center justify-center flex-grow"
+						className="flex items-center justify-center grow"
 					>
 						<SpriteIcon
 							id={Icons.species}
@@ -74,7 +74,7 @@ const QuickLinks = ({ className }: QuickLinksProps): JSX.Element => {
 					<Link
 						prefetch={false}
 						href="/starships"
-						className="flex items-center justify-center flex-grow"
+						className="flex items-center justify-center grow"
 					>
 						<SpriteIcon
 							id={Icons.starship}
@@ -86,7 +86,7 @@ const QuickLinks = ({ className }: QuickLinksProps): JSX.Element => {
 					<Link
 						prefetch={false}
 						href="/vehicles"
-						className="flex items-center justify-center flex-grow"
+						className="flex items-center justify-center grow"
 					>
 						<SpriteIcon
 							id={Icons.vehicle}

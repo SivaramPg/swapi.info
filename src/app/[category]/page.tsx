@@ -79,7 +79,7 @@ export default async function Page({
 			<ResponseDisplayElement>
 				{JSON.stringify(data, null, 2)}
 			</ResponseDisplayElement>
-			<div className={cn("w-full max-w-screen-lg flex flex-col gap-2")}>
+			<div className={cn("w-full max-w-(--breakpoint-lg) flex flex-col gap-2")}>
 				<h4 className="text-lg font-bold md:text-xl lg:text-2xl opacity-70">
 					View {category}:
 				</h4>
@@ -97,7 +97,11 @@ export default async function Page({
 					))}
 				</div>
 			</div>
-			<div className={cn("w-full max-w-screen-lg flex flex-col gap-2 mb-10")}>
+			<div
+				className={cn(
+					"w-full max-w-(--breakpoint-lg) flex flex-col gap-2 mb-10",
+				)}
+			>
 				<h4 className="text-lg font-bold md:text-xl lg:text-2xl opacity-70">
 					Visit the API endpoint:
 				</h4>

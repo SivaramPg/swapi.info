@@ -77,7 +77,7 @@ export default function RootLayout({
 	return (
 		<html lang="en" suppressHydrationWarning>
 			<body
-				className={`${bricolage.variable} ${martianMono.variable} font-sans bg-[#f5f5f5] text-[#121212] dark:bg-[#121212] dark:text-[#f5f5f5]`}
+				className={`${bricolage.variable} ${martianMono.variable} bg-[#f5f5f5] text-[#121212] dark:bg-[#121212] dark:text-[#f5f5f5]`}
 			>
 				<Providers>
 					<Image

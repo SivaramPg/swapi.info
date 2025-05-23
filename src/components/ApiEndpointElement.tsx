@@ -19,7 +19,7 @@ export default function ApiEndpointElement({
 	const { copied, copy } = useClipboard({ copiedTimeout: 1_000 })
 
 	return (
-		<div className="flex flex-col w-full max-w-screen-lg gap-2">
+		<div className="flex flex-col w-full max-w-(--breakpoint-lg) gap-2">
 			{!hideLabel && (
 				<h4 className="text-lg font-bold md:text-xl lg:text-2xl opacity-70">
 					API Endpoint:
@@ -50,7 +50,7 @@ export default function ApiEndpointElement({
 						id={Icons["tab-external"]}
 						width={32}
 						height={32}
-						className="!invert-0"
+						className="invert-0!"
 					/>
 				</a>
 				<button

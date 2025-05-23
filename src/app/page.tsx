@@ -30,7 +30,11 @@ export default async function Home() {
 					<ResponseDisplayElement>
 						{JSON.stringify(data, null, 4)}
 					</ResponseDisplayElement>
-					<div className={clsx("w-full max-w-screen-lg flex flex-col gap-2")}>
+					<div
+						className={clsx(
+							"w-full max-w-(--breakpoint-lg) flex flex-col gap-2",
+						)}
+					>
 						<h4 className="text-lg font-bold md:text-xl lg:text-2xl opacity-70">
 							View a category:
 						</h4>
@@ -40,7 +44,7 @@ export default async function Home() {
 									prefetch={false}
 									key={key}
 									href={(value as string).replace("/api", "")}
-									className="w-1/4 bg-black border hover:border-[#FFE81F] duration-100 rounded-lg shadow-sm grow dark:bg-white dark:bg-opacity-10"
+									className="w-1/4 bg-black border hover:border-[#FFE81F] duration-100 rounded-lg shadow-sm grow dark:bg-white/10"
 								>
 									<div className="flex items-center justify-between w-full gap-1 p-2 h-fit sm:p-4 md:gap-2">
 										<h2 className="font-bold capitalize text-md md:text-lg">
@@ -58,7 +62,9 @@ export default async function Home() {
 						</div>
 					</div>
 					<div
-						className={clsx("w-full max-w-screen-lg flex flex-col gap-2 mb-10")}
+						className={clsx(
+							"w-full max-w-(--breakpoint-lg) flex flex-col gap-2 mb-10",
+						)}
 					>
 						<h4 className="text-lg font-bold md:text-xl lg:text-2xl opacity-70">
 							Visit the API endpoint:

@@ -12,7 +12,7 @@ export default function Footer() {
 								id={Icons.heart}
 								width={20}
 								height={20}
-								className="!invert-0"
+								className="invert-0!"
 							/>
 							by
 							<a
