@@ -7,7 +7,7 @@
 
 body {
   overscroll-behavior-y: none;
-  font-family: var(--font-sans);
+  font-family: var(--font-bricolage);
 }
 
 html .shiki {
@@ -16,5 +16,5 @@ html .shiki {
   background: #d4d4d411 !important;
   @apply p-2! sm:p-4! md:p-6!;
   @apply text-xs! sm:text-sm md:text-base!;
-  font-family: var(--font-mono);
+  font-family: var(--font-martian-mono);
 }
