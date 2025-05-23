@@ -30,5 +30,5 @@ code {
 }
 
 html .shiki code {
-  @apply bg-transparent!;
+  @apply bg-transparent! rounded-none! p-0!;
 }
