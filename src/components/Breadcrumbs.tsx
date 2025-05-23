@@ -13,10 +13,10 @@ const Breadcrumbs = ({
 	pathElements,
 }: BreadcrumbsProps): JSX.Element => {
 	return (
-		<div className="w-full max-w-screen-lg">
+		<div className="w-full max-w-(--breakpoint-lg)">
 			<div
 				className={cn(
-					"flex gap-4 w-fit bg-black dark:bg-white bg-opacity-20 dark:bg-opacity-20 px-4 py-2 rounded-lg",
+					"flex gap-4 w-fit bg-black/20 dark:bg-white/20 px-4 py-2 rounded-lg",
 					className,
 				)}
 			>

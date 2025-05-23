@@ -1,16 +1,20 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import 'tailwindcss';
+
+:root {
+  --font-sans: "var(--font-bricolage)", sans-serif;
+  --font-mono: "var(--font-martian-mono)", monospace;
+}
 
 body {
   overscroll-behavior-y: none;
+  font-family: var(--font-sans);
 }
 
-/* html .shiki {
+html .shiki {
   @apply w-full;
   @apply !overflow-x-auto;
   background: #d4d4d411 !important;
-  @apply !p-2 sm:p-4 md:p-6;
-  @apply !text-xs sm:text-sm md:text-base;
-  @apply !font-mono;
-} */
+  @apply p-2! sm:p-4! md:p-6!;
+  @apply text-xs! sm:text-sm md:text-base!;
+  font-family: var(--font-mono);
+}
