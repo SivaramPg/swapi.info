@@ -22,3 +22,9 @@ html .shiki {
 html .shiki * {
   font-family: var(--font-martian-mono) !important;
 }
+
+
+code {
+  font-family: var(--font-martian-mono) !important;
+  @apply bg-[#FFE81F22] rounded-md p-2;
+}
