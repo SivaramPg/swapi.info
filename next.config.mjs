@@ -1,6 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-	trailingSlash: false, // Consistent handling
+	trailingSlash: undefined,
 	async headers() {
 		return [
 			{
