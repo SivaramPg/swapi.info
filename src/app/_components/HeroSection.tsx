@@ -47,7 +47,7 @@ const HeroSection = ({ className }: HeroSectionProps): JSX.Element => {
 					</Link>
 				</div>
 
-				<h4 className="text-lg md:text-xl font-medium text-center text-white animate-bounce">
+				<h4 className="text-lg font-medium text-center text-white md:text-xl animate-bounce">
 					🎉🎉&nbsp;&nbsp;Over{" "}
 					<span className="text-[#FFE81F]">1,000,000+</span> API Requests served
 					daily!&nbsp;&nbsp;🎉🎉
@@ -61,7 +61,7 @@ const HeroSection = ({ className }: HeroSectionProps): JSX.Element => {
 						Why Choose SWAPI Reborn?
 					</h4>
 					<div className="overflow-x-hidden whitespace-nowrap">
-						<ul className="inline-block mt-2 space-x-4 text-sm text-gray-300 list-none md:text-md animate-marquee">
+						<ul className="inline-block mt-2 space-x-4 text-sm text-gray-300 list-none md:text-md marquee">
 							<li className="inline-block">✅ Free & No Ads</li>
 							<li className="inline-block">✅ 100% Uptime & No SSL Errors</li>
 							<li className="inline-block">

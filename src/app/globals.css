@@ -32,3 +32,12 @@ code {
 html .shiki code {
   @apply bg-transparent! rounded-none! p-0!;
 }
+
+@keyframes marquee {
+  0% { transform: translateX(0%); }
+  100% { transform: translateX(-50%); }
+}
+
+.marquee {
+  animation: marquee 25s linear infinite;
+}
