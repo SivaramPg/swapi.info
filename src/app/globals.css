@@ -43,5 +43,5 @@ html .shiki code {
 }
 
 code {
-  @apply text-sm! sm:text-base! md:text-lg!;
+  @apply text-sm! sm:text-base! px-1!;
 }
