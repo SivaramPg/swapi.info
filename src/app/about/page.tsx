@@ -1,3 +1,4 @@
+import RequestDisplayElement from "@/components/RequestDisplayElement"
 import type React from "react"
 
 /**
@@ -6,13 +7,13 @@ import type React from "react"
  */
 const AboutPage: React.FC = () => {
 	return (
-		<div className="container mx-auto px-4 py-8 text-gray-300">
-			<h1 className="text-4xl font-bold mb-6 text-yellow-400">
+		<div className="max-w-4xl p-6 mx-auto prose prose-invert md:p-12">
+			<h1 className="mb-6 text-4xl font-bold text-yellow-400">
 				About swapi.info
 			</h1>
 
 			<section className="mb-8">
-				<h2 className="text-2xl font-semibold mb-3 text-yellow-500">
+				<h2 className="mb-3 text-2xl font-semibold text-yellow-500">
 					SWAPI Reborn - Star Wars APIs & Explorer
 				</h2>
 				<p className="mb-4">
@@ -30,7 +31,7 @@ const AboutPage: React.FC = () => {
 			</section>
 
 			<section className="mb-8">
-				<h2 className="text-2xl font-semibold mb-3 text-yellow-500">
+				<h2 className="mb-3 text-2xl font-semibold text-yellow-500">
 					Why swapi.info?
 				</h2>
 				<p className="mb-4">
@@ -44,7 +45,7 @@ const AboutPage: React.FC = () => {
 					<code>swapi.info</code> is engineered for performance and
 					accessibility:
 				</p>
-				<ul className="list-disc list-inside ml-4 mb-4">
+				<ul className="mb-4 ml-4 list-disc list-inside">
 					<li>
 						<strong>Lightning Fast:</strong> Leveraging modern infrastructure
 						and CDN backing, we deliver sub-50ms response times worldwide for
@@ -88,7 +89,7 @@ const AboutPage: React.FC = () => {
 			</section>
 
 			<section className="mb-8">
-				<h2 className="text-2xl font-semibold mb-3 text-yellow-500">
+				<h2 className="mb-3 text-2xl font-semibold text-yellow-500">
 					What Happened to the Original swapi.co?
 				</h2>
 				<p>
@@ -103,7 +104,7 @@ const AboutPage: React.FC = () => {
 			</section>
 
 			<section className="mb-8">
-				<h2 className="text-2xl font-semibold mb-3 text-yellow-500">
+				<h2 className="mb-3 text-2xl font-semibold text-yellow-500">
 					What Can You Use This For?
 				</h2>
 				<p className="mb-4">
@@ -112,27 +113,20 @@ const AboutPage: React.FC = () => {
 					learning about API communication, data handling, and, of course, all
 					things Star Wars. It's perfect for:
 				</p>
-				<ul className="list-disc list-inside ml-4 mb-4">
+				<ul className="mb-4 ml-4 list-disc list-inside">
 					<li>Learning to work with APIs</li>
 					<li>Building Star Wars-themed applications</li>
 					<li>Data analysis and visualization projects</li>
 					<li>Educational purposes</li>
 				</ul>
-				<h3 className="text-xl font-semibold mb-2 text-yellow-600">
+				<h3 className="mb-2 text-xl font-semibold text-yellow-600">
 					Example Fetch:
 				</h3>
-				<pre className="bg-gray-800 p-4 rounded-md text-sm overflow-x-auto">
-					<code>
-						{`fetch('https://swapi.info/api/planets/1')
-  .then(res => res.json())
-  .then(data => console.log(data))
-  .catch(err => console.error(err));`}
-					</code>
-				</pre>
+				<RequestDisplayElement slug="planets/1" />
 			</section>
 
 			<section className="mb-8">
-				<h2 className="text-2xl font-semibold mb-3 text-yellow-500">
+				<h2 className="mb-3 text-2xl font-semibold text-yellow-500">
 					What are the Features?
 				</h2>
 				<p className="mb-4">
@@ -140,7 +134,7 @@ const AboutPage: React.FC = () => {
 					data. Our platform is built as a static Next.js application, ensuring
 					optimal performance and reliability. We leverage the strengths of:
 				</p>
-				<ul className="list-disc list-inside ml-4 mb-4">
+				<ul className="mb-4 ml-4 list-disc list-inside">
 					<li>
 						<strong>Next.js:</strong> For a fast and modern web experience.
 					</li>
@@ -169,7 +163,7 @@ const AboutPage: React.FC = () => {
 			</section>
 
 			<section className="mb-8">
-				<h2 className="text-2xl font-semibold mb-3 text-yellow-500">
+				<h2 className="mb-3 text-2xl font-semibold text-yellow-500">
 					Who Are You?
 				</h2>
 				<p className="mb-4">
@@ -190,7 +184,7 @@ const AboutPage: React.FC = () => {
 			</section>
 
 			<section className="mb-8">
-				<h2 className="text-2xl font-semibold mb-3 text-yellow-500">
+				<h2 className="mb-3 text-2xl font-semibold text-yellow-500">
 					Regarding the Original Author
 				</h2>
 				<p>
@@ -201,7 +195,7 @@ const AboutPage: React.FC = () => {
 			</section>
 
 			<section className="mb-8">
-				<h2 className="text-2xl font-semibold mb-3 text-yellow-500">
+				<h2 className="mb-3 text-2xl font-semibold text-yellow-500">
 					Copyright and Data Sources
 				</h2>
 				<p className="mb-4">
@@ -228,14 +222,14 @@ const AboutPage: React.FC = () => {
 			</section>
 
 			<section>
-				<h2 className="text-2xl font-semibold mb-3 text-yellow-500">
+				<h2 className="mb-3 text-2xl font-semibold text-yellow-500">
 					Contributors & Acknowledgements
 				</h2>
 				<p className="mb-4">
 					The original SWAPI would not have been possible without contributions
 					from:
 				</p>
-				<ul className="list-disc list-inside ml-4 mb-4">
+				<ul className="mb-4 ml-4 list-disc list-inside">
 					<li>Paul Hallett</li>
 					<li>Owen Hallett</li>
 					<li>Carvilsi</li>
