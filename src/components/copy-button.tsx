@@ -13,7 +13,10 @@ export function CopyButton({ className, text }: CopyButtonProps) {
 	return (
 		<button
 			type="button"
-			className={cn("bg-[#FFE81F] text-black px-4 py-1 rounded-lg", className)}
+			className={cn(
+				"bg-[#FFE81F] text-black px-4 py-1 rounded-lg text-xs sm:text-sm",
+				className,
+			)}
 			onClick={() => copy(text)}
 		>
 			{copied ? "Copied!" : "Copy"}

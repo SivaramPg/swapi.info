@@ -31,20 +31,22 @@ const ResponseDisplayElement = async ({
 			<div className="bg-[#FFE81F22] px-4 py-2 rounded-t-lg">
 				<h3 className="text-lg font-semibold text-yellow-400">Result:</h3>
 			</div>
-			<div
-				className={`overflow-auto max-h-screen border-x border-b border-[#FFE81F11] rounded-b-lg ${
-					wrapText
-						? "[&>pre]:text-nowrap overflow-y-auto"
-						: "[&>pre]:text-wrap overflow-y-hidden"
-				}`}
-				style={{
-					fontSize: 16,
-				}}
-				/* biome-ignore lint/security/noDangerouslySetInnerHtml: <explanation> */
-				dangerouslySetInnerHTML={{ __html: html }}
-			/>
-			<div className="absolute top-1.5 right-1.5">
-				<CopyButton text={children} />
+			<div className="relative">
+				<div
+					className={`overflow-auto max-h-screen border-x border-b border-[#FFE81F11] rounded-b-lg ${
+						wrapText
+							? "[&>pre]:text-nowrap overflow-y-auto"
+							: "[&>pre]:text-wrap overflow-y-hidden"
+					}`}
+					style={{
+						fontSize: 16,
+					}}
+					/* biome-ignore lint/security/noDangerouslySetInnerHtml: <explanation> */
+					dangerouslySetInnerHTML={{ __html: html }}
+				/>
+				<div className="absolute top-1.5 right-1.5">
+					<CopyButton text={children} />
+				</div>
 			</div>
 		</div>
 	)
