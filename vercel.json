@@ -1,5 +1,5 @@
 {
-	"trailingSlash": "undefined",
+	"trailingSlash": undefined,
 	"headers": [
 		{
 			"source": "/api/(.*)",
