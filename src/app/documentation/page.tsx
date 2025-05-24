@@ -4,12 +4,12 @@ import type { JSX } from "react"
 
 const ApiGuidePage = (): JSX.Element => {
 	return (
-		<div className="prose prose-invert mx-auto max-w-4xl p-6 md:p-12">
-			<h1 className="text-5xl font-bold mb-10 border-b-2 border-yellow-400 pb-2 text-yellow-400">
+		<div className="max-w-4xl p-6 mx-auto prose prose-invert md:p-12">
+			<h1 className="pb-2 mb-10 text-3xl font-bold text-yellow-400 border-b-2 border-yellow-400 sm:text-4xl md:text-5xl">
 				Documentation
 			</h1>
 
-			<h2 className="text-3xl font-semibold mt-12 mb-6 border-b border-gray-700 pb-2 text-yellow-300">
+			<h2 className="pb-2 mt-12 mb-6 text-3xl font-semibold text-yellow-300 border-b border-gray-700">
 				Introduction
 			</h2>
 			<p className="mb-4">
@@ -21,7 +21,7 @@ const ApiGuidePage = (): JSX.Element => {
 				problems should be solved just by reading through it.
 			</p>
 
-			<h2 className="text-3xl font-semibold mt-12 mb-6 border-b border-gray-700 pb-2 text-yellow-300">
+			<h2 className="pb-2 mt-12 mb-6 text-3xl font-semibold text-yellow-300 border-b border-gray-700">
 				Getting started
 			</h2>
 			<p className="mb-4">
@@ -78,7 +78,7 @@ const ApiGuidePage = (): JSX.Element => {
 				documentation.
 			</p>
 
-			<h2 className="text-3xl font-semibold mt-12 mb-6 border-b border-gray-700 pb-2 text-yellow-300">
+			<h2 className="pb-2 mt-12 mb-6 text-3xl font-semibold text-yellow-300 border-b border-gray-700">
 				Base URL
 			</h2>
 			<p className="mb-4">
@@ -95,7 +95,7 @@ const ApiGuidePage = (): JSX.Element => {
 				endpoints to make requests.
 			</p>
 
-			<h2 className="text-3xl font-semibold mt-12 mb-6 border-b border-gray-700 pb-2 text-yellow-300">
+			<h2 className="pb-2 mt-12 mb-6 text-3xl font-semibold text-yellow-300 border-b border-gray-700">
 				Authentication
 			</h2>
 			<p className="mb-4">
@@ -113,7 +113,7 @@ const ApiGuidePage = (): JSX.Element => {
 				</li>
 			</ul>
 
-			<h2 className="text-3xl font-semibold mt-12 mb-6 border-b border-gray-700 pb-2 text-yellow-300">
+			<h2 className="pb-2 mt-12 mb-6 text-3xl font-semibold text-yellow-300 border-b border-gray-700">
 				JSON Schema
 			</h2>
 			<p className="mb-4">
@@ -143,20 +143,20 @@ const ApiGuidePage = (): JSX.Element => {
 				</li>
 			</ul>
 
-			<h2 className="text-3xl font-semibold mt-12 mb-6 border-b border-gray-700 pb-2 text-yellow-300">
+			<h2 className="pb-2 mt-12 mb-6 text-3xl font-semibold text-yellow-300 border-b border-gray-700">
 				Encodings
 			</h2>
 			<p className="mb-4">SWAPI provides data in the following encoding:</p>
-			<h3 className="text-2xl font-semibold mt-8 mb-4 text-yellow-200">JSON</h3>
+			<h3 className="mt-8 mb-4 text-2xl font-semibold text-yellow-200">JSON</h3>
 			<p className="mb-4">
 				JSON is the standard data format provided by SWAPI by default.
 			</p>
 
-			<h2 className="text-3xl font-semibold mt-12 mb-6 border-b border-gray-700 pb-2 text-yellow-300">
+			<h2 className="pb-2 mt-12 mb-6 text-3xl font-semibold text-yellow-300 border-b border-gray-700">
 				Resources
 			</h2>
 
-			<h3 className="text-2xl font-semibold mt-8 mb-4 text-yellow-200">Root</h3>
+			<h3 className="mt-8 mb-4 text-2xl font-semibold text-yellow-200">Root</h3>
 			<p className="mb-4">
 				The Root resource provides information on all available resources within
 				the API.
@@ -194,7 +194,7 @@ const ApiGuidePage = (): JSX.Element => {
 				</li>
 			</ul>
 
-			<h3 className="text-2xl font-semibold mt-8 mb-4 text-yellow-200">
+			<h3 className="mt-8 mb-4 text-2xl font-semibold text-yellow-200">
 				People
 			</h3>
 			<p className="mb-4">
@@ -307,7 +307,7 @@ const ApiGuidePage = (): JSX.Element => {
 				</li>
 			</ul>
 
-			<h3 className="text-2xl font-semibold mt-8 mb-4 text-yellow-200">
+			<h3 className="mt-8 mb-4 text-2xl font-semibold text-yellow-200">
 				Films
 			</h3>
 			<p className="mb-4">A Film resource is a single film.</p>
@@ -438,7 +438,7 @@ const ApiGuidePage = (): JSX.Element => {
 				</li>
 			</ul>
 
-			<h3 className="text-2xl font-semibold mt-8 mb-4 text-yellow-200">
+			<h3 className="mt-8 mb-4 text-2xl font-semibold text-yellow-200">
 				Starships
 			</h3>
 			<p className="mb-4">
@@ -557,7 +557,7 @@ const ApiGuidePage = (): JSX.Element => {
 				</li>
 			</ul>
 
-			<h3 className="text-2xl font-semibold mt-8 mb-4 text-yellow-200">
+			<h3 className="mt-8 mb-4 text-2xl font-semibold text-yellow-200">
 				Vehicles
 			</h3>
 			<p className="mb-4">
@@ -664,7 +664,7 @@ const ApiGuidePage = (): JSX.Element => {
 				</li>
 			</ul>
 
-			<h3 className="text-2xl font-semibold mt-8 mb-4 text-yellow-200">
+			<h3 className="mt-8 mb-4 text-2xl font-semibold text-yellow-200">
 				Species
 			</h3>
 			<p className="mb-4">
@@ -773,7 +773,7 @@ const ApiGuidePage = (): JSX.Element => {
 				</li>
 			</ul>
 
-			<h3 className="text-2xl font-semibold mt-8 mb-4 text-yellow-200">
+			<h3 className="mt-8 mb-4 text-2xl font-semibold text-yellow-200">
 				Planets
 			</h3>
 			<p className="mb-4">

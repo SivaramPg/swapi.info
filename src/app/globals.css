@@ -41,3 +41,7 @@ html .shiki code {
 .marquee {
   animation: marquee 25s linear infinite;
 }
+
+code {
+  @apply text-sm! sm:text-base! md:text-lg!;
+}
