@@ -32,7 +32,7 @@ const HeroSection = ({ className }: HeroSectionProps): JSX.Element => {
 					</span>
 				</h3>
 
-				<div className="flex gap-4 mb-4">
+				<div className="flex flex-wrap items-center justify-center gap-4 mb-4">
 					<Link
 						href="/playground"
 						className="px-6 py-2 font-semibold text-black bg-[#FFE81F] rounded-md hover:bg-[#FFE81F]/90 transition-colors"

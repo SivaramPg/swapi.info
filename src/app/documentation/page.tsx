@@ -1,6 +1,24 @@
 import RequestDisplayElement from "@/components/RequestDisplayElement"
 import ResponseDisplayElement from "@/components/ResponseDisplayElement"
+import type { Metadata } from "next"
 import type { JSX } from "react"
+
+export const metadata: Metadata = {
+	title: "Documentation",
+	description:
+		"Explore the comprehensive SWAPI.info documentation. Learn how to use the Star Wars API to access data on films, characters, starships, planets, species, and vehicles. Your ultimate guide to the galaxy far, far away's data.",
+	openGraph: {
+		title: "Documentation",
+		description:
+			"Explore the comprehensive SWAPI.info documentation. Learn how to use the Star Wars API to access data on films, characters, starships, planets, species, and vehicles. Your ultimate guide to the galaxy far, far away's data.",
+	},
+	twitter: {
+		card: "summary_large_image",
+		title: "Documentation",
+		description:
+			"Explore the comprehensive SWAPI.info documentation. Learn how to use the Star Wars API to access data on films, characters, starships, planets, species, and vehicles. Your ultimate guide to the galaxy far, far away's data.",
+	},
+}
 
 const ApiGuidePage = (): JSX.Element => {
 	return (
