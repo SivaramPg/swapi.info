@@ -1,10 +1,10 @@
-import { readFile, readdir } from "node:fs/promises"
+import { readdir, readFile } from "node:fs/promises"
 import path from "node:path"
+import { notFound } from "next/navigation"
 import ApiEndpointElement from "@/components/ApiEndpointElement"
 import Breadcrumbs from "@/components/Breadcrumbs"
 import RequestDisplayElement from "@/components/RequestDisplayElement"
 import ResponseDisplayElement from "@/components/ResponseDisplayElement"
-import { notFound } from "next/navigation"
 
 export const dynamicParams = false
 
@@ -28,7 +28,7 @@ export async function generateStaticParams() {
 				category.name,
 			)
 		) {
-			const categoryName = category.path.split("/").at(-1)
+			const categoryName = category.parentPath.split("/").at(-1)
 
 			slugs.push({
 				category: categoryName ?? "",
@@ -80,7 +80,7 @@ export default async function Page({
 	const data = await getCategorySlugJson(category, slug)
 
 	return (
-		<main className="container flex flex-col items-center justify-center min-h-screen gap-8 px-4 py-10 mx-auto md:py-16 lg:py-20">
+		<main className="container flex flex-col gap-8 justify-center items-center px-4 py-10 mx-auto min-h-screen md:py-16 lg:py-20">
 			<h1 className="mb-6 text-5xl font-black lg:text-7xl md:mb-10 text-[#FFE81F]">
 				/{category}/{slug}
 			</h1>
