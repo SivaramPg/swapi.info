@@ -34,7 +34,6 @@ export const metadata: Metadata = {
 	},
 	description: `The Star Wars API, or "swapi" (Swah-pee)!. All the Star Wars data you've ever wanted. A simpler alternative to swapi.dev.`,
 	metadataBase: new URL("https://swapi.info"),
-	alternates: { canonical: "https://swapi.info" },
 	keywords: [
 		"star wars",
 		"star wars api",
@@ -55,7 +54,6 @@ export const metadata: Metadata = {
 		description: `The Star Wars API, or "swapi" (Swah-pee)!. All the Star Wars data you've ever wanted. A simpler alternative to swapi.dev.`,
 		type: "website",
 		siteName: "SWAPI.INFO",
-		url: "https://swapi.info",
 		locale: "en_US",
 	},
 	twitter: {
@@ -97,7 +95,7 @@ export default function RootLayout({
 						<Footer />
 					</main>
 				</Providers>
-				<AllSystemsNormal className="fixed bottom-6 right-6" />
+				<AllSystemsNormal className="fixed right-6 bottom-6" />
 			</body>
 		</html>
 	)
