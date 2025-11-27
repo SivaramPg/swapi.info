@@ -50,7 +50,7 @@
 	{
 		"name": "Sentinel-class landing craft",
 		"model": "Sentinel-class landing craft",
-		"manufacturer": "Sienar Fleet Systems, Cyngus Spaceworks",
+		"manufacturer": "Sienar Fleet Systems, Cygnus Spaceworks",
 		"cost_in_credits": "240000",
 		"length": "38",
 		"max_atmosphering_speed": "1000",
