@@ -1,0 +1,221 @@
+# Netlify Configuration
+# Based on vercel.json configuration
+
+# CORS Headers for API routes
+[[headers]]
+  for = "/api/*"
+  [headers.values]
+    Access-Control-Allow-Origin = "*"
+    Access-Control-Allow-Methods = "GET, OPTIONS"
+    Access-Control-Allow-Headers = "Content-Type"
+
+# PostHog Analytics Proxying
+[[redirects]]
+  from = "/ingest/static/*"
+  to = "https://us-assets.i.posthog.com/static/:splat"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/ingest/*"
+  to = "https://us.i.posthog.com/:splat"
+  status = 200
+  force = true
+
+# API Root
+[[redirects]]
+  from = "/api"
+  to = "/api/root.json"
+  status = 200
+
+[[redirects]]
+  from = "/api/"
+  to = "/api/root.json"
+  status = 200
+
+# People API
+[[redirects]]
+  from = "/api/people"
+  to = "/api/people/all.json"
+  status = 200
+
+[[redirects]]
+  from = "/api/people/"
+  to = "/api/people/all.json"
+  status = 200
+
+[[redirects]]
+  from = "/api/people/schema"
+  to = "/api/people/schema.json"
+  status = 200
+
+[[redirects]]
+  from = "/api/people/schema/"
+  to = "/api/people/schema.json"
+  status = 200
+
+[[redirects]]
+  from = "/api/people/:id"
+  to = "/api/people/:id.json"
+  status = 200
+
+[[redirects]]
+  from = "/api/people/:id/"
+  to = "/api/people/:id.json"
+  status = 200
+
+# Planets API
+[[redirects]]
+  from = "/api/planets"
+  to = "/api/planets/all.json"
+  status = 200
+
+[[redirects]]
+  from = "/api/planets/"
+  to = "/api/planets/all.json"
+  status = 200
+
+[[redirects]]
+  from = "/api/planets/schema"
+  to = "/api/planets/schema.json"
+  status = 200
+
+[[redirects]]
+  from = "/api/planets/schema/"
+  to = "/api/planets/schema.json"
+  status = 200
+
+[[redirects]]
+  from = "/api/planets/:id"
+  to = "/api/planets/:id.json"
+  status = 200
+
+[[redirects]]
+  from = "/api/planets/:id/"
+  to = "/api/planets/:id.json"
+  status = 200
+
+# Films API
+[[redirects]]
+  from = "/api/films"
+  to = "/api/films/all.json"
+  status = 200
+
+[[redirects]]
+  from = "/api/films/"
+  to = "/api/films/all.json"
+  status = 200
+
+[[redirects]]
+  from = "/api/films/schema"
+  to = "/api/films/schema.json"
+  status = 200
+
+[[redirects]]
+  from = "/api/films/schema/"
+  to = "/api/films/schema.json"
+  status = 200
+
+[[redirects]]
+  from = "/api/films/:id"
+  to = "/api/films/:id.json"
+  status = 200
+
+[[redirects]]
+  from = "/api/films/:id/"
+  to = "/api/films/:id.json"
+  status = 200
+
+# Species API
+[[redirects]]
+  from = "/api/species"
+  to = "/api/species/all.json"
+  status = 200
+
+[[redirects]]
+  from = "/api/species/"
+  to = "/api/species/all.json"
+  status = 200
+
+[[redirects]]
+  from = "/api/species/schema"
+  to = "/api/species/schema.json"
+  status = 200
+
+[[redirects]]
+  from = "/api/species/schema/"
+  to = "/api/species/schema.json"
+  status = 200
+
+[[redirects]]
+  from = "/api/species/:id"
+  to = "/api/species/:id.json"
+  status = 200
+
+[[redirects]]
+  from = "/api/species/:id/"
+  to = "/api/species/:id.json"
+  status = 200
+
+# Vehicles API
+[[redirects]]
+  from = "/api/vehicles"
+  to = "/api/vehicles/all.json"
+  status = 200
+
+[[redirects]]
+  from = "/api/vehicles/"
+  to = "/api/vehicles/all.json"
+  status = 200
+
+[[redirects]]
+  from = "/api/vehicles/schema"
+  to = "/api/vehicles/schema.json"
+  status = 200
+
+[[redirects]]
+  from = "/api/vehicles/schema/"
+  to = "/api/vehicles/schema.json"
+  status = 200
+
+[[redirects]]
+  from = "/api/vehicles/:id"
+  to = "/api/vehicles/:id.json"
+  status = 200
+
+[[redirects]]
+  from = "/api/vehicles/:id/"
+  to = "/api/vehicles/:id.json"
+  status = 200
+
+# Starships API
+[[redirects]]
+  from = "/api/starships"
+  to = "/api/starships/all.json"
+  status = 200
+
+[[redirects]]
+  from = "/api/starships/"
+  to = "/api/starships/all.json"
+  status = 200
+
+[[redirects]]
+  from = "/api/starships/schema"
+  to = "/api/starships/schema.json"
+  status = 200
+
+[[redirects]]
+  from = "/api/starships/schema/"
+  to = "/api/starships/schema.json"
+  status = 200
+
+[[redirects]]
+  from = "/api/starships/:id"
+  to = "/api/starships/:id.json"
+  status = 200
+
+[[redirects]]
+  from = "/api/starships/:id/"
+  to = "/api/starships/:id.json"
+  status = 200
+
