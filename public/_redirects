@@ -1,0 +1,60 @@
+# Cloudflare Pages Redirects/Rewrites
+# Based on vercel.json configuration
+# Status 200 = rewrite (proxy), not redirect
+
+# PostHog Analytics Proxying
+/ingest/static/*  https://us-assets.i.posthog.com/static/:splat  200
+/ingest/*  https://us.i.posthog.com/:splat  200
+
+# API Root
+/api  /api/root.json  200
+/api/  /api/root.json  200
+
+# People API - Schema first (before :id catch-all)
+/api/people/schema  /api/people/schema.json  200
+/api/people/schema/  /api/people/schema.json  200
+/api/people  /api/people/all.json  200
+/api/people/  /api/people/all.json  200
+/api/people/:id  /api/people/:id.json  200
+/api/people/:id/  /api/people/:id.json  200
+
+# Planets API
+/api/planets/schema  /api/planets/schema.json  200
+/api/planets/schema/  /api/planets/schema.json  200
+/api/planets  /api/planets/all.json  200
+/api/planets/  /api/planets/all.json  200
+/api/planets/:id  /api/planets/:id.json  200
+/api/planets/:id/  /api/planets/:id.json  200
+
+# Films API
+/api/films/schema  /api/films/schema.json  200
+/api/films/schema/  /api/films/schema.json  200
+/api/films  /api/films/all.json  200
+/api/films/  /api/films/all.json  200
+/api/films/:id  /api/films/:id.json  200
+/api/films/:id/  /api/films/:id.json  200
+
+# Species API
+/api/species/schema  /api/species/schema.json  200
+/api/species/schema/  /api/species/schema.json  200
+/api/species  /api/species/all.json  200
+/api/species/  /api/species/all.json  200
+/api/species/:id  /api/species/:id.json  200
+/api/species/:id/  /api/species/:id.json  200
+
+# Vehicles API
+/api/vehicles/schema  /api/vehicles/schema.json  200
+/api/vehicles/schema/  /api/vehicles/schema.json  200
+/api/vehicles  /api/vehicles/all.json  200
+/api/vehicles/  /api/vehicles/all.json  200
+/api/vehicles/:id  /api/vehicles/:id.json  200
+/api/vehicles/:id/  /api/vehicles/:id.json  200
+
+# Starships API
+/api/starships/schema  /api/starships/schema.json  200
+/api/starships/schema/  /api/starships/schema.json  200
+/api/starships  /api/starships/all.json  200
+/api/starships/  /api/starships/all.json  200
+/api/starships/:id  /api/starships/:id.json  200
+/api/starships/:id/  /api/starships/:id.json  200
+
