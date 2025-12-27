@@ -1,11 +1,12 @@
 import "./globals.css"
 
-import QuickLinks from "@/components/QuickLinks"
 import type { Metadata } from "next"
 import { Bricolage_Grotesque, Martian_Mono } from "next/font/google"
 import Image from "next/image"
-import Footer from "./_components/Footer"
+import Script from "next/script"
+import QuickLinks from "@/components/QuickLinks"
 import { AllSystemsNormal } from "./_components/all-systems-normal"
+import Footer from "./_components/Footer"
 import NewNavbar from "./_components/new-navbar"
 import { Providers } from "./providers"
 
@@ -96,6 +97,10 @@ export default function RootLayout({
 					</main>
 				</Providers>
 				<AllSystemsNormal className="fixed right-6 bottom-6" />
+				<Script
+					src="https://varam-analytics.sivaramp.com/scripts/gojo.js"
+					strategy="afterInteractive"
+				/>
 			</body>
 		</html>
 	)
