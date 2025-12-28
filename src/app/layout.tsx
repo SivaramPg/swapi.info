@@ -99,7 +99,7 @@ export default function RootLayout({
 				<AllSystemsNormal className="fixed right-6 bottom-6" />
 				<Script
 					src="https://varam-analytics.sivaramp.com/scripts/gojo.js"
-					strategy="afterInteractive"
+					strategy="beforeInteractive"
 				/>
 			</body>
 		</html>
