@@ -1,6 +1,6 @@
-import { cn } from "@/utils/cn"
 import Link from "next/link"
 import { Fragment, type JSX } from "react"
+import { cn } from "@/utils/cn"
 import SpriteIcon, { Icons } from "./SpriteIcon"
 
 interface BreadcrumbsProps {
@@ -16,7 +16,7 @@ const Breadcrumbs = ({
 		<div className="w-full max-w-(--breakpoint-lg)">
 			<div
 				className={cn(
-					"flex gap-4 w-fit bg-black/20 dark:bg-white/20 px-4 py-2 rounded-lg",
+					"flex gap-4 w-fit bg-white/20 px-4 py-2 rounded-lg",
 					className,
 				)}
 			>

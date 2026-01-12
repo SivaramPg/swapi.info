@@ -1,5 +1,5 @@
-import { cn } from "@/utils/cn"
 import type { SVGProps } from "react"
+import { cn } from "@/utils/cn"
 
 // keep a list of the icon ids we put in the symbol
 export enum Icons {
@@ -29,7 +29,7 @@ export default function SpriteIcon({
 	...props
 }: Omit<SVGProps<SVGSVGElement>, "id"> & { id: Icons }) {
 	return (
-		<svg {...props} className={cn("invert-0 dark:invert", props.className)}>
+		<svg {...props} className={cn("invert", props.className)}>
 			<title>{id}</title>
 			<use href={`/icons/sprite.svg#${id}`} />
 		</svg>

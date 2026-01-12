@@ -1,10 +1,10 @@
 import fsPromises from "node:fs/promises"
 import path from "node:path"
+import clsx from "clsx"
+import Link from "next/link"
 import RequestDisplayElement from "@/components/RequestDisplayElement"
 import ResponseDisplayElement from "@/components/ResponseDisplayElement"
 import SpriteIcon, { Icons } from "@/components/SpriteIcon"
-import clsx from "clsx"
-import Link from "next/link"
 import { AboutTheProject } from "./_components/AboutTheProject"
 import HeroSection from "./_components/HeroSection"
 
@@ -44,7 +44,7 @@ export default async function Home() {
 									prefetch={false}
 									key={key}
 									href={(value as string).replace("/api", "")}
-									className="w-1/4 bg-black border hover:border-[#FFE81F] duration-100 rounded-lg shadow-sm grow dark:bg-white/10"
+									className="w-1/4 bg-white/10 border border-white/10 hover:border-[#FFE81F] duration-100 rounded-lg shadow-sm grow"
 								>
 									<div className="flex items-center justify-between w-full gap-1 p-2 h-fit sm:p-4 md:gap-2">
 										<h2 className="font-bold capitalize text-md md:text-lg">

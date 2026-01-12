@@ -1,5 +1,4 @@
 import typography from "@tailwindcss/typography"
-// import { fontFamily } from "tailwindcss/defaultTheme"
 
 /** @type {import('tailwindcss').Config} */
 export default {
@@ -11,6 +10,17 @@ export default {
 	],
 	theme: {
 		extend: {
+			colors: {
+				// Star Wars themed dark palette
+				swapi: {
+					bg: "#0a0a0f",
+					surface: "#12121a",
+					border: "#1f1f2e",
+					yellow: "#FFE81F",
+					"yellow-dim": "#FFE81Fbb",
+					"yellow-glow": "#FFE81F33",
+				},
+			},
 			fontFamily: {
 				sans: ["var(--font-bricolage)"],
 				mono: ["var(--font-martian-mono)"],
@@ -18,8 +28,13 @@ export default {
 			typography: (theme) => ({
 				DEFAULT: {
 					css: {
+						"--tw-prose-body": theme("colors.gray.300"),
+						"--tw-prose-headings": theme("colors.white"),
+						"--tw-prose-links": "#FFE81F",
+						"--tw-prose-bold": theme("colors.white"),
+						"--tw-prose-code": "#FFE81F",
 						pre: {
-							backgroundColor: theme("colors.neutral.800"),
+							backgroundColor: "#12121a",
 							paddingTop: theme("spacing.3"),
 							paddingBottom: theme("spacing.3"),
 							paddingLeft: theme("spacing.4"),
@@ -33,33 +48,16 @@ export default {
 							content: '""',
 						},
 						code: {
-							backgroundColor: theme("colors.neutral.800"),
+							backgroundColor: "#1f1f2e",
 							padding: "0.2em 0.4em",
 							borderRadius: theme("borderRadius.sm"),
 							fontWeight: "500",
-							color: theme("colors.yellow.300"),
+							color: "#FFE81F",
 						},
 						a: {
-							color: theme("colors.yellow.400"),
+							color: "#FFE81F",
 							"&:hover": {
-								color: theme("colors.yellow.300"),
-							},
-						},
-					},
-				},
-				invert: {
-					css: {
-						pre: {
-							backgroundColor: theme("colors.neutral.800"),
-						},
-						code: {
-							backgroundColor: theme("colors.neutral.700"),
-							color: theme("colors.yellow.300"),
-						},
-						a: {
-							color: theme("colors.yellow.400"),
-							"&:hover": {
-								color: theme("colors.yellow.300"),
+								color: "#fff176",
 							},
 						},
 					},

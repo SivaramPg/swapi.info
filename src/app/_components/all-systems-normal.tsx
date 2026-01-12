@@ -11,7 +11,7 @@ export function AllSystemsNormal({ className }: AllSystemsNormalProps) {
 			target="_blank"
 			rel="noopener noreferrer"
 			className={cn(
-				"border rounded-md border-white px-3 py-2 inline-flex items-center justify-center gap-2 text-xs font-medium dark:bg-[#FFE81F25] hover:border-[#FFE81F] backdrop-blur-3xl",
+				"border rounded-md border-white/20 px-3 py-2 inline-flex items-center justify-center gap-2 text-xs font-medium bg-[#FFE81F15] hover:border-[#FFE81F] backdrop-blur-3xl",
 				"group",
 				"min-h-10",
 				className,

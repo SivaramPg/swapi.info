@@ -1,5 +1,5 @@
-import { cn } from "@/utils/cn"
 import Link from "next/link"
+import { cn } from "@/utils/cn"
 import SpriteIcon, { Icons } from "./SpriteIcon"
 
 type LinkPillProps = {
@@ -14,7 +14,7 @@ export function LinkPill({ className, text, href }: LinkPillProps) {
 			prefetch={false}
 			href={href}
 			className={cn(
-				"w-1/4 bg-black/10 border hover:border-[#FFE81F] duration-100 rounded-lg shadow-sm grow dark:bg-white/10",
+				"w-1/4 bg-white/10 border hover:border-[#FFE81F] duration-100 rounded-lg shadow-sm grow",
 				className,
 			)}
 		>

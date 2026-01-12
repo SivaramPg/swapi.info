@@ -3,11 +3,86 @@
 :root {
   --font-sans: "var(--font-bricolage)", sans-serif;
   --font-mono: "var(--font-martian-mono)", monospace;
+  --swapi-yellow: #FFE81F;
+  --swapi-bg: #0a0a0f;
+  --swapi-surface: #12121a;
 }
 
 body {
   overscroll-behavior-y: none;
   font-family: var(--font-bricolage);
+}
+
+/* Star field background */
+.starfield {
+  position: relative;
+  background:
+    radial-gradient(ellipse at 50% 0%, rgba(25, 33, 54, 0.6) 0%, transparent 60%),
+    linear-gradient(to bottom, #0a0a0f 0%, #0d0d14 50%, #0a0a0f 100%);
+  overflow: hidden;
+}
+
+.starfield::before,
+.starfield::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+}
+
+/* Small stars layer */
+.starfield::before {
+  background-image:
+    radial-gradient(1px 1px at 20px 30px, white, transparent),
+    radial-gradient(1px 1px at 40px 70px, rgba(255,255,255,0.8), transparent),
+    radial-gradient(1px 1px at 50px 160px, rgba(255,255,255,0.6), transparent),
+    radial-gradient(1px 1px at 90px 40px, white, transparent),
+    radial-gradient(1px 1px at 130px 80px, rgba(255,255,255,0.7), transparent),
+    radial-gradient(1.5px 1.5px at 160px 120px, white, transparent),
+    radial-gradient(1px 1px at 200px 50px, rgba(255,255,255,0.5), transparent),
+    radial-gradient(1.5px 1.5px at 220px 140px, white, transparent),
+    radial-gradient(1px 1px at 260px 90px, rgba(255,255,255,0.8), transparent),
+    radial-gradient(1px 1px at 300px 20px, white, transparent),
+    radial-gradient(1px 1px at 340px 160px, rgba(255,255,255,0.6), transparent),
+    radial-gradient(1.5px 1.5px at 380px 60px, white, transparent),
+    radial-gradient(1px 1px at 420px 130px, rgba(255,255,255,0.7), transparent),
+    radial-gradient(1px 1px at 460px 40px, white, transparent),
+    radial-gradient(1px 1px at 500px 100px, rgba(255,255,255,0.5), transparent);
+  background-size: 520px 180px;
+  animation: twinkle 8s ease-in-out infinite alternate;
+}
+
+/* Larger stars layer */
+.starfield::after {
+  background-image:
+    radial-gradient(2px 2px at 100px 50px, #FFE81F, transparent),
+    radial-gradient(2px 2px at 250px 120px, rgba(255,232,31,0.6), transparent),
+    radial-gradient(1.5px 1.5px at 400px 80px, white, transparent),
+    radial-gradient(2px 2px at 180px 150px, rgba(255,255,255,0.9), transparent),
+    radial-gradient(2.5px 2.5px at 320px 30px, #FFE81F, transparent),
+    radial-gradient(1.5px 1.5px at 450px 140px, white, transparent);
+  background-size: 500px 200px;
+  animation: twinkle 12s ease-in-out infinite alternate-reverse;
+}
+
+@keyframes twinkle {
+  0% { opacity: 0.5; }
+  50% { opacity: 1; }
+  100% { opacity: 0.7; }
+}
+
+/* Title glow effect */
+.title-glow {
+  text-shadow:
+    0 0 10px rgba(255, 232, 31, 0.5),
+    0 0 20px rgba(255, 232, 31, 0.3),
+    0 0 40px rgba(255, 232, 31, 0.2);
+}
+
+.subtitle-glow {
+  text-shadow:
+    0 0 10px rgba(255, 232, 31, 0.3),
+    0 0 20px rgba(255, 232, 31, 0.15);
 }
 
 html .shiki {
