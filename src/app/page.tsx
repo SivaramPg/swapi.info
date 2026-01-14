@@ -2,6 +2,7 @@ import fsPromises from "node:fs/promises"
 import path from "node:path"
 import clsx from "clsx"
 import Link from "next/link"
+import { WebApiJsonLd, WebsiteJsonLd } from "@/components/json-ld"
 import RequestDisplayElement from "@/components/RequestDisplayElement"
 import ResponseDisplayElement from "@/components/ResponseDisplayElement"
 import SpriteIcon, { Icons } from "@/components/SpriteIcon"
@@ -23,6 +24,8 @@ export default async function Home() {
 
 	return (
 		<>
+			<WebApiJsonLd />
+			<WebsiteJsonLd />
 			<main className="flex flex-col items-center justify-center w-full min-h-screen gap-4 sm:gap-6 md:gap-8 pb-4 sm:pb-8 md:pb-10">
 				<HeroSection />
 				<div className="container flex flex-col items-center justify-center gap-8 px-4 mx-auto">
