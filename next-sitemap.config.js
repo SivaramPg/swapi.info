@@ -12,16 +12,12 @@ const sitemapConfig = {
 		"/_not-found",
 	],
 	transform: async (config, path) => {
-		// Skip numeric ID pages - only include slug URLs for SEO
-		// This prevents duplicate content issues
+		// Check if it's a numeric entity page
 		const isNumericEntityPage = /^\/[a-z]+\/\d+$/.test(path)
-
-		if (isNumericEntityPage) {
-			return null // Exclude numeric URLs from sitemap
-		}
 
 		// Priority based on page type
 		let priority = 0.7
+
 		if (path === "/") {
 			priority = 1.0
 		} else if (path === "/documentation" || path === "/about") {
@@ -37,6 +33,9 @@ const sitemapConfig = {
 			].includes(path)
 		) {
 			priority = 0.8
+		} else if (isNumericEntityPage) {
+			// Numeric URLs get lower priority than slug URLs
+			priority = 0.5
 		}
 
 		return {
