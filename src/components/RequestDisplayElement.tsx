@@ -2,14 +2,12 @@
 
 import type { JSX } from "react"
 import { useEffect, useMemo, useState } from "react"
-import { codeToHtml } from "shiki"
-// Adjust path as necessary if you create the lib folder
+import { highlightCode } from "../lib/highlighter"
 import { defaultLanguageId, languageOptions } from "../lib/language-snippets"
 import { CopyButton } from "./copy-button"
 
 interface RequestDisplayElementProps {
 	slug: string
-	wrapText?: boolean
 }
 
 /**
@@ -26,7 +24,6 @@ interface ProcessedLanguageOption {
 
 const RequestDisplayElement = ({
 	slug,
-	wrapText = false,
 }: RequestDisplayElementProps): JSX.Element => {
 	const [selectedLangId, setSelectedLangId] =
 		useState<string>(defaultLanguageId)
@@ -49,15 +46,11 @@ const RequestDisplayElement = ({
 	// Effect to update highlighted HTML when the current snippet changes
 	useEffect(() => {
 		if (currentSnippet) {
-			codeToHtml(currentSnippet.code, {
-				lang: currentSnippet.id, // Use the id from LanguageOption
-				theme: "solarized-dark", // Or your preferred theme
-			})
+			highlightCode(currentSnippet.code, currentSnippet.id)
 				.then((html) => setHighlightedCodeHtml(html))
 				.catch((error) => {
 					console.error("Error highlighting code:", error)
 					// Fallback to plain text if shiki fails
-					// Ensure the fallback is also wrapped in pre/code for consistent styling by the parent div
 					const escapedCode = currentSnippet.code
 						.replace(/</g, "&lt;")
 						.replace(/>/g, "&gt;")
@@ -118,11 +111,7 @@ const RequestDisplayElement = ({
 					role="tabpanel"
 					id={`panel-${currentSnippet?.id}`}
 					aria-labelledby={`tab-${currentSnippet?.id}`}
-					className={`border-x border-b border-[#FFE81F11] overflow-x-auto rounded-b-lg ${processedOptions.length > 0 ? "rounded-t-none" : "rounded-t-lg"} [&>pre]:rounded-none [&>pre]:border-0 ${
-						wrapText
-							? "![&>pre]:text-nowrap overflow-y-auto"
-							: "![&>pre]:text-wrap overflow-y-hidden"
-					}`}
+					className={`border-x border-b border-[#FFE81F11] overflow-auto rounded-b-lg ${processedOptions.length > 0 ? "rounded-t-none" : "rounded-t-lg"} [&>pre]:rounded-none [&>pre]:border-0`}
 					style={{ fontSize: 15 }} // Minor functional change: adjusted fontSize from 14 to 15
 					/* biome-ignore lint/security/noDangerouslySetInnerHtml: <Shiki output is sanitized HTML> */
 					dangerouslySetInnerHTML={{ __html: highlightedCodeHtml }}

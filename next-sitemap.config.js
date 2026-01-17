@@ -10,8 +10,6 @@ const sitemapConfig = {
 		"/twitter-image.jpg",
 		"/robots.txt",
 		"/_not-found",
-		// Exclude any numeric entity URLs (shouldn't exist anymore, but safety net)
-		/^\/[a-z]+\/\d+$/,
 	],
 	transform: async (config, path) => {
 		// Priority based on page type

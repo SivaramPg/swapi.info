@@ -1,5 +1,5 @@
 import type { JSX } from "react"
-import { codeToHtml } from "shiki/bundle-web.mjs"
+import { highlightCode } from "../lib/highlighter"
 import { CopyButton } from "./copy-button"
 
 /**
@@ -9,7 +9,6 @@ import { CopyButton } from "./copy-button"
 interface ResponseDisplayElementProps {
 	/** The content to display, typically a JSON string. */
 	children: string
-	wrapText?: boolean
 }
 
 /**
@@ -19,12 +18,8 @@ interface ResponseDisplayElementProps {
  */
 const ResponseDisplayElement = async ({
 	children,
-	wrapText = false,
 }: ResponseDisplayElementProps): Promise<JSX.Element> => {
-	const html = await codeToHtml(children, {
-		lang: "json",
-		theme: "solarized-dark",
-	})
+	const html = await highlightCode(children, "json")
 
 	return (
 		<div className="response-display-element w-full max-w-(--breakpoint-lg) not-prose rounded-lg shadow-md overflow-hidden my-4 relative border border-[#FFE81F11]">
@@ -33,18 +28,14 @@ const ResponseDisplayElement = async ({
 			</div>
 			<div className="relative">
 				<div
-					className={`overflow-auto max-h-screen border-x border-b border-[#FFE81F11] rounded-b-lg ${
-						wrapText
-							? "[&>pre]:text-nowrap overflow-y-auto"
-							: "[&>pre]:text-wrap overflow-y-hidden"
-					}`}
+					className="overflow-auto max-h-[50vh] border-x border-b border-[#FFE81F11] rounded-b-lg"
 					style={{
 						fontSize: 16,
 					}}
-					/* biome-ignore lint/security/noDangerouslySetInnerHtml: <explanation> */
+					/* biome-ignore lint/security/noDangerouslySetInnerHtml: Shiki output is sanitized HTML */
 					dangerouslySetInnerHTML={{ __html: html }}
 				/>
-				<div className="absolute top-1.5 right-1.5">
+				<div className="absolute top-2 right-7">
 					<CopyButton text={children} />
 				</div>
 			</div>
