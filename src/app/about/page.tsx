@@ -1,21 +1,21 @@
-import RequestDisplayElement from "@/components/RequestDisplayElement"
 import type { Metadata } from "next"
 import type React from "react"
+import RequestDisplayElement from "@/components/RequestDisplayElement"
 
 export const metadata: Metadata = {
-	title: "About SWAPI.info",
+	title: "About",
 	description:
-		"Learn about SWAPI.info, the resurrected Star Wars API. Discover its mission to provide fast, free, and reliable access to Star Wars data for developers and fans alike.",
+		"Learn about SWAPI.info - the free, fast, and reliable Star Wars API. No rate limits, 100% uptime, and open source.",
 	openGraph: {
-		title: "About SWAPI.info",
+		title: "About",
 		description:
-			"Learn about SWAPI.info, the resurrected Star Wars API. Discover its mission to provide fast, free, and reliable access to Star Wars data for developers and fans alike.",
+			"Learn about SWAPI.info - the free, fast, and reliable Star Wars API. No rate limits, 100% uptime, and open source.",
 	},
 	twitter: {
 		card: "summary_large_image",
-		title: "About SWAPI.info",
+		title: "About",
 		description:
-			"Learn about SWAPI.info, the resurrected Star Wars API. Discover its mission to provide fast, free, and reliable access to Star Wars data for developers and fans alike.",
+			"Learn about SWAPI.info - the free, fast, and reliable Star Wars API. No rate limits, 100% uptime, and open source.",
 	},
 }
 

@@ -7,17 +7,17 @@ import ResponseDisplayElement from "@/components/ResponseDisplayElement"
 export const metadata: Metadata = {
 	title: "Documentation",
 	description:
-		"Explore the comprehensive SWAPI.info documentation. Learn how to use the Star Wars API to access data on films, characters, starships, planets, species, and vehicles. Your ultimate guide to the galaxy far, far away's data.",
+		"SWAPI documentation - Learn how to use the Star Wars API to access data on films, characters, starships, planets, species, and vehicles.",
 	openGraph: {
 		title: "Documentation",
 		description:
-			"Explore the comprehensive SWAPI.info documentation. Learn how to use the Star Wars API to access data on films, characters, starships, planets, species, and vehicles. Your ultimate guide to the galaxy far, far away's data.",
+			"SWAPI documentation - Learn how to use the Star Wars API to access data on films, characters, starships, planets, species, and vehicles.",
 	},
 	twitter: {
 		card: "summary_large_image",
 		title: "Documentation",
 		description:
-			"Explore the comprehensive SWAPI.info documentation. Learn how to use the Star Wars API to access data on films, characters, starships, planets, species, and vehicles. Your ultimate guide to the galaxy far, far away's data.",
+			"SWAPI documentation - Learn how to use the Star Wars API to access data on films, characters, starships, planets, species, and vehicles.",
 	},
 }
 

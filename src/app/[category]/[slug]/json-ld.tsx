@@ -43,17 +43,34 @@ export function EntityJsonLd({ category, data, slug }: EntityJsonLdProps) {
 			jsonLd = {
 				...baseData,
 				"@type": "Person",
-				description: `${name} is a character from the Star Wars universe.`,
-				gender: data.gender !== "n/a" ? data.gender : undefined,
-				birthDate: data.birth_year !== "unknown" ? data.birth_year : undefined,
-				height:
-					data.height !== "unknown"
-						? {
-								"@type": "QuantitativeValue",
-								value: data.height,
-								unitCode: "CMT",
-							}
-						: undefined,
+				description: `${name} is a character from the Star Wars universe. Birth year: ${data.birth_year ?? "unknown"}.`,
+				// Note: gender and birthDate removed as Star Wars values don't match schema.org expectations
+				// (e.g., "19BBY" is not a valid ISO date, gender values may not match schema.org's expected values)
+				additionalProperty: [
+					{
+						"@type": "PropertyValue",
+						name: "Birth Year",
+						value: data.birth_year,
+					},
+					{
+						"@type": "PropertyValue",
+						name: "Gender",
+						value: data.gender,
+					},
+					{
+						"@type": "PropertyValue",
+						name: "Height (cm)",
+						value: data.height,
+					},
+					{
+						"@type": "PropertyValue",
+						name: "Mass (kg)",
+						value: data.mass,
+					},
+				].filter(
+					(prop) =>
+						prop.value && prop.value !== "unknown" && prop.value !== "n/a",
+				),
 				sameAs: apiUrl,
 			}
 			break
@@ -63,12 +80,18 @@ export function EntityJsonLd({ category, data, slug }: EntityJsonLdProps) {
 				...baseData,
 				"@type": "Movie",
 				description:
-					data.opening_crawl?.toString().slice(0, 200) ??
+					data.opening_crawl?.toString().slice(0, 160).trim() ??
 					`${name} is a Star Wars film.`,
-				director: data.director,
-				producer: data.producer,
-				datePublished: data.release_date,
-				genre: "Science Fiction",
+				director: {
+					"@type": "Person",
+					name: data.director,
+				},
+				producer: {
+					"@type": "Person",
+					name: data.producer,
+				},
+				datePublished: data.release_date, // Already in ISO format (YYYY-MM-DD)
+				genre: ["Science Fiction", "Action", "Adventure"],
 				inLanguage: "en",
 				sameAs: apiUrl,
 			}

@@ -30,10 +30,11 @@ const martianMono = Martian_Mono({
 
 export const metadata: Metadata = {
 	title: {
-		default: "SWAPI Reborn - Star Wars APIs & Explorer",
-		template: "%s | SWAPI Reborn - Star Wars APIs & Explorer",
+		default: "SWAPI - Star Wars API",
+		template: "%s | SWAPI",
 	},
-	description: `The Star Wars API, or "swapi" (Swah-pee)!. All the Star Wars data you've ever wanted. A simpler alternative to swapi.dev.`,
+	description:
+		"The Star Wars API - All the Star Wars data you've ever wanted. Access data on films, characters, starships, planets, species, and vehicles.",
 	metadataBase: new URL("https://swapi.info"),
 	keywords: [
 		"star wars",
@@ -41,28 +42,27 @@ export const metadata: Metadata = {
 		"star wars api explorer",
 		"swapi",
 		"sw-api",
-		"nextjs 13",
-		"vercel",
 		"swapi.dev alternative",
 		"swapi.co alternative",
-		"alternative",
 	],
 	openGraph: {
 		title: {
-			default: "SWAPI Reborn - Star Wars APIs & Explorer",
-			template: "%s | SWAPI Reborn - Star Wars APIs & Explorer",
+			default: "SWAPI - Star Wars API",
+			template: "%s | SWAPI",
 		},
-		description: `The Star Wars API, or "swapi" (Swah-pee)!. All the Star Wars data you've ever wanted. A simpler alternative to swapi.dev.`,
+		description:
+			"The Star Wars API - All the Star Wars data you've ever wanted. Access data on films, characters, starships, planets, species, and vehicles.",
 		type: "website",
 		siteName: "SWAPI.INFO",
 		locale: "en_US",
 	},
 	twitter: {
 		title: {
-			default: "SWAPI Reborn - Star Wars APIs & Explorer",
-			template: "%s | SWAPI Reborn - Star Wars APIs & Explorer",
+			default: "SWAPI - Star Wars API",
+			template: "%s | SWAPI",
 		},
-		description: `The Star Wars API, or "swapi" (Swah-pee)!. All the Star Wars data you've ever wanted. A simpler alternative to swapi.dev.`,
+		description:
+			"The Star Wars API - All the Star Wars data you've ever wanted. Access data on films, characters, starships, planets, species, and vehicles.",
 		card: "summary_large_image",
 		creator: "@SivaramPg",
 	},

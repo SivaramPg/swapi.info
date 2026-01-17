@@ -2,31 +2,19 @@ import Link from "next/link"
 import SpriteIcon, { Icons } from "@/components/SpriteIcon"
 import { SwapiLogo } from "./swapi-logo"
 
-const links = [
-	{
-		href: "/films",
-		name: "Films",
-	},
-	{
-		href: "/people",
-		name: "People",
-	},
-	{
-		href: "/planets",
-		name: "Planets",
-	},
-	{
-		href: "/species",
-		name: "Species",
-	},
-	{
-		href: "/vehicles",
-		name: "Vehicles",
-	},
-	{
-		href: "/starships",
-		name: "Starships",
-	},
+const categoryLinks = [
+	{ href: "/films", name: "Films" },
+	{ href: "/people", name: "People" },
+	{ href: "/planets", name: "Planets" },
+	{ href: "/species", name: "Species" },
+	{ href: "/vehicles", name: "Vehicles" },
+	{ href: "/starships", name: "Starships" },
+]
+
+const siteLinks = [
+	{ href: "/documentation", name: "Docs" },
+	{ href: "/playground", name: "Playground" },
+	{ href: "/about", name: "About" },
 ]
 
 export default function NewNavbar() {
@@ -39,8 +27,8 @@ export default function NewNavbar() {
 						swapi
 					</div>
 				</Link>
-				<div className="items-center justify-center hidden gap-2 sm:flex">
-					{links.map((link) => (
+				<div className="items-center justify-center hidden gap-1 sm:flex">
+					{categoryLinks.map((link) => (
 						<Link
 							key={link.href}
 							prefetch={true}
@@ -51,39 +39,24 @@ export default function NewNavbar() {
 						</Link>
 					))}
 
-					<a href="https://github.com/SivaramPg/swapi.info" className="mr-4">
+					<span className="w-px h-6 bg-white/20 mx-1" />
+
+					{siteLinks.map((link) => (
+						<Link
+							key={link.href}
+							prefetch={true}
+							href={link.href}
+							className="inline-flex gap-1 items-center font-medium px-2 py-2 hover:bg-[#FFE81F25] rounded-md duration-100 text-white/70 hover:text-white"
+						>
+							{link.name}
+						</Link>
+					))}
+
+					<a href="https://github.com/SivaramPg/swapi.info" className="ml-2">
 						<SpriteIcon id={Icons.github} width={32} height={32} />
 					</a>
 				</div>
 			</nav>
 		</header>
-	)
-}
-
-const CustomNavLink = ({
-	href,
-	icon,
-	linkText,
-}: {
-	href: string
-	icon: Icons
-	linkText: string
-}) => {
-	return (
-		<Link
-			prefetch={false}
-			href={href}
-			className="px-3 py-1 opacity-80 hover:opacity-100 hover:drop-shadow-md"
-		>
-			<div className="flex items-center justify-center gap-1">
-				<SpriteIcon
-					id={icon}
-					width={20}
-					height={20}
-					className="block md:hidden lg:block"
-				/>
-				<p className="hidden font-bold md:block">{linkText}</p>
-			</div>
-		</Link>
 	)
 }

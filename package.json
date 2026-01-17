@@ -5,7 +5,7 @@
 	"scripts": {
 		"dev": "next dev --turbo",
 		"build": "next build",
-		"postbuild": "next-sitemap",
+		"postbuild": "next-sitemap && bun run scripts/generate-redirects.ts",
 		"start": "next start",
 		"prepare": "husky"
 	},

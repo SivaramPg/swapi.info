@@ -1,5 +1,3 @@
-import { readdir, readFile } from "node:fs/promises"
-import path from "node:path"
 import type { Metadata } from "next"
 import { notFound } from "next/navigation"
 import ApiEndpointElement from "@/components/ApiEndpointElement"
@@ -7,16 +5,13 @@ import Breadcrumbs from "@/components/Breadcrumbs"
 import RequestDisplayElement from "@/components/RequestDisplayElement"
 import ResponseDisplayElement from "@/components/ResponseDisplayElement"
 import {
-	type Category,
 	getEntityName,
-	getSlugForId,
 	isValidCategory,
 	loadCategoryMappings,
 	loadEntityById,
 	resolveSlugToId,
 	VALID_CATEGORIES,
 } from "@/lib/category-data"
-import { isNumericId } from "@/utils/slugify"
 import { EntityJsonLd } from "./json-ld"
 
 export const dynamicParams = false
@@ -29,7 +24,8 @@ export const revalidate = false
 
 /**
  * Generates static params for all category/slug combinations
- * This creates both numeric ID routes (/people/1) and slug routes (/people/luke-skywalker)
+ * Only generates slug routes (/people/luke-skywalker)
+ * ID routes (/people/1) are handled via 301 redirects in _redirects
  */
 export async function generateStaticParams() {
 	const slugs: { category: string; slug: string }[] = []
@@ -37,13 +33,12 @@ export async function generateStaticParams() {
 	for (const category of VALID_CATEGORIES) {
 		const { idToSlug } = await loadCategoryMappings(category)
 
-		// Add both numeric ID and slug routes for each entity
+		// Only add slug routes (not numeric ID routes)
+		// ID routes are redirected to slug routes via Netlify _redirects
 		const entries = Array.from(idToSlug.entries())
 		for (const entry of entries) {
-			const [id, slug] = entry
-			// Numeric route: /people/1
-			slugs.push({ category, slug: id })
-			// Slug route: /people/luke-skywalker
+			const [_id, slug] = entry
+			// Slug route only: /people/luke-skywalker
 			slugs.push({ category, slug })
 		}
 	}
@@ -80,10 +75,10 @@ export async function generateMetadata({
 	try {
 		const data = await loadEntityById<EntityData>(category, id)
 		const name = getEntityName(data)
-		const textSlug = await getSlugForId(category, id)
 
 		const categoryLabel = category.charAt(0).toUpperCase() + category.slice(1)
-		const title = `${name} | Star Wars ${categoryLabel}`
+		// Shortened title format to stay under 60 chars
+		const title = `${name} | ${categoryLabel}`
 		const description = generateDescription(category, data)
 
 		return {
@@ -93,7 +88,7 @@ export async function generateMetadata({
 				title,
 				description,
 				type: "website",
-				url: `https://swapi.info/${category}/${textSlug}`,
+				url: `https://swapi.info/${category}/${slug}`,
 			},
 			twitter: {
 				card: "summary",
@@ -101,7 +96,7 @@ export async function generateMetadata({
 				description,
 			},
 			alternates: {
-				canonical: `https://swapi.info/${category}/${textSlug}`,
+				canonical: `https://swapi.info/${category}/${slug}`,
 			},
 		}
 	} catch {
@@ -178,26 +173,21 @@ export default async function Page({
 	}
 
 	const name = getEntityName(data)
-	const textSlug = await getSlugForId(category, id)
-	const isNumeric = isNumericId(slug)
-
-	// Display the slug (prefer text slug for display, but show what was requested)
-	const displaySlug = isNumeric ? id : (textSlug ?? slug)
 
 	return (
 		<>
-			<EntityJsonLd category={category} data={data} slug={textSlug ?? id} />
+			<EntityJsonLd category={category} data={data} slug={slug} />
 			<main className="container flex flex-col gap-8 justify-center items-center px-4 py-10 mx-auto min-h-screen md:py-16 lg:py-20">
 				<h1 className="mb-6 text-4xl sm:text-5xl font-black lg:text-7xl md:mb-10 text-[#FFE81F] text-center">
 					{name}
 				</h1>
 				<p className="text-lg text-white/60 -mt-8 mb-4">
-					/{category}/{displaySlug}
+					/{category}/{slug}
 				</p>
 				<Breadcrumbs
 					pathElements={[
 						category,
-						{ label: name, href: `/${category}/${textSlug}` },
+						{ label: name, href: `/${category}/${slug}` },
 					]}
 				/>
 				<ApiEndpointElement text={data.url} />
@@ -205,32 +195,6 @@ export default async function Page({
 				<ResponseDisplayElement>
 					{JSON.stringify(data, null, 2)}
 				</ResponseDisplayElement>
-
-				{/* Show alternative URL if on numeric route */}
-				{isNumeric && textSlug && (
-					<div className="text-sm text-white/50 mt-4">
-						Also available at:{" "}
-						<a
-							href={`/${category}/${textSlug}`}
-							className="text-[#FFE81F] hover:underline"
-						>
-							/{category}/{textSlug}
-						</a>
-					</div>
-				)}
-
-				{/* Show alternative URL if on slug route */}
-				{!isNumeric && (
-					<div className="text-sm text-white/50 mt-4">
-						Also available at:{" "}
-						<a
-							href={`/${category}/${id}`}
-							className="text-[#FFE81F] hover:underline"
-						>
-							/{category}/{id}
-						</a>
-					</div>
-				)}
 			</main>
 		</>
 	)

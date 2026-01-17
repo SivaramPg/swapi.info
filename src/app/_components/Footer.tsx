@@ -1,9 +1,49 @@
+import Link from "next/link"
 import SpriteIcon, { Icons } from "@/components/SpriteIcon"
+
+const footerLinks = [
+	{ href: "/", name: "Home" },
+	{ href: "/documentation", name: "Documentation" },
+	{ href: "/playground", name: "Playground" },
+	{ href: "/about", name: "About" },
+]
+
+const categoryLinks = [
+	{ href: "/films", name: "Films" },
+	{ href: "/people", name: "People" },
+	{ href: "/planets", name: "Planets" },
+	{ href: "/species", name: "Species" },
+	{ href: "/starships", name: "Starships" },
+	{ href: "/vehicles", name: "Vehicles" },
+]
 
 export default function Footer() {
 	return (
 		<div className="w-full pt-8 pb-4 border-t">
-			<footer className="container flex flex-col items-center justify-around w-full gap-4 px-4 mx-auto h-fit">
+			<footer className="container flex flex-col items-center justify-around w-full gap-6 px-4 mx-auto h-fit">
+				{/* Internal Links */}
+				<div className="flex flex-wrap items-center justify-center gap-4 w-full">
+					{footerLinks.map((link) => (
+						<Link
+							key={link.href}
+							href={link.href}
+							className="text-sm font-medium text-white/70 hover:text-[#FFE81F] transition-colors"
+						>
+							{link.name}
+						</Link>
+					))}
+					<span className="hidden sm:block w-px h-4 bg-white/20" />
+					{categoryLinks.map((link) => (
+						<Link
+							key={link.href}
+							href={link.href}
+							className="text-sm font-medium text-white/50 hover:text-[#FFE81F] transition-colors"
+						>
+							{link.name}
+						</Link>
+					))}
+				</div>
+
 				<div className="flex flex-wrap items-center justify-between w-full gap-4 md:gap-8">
 					<div>
 						<p className="inline-flex items-center gap-1 font-medium whitespace-nowrap">

@@ -44,21 +44,21 @@ export async function generateStaticParams() {
 }
 
 /**
- * Category descriptions for SEO
+ * Category descriptions for SEO (kept under 160 characters)
  */
 const categoryDescriptions: Record<Category, string> = {
 	films:
-		"Browse all Star Wars films data via SWAPI. Access information about all 6 movies including A New Hope, Empire Strikes Back, Return of the Jedi, and the prequel trilogy.",
+		"Browse all Star Wars films via SWAPI. Access data on all 6 movies including A New Hope, Empire Strikes Back, and the prequel trilogy.",
 	people:
-		"Browse all Star Wars characters via SWAPI. Access data on 82+ characters including Luke Skywalker, Darth Vader, Princess Leia, Han Solo, Yoda, and more.",
+		"Browse all Star Wars characters via SWAPI. Access data on 82+ characters including Luke Skywalker, Darth Vader, and Yoda.",
 	planets:
-		"Browse all Star Wars planets via SWAPI. Access data on 60+ planets including Tatooine, Coruscant, Naboo, Hoth, Dagobah, and more.",
+		"Browse all Star Wars planets via SWAPI. Access data on 60+ planets including Tatooine, Coruscant, Naboo, and Dagobah.",
 	species:
-		"Browse all Star Wars species via SWAPI. Access data on 37+ species including Humans, Wookiees, Droids, Hutts, Ewoks, and more.",
+		"Browse all Star Wars species via SWAPI. Access data on 37+ species including Humans, Wookiees, Droids, and Ewoks.",
 	starships:
-		"Browse all Star Wars starships via SWAPI. Access data on 36+ starships including Millennium Falcon, X-wing, Star Destroyer, Death Star, and more.",
+		"Browse all Star Wars starships via SWAPI. Access data on 36+ starships including Millennium Falcon, X-wing, and Death Star.",
 	vehicles:
-		"Browse all Star Wars vehicles via SWAPI. Access data on 39+ vehicles including AT-AT, Speeder Bikes, Sandcrawler, and more.",
+		"Browse all Star Wars vehicles via SWAPI. Access data on 39+ vehicles including AT-AT, Speeder Bikes, and Sandcrawler.",
 }
 
 /**

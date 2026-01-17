@@ -10,17 +10,20 @@ const sitemapConfig = {
 		"/twitter-image.jpg",
 		"/robots.txt",
 		"/_not-found",
+		// Exclude any numeric entity URLs (shouldn't exist anymore, but safety net)
+		/^\/[a-z]+\/\d+$/,
 	],
 	transform: async (config, path) => {
-		// Check if it's a numeric entity page
-		const isNumericEntityPage = /^\/[a-z]+\/\d+$/.test(path)
-
 		// Priority based on page type
 		let priority = 0.7
 
 		if (path === "/") {
 			priority = 1.0
-		} else if (path === "/documentation" || path === "/about") {
+		} else if (
+			path === "/documentation" ||
+			path === "/about" ||
+			path === "/playground"
+		) {
 			priority = 0.9
 		} else if (
 			[
@@ -33,9 +36,6 @@ const sitemapConfig = {
 			].includes(path)
 		) {
 			priority = 0.8
-		} else if (isNumericEntityPage) {
-			// Numeric URLs get lower priority than slug URLs
-			priority = 0.5
 		}
 
 		return {
